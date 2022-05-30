@@ -501,7 +501,7 @@ with open(filename + ".xml", "w", encoding="utf-8") as f:
 
 # Now, we can open this xml file and look at the structure.
 
-# In[10]:
+# In[ ]:
 
 
 with open("ddd_010097934_mpeg21_a0001_ocr.xml", encoding='utf8') as f:
@@ -664,7 +664,7 @@ print(root_article)
 # ```
 # ````
 
-# In[11]:
+# In[ ]:
 
 
 article_list = []

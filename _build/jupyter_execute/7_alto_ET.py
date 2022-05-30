@@ -555,7 +555,7 @@ with open(filename + ".xml", "w", encoding="utf-8") as f:
 
 # Now, we can open this xml file and look at the structure.
 
-# In[10]:
+# In[ ]:
 
 
 tree = ET.parse('ddd_010097934_mpeg21_a0001_ocr.xml')
@@ -718,7 +718,7 @@ print(ET.tostring(root_article, encoding='utf8').decode('utf8'))
 # ```
 # ````
 
-# In[11]:
+# In[ ]:
 
 
 ns_didl = {'dc': 'http://purl.org/dc/elements/1.1/',

@@ -108,7 +108,7 @@ import os
 directory_alto = 'data/alto/'
 directory_didl = 'data/didl/'
  
-for filename in os.listdir(directory):
+for filename in os.listdir(directory_alto):
 
     tree_alto = ET.parse(directory_alto + filename)
     root_alto = tree_alto.getroot()
