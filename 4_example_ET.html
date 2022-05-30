@@ -1,0 +1,1739 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4. Practical session: Working with ElementTree &#8212; Automatically extract XML content with Python</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="5. Practical session: Working with Beautiful Soup" href="5_example_BS.html" />
+    <link rel="prev" title="3. Introduction to the packages ElementTree and Beautiful Soup" href="3_introduction_packages.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Automatically extract XML content with Python</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to this XML with Python course
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_introduction_python.html">
+   1. Introduction to Python and Jupyter Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_introduction_xml.html">
+   2. Introduction to XML
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_introduction_packages.html">
+   3. Introduction to the packages ElementTree and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   4. Practical session: Working with ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_example_BS.html">
+   5. Practical session: Working with Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_xmlformats_intro.html">
+   6. Introduction to the Alto/Didle, TEI and Page format
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_alto_ET.html">
+   7. Practical lesson: Alto/Didle and ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_alto_BS.html">
+   9. Practical lesson: Alto/Didle and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_page_ET.html">
+   8. Practical lesson: Page and Elementree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_page_BS.html">
+   11. Practical lesson: Page and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_tei_BS.html">
+   10. Practical lesson: TEI and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_auto_batch.html">
+   12. Practical lesson: Automatically extract information from a batch of files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="end.html">
+   End of course
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="_sources/4_example_ET.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/4_example_ET.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/xml-workshop"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/xml-workshop/issues/new?title=Issue%20on%20page%20%2F4_example_ET.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/xml-workshop/master?urlpath=tree/docs/4_example_ET.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#import-elementtree-and-import-the-xml-file">
+   Import ElementTree and import the xml file
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examine-the-structure-of-the-file">
+   Examine the structure of the file
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-the-book-titles-and-descriptions">
+   Extract the book titles and descriptions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-name-and-surname-of-the-author">
+   Extract name and surname of the author
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-the-book-identifier">
+   Extract the book identifier
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure-all-information">
+   Structure all information
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#store-the-information-in-a-csv-or-txt-file">
+   Store the information in a .csv or .txt file.
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#store-in-one-file">
+     Store in one file
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#create-a-textfile-per-book">
+     Create a textfile per book
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#filter-information">
+   Filter information
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#namespaces">
+     Namespaces
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>4. Practical session: Working with ElementTree</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#import-elementtree-and-import-the-xml-file">
+   Import ElementTree and import the xml file
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#examine-the-structure-of-the-file">
+   Examine the structure of the file
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-the-book-titles-and-descriptions">
+   Extract the book titles and descriptions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-name-and-surname-of-the-author">
+   Extract name and surname of the author
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#extract-the-book-identifier">
+   Extract the book identifier
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#structure-all-information">
+   Structure all information
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#store-the-information-in-a-csv-or-txt-file">
+   Store the information in a .csv or .txt file.
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#store-in-one-file">
+     Store in one file
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#create-a-textfile-per-book">
+     Create a textfile per book
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#filter-information">
+   Filter information
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#namespaces">
+     Namespaces
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="practical-session-working-with-elementtree">
+<h1>4. Practical session: Working with ElementTree<a class="headerlink" href="#practical-session-working-with-elementtree" title="Permalink to this headline">¶</a></h1>
+<p>In this lesson, we are going to explore how we can use the package ElementTree to extract content from XML files.
+We use the same example file that was used in lesson <strong>2</strong> (<a class="reference external" href="https://github.com/MirjamC/xml-workshop/tree/master/data">download here</a>.</p>
+<p>This lesson is divided into the following steps:</p>
+<ul class="simple">
+<li><p>Load the XML file;</p></li>
+<li><p>Examine the structure of the XML file;</p></li>
+<li><p>Extract the booktitles and descriptions;</p></li>
+<li><p>Extract name and surname of the author;</p></li>
+<li><p>Extract the book identifier;</p></li>
+<li><p>Structure all information;</p></li>
+<li><p>Explore namespaces;</p></li>
+<li><p>Extra: Filter information</p></li>
+</ul>
+<p>Open a new Jupyter Notebook and type all the code examples and code exercises in your Notebook.</p>
+<div class="section" id="import-elementtree-and-import-the-xml-file">
+<h2>Import ElementTree and import the xml file<a class="headerlink" href="#import-elementtree-and-import-the-xml-file" title="Permalink to this headline">¶</a></h2>
+<p>ElementTree is part of the standard Python library and therefore does not need to be installed.</p>
+<p>Before we can use the package, we have to let Python know we want to use it. We do this by importing the package.
+Type the following in a code cell:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">xml.etree.ElementTree</span> <span class="k">as</span> <span class="nn">ET</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now we can use the package to extract data from the XML.</p>
+</div>
+<div class="section" id="examine-the-structure-of-the-file">
+<h2>Examine the structure of the file<a class="headerlink" href="#examine-the-structure-of-the-file" title="Permalink to this headline">¶</a></h2>
+<p>Now we want to open the XML file from which we want to extract information.
+Add a new code cell and type:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tree</span> <span class="o">=</span> <span class="n">ET</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;data/example.xml&#39;</span><span class="p">)</span>
+<span class="n">root</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">getroot</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the code above, alter the ‘data/example’ with the path to the folder and the filename of where you stored the file.</p>
+</div>
+<p>When you want to extract information from an XML file, it is important that you are familiar with the structure of the file.
+There are two ways to do this.</p>
+<ol class="simple">
+<li><p>You can open the file in a program like Notepad++ or open it in your browser</p></li>
+<li><p>You can show the file in your Jupyter Notebook with the following code:</p></li>
+</ol>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ET</span><span class="o">.</span><span class="n">tostring</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf8&#39;?&gt;
+&lt;catalog&gt;
+   &lt;book id=&quot;bk101&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Matthew&lt;/name&gt;
+&lt;surname&gt;Gambardella&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;XML Developer&#39;s Guide&lt;/title&gt;
+      &lt;genre&gt;Computer&lt;/genre&gt;
+      &lt;price&gt;44.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-10-01&lt;/publish_date&gt;
+      &lt;description&gt;An in-depth look at creating applications 
+      with XML.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk102&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Kim&lt;/name&gt;
+&lt;surname&gt;Ralls&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Midnight Rain&lt;/title&gt;
+      &lt;genre&gt;Fantasy&lt;/genre&gt;
+      &lt;price&gt;5.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-12-16&lt;/publish_date&gt;
+      &lt;description&gt;A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk103&quot;&gt;
+      &lt;author&gt;
+ 	&lt;name&gt;Eva&lt;/name&gt;
+&lt;surname&gt;Corets&lt;/surname&gt;	
+      &lt;/author&gt;
+      &lt;title&gt;Maeve Ascendant&lt;/title&gt;
+      &lt;genre&gt;Fantasy&lt;/genre&gt;
+      &lt;price&gt;5.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-11-17&lt;/publish_date&gt;
+      &lt;description&gt;After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk104&quot;&gt;
+       &lt;author&gt;
+ 	&lt;name&gt;Eva&lt;/name&gt;
+&lt;surname&gt;Corets&lt;/surname&gt;	
+      &lt;/author&gt;
+      &lt;title&gt;Oberon&#39;s Legacy&lt;/title&gt;
+      &lt;genre&gt;Fantasy&lt;/genre&gt;
+      &lt;price&gt;5.95&lt;/price&gt;
+      &lt;publish_date&gt;2001-03-10&lt;/publish_date&gt;
+      &lt;description&gt;In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk105&quot;&gt;
+      &lt;author&gt;
+ 	&lt;name&gt;Eva&lt;/name&gt;
+&lt;surname&gt;Corets&lt;/surname&gt;	
+      &lt;/author&gt;
+      &lt;title&gt;The Sundered Grail&lt;/title&gt;
+      &lt;genre&gt;Fantasy&lt;/genre&gt;
+      &lt;price&gt;5.95&lt;/price&gt;
+      &lt;publish_date&gt;2001-09-10&lt;/publish_date&gt;
+      &lt;description&gt;The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk106&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Cynthia&lt;/name&gt;
+&lt;surname&gt;Randall&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Lover Birds&lt;/title&gt;
+      &lt;genre&gt;Romance&lt;/genre&gt;
+      &lt;price&gt;4.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-09-02&lt;/publish_date&gt;
+      &lt;description&gt;When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk107&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Paula&lt;/name&gt;
+&lt;surname&gt;Thurman&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Splish Splash&lt;/title&gt;
+      &lt;genre&gt;Romance&lt;/genre&gt;
+      &lt;price&gt;4.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-11-02&lt;/publish_date&gt;
+      &lt;description&gt;A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk108&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Stefan&lt;/name&gt;
+&lt;surname&gt;Knorr&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Creepy Crawlies&lt;/title&gt;
+      &lt;genre&gt;Horror&lt;/genre&gt;
+      &lt;price&gt;4.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-12-06&lt;/publish_date&gt;
+      &lt;description&gt;An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk109&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Peter&lt;/name&gt;
+&lt;surname&gt;Kress&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Paradox Lost&lt;/title&gt;
+      &lt;genre&gt;Science Fiction&lt;/genre&gt;
+      &lt;price&gt;6.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-11-02&lt;/publish_date&gt;
+      &lt;description&gt;After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk110&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Tim&lt;/name&gt;
+&lt;surname&gt;O&#39;Brien&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Microsoft .NET: The Programming Bible&lt;/title&gt;
+      &lt;genre&gt;Computer&lt;/genre&gt;
+      &lt;price&gt;36.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-12-09&lt;/publish_date&gt;
+      &lt;description&gt;Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk111&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Tim&lt;/name&gt;
+&lt;surname&gt;O&#39;Brien&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;MSXML3: A Comprehensive Guide&lt;/title&gt;
+      &lt;genre&gt;Computer&lt;/genre&gt;
+      &lt;price&gt;36.95&lt;/price&gt;
+      &lt;publish_date&gt;2000-12-01&lt;/publish_date&gt;
+      &lt;description&gt;The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.&lt;/description&gt;
+   &lt;/book&gt;
+   &lt;book id=&quot;bk112&quot;&gt;
+      &lt;author&gt;
+&lt;name&gt;Mike&lt;/name&gt;
+&lt;surname&gt;Galos&lt;/surname&gt;
+      &lt;/author&gt;
+      &lt;title&gt;Visual Studio 7: A Comprehensive Guide&lt;/title&gt;
+      &lt;genre&gt;Computer&lt;/genre&gt;
+      &lt;price&gt;49.95&lt;/price&gt;
+      &lt;publish_date&gt;2001-04-16&lt;/publish_date&gt;
+      &lt;description&gt;Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.&lt;/description&gt;
+   &lt;/book&gt;
+&lt;/catalog&gt;
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="extract-the-book-titles-and-descriptions">
+<h2>Extract the book titles and descriptions<a class="headerlink" href="#extract-the-book-titles-and-descriptions" title="Permalink to this headline">¶</a></h2>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Look at the XML structure. Which elements do we need to extract the title and the description?</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>We need the element ‘book’, and its children ‘title’ and ‘description’.</p>
+</div>
+<p>First, type the following code in your Jupyter Notebook to get the title from every book:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>XML Developer&#39;s Guide
+Midnight Rain
+Maeve Ascendant
+Oberon&#39;s Legacy
+The Sundered Grail
+Lover Birds
+Splish Splash
+Creepy Crawlies
+Paradox Lost
+Microsoft .NET: The Programming Bible
+MSXML3: A Comprehensive Guide
+Visual Studio 7: A Comprehensive Guide
+</pre></div>
+</div>
+</div>
+</div>
+<p>We shall explain what every line of the code does.</p>
+<p>First, we iterate through the complete XML file and search for every element with the tag name ‘book’.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>Then, for every book element that exist, we create a temporarly new variable with the name ‘title’.
+As value for this variable, we use the content of the tag ‘title’ (which is a direct child of the element ‘book’).
+we add ‘.text’. to let Python know that we are interested in the value between the tags.
+Without the ‘.text’ addition, Python would simply present us the tag in its location, like ‘&lt;Element ‘title’ at 0x000001995B4718B0&gt;’</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+</pre></div>
+</div>
+<p>Then, we print the output of the title</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>After this, the loop proceeds to the following book elements, extraxts the title and print the title etc.</p>
+<p>We can get the description of each book in the same way.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Alter the code above to retreive all the <em>descriptions</em> and print out the descriptions.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for book in root.findall(&#39;book&#39;):
+	description = book.find(&#39;description&#39;).text
+	print(description)
+</pre></div>
+</div>
+</div>
+<p>This leads to the following output:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">description</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>An in-depth look at creating applications 
+      with XML.
+A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.
+After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.
+In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.
+The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy.
+When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.
+A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.
+An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.
+After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.
+Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference.
+The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.
+Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can use one <em>for loop</em> to extract both the book title <em>and</em> description from the XML file.
+Combining multiple items is preferable because it saves unnecessary lines of codes and merges the part of the code which does the same thing.
+This makes the code more readable and maintainable.</p>
+<p>Combining the two codes above leads to the following code:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+	<span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+	<span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+	<span class="nb">print</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">description</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>XML Developer&#39;s Guide An in-depth look at creating applications 
+      with XML.
+Midnight Rain A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.
+Maeve Ascendant After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.
+Oberon&#39;s Legacy In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.
+The Sundered Grail The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy.
+Lover Birds When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.
+Splish Splash A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.
+Creepy Crawlies An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.
+Paradox Lost After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.
+Microsoft .NET: The Programming Bible Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference.
+MSXML3: A Comprehensive Guide The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.
+Visual Studio 7: A Comprehensive Guide Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="extract-name-and-surname-of-the-author">
+<h2>Extract name and surname of the author<a class="headerlink" href="#extract-name-and-surname-of-the-author" title="Permalink to this headline">¶</a></h2>
+<p>You can use the same method as described above to extract all the names and surnames from the authors from the example XML.
+However, if we look at the structure of the XML file, there is a difference between the placement of the elements ‘title’ and ‘description’, and the elements ‘name’ and ‘surname’ in the XML structure.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">catalog</span><span class="o">&gt;</span>
+	<span class="o">&lt;</span><span class="n">book</span> <span class="nb">id</span><span class="o">=</span><span class="s2">&quot;bk101&quot;</span><span class="o">&gt;</span>
+		<span class="o">&lt;</span><span class="n">author</span><span class="o">&gt;</span>
+			<span class="o">&lt;</span><span class="n">name</span><span class="o">&gt;</span><span class="n">Matthew</span><span class="o">&lt;/</span><span class="n">name</span><span class="o">&gt;</span>
+			<span class="o">&lt;</span><span class="n">surname</span><span class="o">&gt;</span><span class="n">Gambardella</span><span class="o">&lt;/</span><span class="n">surname</span><span class="o">&gt;</span>
+		<span class="o">&lt;/</span><span class="n">author</span><span class="o">&gt;</span>
+		<span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="n">XML</span> <span class="n">Developer</span><span class="s1">&#39;s Guide&lt;/title&gt;</span>
+		<span class="o">&lt;</span><span class="n">genre</span><span class="o">&gt;</span><span class="n">Computer</span><span class="o">&lt;/</span><span class="n">genre</span><span class="o">&gt;</span>
+		<span class="o">&lt;</span><span class="n">price</span><span class="o">&gt;</span><span class="mf">44.95</span><span class="o">&lt;/</span><span class="n">price</span><span class="o">&gt;</span>
+		<span class="o">&lt;</span><span class="n">publish_date</span><span class="o">&gt;</span><span class="mi">2000</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">01</span><span class="o">&lt;/</span><span class="n">publish_date</span><span class="o">&gt;</span>
+		<span class="o">&lt;</span><span class="n">description</span><span class="o">&gt;</span><span class="n">An</span> <span class="ow">in</span><span class="o">-</span><span class="n">depth</span> <span class="n">look</span> <span class="n">at</span> <span class="n">creating</span> <span class="n">applications</span> <span class="k">with</span> <span class="n">XML</span><span class="o">.&lt;/</span><span class="n">description</span><span class="o">&gt;</span>
+   <span class="o">&lt;/</span><span class="n">book</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Look at the XML snippet above. What is the difference between the element ‘title’ and the element ‘name’?</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The element ‘title’ is a child of the element ‘book’.
+The element ‘name’ however, is a child of the element ‘author’ and a <em>sub</em>child of the element ‘book’.</p>
+</div>
+<p>Because of the difference in the place between elements, we need to alter our code a bit.
+We can use two approaches:</p>
+<ul class="simple">
+<li><p>Add another <em>for loop</em> inside or first loop;</p></li>
+<li><p>‘escape’ the element hierarchie.</p></li>
+</ul>
+<p>For the first approach, instead of a single <em>for loop</em> that iterates through all the ‘book’ elements,
+we also need a second <em>for loop</em> that runs through the ‘author’ element of ‘book’. We can do this with the following code:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matthew
+Kim
+Eva
+Eva
+Eva
+Cynthia
+Paula
+Stefan
+Peter
+Tim
+Tim
+Mike
+</pre></div>
+</div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>The above code extracts only the name of an author. Alter the code, so that it extracts both the name and the surname.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+	<span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+		<span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+		<span class="n">surname</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+		<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">surname</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matthew Gambardella
+Kim Ralls
+Eva Corets
+Eva Corets
+Eva Corets
+Cynthia Randall
+Paula Thurman
+Stefan Knorr
+Peter Kress
+Tim O&#39;Brien
+Tim O&#39;Brien
+Mike Galos
+</pre></div>
+</div>
+</div>
+</div>
+<p>The second approach is to ‘escape’ the element hiearchy and directly select all subelements, on all levels beneath the current element.
+This is usefull if you have an XML with a lot of children, and you want only specific content which you want to extract apart from their parents.
+To escape  the hierarchy, you type ‘.//’ before the name of the element you want to extract, as shown in the following code:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;.//author&#39;</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">surname</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">surname</span><span class="p">)</span>  
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matthew Gambardella
+Kim Ralls
+Eva Corets
+Eva Corets
+Eva Corets
+Cynthia Randall
+Paula Thurman
+Stefan Knorr
+Peter Kress
+Tim O&#39;Brien
+Tim O&#39;Brien
+Mike Galos
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="extract-the-book-identifier">
+<h2>Extract the book identifier<a class="headerlink" href="#extract-the-book-identifier" title="Permalink to this headline">¶</a></h2>
+<p>As you can see in the XML, each book has its own <em><strong>identifier</strong></em>. As books can have the same name, and authors can have written multiple books, it
+is good practise to always use the identifier to point to a specific item.</p>
+<p>In the previous exercises, we extracted the content that was presented between the tags of an element.
+For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="n">XML</span> <span class="n">Developers</span> <span class="n">Guide</span><span class="o">&lt;/</span><span class="n">title</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>In this example, you see that the title ‘XML Developer’s guide’ is stored between the tags <title> and </title>. We extracted this content by adding ‘.text’.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Look at this example of the ‘book’ element with its identifier. What is the difference between the place of the content of the identifier and the
+place of the content of the title?
+<code class="docutils literal notranslate"> <span class="pre">		&lt;book</span> <span class="pre">id=&quot;bk101&quot;&gt;</span> <span class="pre">		&lt;/book&gt;</span>  </code></p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The content of the identifier is stored in an <em>attribute</em> of the ‘book’ element, with the name ‘id’.</p>
+</div>
+<p>To extract content from attributes, we need to use the ‘get’ method.
+We still use the <em>for loop</em> to iterate through all the books, but instead of extracting the content of certain elements, we now extract the content of the attribute.</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">identifier</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">identifier</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>bk101
+bk102
+bk103
+bk104
+bk105
+bk106
+bk107
+bk108
+bk109
+bk110
+bk111
+bk112
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="structure-all-information">
+<h2>Structure all information<a class="headerlink" href="#structure-all-information" title="Permalink to this headline">¶</a></h2>
+<p>We can combine the different codes we have used above into one cell.
+To do this we can use the following scheme:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Iterate</span> <span class="n">through</span> <span class="nb">all</span> <span class="n">books</span>	
+	<span class="n">Get</span> <span class="n">content</span> <span class="kn">from</span> <span class="nn">id</span> <span class="n">attribute</span>
+	<span class="n">Get</span> <span class="n">title</span> <span class="n">content</span>	
+	<span class="n">Get</span> <span class="n">description</span> <span class="n">content</span>	
+	<span class="n">Iterate</span> <span class="n">through</span> <span class="nb">all</span> <span class="n">authors</span>
+		<span class="n">Get</span> <span class="n">name</span>
+		<span class="n">Get</span> <span class="n">surname</span>
+	<span class="n">Print</span> <span class="nb">id</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">description</span><span class="p">,</span> <span class="n">name</span> <span class="ow">and</span> <span class="n">surname</span>
+</pre></div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Create the code that extracts all information we have used so far, from every book. And print this information (see scheme above).</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-Pyhton notranslate"><div class="highlight"><pre><span></span>for book in root.findall(&#39;book&#39;):
+	identifier = book.get(&#39;id&#39;)
+	title = book.find(&#39;title&#39;).text
+	description = book.find(&#39;description&#39;).text
+	for author in book.findall(&#39;author&#39;):
+		name = author.find(&#39;name&#39;).text
+		surname = author.find(&#39;surname&#39;).text
+	print(identifier, title, description, name, surname)
+</pre></div>
+</div>
+</div>
+<p>This leads to the following output:</p>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>bk101 XML Developer&#39;s Guide An in-depth look at creating applications 
+      with XML. Matthew Gambardella
+bk102 Midnight Rain A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world. Kim Ralls
+bk103 Maeve Ascendant After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society. Eva Corets
+bk104 Oberon&#39;s Legacy In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant. Eva Corets
+bk105 The Sundered Grail The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy. Eva Corets
+bk106 Lover Birds When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled. Cynthia Randall
+bk107 Splish Splash A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea. Paula Thurman
+bk108 Creepy Crawlies An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects. Stefan Knorr
+bk109 Paradox Lost After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum. Peter Kress
+bk110 Microsoft .NET: The Programming Bible Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference. Tim O&#39;Brien
+bk111 MSXML3: A Comprehensive Guide The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more. Tim O&#39;Brien
+bk112 Visual Studio 7: A Comprehensive Guide Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment. Mike Galos
+</pre></div>
+</div>
+</div>
+</div>
+<p>As you can see, it displays all information we wanted, but the output is quite unreadable. For example, it is not clear which part of the content belongs
+to the title, and which to the description.</p>
+<p>To make the output more readable, we can put text before our output variables. In Python, this can be done like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;This is the string we type and </span><span class="si">{</span><span class="n">this_is_the_variable</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>So in our example, we could for example add the following:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">identifier</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">surname</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Identifier= </span><span class="si">{</span><span class="n">identifier</span><span class="si">}</span><span class="s2"> title= </span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="s2"> description= </span><span class="si">{</span><span class="n">description</span><span class="si">}</span><span class="s2"> name= </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">surname</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Identifier= bk101 title= XML Developer&#39;s Guide description= An in-depth look at creating applications 
+      with XML. name= Matthew Gambardella
+Identifier= bk102 title= Midnight Rain description= A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world. name= Kim Ralls
+Identifier= bk103 title= Maeve Ascendant description= After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society. name= Eva Corets
+Identifier= bk104 title= Oberon&#39;s Legacy description= In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant. name= Eva Corets
+Identifier= bk105 title= The Sundered Grail description= The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy. name= Eva Corets
+Identifier= bk106 title= Lover Birds description= When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled. name= Cynthia Randall
+Identifier= bk107 title= Splish Splash description= A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea. name= Paula Thurman
+Identifier= bk108 title= Creepy Crawlies description= An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects. name= Stefan Knorr
+Identifier= bk109 title= Paradox Lost description= After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum. name= Peter Kress
+Identifier= bk110 title= Microsoft .NET: The Programming Bible description= Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference. name= Tim O&#39;Brien
+Identifier= bk111 title= MSXML3: A Comprehensive Guide description= The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more. name= Tim O&#39;Brien
+Identifier= bk112 title= Visual Studio 7: A Comprehensive Guide description= Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment. name= Mike Galos
+</pre></div>
+</div>
+</div>
+</div>
+<p>As you can see, we can now detect the various parts that we extracted. However, it is still not easy to read.
+To resolve this, we can add linebreaks between each variable and between the different books. We add a line break by adding ‘\n’ after each variable,
+leading to the following code:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">identifier</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">surname</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Identifier= </span><span class="si">{</span><span class="n">identifier</span> <span class="si">}</span><span class="se">\n</span><span class="s2"> title= </span><span class="si">{</span><span class="n">title</span><span class="si">}</span><span class="se">\n</span><span class="s2"> description= </span><span class="si">{</span><span class="n">description</span><span class="si">}</span><span class="s2"> </span><span class="se">\n</span><span class="s2"> name= </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">surname</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Identifier= bk101
+ title= XML Developer&#39;s Guide
+ description= An in-depth look at creating applications 
+      with XML. 
+ name= Matthew Gambardella
+
+Identifier= bk102
+ title= Midnight Rain
+ description= A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world. 
+ name= Kim Ralls
+
+Identifier= bk103
+ title= Maeve Ascendant
+ description= After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society. 
+ name= Eva Corets
+
+Identifier= bk104
+ title= Oberon&#39;s Legacy
+ description= In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant. 
+ name= Eva Corets
+
+Identifier= bk105
+ title= The Sundered Grail
+ description= The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy. 
+ name= Eva Corets
+
+Identifier= bk106
+ title= Lover Birds
+ description= When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled. 
+ name= Cynthia Randall
+
+Identifier= bk107
+ title= Splish Splash
+ description= A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea. 
+ name= Paula Thurman
+
+Identifier= bk108
+ title= Creepy Crawlies
+ description= An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects. 
+ name= Stefan Knorr
+
+Identifier= bk109
+ title= Paradox Lost
+ description= After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum. 
+ name= Peter Kress
+
+Identifier= bk110
+ title= Microsoft .NET: The Programming Bible
+ description= Microsoft&#39;s .NET initiative is explored in 
+      detail in this deep programmer&#39;s reference. 
+ name= Tim O&#39;Brien
+
+Identifier= bk111
+ title= MSXML3: A Comprehensive Guide
+ description= The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more. 
+ name= Tim O&#39;Brien
+
+Identifier= bk112
+ title= Visual Studio 7: A Comprehensive Guide
+ description= Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment. 
+ name= Mike Galos
+</pre></div>
+</div>
+</div>
+</div>
+<p>Well, that output looks way better, doesn’t it?</p>
+</div>
+<div class="section" id="store-the-information-in-a-csv-or-txt-file">
+<h2>Store the information in a .csv or .txt file.<a class="headerlink" href="#store-the-information-in-a-csv-or-txt-file" title="Permalink to this headline">¶</a></h2>
+<p>In a lot of cases, you not only want the extracted content in your Jupyter Notebook, but you also want to store them
+for future use.
+We will show you how to store the output in two different ways:</p>
+<ul class="simple">
+<li><p>as one file with the information of all books in .csv format (which, for example, can be opened in Excel)</p></li>
+<li><p>as one textfile per book.</p></li>
+</ul>
+<div class="section" id="store-in-one-file">
+<h3>Store in one file<a class="headerlink" href="#store-in-one-file" title="Permalink to this headline">¶</a></h3>
+<p>The easiest way to store and save Python output in one file is through storing it in a dataframe from the Python package ‘Pandas’ and then saving this frame.
+You can add data directly from the <em>for loops</em> we created above in a pandas dataframe, but we prefer the method in which you first create a list and then transform this list in the output, as Pandas DataFrame execution can become fairly slow with large amounts of data.</p>
+<p>To create a list, we first have to declare an empty list. This is done with the following syntax:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">booklist</span> <span class="o">=</span> <span class="p">[]</span>
+</pre></div>
+</div>
+<p>Now, we alter our <em>for loop</em> a bit. Instead of printing the output to the screen, as we did above, we store our output in a list.
+We can use the following code:</p>
+<div class="cell tag_hide-output docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">booklist</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">identifier</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">surname</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">booklist</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">identifier</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">description</span><span class="p">,</span> <span class="n">name</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">surname</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[&#39;bk101&#39;,
+  &quot;XML Developer&#39;s Guide&quot;,
+  &#39;An in-depth look at creating applications \n      with XML.&#39;,
+  &#39;Matthew Gambardella&#39;],
+ [&#39;bk102&#39;,
+  &#39;Midnight Rain&#39;,
+  &#39;A former architect battles corporate zombies, \n      an evil sorceress, and her own childhood to become queen \n      of the world.&#39;,
+  &#39;Kim Ralls&#39;],
+ [&#39;bk103&#39;,
+  &#39;Maeve Ascendant&#39;,
+  &#39;After the collapse of a nanotechnology \n      society in England, the young survivors lay the \n      foundation for a new society.&#39;,
+  &#39;Eva Corets&#39;],
+ [&#39;bk104&#39;,
+  &quot;Oberon&#39;s Legacy&quot;,
+  &#39;In post-apocalypse England, the mysterious \n      agent known only as Oberon helps to create a new life \n      for the inhabitants of London. Sequel to Maeve \n      Ascendant.&#39;,
+  &#39;Eva Corets&#39;],
+ [&#39;bk105&#39;,
+  &#39;The Sundered Grail&#39;,
+  &quot;The two daughters of Maeve, half-sisters, \n      battle one another for control of England. Sequel to \n      Oberon&#39;s Legacy.&quot;,
+  &#39;Eva Corets&#39;],
+ [&#39;bk106&#39;,
+  &#39;Lover Birds&#39;,
+  &#39;When Carla meets Paul at an ornithology \n      conference, tempers fly as feathers get ruffled.&#39;,
+  &#39;Cynthia Randall&#39;],
+ [&#39;bk107&#39;,
+  &#39;Splish Splash&#39;,
+  &#39;A deep sea diver finds true love twenty \n      thousand leagues beneath the sea.&#39;,
+  &#39;Paula Thurman&#39;],
+ [&#39;bk108&#39;,
+  &#39;Creepy Crawlies&#39;,
+  &#39;An anthology of horror stories about roaches,\n      centipedes, scorpions  and other insects.&#39;,
+  &#39;Stefan Knorr&#39;],
+ [&#39;bk109&#39;,
+  &#39;Paradox Lost&#39;,
+  &#39;After an inadvertant trip through a Heisenberg\n      Uncertainty Device, James Salway discovers the problems \n      of being quantum.&#39;,
+  &#39;Peter Kress&#39;],
+ [&#39;bk110&#39;,
+  &#39;Microsoft .NET: The Programming Bible&#39;,
+  &quot;Microsoft&#39;s .NET initiative is explored in \n      detail in this deep programmer&#39;s reference.&quot;,
+  &quot;Tim O&#39;Brien&quot;],
+ [&#39;bk111&#39;,
+  &#39;MSXML3: A Comprehensive Guide&#39;,
+  &#39;The Microsoft MSXML3 parser is covered in \n      detail, with attention to XML DOM interfaces, XSLT processing, \n      SAX and more.&#39;,
+  &quot;Tim O&#39;Brien&quot;],
+ [&#39;bk112&#39;,
+  &#39;Visual Studio 7: A Comprehensive Guide&#39;,
+  &#39;Microsoft Visual Studio 7 is explored in depth,\n      looking at how Visual Basic, Visual C++, C#, and ASP+ are \n      integrated into a comprehensive development \n      environment.&#39;,
+  &#39;Mike Galos&#39;]]
+</pre></div>
+</div>
+</div>
+</div>
+<p>This leads to a list, called ‘booklist’, in which for every book all information is stored.</p>
+<p>We can then easily transform this list to a pandas DataFrame.
+To do so, we need to import pandas first with the code</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+<p>Then we type:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">books</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">booklist</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;identifier&quot;</span><span class="p">,</span> <span class="s2">&quot;title&quot;</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">])</span>
+</pre></div>
+</div>
+<p>This code works as follows. You declare the variable ‘books’, which will be used to store all the information.
+Then you let Python know that you want to create a DataFrame. The content of this dataframe is the list ‘booklist’, which we just created.
+We then tell Python how we want to name the columns (they should be in the same order as the order of the variables in the list).</p>
+<p>You can show the dataframe you just created by typing:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">books</span>
+</pre></div>
+</div>
+<p>This results in the following output:</p>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>identifier</th>
+      <th>title</th>
+      <th>description</th>
+      <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>bk101</td>
+      <td>XML Developer's Guide</td>
+      <td>An in-depth look at creating applications \n  ...</td>
+      <td>Matthew Gambardella</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bk102</td>
+      <td>Midnight Rain</td>
+      <td>A former architect battles corporate zombies, ...</td>
+      <td>Kim Ralls</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>bk103</td>
+      <td>Maeve Ascendant</td>
+      <td>After the collapse of a nanotechnology \n     ...</td>
+      <td>Eva Corets</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>bk104</td>
+      <td>Oberon's Legacy</td>
+      <td>In post-apocalypse England, the mysterious \n ...</td>
+      <td>Eva Corets</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>bk105</td>
+      <td>The Sundered Grail</td>
+      <td>The two daughters of Maeve, half-sisters, \n  ...</td>
+      <td>Eva Corets</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>bk106</td>
+      <td>Lover Birds</td>
+      <td>When Carla meets Paul at an ornithology \n    ...</td>
+      <td>Cynthia Randall</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>bk107</td>
+      <td>Splish Splash</td>
+      <td>A deep sea diver finds true love twenty \n    ...</td>
+      <td>Paula Thurman</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>bk108</td>
+      <td>Creepy Crawlies</td>
+      <td>An anthology of horror stories about roaches,\...</td>
+      <td>Stefan Knorr</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>bk109</td>
+      <td>Paradox Lost</td>
+      <td>After an inadvertant trip through a Heisenberg...</td>
+      <td>Peter Kress</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>bk110</td>
+      <td>Microsoft .NET: The Programming Bible</td>
+      <td>Microsoft's .NET initiative is explored in \n ...</td>
+      <td>Tim O'Brien</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>bk111</td>
+      <td>MSXML3: A Comprehensive Guide</td>
+      <td>The Microsoft MSXML3 parser is covered in \n  ...</td>
+      <td>Tim O'Brien</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>bk112</td>
+      <td>Visual Studio 7: A Comprehensive Guide</td>
+      <td>Microsoft Visual Studio 7 is explored in depth...</td>
+      <td>Mike Galos</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Now we can save this dataframe into a csv file by typing:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">books</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;book.csv&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This saves the csv in the root folder of your jupyter installation.
+If you want it saved in a specific location you need to specify the path before the filename followed by a ‘/,
+for example <code class="docutils literal notranslate"><span class="pre">books.to_csv('C:/Users/Documents/book.csv')</span></code>
+Please remember to use a backward slash (‘/’) between the folders</p>
+</div>
+</div>
+<div class="section" id="create-a-textfile-per-book">
+<h3>Create a textfile per book<a class="headerlink" href="#create-a-textfile-per-book" title="Permalink to this headline">¶</a></h3>
+<p>If you want to create a textfile for every book, you can add the code directly in your <em>for loop</em>.</p>
+<p>First, you have to declare a textfile in Python and give it a name. Then, you open the file and write content to it. After this, you close the file.
+You can try this with the following code:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;test.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;This is just a test file&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default, Python stores the text file in the same folder as where you run your Jupyter Notebook. You can alter this by adding a path to your textfile, for example:
+<code class="docutils literal notranslate"><span class="pre">with</span> <span class="pre">open('C:/Users/Documents/test.txt',</span> <span class="pre">'w')</span> <span class="pre">as</span> <span class="pre">f</span></code>
+Please remember to use a backward slash (‘/’) between the folders</p>
+</div>
+<p>With a few alterations, we can use this code to save our book information to a seperate file per book.
+First, we give the text file the name of the book identifier. we can do that by adding the variable into the name of the file like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">identfier</span><span class="si">}</span><span class="s2">.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Then, we create the content of the file based on the content we extracted from the book.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">surname</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">title</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">description</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If we put these lines into our <em>for loop</em>, Python will save every book with its own name and information.
+The code looks like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">identifier</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">description</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;description&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">book</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;author&#39;</span><span class="p">):</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">surname</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;surname&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">identfier</span><span class="si">}</span><span class="s2">.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+		<span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">name</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">surname</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">title</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">+</span> <span class="n">description</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="filter-information">
+<h2>Filter information<a class="headerlink" href="#filter-information" title="Permalink to this headline">¶</a></h2>
+<p>You can also search for specific elements in your XML. For example, just the title information from the book ‘bk109’. To do so, you can start with the same <em>for loop</em> as we created in this lesson. However, before you print the output, you first check if you have the element you want (in this case: book 109). This can be done with an ‘if’ statement and it looks like this:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">book</span><span class="o">.</span><span class="n">attrib</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s2">&quot;bk109&quot;</span><span class="p">:</span>
+        <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Paradox Lost
+</pre></div>
+</div>
+</div>
+</div>
+<p>You can also search the content from XML elements, searching the content for a match. For example, if we want to print all titles that contain the word ‘XML’,
+we can use the following code:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">book</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;book&#39;</span><span class="p">):</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">book</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">if</span> <span class="s2">&quot;XML&quot;</span> <span class="ow">in</span> <span class="n">title</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>XML Developer&#39;s Guide
+MSXML3: A Comprehensive Guide
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Strings in Python are capital senstive! This means that ‘XML’ is not equal to ‘xml’ or ‘Xml’ in Python.</p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Print out the title of all books that have England in their description.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for book in root.findall(&#39;book&#39;):
+	description = book.find(&#39;description&#39;).text
+	if &quot;England&quot; in description:
+		print(book.find(&#39;description&#39;).text)
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.
+In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.
+The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon&#39;s Legacy.
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="namespaces">
+<h3>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h3>
+<p>As we mentioned in lesson <em>2</em> during our introduction to XML, some XML files contain namespaces.</p>
+<p>When working with ElementTree, it is important to know if an XML file has namespaces, as it can cause
+malfunctioning of your code if they are not properly declared.</p>
+<p>Let’s look at the example with namespaces from lesson 2:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;p:student</span> <span class="na">xmlns:p=</span><span class="s">&quot;http//www.imaginarypythoncourses.com/student&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p:id&gt;</span>3235329<span class="nt">&lt;/p:id&gt;</span>
+  <span class="nt">&lt;p:name&gt;</span>Jeff Smith<span class="nt">&lt;/p:name&gt;</span>
+  <span class="nt">&lt;p:language&gt;</span>Python<span class="nt">&lt;/p:language&gt;</span>
+  <span class="nt">&lt;p:rating&gt;</span>9.5<span class="nt">&lt;/p:rating&gt;</span>
+<span class="nt">&lt;/p:student&gt;</span>
+</pre></div>
+</div>
+<p>Imagine, we want to extract the name of the student from this XML file.</p>
+<p>First, we load the file into our Notebook (the file is called ‘namespaces.xml’ and can be <a class="reference external" href="https://github.com/MirjamC/xml-workshop/tree/master/data">downloaded here</a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tree</span> <span class="o">=</span> <span class="n">ET</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;data/namespaces.xml&#39;</span><span class="p">)</span>
+<span class="n">root_ns</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">getroot</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Then, we create a <em>for loop</em> that iterates through the file and returns the values of all ‘name’ elements.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">student</span> <span class="ow">in</span> <span class="n">root_ns</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Although we know there is a student with the name ‘Jeff Smith’, Python returns nothing.</p>
+<p>So, what is going on? Why is there not any output?
+This is because there are namespaces defined in the XML file.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Open the XML file in your Notebook and look at the namespace declaration.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ET</span><span class="o">.</span><span class="n">tostring</span><span class="p">(</span><span class="n">root_ns</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf8&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf8&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&#39;1.0&#39; encoding=&#39;utf8&#39;?&gt;
+&lt;ns0:student xmlns:ns0=&quot;http//www.imaginarypythoncourses.com/student&quot;&gt;
+  &lt;ns0:id&gt;3235329&lt;/ns0:id&gt;
+  &lt;ns0:name&gt;Jeff Smith&lt;/ns0:name&gt;
+  &lt;ns0:language&gt;Python&lt;/ns0:language&gt;
+  &lt;ns0:rating&gt;9.5&lt;/ns0:rating&gt;
+&lt;/ns0:student&gt;
+</pre></div>
+</div>
+</div>
+</div>
+<p>The package elementTree needs namespace declaration to handle namespaces correctly.</p>
+<p>This can be done in two ways:</p>
+<ol class="simple">
+<li><p>Type the namespace before the element name between curly brackets: {http//www.imaginarypythoncourses.com/student}name</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">student</span> <span class="ow">in</span> <span class="n">root_ns</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;{http//www.imaginarypythoncourses.com/student}name&#39;</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jeff Smith
+</pre></div>
+</div>
+</div>
+</div>
+<ol class="simple">
+<li><p>Declare the namespace in elementTree. You therefore create a Python dictionary with the namespace abbreviation and the identifier <em>without</em> the curly brackets.</p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>When you want to declare namespaces in Python, you can not blindly use the namespaces as you see them in your XML file when
+it is opened in another programma.</p>
+<p>For example, when we open our file in the browser, we see the namespace ‘&lt;p:student xmlns:p=”http//www.imaginarypythoncourses.com/student”&gt;’.
+However, if we look in or Python file, we see that the prefix of the namespace is changed, and the namespace is now
+‘&lt;ns0:student xmlns:ns0=”http//www.imaginarypythoncourses.com/student”&gt;’.</p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ns</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;ns0&quot;</span><span class="p">:</span> <span class="s2">&quot;http//www.imaginarypythoncourses.com/student&quot;</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now you can use the abbreviation of the namespace in your code:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ns</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;ns0&quot;</span><span class="p">:</span> <span class="s2">&quot;http//www.imaginarypythoncourses.com/student&quot;</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">student</span> <span class="ow">in</span> <span class="n">root_ns</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;ns0:name&#39;</span><span class="p">,</span> <span class="n">ns</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Jeff Smith
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you declare the namespace in Python with a dictionary, do not forget to put the dictionary name
+after your element name in the <em>.findall</em> or other functions where you need a namespace.
+Without this, Python does not recognize the namespace as such.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>When there are <em>attributes</em> with a namespace, you can only use the first option as the namespace declaration does not work with attributes!</p>
+</div>
+<p>We now have a good basis of ElementTree, but we wish to show you another package, Beautiful Soup,
+before moving on to introducing real-life examples of XML files used in Digital Humanities research.
+The introduction to working with Beautiful Soup can be found in the following lesson.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="3_introduction_packages.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">3. Introduction to the packages ElementTree and Beautiful Soup</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="5_example_BS.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">5. Practical session: Working with Beautiful Soup</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mirjam Cuper & Ethan den Boer<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
