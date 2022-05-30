@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Introduction to XML &#8212; Automatically extract XML content with Python</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3. Introduction to the packages ElemenTree and Beautiful Soup" href="3_introduction_packages.html" />
+    <link rel="prev" title="1. Introduction to Python and Jupyter Notebooks" href="1_introduction_python.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Automatically extract XML content with Python</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to this XML with Python course
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_introduction_python.html">
+   1. Introduction to Python and Jupyter Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   2. Introduction to XML
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_introduction_packages.html">
+   3. Introduction to the packages ElemenTree and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_example_ET.html">
+   4. Practical session: Working with ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_example_BS.html">
+   5. Practical session: Working with Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_xmlformats_intro.html">
+   6. Introduction to the Alto/Didle, TEI and Page format
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_alto_ET.html">
+   7. Practical: Extract information from the Alto format with ElemenTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_page_ET.html">
+   8. Practical session: Page and Elementree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_alto_BS.html">
+   9. Practical session: Alto and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_tei_BS.html">
+   10. Practical session: Tei and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_page_BS.html">
+   11. Practical session: Page and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_auto_batch.html">
+   12. Practical session: Automatically extract information from a batch of files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="end.html">
+   End of course
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/2_introduction_xml.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/xml-workshop"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/xml-workshop/issues/new?title=Issue%20on%20page%20%2F2_introduction_xml.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml">
+   XML
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml-structure">
+   XML Structure
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml-tree">
+   XML Tree
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prolog">
+   Prolog
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elements">
+   Elements
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attributes">
+   Attributes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#namespaces">
+   Namespaces
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comments">
+   Comments
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rules">
+   Rules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>2. Introduction to XML</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml">
+   XML
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml-structure">
+   XML Structure
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xml-tree">
+   XML Tree
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prolog">
+   Prolog
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elements">
+   Elements
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attributes">
+   Attributes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#namespaces">
+   Namespaces
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comments">
+   Comments
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rules">
+   Rules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#exercise">
+   Exercise
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="introduction-to-xml">
+<h1>2. Introduction to XML<a class="headerlink" href="#introduction-to-xml" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="xml">
+<h2>XML<a class="headerlink" href="#xml" title="Permalink to this headline">¶</a></h2>
+<p>XML stands for eXtensible Markup Language. It is a language (but not a programming language) which goal is to store and transport data in a structured manner. It was designed to be self-descriptive and to be both human and machine readable. Because XML presents data in a structured format, and because it is platform independent, it is a popular format for applications to communicate.
+XML itself does not do anything.</p>
+<p>XML is very common in DH research and knowing how to process XML documents is an invaluable skill.</p>
+</div>
+<div class="section" id="xml-structure">
+<h2>XML Structure<a class="headerlink" href="#xml-structure" title="Permalink to this headline">¶</a></h2>
+<p>Below is a short example of XML:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="nt">&lt;catalog&gt;</span>
+	<span class="nt">&lt;book</span> <span class="na">id=</span><span class="s">&quot;bk101&quot;</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;author&gt;</span>
+			<span class="nt">&lt;name&gt;</span>Matthew<span class="nt">&lt;/name&gt;</span>
+			<span class="nt">&lt;surname&gt;</span>Gambardella<span class="nt">&lt;/surname&gt;</span>
+		<span class="nt">&lt;/author&gt;</span>
+		<span class="nt">&lt;title&gt;</span>XML Developer&#39;s Guide<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;genre&gt;</span>Computer<span class="nt">&lt;/genre&gt;</span>
+		<span class="nt">&lt;price&gt;</span>44.95<span class="nt">&lt;/price&gt;</span>
+		<span class="nt">&lt;publish_date&gt;</span>2000-10-01<span class="nt">&lt;/publish_date&gt;</span>
+		<span class="nt">&lt;description&gt;</span>An in-depth look at creating applicationswith XML.<span class="nt">&lt;/description&gt;</span>
+	<span class="nt">&lt;/book&gt;</span>
+<span class="nt">&lt;/catalog&gt;</span>
+</pre></div>
+</div>
+<p>Although at first this may look unfamiliar, the XML above is mostly self-descriptive:</p>
+<ul class="simple">
+<li><p>It is a catalog;</p></li>
+<li><p>It contains a book;</p></li>
+<li><p>It contains information about that book;</p></li>
+<li><p>It has a description of the book.</p></li>
+</ul>
+<p>This XML structure is called a <em>tree</em> and contains so-called elements.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Looking at the example XML, what is the title of the book?</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The title of the book is: “XML Developer’s Guide”. This can be found by looking at the <em>tags</em> with the name ‘title’, more about these later.</p>
+</div>
+</div>
+<div class="section" id="xml-tree">
+<h2>XML Tree<a class="headerlink" href="#xml-tree" title="Permalink to this headline">¶</a></h2>
+<p>Similar to a real tree, an XML tree starts at a <em>root</em> and branches out into <em>childeren</em>.
+Each of these children can have <em>sub childeren</em>. These root and childeren are called <em>elements</em>.</p>
+<p>The basic structure is this:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;root&gt;</span>
+  <span class="nt">&lt;child&gt;</span>
+    <span class="nt">&lt;subchild&gt;</span>.....<span class="nt">&lt;/subchild&gt;</span>
+  <span class="nt">&lt;/child&gt;</span>
+<span class="nt">&lt;/root&gt;</span>
+</pre></div>
+</div>
+<p>The relation between elements is described with the terms <em>parent</em>, <em>child</em>, and <em>sibling</em>.
+Like family trees, parents are on the top level, children below parents and siblings are on the same level.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Looking at the example XML,</p>
+<ol class="simple">
+<li><p>What is the root element?</p></li>
+<li><p>Does the element <em>book</em> have subchildren?</p></li>
+<li><p>What are the siblings of <em>author</em>?</p></li>
+</ol>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="nt">&lt;catalog&gt;</span>
+	<span class="nt">&lt;book</span> <span class="na">id=</span><span class="s">&quot;bk101&quot;</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;author&gt;</span>
+			<span class="nt">&lt;name&gt;</span>Matthew<span class="nt">&lt;/name&gt;</span>
+			<span class="nt">&lt;surname&gt;</span>Gambardella<span class="nt">&lt;/surname&gt;</span>
+		<span class="nt">&lt;/author&gt;</span>
+		<span class="nt">&lt;title&gt;</span>XML Developer&#39;s Guide<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;genre&gt;</span>Computer<span class="nt">&lt;/genre&gt;</span>
+		<span class="nt">&lt;price&gt;</span>44.95<span class="nt">&lt;/price&gt;</span>
+		<span class="nt">&lt;publish_date&gt;</span>2000-10-01<span class="nt">&lt;/publish_date&gt;</span>
+		<span class="nt">&lt;description&gt;</span>An in-depth look at creating applicationswith XML.<span class="nt">&lt;/description&gt;</span>
+	<span class="nt">&lt;/book&gt;</span>
+<span class="nt">&lt;/catalog&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<ol class="simple">
+<li><p>The root element is the first element of the tree. In this case it is <em>catalog</em>.</p></li>
+<li><p>The element <em>book</em> has 2 subchildren, <em>name</em> and <em>surname</em>.</p></li>
+<li><p>The siblings of author are: <em>title</em>, <em>genre</em>, <em>price</em>, <em>publish_date</em>, and <em>description</em>.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="prolog">
+<h2>Prolog<a class="headerlink" href="#prolog" title="Permalink to this headline">¶</a></h2>
+<p>XML usually starts with the <em>prolog</em> a piece of code that defines the XML version and can contain character encoding. The prolog is optional, and if present it must come first in the document. It is good practice to include it.</p>
+<p>For our example the prolog is:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="elements">
+<h2>Elements<a class="headerlink" href="#elements" title="Permalink to this headline">¶</a></h2>
+<p>All elements follow the same basic structure:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">Opening</span> <span class="n">tag</span><span class="o">&gt;</span> <span class="o">+</span> <span class="n">content</span> <span class="o">+</span> <span class="o">&lt;/</span><span class="n">closing</span> <span class="n">tag</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">element</span>
+</pre></div>
+</div>
+<p>Elements consist of tags that describe the element, and content.
+Most of the time, tags come in pairs: an opening tag and a closing tag. These are enclosed in <strong>&lt;&gt;</strong>.
+Tags of an element must always be identical to each other, except that the closing tag includes a <strong>/</strong> before the tagname.
+When an element is empty, a selfclosing tag can be used, which is an opening and closing tag in one. This looks like this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">tagname</span> <span class="o">/&gt;</span> 
+</pre></div>
+</div>
+<p>Because of this structured build elements are self-describing.
+One element in the example XML above is the title:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;title&gt;</span>XML Developer&#39;s Guide<span class="nt">&lt;/title&gt;</span>
+</pre></div>
+</div>
+<p>In the above example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>is the opening tag, ‘XML Developer’s Guide’ is the content and</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;/</span><span class="n">title</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>is the closing tag.</p>
+<p>An element can contain other elements, such as in our first example.
+The element <em>book</em> contains the elements <em>author</em>, <em>title</em>, <em>genre</em>, <em>price</em>, <em>publish_date</em>, and <em>description</em></p>
+<p>As mentioned before, elements can also be empty, having tags but no content.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Looking at the example XML, what elements does the element <em>author</em> contain?</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="nt">&lt;catalog&gt;</span>
+	<span class="nt">&lt;book</span> <span class="na">id=</span><span class="s">&quot;bk101&quot;</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;author&gt;</span>
+			<span class="nt">&lt;name&gt;</span>Matthew<span class="nt">&lt;/name&gt;</span>
+			<span class="nt">&lt;surname&gt;</span>Gambardella<span class="nt">&lt;/surname&gt;</span>
+		<span class="nt">&lt;/author&gt;</span>
+		<span class="nt">&lt;title&gt;</span>XML Developer&#39;s Guide<span class="nt">&lt;/title&gt;</span>
+		<span class="nt">&lt;genre&gt;</span>Computer<span class="nt">&lt;/genre&gt;</span>
+		<span class="nt">&lt;price&gt;</span>44.95<span class="nt">&lt;/price&gt;</span>
+		<span class="nt">&lt;publish_date&gt;</span>2000-10-01<span class="nt">&lt;/publish_date&gt;</span>
+		<span class="nt">&lt;description&gt;</span>An in-depth look at creating applicationswith XML.<span class="nt">&lt;/description&gt;</span>
+	<span class="nt">&lt;/book&gt;</span>
+<span class="nt">&lt;/catalog&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The element <em>author</em> contains the elements <em>name</em> and <em>surname</em>.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;author&gt;</span>
+	<span class="nt">&lt;name&gt;</span>Matthew<span class="nt">&lt;/name&gt;</span> 
+	<span class="nt">&lt;surname&gt;</span>Gambardella<span class="nt">&lt;/surname&gt;</span>
+<span class="nt">&lt;/author&gt;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="attributes">
+<h2>Attributes<a class="headerlink" href="#attributes" title="Permalink to this headline">¶</a></h2>
+<p>Elements can have attributes. Attributes give more information about XML elements and are used to distinguish between elements with the same name. Attributes always consists of a name-value pair.</p>
+<p>Returning to our example XML, the element <em>book</em> has an atribute <em>id</em>.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;book</span> <span class="na">id=</span><span class="s">&quot;bk101&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/book&gt;</span>
+</pre></div>
+</div>
+<p>This attribute contains the unique id of the book. This is usefull as there may be books with the same name, and this way these can be identified separately. Attribute values are always quoted.</p>
+</div>
+<div class="section" id="namespaces">
+<h2>Namespaces<a class="headerlink" href="#namespaces" title="Permalink to this headline">¶</a></h2>
+<p>Tag names are defined by the person or application building the XML. Therefore, it is possible that different software use the same tag names for some or even all their elements. This can lead to problems when mixing XML from different applications.</p>
+<p>For example, below are two pieces of XML (Example XML re-used from <a class="reference external" href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2001/july/the-xml-files-understanding-xml-namespaces">msdn-magazine</a>).
+Both contain elements provide information about a student.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;student&gt;</span>
+  <span class="nt">&lt;id&gt;</span>3235329<span class="nt">&lt;/id&gt;</span>
+  <span class="nt">&lt;name&gt;</span>Jeff Smith<span class="nt">&lt;/name&gt;</span>
+  <span class="nt">&lt;language&gt;</span>Python<span class="nt">&lt;/language&gt;</span>
+  <span class="nt">&lt;rating&gt;</span>9.5<span class="nt">&lt;/rating&gt;</span>
+<span class="nt">&lt;/student&gt;</span>
+
+<span class="nt">&lt;student&gt;</span>
+  <span class="nt">&lt;id&gt;</span>534-22-5252<span class="nt">&lt;/id&gt;</span>
+  <span class="nt">&lt;name&gt;</span>Jill Smith<span class="nt">&lt;/name&gt;</span>
+  <span class="nt">&lt;language&gt;</span>Spanish<span class="nt">&lt;/language&gt;</span>
+  <span class="nt">&lt;rating&gt;</span>3.2<span class="nt">&lt;/rating&gt;</span>
+<span class="nt">&lt;/student&gt;</span>
+</pre></div>
+</div>
+<p>The first contains information about a student following a Python course: their student number, name, the language studied in the course, and how they rated the course on a ten-point scale.</p>
+<p>The second contains information about an elementary school student: their social security number, name, native language and average rating on a five-point scale.</p>
+<p>Although the tag names are identical in both versions, they have very different meanings and are quite unmixable.
+But when querying the XML a machine will not know that difference and simply lump them together.</p>
+<p>These naming conflicts can be resolved by using prefixes. This prefixes essentially work as an identifier for a specific XML structure.</p>
+<p>The following example shows the XML with prefixes.</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;p:student</span> <span class="na">xmlns:p=</span><span class="s">&quot;http//www.imaginarypythoncourses.com/student&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p:id&gt;</span>3235329<span class="nt">&lt;/p:id&gt;</span>
+  <span class="nt">&lt;p:name&gt;</span>Jeff Smith<span class="nt">&lt;/p:name&gt;</span>
+  <span class="nt">&lt;p:language&gt;</span>Python<span class="nt">&lt;/p:language&gt;</span>
+  <span class="nt">&lt;p:rating&gt;</span>9.5<span class="nt">&lt;/p:rating&gt;</span>
+<span class="nt">&lt;/p:student&gt;</span>
+
+<span class="nt">&lt;e:student</span> <span class="na">xmlns:e=</span><span class="s">&quot;http//www.isthisevenarealschool.com/students&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;e:id&gt;</span>534-22-5252<span class="nt">&lt;/e:id&gt;</span>
+  <span class="nt">&lt;e:name&gt;</span>Jill Smith<span class="nt">&lt;/e:name&gt;</span>
+  <span class="nt">&lt;e:language&gt;</span>Spanish<span class="nt">&lt;/e:language&gt;</span>
+  <span class="nt">&lt;e:rating&gt;</span>3.2<span class="nt">&lt;/e:rating&gt;</span>
+<span class="nt">&lt;/e:student&gt;</span>
+</pre></div>
+</div>
+<p>You can see that the part about the Python student has the prefix ‘p’, and the part about the elementary school kid has
+the prefix ‘e’. Now there will not be any conflict as the prefix ensures that a machine will see the difference between the
+tag names.</p>
+<p>The prefix is not the only addition to the code. This is because when using prefixes, they must be assigned to a <em><strong>namespace</strong></em>.
+A namespace must be declared within the XML structure, be it the root or the element it applies to.
+A namespace helps the machine to interpret the prefixes. Multiple namespaces can be used in an XML file.</p>
+<p>In the example of the Python student, the namespace is:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>xmlns:p=&quot;http//www.imaginarypythoncourses.com/student&quot;&#39;
+</pre></div>
+</div>
+<p>The general namespace syntax is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">xmlns</span><span class="p">:</span><span class="o">&lt;</span><span class="n">prefix</span><span class="o">&gt;=</span><span class="s1">&#39;&lt;namespace identifier&gt;&#39;</span>
+</pre></div>
+</div>
+<p>Most OCR software use namespaces. If you are not familiar whith them, they can cause some unexpected behavior while parsing XML files with Python.
+So being able to understand and utilize namespaces is very important.</p>
+</div>
+<div class="section" id="comments">
+<h2>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h2>
+<p>In XML comments may be added, these can contain descriptions about the data or other information.
+Comments are written as:</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span><span class="cm">&lt;!-- This is a comment --&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="rules">
+<h2>Rules<a class="headerlink" href="#rules" title="Permalink to this headline">¶</a></h2>
+<p>There are some rules regarding XML.</p>
+<ul class="simple">
+<li><p>Each tags must have a closing tag;</p></li>
+<li><p>Tag names are case sensitive, in XML title, Title, and TITLE are three different tag names;</p></li>
+<li><p>Tag names can only begin with a letter or an underscore;</p></li>
+<li><p>Tag names can contain letters, digits, hyphens, underscores, and periods. No other signs are allowed, including spaces;</p></li>
+<li><p>XML documents <strong>must</strong> have a root element.</p></li>
+</ul>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Keeping the rules in mind, is the following XML correctly defined? If not, what is wrong?</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>&lt;book&gt;
+	&lt;author&gt;
+		&lt;name&gt;Matthew&lt;/name&gt;
+		&lt;surname&gt;Gambardella&lt;/surname&gt;
+	&lt;/Author&gt;
+	&lt;title&gt;XML Developer&#39;s Guide
+	&lt;price&gt;44.95&lt;/price&gt;
+	&lt;publish_date&gt;2000-10-01&lt;/publish_date&gt;
+	&lt;description&gt;An in-depth look at creating applications with XML. /description&gt;
+&lt;/book&gt;
+
+	&lt;author&gt;
+		&lt;name&gt;Kim&lt;/name&gt;
+		&lt;surname&gt;Ralls&lt;surname&gt;
+	&lt;/author&gt;
+	&lt;title&gt;Midnight Rain&lt;/&gt;
+	&lt;price/&gt;5.95&lt;/price&gt;
+	&lt;publish_date&gt;v&lt;/publishdate&gt;
+	&lt;description&gt;A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.. &lt;/description&gt;
+&lt;/book&gt;
+
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>From top to bottom:</p>
+<ol class="simple">
+<li><p>There is no root present;</p></li>
+<li><p>The first author tags are not the same, as the second one has a capital ‘A’. Therefore, XML sees them as two different tags.</p></li>
+<li><p>The first title missed an closing tag;</p></li>
+<li><p>The first description closing tags misses an ‘&lt;’;</p></li>
+<li><p>The second surname misses an ‘/’ in the closing tag;</p></li>
+<li><p>The second title is missing the tagname ‘title’ in the closing tag;</p></li>
+<li><p>The second price opening tag is a selfclosing tag, the ‘/’ needs to be removed;</p></li>
+<li><p>The second publishing date tags are not the same, as one has an underscore.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<p>You should now have a decent grasp of the structure and rules of XML.
+As a final excercise you will construct your own piece of XML using the data below.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Create a small piece of XML containing a catalog of newspapers. The following data must be in the XML:</p>
+<ul class="simple">
+<li><p>newspaper title</p></li>
+<li><p>publication date</p></li>
+<li><p>number of pages</p></li>
+</ul>
+<p>Create the catalog for the following newspapers:</p>
+<ul class="simple">
+<li><p>Algemeen Handelsblad, 01-01-1870, 4 pages</p></li>
+<li><p>Trouw, 04-07-1970, 24 pages</p></li>
+</ul>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-XML notranslate"><div class="highlight"><pre><span></span>&lt;catalog&gt;
+	&lt;newspaper&gt;
+		&lt;title&gt;Algemeen handelsblad&lt;?/title&gt;
+		&lt;publication_date&gt;01-01-1870&lt;/publication_date&gt;
+		&lt;pages&gt;4&lt;/pages&gt;
+	&lt;/newspaper&gt;
+	&lt;newspaper&gt;
+		&lt;title&gt;Trouw&lt;/title&gt;
+		&lt;publication_date&gt;04-07-1970&lt;/publication_date&gt;
+		&lt;pages&gt;24&lt;/pages&gt;
+	&lt;/newspaper&gt;
+&lt;/catalog&gt;
+</pre></div>
+</div>
+</div>
+<p>This concludes this brief introduction to XML. The next section will forcus on some common Python packages that are used to extract data and information from XML.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="1_introduction_python.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">1. Introduction to Python and Jupyter Notebooks</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="3_introduction_packages.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">3. Introduction to the packages ElemenTree and Beautiful Soup</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mirjam Cuper & Ethan den Boer<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

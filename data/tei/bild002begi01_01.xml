@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//DBNL//DTD TEI.2 XML//NL" "http://www.dbnl.org/xml/dtd/teixlite.dtd">
+<TEI.2>
+   <teiHeader>
+        <fileDesc>
+           <titleStmt>
+               <title type="main">Beginsels der woordvorsching</title>
+               <author>Willem Bilderdijk</author>
+           </titleStmt>
+           <editionStmt>
+               <edition>
+                   Dit bestand biedt, behoudens een aantal hierna te noemen ingrepen, een diplomatische weergave van <hi rend="i">Beginsels der woordvorsching</hi> van Willem Bilderdijk uit 1831.
+               </edition>
+               <respStmt>
+                   <resp>
+                       <corr>p. 15: nitgesproken → uitgesproken: ‘Te zwak uitgesproken’.</corr>
+                   </resp>
+               </respStmt>
+           </editionStmt>
+           <extent><!-- aantal pagina's --></extent>
+           <publicationStmt>
+               <idno type="titelcode">bild002begi01_01</idno>
+               <idno type="format">DBNL-TEI 1</idno>
+               <availability>
+                   <p>2017 dbnl</p>
+               </availability>
+           </publicationStmt>
+           <notesStmt>
+               <note>unicode</note>
+           </notesStmt>
+           <sourceDesc>
+               <bibl>
+                   <idno type="isbn"></idno>
+                   <idno type="usedcopy">eigen exemplaar DBNL</idno>
+               </bibl>
+               <p>Willem Bilderdijk, <hi rend="i">Beginsels der woordvorsching</hi>. G.T.N. Suringar, Leeuwarden 1831</p>
+               <p>&nbsp;</p>
+           </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+           <projectDesc>
+               <p>Wijze van coderen: standaard</p>
+               <p></p>
+           </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+           <langUsage>
+               <language id="nl">Nederlands</language>
+           </langUsage>
+       </profileDesc>
+       <ebook>
+           <bibl>
+               <title type="main">Beginsels der woordvorsching</title>
+               <author>Willem Bilderdijk</author>
+               <idno type="isbn"></idno>
+               <idno type="nur"></idno>
+               <imprint>
+                   <date></date>
+                   <publisher></publisher>
+                   <pubPlace></pubPlace>
+               </imprint>
+           </bibl>
+           <idno type="isbn"></idno>
+           <idno type="nur"></idno>
+           <availability>
+               <p></p>
+           </availability>
+           <order>
+               <price curr="euro"></price>
+               <link></link>
+           </order>
+           <blurb><p></p></blurb>
+           <titlepage><p></p></titlepage>
+           <colofon><p></p></colofon>
+       </ebook>
+       <pod>
+           <bibl>
+               <title type="main">Beginsels der woordvorsching</title>
+               <author>Willem Bilderdijk</author>
+               <idno type="isbn"></idno>
+               <idno type="nur"></idno>
+               <imprint>
+                   <date></date>
+                   <publisher></publisher>
+                   <pubPlace></pubPlace>
+               </imprint>
+           </bibl>
+           <idno type="isbn"></idno>
+           <idno type="nur"></idno>
+           <availability>
+               <p></p>
+           </availability>
+           <order>
+               <price curr="euro"></price>
+               <link></link>
+           </order>
+           <blurb><p></p></blurb>
+           <titlepage><p></p></titlepage>
+           <colofon><p></p></colofon>
+       </pod>
+       <revisionDesc>
+           <change>
+               <date>2017-02-07</date>
+               <respStmt>
+                   <name type="person">KE</name>
+               </respStmt>
+               <item>colofon toegevoegd</item>
+           </change>
+       </revisionDesc>
+   </teiHeader>
+   <text>
+<interpGrp>
+<interp type="taalkunde" value="fon"/>
+</interpGrp>
+<body>
+<cf>
+<div type="chapter">
+<pb n="I"/>
+<p>BEGINSELS</p>
+<p>DER</p>
+<p>WOORDVORSCHING.</p>
+<p>DOOR</p>
+<p><hi rend="i">Mr.</hi> W. BILDERDIJK.</p>
+<p>הֵן ץַם אֶתָד וְשָּׂפָה אַתַת</p>
+<p>Gen. XI: 6.</p>
+<p>LEEUWARDEN,</p>
+<p>G.T.N. SURINGAR.</p>
+<p>1831.</p>
+<pb rend="blank" n="II"/>
+<pb rend="blank" n="III"/>
+<pb rend="blank" n="IV"/>
+</div>
+</cf>
+<div type="chapter">
+<pb n="1"/>
+<head rend="h3">Korte voorstelling der <hi rend="i">dieper woordvorsching,</hi> in toepassing op ons nederduitsch.</head>
+<p><hi rend="b">A</hi>lles wat ons treft of aandoet zijn eigenschappen der voorwerpen, en zelfstandigheden zijn bloote aftrekkingen die ons verstand zich als onderliggende aan de eigenschappen voorstelt, waarvan ook de Grieksche en Latijnsche benamingen van ὑπόςασις en <hi rend="i">substantia</hi>. Ons woord van <hi rend="i">zelfstandigheid</hi> drukt het op zich-zelf bestaan, onafhanklijk van de eigenschappen, uit; bloote voorstelling onzes verstands, uit aftrekking der hoedanigheden ontstaande.</p>
+<p>Onze gewaarwordingen doen ons die eigenschappen waarnemen, en het is de uitdrukking onzer gewaarwordingen die de Taal maakt. En gelijke gevoeligheid by gelijke
+<pb n="2"/>bewerktuiging van mensch en mensch brengt gelijke gewaarwording meè, die ons deze uitdrukking verstaan doet, en van den een in den ander dus overgaat, en het zelfde denkbeeld in den geest aan hem opwekt. Het is dus ten aanzien des verstands niets anders dan in de hartstochtlijke aandoening door 't kermen eens lijdenden, door 't lachen eens vrolijken, en 't gapen eens zich vervelenden, op den bystander werkend.</p>
+<p>De uitdrukking van wat wy gevoelen geschiedt deels door geluid, en deels door beweging. En beide bloot natuurlijk of opzettelijk.</p>
+<p>Natuurlijk, ja onwillig (en als ware 't, werktuiglijk), zien wy 't in de hartstochten; opzettelijk, in de nabootsing van 't geen wy een' ander voorstellen.</p>
+<p>In beide werkt het geheele lichaam mede tot de uitdrukking, met alle zijn leden en deelen; en hiervan eene algemeene lichaamsspraak, die verwaarloosd is, doch even wezendlijk als de geluidtaal, en met deze op dezelfde gronden rust.</p>
+<p>Wat wy thands <hi rend="i">spraak</hi> heeten, is bepaald
+<pb n="3"/>tot de werking van borst en mond, in de wijziging des uitgaanden adems door hetgeen men de spraakdeelen noemt. Wy hebben in onzen Spraakleer deze <hi rend="i">spraakdeelen</hi> en hunne werking doen kennen. Zy zijn geluidvoortbrengende, en vormen dus een geluidtaal; doch deze geluidvorming eischt in hare wijziging beweging dier deelen, en deze beweging is (uit den aart der eenheid in den mensch, ja in de geheele natuur) overéénstemmende met die der algemeene lichaamsspraak, en (sterk uitgedrukt wordende) toont zich zelfs aan het oog. De beschaving heeft het sterk opzetten van den zwellenden gorgel, het uitsteken en slabberen der tong, het ophalen en zwellen van den neus, en de geweldige wringing en krulling der lippen bedwongen, die de natuur by de uitdrukking onzer meening ingeeft of voortbrengt, maar de zelfde bewegingen, schoon gematigd, gaan met de uitdrukking der geluiden in hun vorming gepaard; en over en weder ondersteunen zy niet slechts elkander, maar geven elkander beteekenis.</p>
+<p>De spraak is derhalve uitdrukking van onze
+<pb n="4"/>gewaarwording door vertoon by wege van geluidgeving, of van beweging der spraakdeelen, en dit (als gezegd is) natuurlijk of opzettelijk, tot welk laatste de nabootsing behoort, het zij van geluid als geluid, het zij van beweging of gedaante.</p>
+<p><hi rend="i">Onwillig natuurlijk,</hi> zijn natuurlijk en in 't lichaam werktuiglijk verwekte kreten, die men met het kunstwoord <hi rend="i">inarticulata</hi> noemt, niet een niet zeer eigen doch aangenomen woord. Welke benaming echter te wettigen is, zoo men door <hi rend="i">articuleeren</hi> 't willekeurig gebruik der spraakdeelen verstaat, hetgeen daar by uitgesloten is.</p>
+<p>De <hi rend="i">gearticuleerde</hi> geluiden zijn werkingen der spraakdeelen, en deze werkingen, in hare verschillende bepalingen beschouwd, noemen wy in deze stof, <hi rend="i">letters,</hi> waarvan de uitdrukking in werktuiglijke trekken op een vlakte voor 't oog, desgelijks in bepaalder zin <hi rend="i">letter</hi> heet. En het is de gelijktijdige of in opvolging aan één verknochte samenwerking dezer letters waaruit datgene ontstaat dat wy <hi rend="i">woorden</hi> noemen.</p>
+<pb n="5"/>
+<p>Deze <hi rend="sc">woorden</hi> nu, vatbaar zijnde voor klankbuigingen, samenvoegingen, toe- of afdoening, zijn dus tweederlei. Namelijk, zulke als door deze aandoeningen niet of wel veranderd zijn; en van daar wat men <hi rend="i">primitiven</hi> en <hi rend="i">derivaten</hi> heet.</p>
+<p><hi rend="i">Primitiven</hi> drukken wy in onze taal door <hi rend="i">oorspronklijke</hi> uit, doch men moet dit woord in zijne toepassing niet volstrekt, maar in betrekking tot de daarvan <hi rend="i">afgeleide</hi> verstaan. - <hi rend="i">Afgeleid</hi> is een woord ontleend van het afleiden van een stroom waters naar elders, en dus eene zeer schilderende voorstelling van de wending des ademstrooms in de uitspraak eens woords.</p>
+<p>De <hi rend="i">primitiven</hi> zijn, met eene andere benaming de <hi rend="i">wortelwoorden,</hi> als waar de overige uit gesproten zijn, en waartoe de spraakvorscher ze, als tot hunnen oorsprong, te rug brengt.</p>
+<p>Uit het voorgedragene blijkt dat het beginsel van elk woord in de letter bestaat; namelijk, in de lettervorming der spraakdeelen. De dieper Woordvorsching of Etymologie eischt derhalve de beschouwing van de
+<pb n="6"/>kracht der letters ter uitdrukking van gewaarwordingen, in den byzonderen aart en en vorming van elke van die gelegen en kenbaar.</p>
+<p>Wy onderscheiden de wortelwoorden derhalve van de daaruit afgeleide; en de afgeleide verschillen naar de verandering die zy ondergingen door voorzetsels, door uitgangen, en door verwisseling van de eene met de andere daar, in de vorming, na aan palende of in klank na gelijkende letter.</p>
+<p>Wy zullen derhalve hier letter voor letter naar de aangenomen orde des Alfabeths (waarover in mijne Verhandeling over 't Letterschrift opzettelijk!) in <hi rend="i">worteluitdrukking,</hi> in <hi rend="i">voorzetsels, uitgangen,</hi> en <hi rend="i">verwisselingen,</hi> kortelijk opnemen.</p>
+<div type="section">
+<pb n="7"/>
+<head rend="h4">De A.</head>
+<p>Deze vokaal, in een vollen onbelemmerd gladden uitgang of uitstorting van adem bestaande, drukt <hi rend="i">vloeiing</hi> uit, en van daar het <hi rend="i">zijn</hi> of <hi rend="i">bestaan</hi>-zelf. Men zie hiervan 't IV. Deel der Nieuwe T. en D. Verscheidenheden, bladz. 190. Hiervan is <hi rend="i">a, ademing,</hi> hiervan <hi rend="i">aak</hi> (aïg), <hi rend="i">aker, aam</hi> (<hi rend="i">a-ïng</hi>), <hi rend="i">a-en, ader, adem, air</hi>. Ook het voorzetsel <hi rend="i">aan</hi> (dat eigenlijk 't participium <hi rend="i">a-end',</hi> vloeiend naar iets, is) behoort tot deze letter als derivaat van den eersten algemeenen wortel. Zy verlaagt tot <hi rend="i">e,</hi> en verdoft tot <hi rend="i">o,</hi> en door dezen kan zy zelfs tot <hi rend="i">i</hi> en <hi rend="i">u</hi> worden.</p>
+<p>Tot <hi rend="i">voorzetsel</hi> dient zy niet, schoon een valsche uitspraak somwijlen het ontkennende <hi rend="i">on</hi> voor een doffe <hi rend="i">a</hi> deed miskennen.</p>
+<p>Even weinig dient ze in ons Hollandsche Neêrduitsch tot uitgang.</p>
+<p>Haar verwisseling met de andere vokalen is kennelijk uit het geen wy van hare verlaging in klank aanmerkten, en hangt ook van de meerdere of mindere gladheid, gespan-<pb n="8"/>nenheid, en rondheid des gorgels en verhemelten af.</p>
+</div>
+<div type="section">
+<head rend="h4">De B.</head>
+<p>Deze konzonant is driederlei naar zy gevormd wordt. T.w. <hi rend="i">vast</hi> of sluitend, <hi rend="i">opheffend,</hi> of <hi rend="i">blazend</hi>.</p>
+<p><hi rend="i">Vast</hi> en in hare klemming der lippen beschouwd, is zy stom, sluitend, of samendrukkend, en wordt, versterkt, tot <hi rend="i">p,</hi> waarvan op zijn plaats!</p>
+<p><hi rend="i">Opheffend</hi> is zy de flaauwste aller konzonanten, en niet uit te spreken zonder scheva Dus is zy met andere konzonanten verbonden wordende een wezendlijk Voorzetsel. Zoo is <hi rend="i">blind, be-lind,</hi> d.i. <hi rend="i">be-doekt,</hi> bewonden van gezicht; <hi rend="i">brief, be-rief,</hi> met een anderen uitgang, <hi rend="i">bericht; brugge, berugging</hi> van een water; <hi rend="i">bol, be-o-el,</hi> d.i. <hi rend="i">beronding; buurte, be-ouwerte,</hi> van <hi rend="i">ouwe</hi> (grond), of <hi rend="i">behuwerte</hi> van <hi rend="i">huwen</hi> d.i. verbinding, samening, enz.</p>
+<p>Blazend wordt zy <hi rend="i">v,</hi> waarvan op <hi rend="i">s.</hi></p>
+<pb n="9"/>
+<p>Als <hi rend="i">voorzetsel</hi> derhalve is zy <hi rend="sc">om</hi>sluiting of <hi rend="sc">op</hi>dekking. Zoo zeggen wy <hi rend="sc">be</hi><hi rend="i">palen,</hi> zoo <hi rend="sc">be</hi><hi rend="i">leggen,</hi> enz.</p>
+<p>Als <hi rend="i">uitgang</hi> is zy noodwendig zeldzaam, en zonder stuiting, ja lost zich meestal in de f op. Zoo is <hi rend="i">drabbe</hi> en <hi rend="i">draf</hi> het zelfde woord; <hi rend="i">ebbe,</hi> zachte <hi rend="i">af</hi>-neming van 't water.</p>
+<p>Haar <hi rend="i">verwisseling</hi> is dus natuurlijk met <hi rend="i">p,</hi> met <hi rend="i">v,</hi> met <hi rend="i">f,</hi> en met <hi rend="i">w.</hi> En door de <hi rend="i">f</hi> zelfs ook met <hi rend="i">ch.</hi> Rechtsgeleerden kennen de schrijfwijze der Pandekten, die <hi rend="i">bovis</hi> voor <hi rend="i">vobis</hi> hebben.</p>
+</div>
+<div type="section">
+<head rend="h4">De C.</head>
+<p>De <hi rend="i">c,</hi> in de keel gevormd (want aan <hi rend="i">ce,</hi> sissend tusschen de tanden gevormd, moet hier niet gedacht worden) is als eenerlei te beschouwen met <hi rend="i">k,</hi> met <hi rend="i">g,</hi> en met <hi rend="i">ch</hi> (Grieksche χ). Zy wordt in de holte der keel gemaakt, en geeft overzulks <hi rend="i">holte</hi> te kennen. Hiervan het Lat. <hi rend="i">cavus,</hi> ons <hi rend="i">kuil, kom, kil,</hi> enz. Maar derhalve ook <hi rend="i">omgrijping, bevatting, omronding, samening, verbinding.</hi> -
+<pb n="10"/>De samendringing of krimping maakt verharding, en zoo levert zy ook de uitdrukking van verharding op. - Als bloote maar hevige beademing die 't gevoel van warmte geest, drukt zy warmte uit, en (dit als levensbeginsel aangenomen) ook 't leven. Groot is derhalve de verscheidenheid barer toepassing; en met de verminderde verscheidenheid die de zoogenaamde beschaving ook in het aanwenden van ons spraakvermogen heeft meêgebracht is het onderscheidende dat die vorming natuurlijk toelaat en in de Oudste Oostersche talen nog bestaat, schoon voor ons Westerlingen niet kenbaar, ten grooten deele verloren gegaan, en van daar verwarring en duisterheid. Wy kennen alleen het hoorbaar en voelbaar verschil tusschen <hi rend="i">c</hi> (of <hi rend="i">k</hi>), <hi rend="i">g,</hi> en <hi rend="i">ch,</hi> en de bloote <hi rend="i">h.</hi></p>
+<p>Het aangemerkte echter zal genoeg zijn om de samenhang te erkennen tusschen <hi rend="i">kom</hi> of <hi rend="i">kop, kap, kogel, ga, gaderen, haken, gom, koud,</hi> (het Latijnsche <hi rend="i">callus, callis,</hi> enz.) <hi rend="i">kachel,</hi> כם, <figure rend="inline"><p><xptr to="bild002begi01fi0001.gif"/></p></figure>, waarvan in mijne Aant. op de Verhandeling over de Geslachten bladz. 355 tot 360.</p>
+<pb n="11"/>
+<p>Voor 't overige, daar de keelklank louter galming is, is 't noodwendig dat hy allen <hi rend="i">galm</hi> en <hi rend="i">zang</hi> uitdrukt. Zoo is <hi rend="i">galm</hi> eigenlijk <hi rend="i">ga-e-ling,</hi> en de <hi rend="i">nachtegaal</hi> heeft hier zijnen naam van als <hi rend="i">nachtzing</hi> (zinger by nacht) ook <hi rend="i">gallus</hi> in 't Latijn, ons <hi rend="i">haan,</hi> dat ook de keelletter maar schorrer en minder glad heeft en bloot roepen is, als <hi rend="i">ha-ing</hi> zijnde, dat is <hi rend="i">ha! schreeuwen</hi>. Ook is <hi rend="i">cantare</hi> daar van.</p>
+<p>Sluitende houdt zy den adem op, en drukt daar van uiterste, en zoo top, spits, en scherpte uit. Hiervan ἀϰμη, <hi rend="i">hoogte, acutus, hakken, hekel, akst,</hi> enz. - Even zoo sluit zy met de <hi rend="i">n</hi> vereenigd, en geeft met deze eene klemmende omvatting in den uitgang <hi rend="i">ing</hi>.</p>
+<p>Als voorzetsel is zy by ons tot de <hi rend="i">ge</hi> bepaald waarvan wy de koppelende kracht dikwijls (en zelfs in de praeterita) getoond hebben. Men zie onder anderen de Aanteekening <hi rend="i">y</hi> over de geslachten der Nw.</p>
+<p>Dit <hi rend="i">ge</hi> is zeer dikwils met de voorletter van het woord waar het voorgevoegd is, in een getrokken, even als wy van <hi rend="i">be</hi> aanmerkten. Dus is het met <hi rend="i">groot,</hi> d.i.
+<pb n="12"/><hi rend="i">ge-ro-et,</hi> opgeheven, <hi rend="i">glad,</hi> d.i. <hi rend="i">ge-lad</hi>. Inzonderheid heeft dit voor de <hi rend="i">r</hi> en de <hi rend="i">l</hi> plaats.</p>
+<p>De sluitende <hi rend="i">k</hi> is eigenlijk <hi rend="i">ig,</hi> en versterkt zich ook zoo wel als de <hi rend="i">g</hi> door de lager keelklemming van <hi rend="i">ch.</hi> Zoo is het met onzen uitgang van <hi rend="i">lijk</hi> in de adjectiven, welke die in <hi rend="i">el</hi> is, met <hi rend="i">ig</hi> verlengd, als wy meermalen aantoonden.</p>
+<p>Deze uitgang <hi rend="i">ig</hi> toont gelijkheid. En natuurlijk! wat is <hi rend="i">gelijken</hi> van 't een by het ander dan het te samen in één denkbeeld vergaderen. De beteekenis ligt dus in het omvattende van deze letter.</p>
+<p>De <hi rend="i">h</hi> wordt een onvaste en vluchtige letter gerekend. Zy is het, maar niet waar zy wezendlyk keelletter is; maar de verfijning altijd tegen de keelletters ingenomen om dat zy de kracht van de borst en ademhaling verlamt, heeft by het Zuidelyk Europa de <hi rend="i">h</hi> in plaats van in den gorgel tegen 't week verhemelte doen vormen, en, daar krachteloos en naauwlijks klinkende is zy vluchtig en verliest zich.</p>
+<p>De nabyheid van keel en verhemelte en het niet volkomen meester zijn van zijn spraak-<pb n="13"/>tuigen, veroorzaakt de verwisseling van <hi rend="i">g</hi> of <hi rend="i">k</hi> met <hi rend="i">j,</hi> in 't Noorden onzes Landstreeks zeer algemeen. Wy ondervinden dit daaglijks ïn de uitspraak van <hi rend="i">gy</hi> en <hi rend="i">ge</hi> als <hi rend="i">jy</hi> en <hi rend="i">je,</hi> en in de diminuliven die allengs van <hi rend="i">g</hi> tot <hi rend="i">k</hi> en zoo in Holland tot <hi rend="i">j</hi> zijn overgegaan. Zie § 83.</p>
+<p>Ook verliest zich de <hi rend="i">g,</hi> by niet genoegzame klemming, en zoo wordt de uitgang <hi rend="i">ige</hi> tot <hi rend="i">i-e</hi> of <hi rend="i">ije,</hi> of <hi rend="i">yë,</hi> of ook wel tot bloote <hi rend="i">e.</hi> Zie § 99.</p>
+<p>Dat <hi rend="i">ige</hi> ook in <hi rend="i">iwe,</hi> en in <hi rend="i">uwe</hi> met doffe of toonlooze <hi rend="i">u,</hi> verandert, is in § 97 opgelost. En zoo wordt de <hi rend="i">g</hi> of <hi rend="i">ch</hi> ook tot en uit <hi rend="i">s.</hi> - Uit <hi rend="i">f</hi> wanneer deze letter <hi rend="i">f</hi> zich met de tandletter verbindt, ter zake van de moeilijkheid om den uitgaanden adem van de lipblazing tot de tandstooting te rug te brengen. Hiertoe moet geheel de mondholte samenwerken en is dan de gorgelrand het steunpunt, en het is niet vreemd dat die <hi rend="i">reäctie</hi> dus de eigenlijke <hi rend="i">actie</hi> vervangt. Doch de keelblazing in <hi rend="i">g</hi> wordt iets te zacht werkende tot de meer gemaklijke blazing der lichter beweegbare lippen.</p>
+</div>
+<div type="section">
+<pb n="14"/>
+<head rend="h4">De D.</head>
+<p><hi rend="i">D</hi> en <hi rend="i">t</hi> zijn tandletters dat is stooting der zich verlengende tong tegen de tanden. Zy drukken dus even als de uitstekende vinger, dien de tong hierin volgt, aanwijzing; en ook beweging tot stuiting. Hiervan het Lidwoord <hi rend="i">de,</hi> de aanwijzende voornaamwoorden <hi rend="i">dé, die</hi> enz. Men zie mijne T. en D. Versch. III. D. bl. 181 en volgg. en vergelijke de Nieuwe Versch. III. D. bl. 202.</p>
+<p>De dubbele <hi rend="i">d,</hi> is eene verbreeding of herhaling ten teeken. Men zie voorts de <hi rend="i">t,</hi> die een harder stooting is, waarmeê zy derhalve licht verwisselt, zoo wel als met de tusschen de tanden gevormde Angelsaxe ϸ, de <hi rend="i">th</hi> der Engleschen, en door welke zij weder in de sissende <hi rend="i">s, ts,</hi> en <hi rend="i">st</hi> overgaat.</p>
+<p>Niet overzelden is de <hi rend="i">d</hi> een bloote samentrekking van het lidwoord met het woord waar dit voorgesteld was, en zoo daar me vereenigd. De <hi rend="i">degen</hi> mag zoo wel <hi rend="i">de ege</hi> (nu <hi rend="i">egge</hi>), dat is scherpte zijn. Zie van het thema <hi rend="i">ac</hi> op de <hi rend="i">c.</hi> Met <hi rend="i">dagge</hi> en 't Engel-<pb n="15"/>sche <hi rend="i">dagger</hi> is 't het zelfde. Ook zou <hi rend="i">dooi</hi> en zijn maagschap, <hi rend="i">de o-e</hi> of <hi rend="i">o-ing,</hi> of <hi rend="i">o-ige</hi> kunnen zijn als min sterke en minder in 't oog stekende <hi rend="i">vloeiing</hi> of <hi rend="i">a-ing</hi> waarvan op <hi rend="i">a,</hi> en dus een onmerkbarer <hi rend="i">daauw,</hi> ook van <hi rend="i">a-en</hi> af te leiden. Inderdaad daar is nog zeer veel te ontwikkelen eer wy tot de eenvoudigheid der taal opgeklommen zijn, waarin alles levensadem en de hoogste eenvoud is. 't Geen by de Franschen plaats heeft in <hi rend="i">le lendemain</hi> te zeggen, dat <hi rend="i">le l' en demain</hi> (het het op morgen) is heeft ook (schoon niet zoo in 't oogloopend) elders plaats.</p>
+<p>Te zwak uitgesproken verliest zich de d tusschen twee vokalen geplaatst, en de verbinding van deze geschiedt, door de <hi rend="i">g, j,</hi> of <hi rend="i">w.</hi></p>
+<p>In den uitgang toont zy het uiteinde der werking van een verbum. Van daar sluit zy de participien van 't voorledene.</p>
+<p>Doch met de <hi rend="i">n</hi> vereenigd, is zy eene bloote wijziging van deze, en drukt niet maar bekrachtigt en geeft duur aan de werkende daad. Men zie de <hi rend="i">n.</hi></p>
+<p>Aanmerkelijke waarneming omtrent het in-<pb n="16"/>nig onderscheid der beteekenis van de <hi rend="i">d</hi> en de <hi rend="i">t</hi> vindt men in de Aanteek. op mijne Verhandeling over het <hi rend="i">Letterschrist,</hi> bladz. 187 en volgg.</p>
+</div>
+<div type="section">
+<head rend="h4">De E.</head>
+<p>Wy merkten op dat de <hi rend="i">e</hi> eene lager uitbrenging van <hi rend="i">a</hi> is, en tot <hi rend="i">i</hi> afdaalt. De scherpe, die wy thands dubbeld schrijven, wordt dus tot de diepe en inborende <hi rend="i">ie,</hi> de zachte tot de toon- en klanklooze <hi rend="i">i</hi>. De heldere of middelbare <hi rend="i">e</hi>-klank valt zoo met de dofheldere <hi rend="i">o</hi> (de open <hi rend="i">o</hi> der Hoogduitscheren) te samen in ons <hi rend="i">eu,</hi> flaauw wordende uitgebracht. Zoo is <hi rend="i">heuvel</hi> en <hi rend="i">heugel</hi> even zeer met <hi rend="i">heffen</hi> of <hi rend="i">heve</hi> en <hi rend="i">hoge</hi> verwant, en maakt <hi rend="i">sterven, gestorven</hi> en <hi rend="i">gesturven,</hi> welke twee participien eigenlijk één zijn, en den middelklank tusschen <hi rend="i">o</hi> en <hi rend="i">u</hi> hebben die ook in sommige dialekten by de uitspraak bewaard werd. Zoo zei men te Amsterdam voorheen <hi rend="i">teugen</hi> voor <hi rend="i">tegen</hi> even zoo wel als voor <hi rend="i">drinktogen</hi>.</p>
+<p>Voorzetsel is zy nooit, en als uitgang is zy
+<pb n="17"/>naar den aart onzer taal algemeen doch zacht, en zeer kort, veelal tot de bloote scheva bepaald, en wordt dan ook onbemerkbaar afgekort, of wel by een vorige sterker vokaal ingetrokken. By de vloeiing beteekent zy effenheid, gelijkheid, en zoo ook verbinding, als welke vereffening, slechting van geschil, en zoo ook <hi rend="i">eenheid</hi> inhoud. Want het woord <hi rend="i">een</hi> is <hi rend="i">e-en</hi> of <hi rend="i">e-ing,</hi> gelijk <hi rend="i">echt,</hi> (ge)-<hi rend="i">e-igd</hi> of (ge)-<hi rend="i">e-igte</hi> is; en zoo is <hi rend="i">eed</hi> ook tevens verbinding en vaststelling. <hi rend="i">El</hi> is <hi rend="i">e-el</hi> d.i. vlakke (maat). <hi rend="i">Emmer</hi> is <hi rend="i">e-inger,</hi> dat is, <hi rend="i">die watert, waterdraagt</hi> of<hi rend="i">schept</hi>.</p>
+<p><hi rend="i">Ei</hi> is of <hi rend="i">ee</hi> of <hi rend="i">e-ige,</hi> doch ook wel verward met <hi rend="i">oi,</hi> waarvan een voorbeeld in de Aanteekening <hi rend="i">gg,</hi> bladz. 229 tot 231.</p>
+</div>
+<div type="section">
+<head rend="h4">De F.</head>
+<p><hi rend="i">F</hi> is blazing met sterk gespannen lippen, en <hi rend="i">v</hi> met minder spanning. Beide drukken <hi rend="i">vloeiing</hi> en <hi rend="i">voortgang</hi> uit. Het laatste onmiddelijk, het eerste als met voortgang vereenigd. De <hi rend="i">v</hi> is een geadspireerde <hi rend="i">b;</hi> de <hi rend="i">f,</hi>
+<pb n="18"/>een geadspireerde <hi rend="i">p</hi>. Doch om de <hi rend="i">blazing</hi>-zelve te kennen te geven, moet de <hi rend="i">l</hi> als tongletter de labbering dat is de zachte trilling daarin mengen; en van daar <hi rend="i">blazen, flare, vla-en</hi> (waar van <hi rend="i">vlaag</hi>). Dit onderscheidt <hi rend="i">blazen</hi> van <hi rend="i">waaien,</hi> dat de eenvoudige beweging te kennen geeft. <hi rend="i">Blazen</hi> en <hi rend="i">flare</hi> drukken niet slechts het wind geven uit maar ook de strekking daar by die de tongletter aanduidt. Is dan de <hi rend="i">b, f,</hi> of <hi rend="i">v</hi> hier een voorzetsel als in <hi rend="i">boven</hi> dat <hi rend="i">be-hoven, buiten</hi> dat <hi rend="i">be-uiten</hi> is? Neen, maar de <hi rend="i">bl</hi> en <hi rend="i">fl</hi> zijn in den aanvang dezer woorden even zoo ééne onscheidbare letterwijziging als <hi rend="i">ng</hi> en <hi rend="i">nd</hi> in het het sluiten van andere. En men behoeft dus dit <hi rend="i">bl</hi> niet gelijk te stellen met het saamgetrokken <hi rend="i">bl</hi> van <hi rend="i">blijven</hi> b.v. dat <hi rend="i">be-lijven;</hi> schoon men by verder ontwikkeling die <hi rend="i">b</hi> en <hi rend="i">l</hi> ook verdeelen mocht en de <hi rend="i">l</hi> als de uitdrukking van <hi rend="i">lucht,</hi> dat van <hi rend="i">lu-en</hi> (luwen) is, aanmerkende, het <hi rend="i">blazen</hi> dat in zijn praeteritum <hi rend="i">bloes</hi> heeft tot <hi rend="i">be-lo-en, beluwen</hi> (<hi rend="i">beluchten</hi>) mocht t' huis brengen. Genoeg, dat de blazende <hi rend="i">b</hi> nevens <hi rend="i">v</hi> en <hi rend="i">f</hi> en <hi rend="i">w</hi> beweging te kennen geeft die door de <hi rend="i">l</hi> als
+<pb n="19"/>geleid of gestierd wordt. Zeker is het ook dat de lipletter niet zoo zeer blaast, als wel opening aan den vergaderden adem geeft, welke uit de borst toevloeit, en door de geheele stelling des monds daarby, aangezet wordt.</p>
+<p>De verwisseling dezer letter met de zwakker v is reeds geroerd, ook de verandering van haar samenstelling met <hi rend="i">t</hi> in <hi rend="i">cht.</hi></p>
+</div>
+<div type="section">
+<head rend="h4">De G</head>
+<p>verklaarden wy genoegzaam, by de eerste keelletter des Alfabeths, c.</p>
+</div>
+<div type="section">
+<head rend="h4">De H</head>
+<p>is een snelle blazing der keel en ook eene haking of weêrhouding des adems in de keel, en drukt dus de <hi rend="i">haast</hi> en ook 't <hi rend="i">haken</hi> of vasthouden uit. Het is zeker, en wiens spraaktuigen van jongs af, op zijn echt Hollandsch te werk gesteld en geoefend zijn,
+<pb n="20"/>gevoelt het onderscheid in de hooger of lager vorming, en de ophouding in het laatste geval. In dit laatste geval is haar gebruik het veelvuldigst. Niet alleen <hi rend="i">haken,</hi> dat uit <hi rend="i">ha-igen</hi> is, <hi rend="i">hangen,</hi> dat <hi rend="i">ha-ingen</hi> is en oudtijds eenvoudig <hi rend="i">hahen,</hi> maar ook 't <hi rend="i">ha-en</hi> maakte <hi rend="i">ha-ven</hi> en <hi rend="i">hawen,</hi> waaruit <hi rend="i">haben, hebben,</hi> en <hi rend="i">houen</hi> of <hi rend="i">houden</hi> is, en waarvan ons <hi rend="i">had</hi> als praeteritum overig bleef. Men zie verder het aangevoerde op <hi rend="i">c.</hi></p>
+<p>Deze te rug houding doet ook het woord van <hi rend="i">haat</hi> ontstaan van het zelfde <hi rend="i">ha-en,</hi> in 't Fr. <hi rend="i">ha-ir,</hi> en dat ook hun naamwoord <hi rend="i">haine</hi> is. 't Is eigenlijk te rug houding van elkander.</p>
+<p>Maar uit eene andere oorzaak wordt het meer. Eene schrapende opgeving van slijm uit de keel geeft ook het geluid van <hi rend="i">ch,</hi> (waarvan <hi rend="i">schrapen, excreare</hi> enz.) en geeft dus verfoeiing te kennen. Hiervan 't Gr. χαλεπ<figure rend="inline"><p><xptr to="bild002begi01fi0002.gif"/></p></figure>, ἐχϑ<figure rend="inline"><p><xptr to="bild002begi01fi0002.gif"/></p></figure>, ἐχϑρ<figure rend="inline"><p><xptr to="bild002begi01fi0002.gif"/></p></figure> enz. Zo zeggen wy ook <hi rend="i">gruwel,</hi> enz. met de <hi rend="i">r</hi> by de keelletter, maar deze <hi rend="i">r</hi> toont werking, geen stille werklooze aandoening aan, en op deze wijs is <hi rend="i">haten</hi> meer dan afkeerigheid; het is <hi rend="i">antipatie</hi> des harten.</p>
+<pb n="21"/>
+<p>De <hi rend="i">h</hi> kan noch verdubbelen noch sluitletter zijn, en even weinig is zy voorzetsel als uitgang, dan alleen in de sylbe <hi rend="i">her,</hi> welke als voorzetsel te rug wijst, en met <hi rend="i">ver,</hi> en <hi rend="i">weêr</hi> of <hi rend="i">weder</hi> in den zin van <hi rend="i">andermaal</hi> samenhangt. Deze beteekenis rust in het ophalen des adems uit de diepte.</p>
+<p>Dat <hi rend="i">hijgen</hi> inderdaad het hijgen is 't geen het uitdrukt, behoeft geen byzondere aanmerking. Maar wel, dat uit dit ophalen des adems <hi rend="i">heffen</hi> en in 't algemeen de adspiratie in <hi rend="i">hoog</hi> te bevatten is.</p>
+</div>
+<div type="section">
+<head rend="h4">De I.</head>
+<p>Van deze vokaal is de indringende scherpte reeds by gelegenheid van de <hi rend="i">e</hi> opgemerkt. Zoo maakt zy ons oude <hi rend="i">icht,</hi> dat is <hi rend="i">i-icht,</hi> voor <hi rend="i">pijn;</hi> en dit <hi rend="i">pijn</hi> zelf is <hi rend="i">be-í-ing</hi>. Even zoo is <hi rend="i">ijk</hi> (d.i. ingedrukt merkt) <hi rend="i">i-ig, ijver,</hi> doordringing, <hi rend="i">ijl</hi> (d.i. <hi rend="i">i-el</hi>) doordringend, dat op haast toegepast wordt. En <hi rend="i">ijs</hi> is natuurkundig benoemd, als naaldschieting. Dus ook is 't met <hi rend="i">in</hi>.</p>
+<pb n="22"/>
+<p>Wat de <hi rend="i">j</hi> aanbelangt. Waar zy niet een bloote overgang van vokaal tot vokaal is, is zy of een soort van bloote verhemelt-adspiratie of een verloop van de <hi rend="i">g</hi>. Het eerste heeft plaats in ons <hi rend="i">jaar</hi> dat slechts <hi rend="i">aar</hi>- (of oogst) <hi rend="i">kring</hi> is. Even zoo in <hi rend="i">jong,</hi> dat eigenlijk <hi rend="i">an-ig,</hi> d.i. <hi rend="i">an-gaande aanvangende</hi> is, en het Engelsche <hi rend="i">you,</hi> het <hi rend="i">jou</hi> van ons gemeen voor <hi rend="i">u</hi>. Het laatste in <hi rend="i">jy</hi> voor <hi rend="i">gy, jammer</hi> voor <hi rend="i">ge-arm, jonste</hi> voor <hi rend="i">ge-onste,</hi> enz.</p>
+<p>Van de verwisseling dezer konzonant met de <hi rend="i">d</hi> en <hi rend="i">g</hi> spraken wy op de letter <hi rend="i">c</hi>.</p>
+</div>
+<div type="section">
+<head rend="h4">De K</head>
+<p>behoeft desgelijks na het aangemerkte op <hi rend="i">c</hi> ons niet op te honden. - Wy voegen daar slechts de waarneming by, dat zijne voorzetting voor de <hi rend="i">l</hi> en <hi rend="i">r,</hi> niets anders dan een samentrekking van de voorsylbe <hi rend="i">ge</hi> met deze letters is. Men zie voorbeelden in mijne Geslachtlijst der Naamwoorden.</p>
+</div>
+<div type="section">
+<pb n="23"/>
+<head rend="h4">De L.</head>
+<p>De tongletter drukt natuurlijk door de losse slingering van dit spraaklid de losheid, de lengte, de slapheid, het hangende en labberende uit, daar aan eigen. Tot voorzetsel dient zy in ons Nederduitsch niet, maar als uitgang brengt zy eene middelbare werk-schappelijkheid meê tusschen dader en lijder. Men vergelijke § 31.</p>
+<p>Als tongletter verwisselt zy met haar mede-tongletter <hi rend="i">r,</hi> en by stijfheid of te groote dikte der tong ook met de <hi rend="i">n,</hi> ja zelfs wel wordt ze tot <hi rend="i">j.</hi></p>
+</div>
+<div type="section">
+<head rend="h4">De M.</head>
+<p>Deze letter, de sterkste drukking en volkomen sluiting des adems zijnde, drukt eigenaartig kracht of vermogen uit, drukking, making, verdoving, en verstikking. Verlengd neemt zy in de ophessing de blazing van <hi rend="i">b, p,</hi> of <hi rend="i">f</hi> aan, die in haar onmiddelijken
+<pb n="24"/>overgang tot de tandletter altijd eenigzins gehoord wordt, en by eene plompe uitspraak zeer kennelijk is. By een diktongige uitspraak van de in de keel geklemde <hi rend="i">n,</hi> waarby dan noodzaaklijk de spanning der wangen door een vastsluiten der lippen vereischt wordt, wordt de adem hierdoor weêrhouden, en zoo zegt men <hi rend="i">m</hi> voor <hi rend="i">ng;</hi> en dus is de uitgang dezer <hi rend="i">ng</hi> niet zelden in <hi rend="i">m</hi> overgegaan. Waarvan zie Nieuwe Taal- en Dichtkundige Verscheidenheden IV. Deel.</p>
+</div>
+<div type="section">
+<head rend="h4">De N.</head>
+<p>De <hi rend="i">n,</hi> drukking tegen 't verhemelte, is een klemming, meer of minder vast naar mate zy nader aan de keel of aan de tanden gevormd wordt. Zy brengt dus het denkbeeld van aandrukking, aankleving, hechting, meê, en van daar ons koppelwoord <hi rend="i">en</hi>. Verdubbeld, van een drukking ter wederzijde, en zoo van een holle omvatting. In de keel geklemd tot <hi rend="i">ng</hi> eene insluiting die nog iets meer dan omvatting is. Vergelijk § 94; 39, 99. Sterk
+<pb n="25"/>tegen de tanden gedrukt en ontslippende in <hi rend="i">nd</hi> drukt zy de beweging van werking uit. Hiervan onze deelwoorden in <hi rend="i">nde</hi> uitgaande, § 67 en aanteek. <hi rend="i">ii.</hi> - Sterk is 't onderscheid tusschen de voorsylbe <hi rend="i">on</hi> en <hi rend="i">ont</hi> welke laatste eigenlijk <hi rend="i">and</hi> is. <hi rend="i">On</hi> ontkent, maar dan is de <hi rend="i">n,</hi> even als in <hi rend="i">niet,</hi> geen verhemelt' - maar neusletter, en sluit den mond om den adem een anderen weg te doen nemen. <hi rend="i">Ont</hi> daartegen is aanvang van beweging of werking als voorzetsel even als in uitgang der woorden. Op zich-zelf als vrije praepositie beschouwd is <hi rend="i">ont</hi> en <hi rend="i">and</hi> strekking; dus is <hi rend="i">onthier,</hi> tot hier; <hi rend="i">andwoord,</hi> toe-woord.</p>
+<p>Schoon oorspronklijk neusletter, moet men echter niet met de verfranschte drijvers die geen Neêrduitsch meer kennen, en door den neus pratende neuswijzen zijn, gelooven, dat ze in onze Landtaal nog neusletter is. Ze is het even zoo min als de ontkennende s het by ons is, waarvan IV. Deel der Nieuwe T. en D. Versch. bladz. 60 en volgg.</p>
+<p>De sluitende <hi rend="i">n,</hi> zuiver of middelbaar zijnde, verliest zich licht in de vlugge uitspraak; doch het is even zoo zeer een verkeerdheid,
+<pb n="26"/>haar te sterk te drukken, als de tegenwoordige pedanterie der Siegenbekianen nu invoerde, als haar te onderdrukken. 't Laatste had in de Amsterdamsche uitspraak plaats; nu geldt hier het oude</p>
+<p><hi rend="i">Dum vitant stulti vitia, in contraria currunt,</hi> en het tegenwoordig apengeslacht bootst alle dwaasheden na.</p>
+</div>
+<div type="section">
+<head rend="h4">De O.</head>
+<p>De <hi rend="i">o</hi> toont en drukt rondte uit, en algemeene uitzetting of zwelling. Natuurlijke interjectie of kreet van verwondering zijnde drukt zy dus ook het groote en schoone uit. Dus ook hoogheid. - Met geen vollen galm maar bekrompen uitgesproken, wordt zy <hi rend="i">eu</hi> de open <hi rend="i">o</hi> der Hoogduitscheren, en door dezen overgang by meer verbreeding en verplatting der spraakbuis van den mond, zelfs tot <hi rend="i">e</hi>. Hooger tegen 't verhemelte klinkende wordt zy <hi rend="i">au,</hi> en, met meer geopenden mond, <hi rend="i">a</hi>. De tusschenklank tusschen de ronde vorming der <hi rend="i">o</hi> en <hi rend="i">au</hi> is de hol-heldere die zy
+<pb n="27"/>in <hi rend="i">klok, toch,</hi> en in 't algemeen met overgang in een keelletler heeft. Natuurlijk is deze samenstemming met de keelletter, want deze hol-heldere galm hangt af van een meerdere spanning van 't verhemelte, die na aan de keel geschiedt, en meer voor in den mond geene plaats kan hebben.</p>
+<p>Verlengd sluit zy zich met de <hi rend="i">j,</hi> in <hi rend="i">ooi,</hi> om de zelfde reden, en niet met de <hi rend="i">w</hi> of <hi rend="i">u,</hi> met welke zy, enkel, tot een diftong samensmelt.</p>
+<p>De tweeklank <hi rend="i">oe,</hi> schoon elders verward met ons <hi rend="i">eu,</hi> is een fluitend geluid, als de Duitschers aan hun <hi rend="i">u</hi> geven, maar zoeter en zacht. Meer tegen 't verhemelte gedrukt en dus verbreed, wordt het <hi rend="i">oei,</hi> 't geen de kreet van pijn en verdriet is, en, met de blazing daarvoor, verachting. Hiervan niet slechts <hi rend="i">foei</hi> met de lipblazing, maar ook <hi rend="i">knoeien</hi> met de keelblazing. - <hi rend="i">Vermoeien</hi> en 't oude <hi rend="i">vernoei</hi> (<hi rend="i">vernoy</hi>) toont het verdrietige alleen, en ons <hi rend="i">moede</hi> is eigenlijk <hi rend="i">moeie,</hi> waarvan ook <hi rend="i">vermoeien</hi> en <hi rend="i">moeite. Stoeien</hi> is vermoeiend <hi rend="i">sto-en</hi> d.i. worstelen uit speelzucht. - Doch dikwijls is deze <hi rend="i">i</hi> de <hi rend="i">j</hi> van
+<pb n="28"/>blooten overgang tusschen vokalen, als in <hi rend="i">bloeien</hi> en <hi rend="i">groeien,</hi> gelijk in andere woorden de <hi rend="i">w</hi> is.</p>
+</div>
+<div type="section">
+<head rend="h4">De P.</head>
+<p>Deze letter is een sterker <hi rend="i">b,</hi> of sluitende <hi rend="i">f,</hi> en trekt sterk naar de <hi rend="i">m,</hi> maar met minder breedte. Als voorletter toont zy pletting, en dus kracht, en van daar, gezag: maar dikwijls is zy een bloote samentrekking van het voorzetsel <hi rend="i">be</hi> met de sterke voorletter eens woords. Met gespitste lippen uitgesproken toont zy een punt, en drukt punt, en van daar, indringing uit, en geene stooting als de <hi rend="i">t</hi> medebrengt.</p>
+</div>
+<div type="section">
+<head rend="h4">De Qu.</head>
+<p>Deze letter, by ons afgeschaft, schoon ten onrecht, geeft een zijdelingsche beweging aan den adem, en drukt uit dien hoofde scheefheid, draaiing, zwakte, en ongemak
+<pb n="29"/>uit. Inderdaad is de <hi rend="i">q</hi> slechts een <hi rend="i">k,</hi> maar niet op zich-zelf staande, is zy met de <hi rend="i">u</hi> eene meer gutturale en inniger klank dan <hi rend="i">kw</hi> dat eigenlijk 't voorzetsel <hi rend="i">ge</hi> voor de <hi rend="i">w</hi> is, die voor in den mond gemaakt wordt en breeder klank heeft.</p>
+</div>
+<div type="section">
+<head rend="h4">De R</head>
+<p>ruischt of ratelt in de uitspraak, en drukt dus noodwendig een voortgaand geluid uit, en zoo, tevens ruwheid, en ook voortgang, en haast. Tot deze hoofdpunten is de toepassing der <hi rend="i">r</hi> te brengen, als men er de zelfstandigheid des werkers van eenige doening by voegt waar zy sluitletter is. - Daar alle beweging verschillende in strekking kan zijn, hangt deze bepaling van de vokaal af waarmeê de <hi rend="i">r</hi> verbonden is, en ligt niet in dezen medeklinker-zelven. Met de <hi rend="i">o</hi> als verheffing (zie op deze letter) drukt de <hi rend="i">r</hi> rijzing, uit- of opschieting uit; met de <hi rend="i">e,</hi> een gelijken en vlakken voortgang; met de <hi rend="i">a,</hi> een sterk rechtstreekschen naar een bepaald uiter-<pb n="30"/>ste met de <hi rend="i">u,</hi> een oneffenen; met de <hi rend="i">i,</hi> een aan smalte bepaalden doorloop. Zoo is <hi rend="i">groot, ge-ro-et; rede</hi> en <hi rend="i">reden</hi> toont zich-zelf; <hi rend="i">raken</hi> is <hi rend="i">ra-igen, raden</hi> is <hi rend="i">ra-en, raam</hi> is <hi rend="i">ra-ing, ruw, struik,</hi> enz. brengen oneffenheid meê; en <hi rend="i">richel, riegel</hi> (grendel) zijn uitdrukkingen van smalle lengte. Men moet echter de verwisseling der vokalen uit andere oorzaken in aanmerking nemen, als door welke deze karakters licht uitgewischt worden; zoo wel als de verscheidenheid van toepassing; en wy kunnen hier alleen in het algemeene blijven, het geen in 't byzondere wel altijd waar is, maar niet altijd even erkenbaar, en oefening in de ontwikkeling van woorden en van denkbeelden eischt om gevoelbaar te zijn.</p>
+<p>Als voorzetsel is de <hi rend="i">r</hi> herhaling, even gelijk zy 't in den uitgang van frequentativen is. In andere talen met de <hi rend="i">e</hi> achter zich, in de onze met de <hi rend="i">e</hi> voor zich, welke als zy de <hi rend="i">h</hi> voor zich heeft, te rug ziet. Zoo is 't met <hi rend="i">herhalen, herdoen,</hi> enz. en zoo is 't desgelijks met het Latijnsche <hi rend="i">heri</hi>. Met ons <hi rend="i">weêr</hi> dat wy kwalijk als een samentrekking uit <hi rend="i">weder</hi> beschouwen, ('t geen in tegen-<pb n="31"/>deel een tmesis van <hi rend="i">weer</hi> is,) is het even zoo, zijnde deze twee adspiratien van <hi rend="i">keel</hi> en van <hi rend="i">lip</hi> door beider vluchtigheid dikwijls vermengd geworden, gelyk de Oude Noordsche talen ze ook samen voegen in <hi rend="i">wh</hi> of <hi rend="i">hw;</hi> en even zoo wordt dat <hi rend="i">her</hi> ook <hi rend="i">ver</hi> by ons, waardoor wy b.v. tweederlei <hi rend="i">verdoen</hi> hebben, naamlijk als <hi rend="i">herdoen,</hi> en als <hi rend="i">te niet doen</hi>.</p>
+<p>Sluitende versterkt zich de <hi rend="i">r</hi> door de <hi rend="i">t,</hi> daarin eindigende. Dus is een <hi rend="i">veinzert</hi> sterker dan een <hi rend="i">veinzer,</hi> en sluit het veinzen meer in hem op als vaste eigenschap. Een <hi rend="i">grijzer</hi> is die <hi rend="i">grijst,</hi> dat is grijs wordt; maar een <hi rend="i">grijzert</hi> (nu zeggen wy, en kwalijk, <hi rend="i">grijzaart</hi>) is wien de grijsheid tot volstrekte eigenschap en kenteeken geworden is. Men zie over dit <hi rend="i">aart</hi> en <hi rend="i">ert,</hi> de Aanteek. <hi rend="i">q</hi> onzer Verhandeling over de Geslachten.</p>
+</div>
+<div type="section">
+<head rend="h4">De S.</head>
+<p>Deze sissende en smeltende letter, wier onderscheiding van de <hi rend="i">z</hi> altijd in de toepassing gedobberd heeft, drukt week- of zacht-<pb n="32"/>heid uit, en daarvan vervrouwelijkt zy de woorden, of maakt ze tot adjectiven.</p>
+<p>Desgelijks drukt zy uitbreiding uit (een gevolg van smelting), en versterkt ook door het sterk aanzetten tegen de tanden, vooral door daarby af te glijden tot de vorming der <hi rend="i">t,</hi> het geen dus als sluitletter de uiterste kracht eener hoedanigheid uitdrukt, die men den superlativen graad noemt.</p>
+<p>Met <hi rend="i">ch</hi> aangezet ('t geen een holte meêbrengt) drukt zy, door de vorm die de tong daarby aanneemt, het scheppen uit, en van daar is ook de uitgang <hi rend="i">schap,</hi> als in <hi rend="i">maagschap, wetenschap,</hi> een volle bevatting te kennen gevende.</p>
+<p>Van de <hi rend="i">p</hi> opgevolgd perst zy natuurlijk de klieren van 't speeksel, en drukt dus dit vocht uit, dat, voor in den mond vergaderd by 't openen van dien, <hi rend="i">spuwen</hi> is. Volkomen uitdrukking, terwyl het π<figure rend="inline"><p><xptr to="bild002begi01fi0003.gif"/></p></figure>ύ<figure rend="inline"><p><xptr to="bild002begi01fi0004.gif"/></p></figure>ν slechts de uitwerping teekent door de samentrekking van 't voorste des monds, waaruit π<figure rend="inline"><p><xptr to="bild002begi01fi0003.gif"/></p></figure>ύσσ<figure rend="inline"><p><xptr to="bild002begi01fi0004.gif"/></p></figure>ν voor <hi rend="i">plooien</hi> is. 't Onwillig ontspatten des speeksels geeft op gelijke wijs het woord <hi rend="i">spatten,</hi> en by 't ronden der lippen, <hi rend="i">spuiten,</hi> en by
+<pb n="33"/>meer vernaauwde opening, <hi rend="i">spiën</hi> of <hi rend="i">spijen;</hi> welk woord ook overdrachtig op 't zien toegepast is, om dat men dit, uit een valsche Filosofie, in een uitschieting van stralen uit het oog deed bestaan. Vroeger was men wijzer toen men 't <hi rend="i">zien</hi> noemde ('t geen ook gebleven is) dat intrekken of ontfangen der lichtstralen van buiten beteekent, en 't zelfde met <hi rend="i">tiën</hi> (Hoogd. <hi rend="i">zihen</hi>) is. Doch wy kunnen hier dit niet naar eisch uitwerken.</p>
+<p>Sterk uitgesproken versterkt en versnelt zy als voorzetsel. Dus maakt zy van <hi rend="i">dreven</hi> en <hi rend="i">drijven, streven</hi> en <hi rend="i">strijven;</hi> uit welk laatste <hi rend="i">stribbelen</hi> is.</p>
+<p>Eene andere is de ontkennende neusletter, van welke onze Nieuwe Taal en Dichtkundige Verscheidenheden IV. Deel, bladz. 60.</p>
+<p>De <hi rend="i">ch,</hi> door de Fransche smelting waarmeê deze letter by Franschen en die een verroeste of verharde keel hebben, wordt uitgesproken, verandert tot de vorming van <hi rend="i">sj,</hi> en zoo doet ook de Italiaansche <hi rend="i">g</hi> voor de <hi rend="i">i.</hi> (De smelting der Fransche <hi rend="i">g</hi> is zachter en door onze lettervorming niet uit te drukken.) Van daar is 't dat wel eens in sommige onzer woorden
+<pb n="34"/><hi rend="i">cht</hi> tot <hi rend="i">st</hi> is overgegaan, waarvan in de Grammatica.</p>
+<p>Van de verwisseling met de Engelsche <hi rend="i">th,</hi> en <hi rend="i">ts,</hi> en <hi rend="i">d</hi> spraken wy op de <hi rend="i">d.</hi></p>
+</div>
+<div type="section">
+<head rend="h4">De T.</head>
+<p>Één van aart, maar krachtiger dan <hi rend="i">d,</hi> is deze letter, door hare vorming-zelve de uitdrukking van <hi rend="i">stooting</hi> en <hi rend="i">stuiting</hi>. - Als zoodanig toont zy aan, en geeft strekking naar een voorwerp te kennen. - In de eerste betrekking toont zy het ophouden van een beweging of werking, en teekent dus als sluitletter het participium praeteriti van een werkwoord, als <hi rend="i">gesterkt, gestraft, gevattet, geweest</hi>. En zoo ook de tweede persoon in een werkwoord, als stuitende op hem tot wien men spreekt de werking welke men hem toeschrijft, <hi rend="i">gy doet, du doest</hi>. Van daar ook de woorden in <hi rend="i">te</hi> uitgaande, als <hi rend="i">gestalte, zwaarte, diepte, begeerte</hi>.</p>
+<p>Als voorzetsel by werkwoord of adjectief, het zij saamgetrokken of afzonderlijk, versterkt,
+<pb n="35"/>drukt of stoot zy desgelijks, en zelfs in een maat, die tot het hoogste uiterste, ja tot verwoesting toe, strekt. Van daar <hi rend="i">treden,</hi> van <hi rend="i">reden,</hi> voortgaan; <hi rend="i">trillen,</hi> sterk <hi rend="i">rillen, te veel, te slaan</hi> (oudtijds voor ons <hi rend="i">verslaan,</hi>) en zoo honderd woorden of uitdrukkingen, van vernieling of van verdelging, waarvan Huydecoper op M. Stoke, als <hi rend="i">te gaan, te breken, te stooren,</hi> enz.</p>
+<p>De oude samenvoeging van <hi rend="i">ts</hi> tot versterking der sissing, nu geheel onnut, daar de <hi rend="i">s</hi> niet meer tot de zachter smelting gebruikt wordt, maar deze nu alleen aan de <hi rend="i">z</hi> geeigend is, maakte voorheen overgangen van <hi rend="i">t</hi> in <hi rend="i">s,</hi> en men zei <hi rend="i">sop</hi> voor <hi rend="i">top</hi>. Niet te min smelt de <hi rend="i">t</hi> in Latijnsche en Fransche woorden voor de <hi rend="i">i,</hi> wanneer 't Italiaansch daarin de <hi rend="i">z</hi> heeft; dat is, wanneer dit <hi rend="i">ti,</hi> van eene andere vokaal gevolgd, op zich zelve eene sylbe maakt als <hi rend="i">natie</hi> van <hi rend="i">natio, intentie</hi> van <hi rend="i">intentio</hi>. Doch wanneer het woord als zuiver Hollandsch erkend en aangenomen is, schrijft men 't met <hi rend="i">ts</hi> en verlengt de vokaal daarvoor als <hi rend="i">staatsie, predikaatsie;</hi> het geen niet verward moet worden met onzen uitgang <hi rend="i">dje,</hi>
+<pb n="36"/>als in <hi rend="i">paadje, bosschaadje,</hi> waarin <hi rend="i">dj</hi> ééne letter maken, terwijl die <hi rend="i">ts</hi> twee letters, lot verschillende sylbe behoorende, zijn.</p>
+</div>
+<div type="section">
+<head rend="h4">De U.</head>
+<p>Van dezen klinker zullen wy alleen aanmerken dat hy dof en sleepende is, vooral, met zich-zelf verlengd of eenigzins geaccentueerd wordende. Hy voegt daarom in het <hi rend="i">nu</hi> van den tegenwoordigen tijd, en in <hi rend="i">during</hi>. Onze Ouden versterkten hem met de <hi rend="i">i</hi> (of y) en schreven dus b.v. <hi rend="i">Neptuin,</hi> voor <hi rend="i">Neptunus,</hi> in plaats van <hi rend="i">Neptuun,</hi> en zoo ook in Neêrduitsche woorden. Men kent den klank die <hi rend="i">ui</hi> tegenwoordig by ons heeft als diftong. Maar door deze verandering van uitspraak is veroorzaakt dat wy thands zoo weinig woorden met de lange of dubbele <hi rend="i">u</hi> hebben, als <hi rend="i">vuur, muur, zuur,</hi> en wel alleen de zulke die oudtijds tweesylbig waren en uit <hi rend="i">u-er</hi> saamgetrokken zijn. - De naauwe verwantschap tusschen <hi rend="i">o</hi> en <hi rend="i">u</hi> is kennelijk, en zoo ook, dat ons <hi rend="i">eu</hi> een midden tusschen
+<pb n="37"/>deze, en tevens ook tusschen <hi rend="i">e</hi> en <hi rend="i">u</hi> houdt, schoon dit <hi rend="i">eu</hi> en dat <hi rend="i">eu</hi> niet volkomen de zelfde klank zijn, voor die wel oplet, goed uitspreekt, en zuiver hoort. Maar men hoort deze klanken even weinig meer zuiver als een zuiver Hollandsche vorming der <hi rend="i">v,</hi> waar toe wy nu overgaan moeten.</p>
+</div>
+<div type="section">
+<head rend="h4">De V.</head>
+<p>De ware zachte en eigenaartige uitspraak der Nederlandsche <hi rend="i">v,</hi> is verloren en verhoogduitscht. Niet slechts hapert het aan de opvoeding die ze niet meer kennen leert, maar ook aan de genoegzame beweegbaarheid der lippen, die den uitgaanden adem niet tot de juiste lijn van schaving op de onderlip bepalen kunnen, of, dan de onderlip tevens verbreeden als de Franschen doen die er op deze wijs <hi rend="i">w</hi> van maken. De <hi rend="i">v</hi> is een blazing en drukt dus een (van ons) <hi rend="i">afgaande</hi> beweging uit, en wel eigenlijk nederwaarts afgaande, waarom <hi rend="i">af</hi> (eigenlijk en oudtijds <hi rend="i">ave</hi>) zoo wel benedenwaarts in 't byzonder als
+<pb n="38"/>anders van iets verwijderend beteekent, en <hi rend="i">vallen</hi> een beweging van boven naar beneden uitdrukt, zijnde een frequentativum <hi rend="i">va-elen,</hi> van <hi rend="i">va-en,</hi> 't Lat. <hi rend="i">vadere,</hi> en waar uit ons andere frequentativum <hi rend="i">va-eren, varen,</hi> is. - Ons <hi rend="i">voor</hi> heeft dezelfde kracht van <hi rend="i">varen,</hi> en ook afgaande van wat achter aan komt of is; en dit, zoo wel ten aanzien van het stil zijnde of rustende als van het van plaats veranderende; want de betrekking is een beweging der gedachte van 't eene voorwerp tot het andere, en moet dus noodwendig door eene uitdrukking van beweging te kennen gegeven worden.</p>
+<p>Het denkbeeld van nederwaart gaan of vallen is ook het geen aan het voorzetsel <hi rend="i">ver</hi> de kracht geeft om te niet doening of bederving te beteekenen. Het andere <hi rend="i">ver</hi> is eigenlijk <hi rend="i">her;</hi> waarvan op de <hi rend="i">h</hi> en de <hi rend="i">r</hi>.</p>
+<p><hi rend="i">Ver</hi> als adjectief (<hi rend="i">verre</hi>) of adverbium, toont duidelijk de verwijdering.</p>
+<p><hi rend="i">Over</hi> behoort hier toe, als samenstelling of als derivaat, van <hi rend="i">op</hi> (Hoogd. <hi rend="i">auf</hi>), van <hi rend="i">af</hi> (in een doffer uitspraak, <hi rend="i">of</hi>), waaromtrent ik tot het gemelde IV. D. der N.T. en D. Versch. heenwijze.</p>
+<pb n="39"/>
+<p>De overeenstemming van de <hi rend="i">v</hi> met <hi rend="i">b</hi> als met <hi rend="i">f</hi> is op deze twee letters genoegzaam gemeld. Voor de meeste indien niet voor alle woorden by ons met <hi rend="i">vr</hi> aanvangende, is het eene samentrekking van het voorzetsel <hi rend="i">ver. - Vrucht</hi> van een boom is dus <hi rend="i">ver-ochte</hi> van <hi rend="i">oeken,</hi> en beteekent dus in den grond, verrijking, aanwinst. <hi rend="i">Vrucht</hi> als <hi rend="i">vrees</hi> is <hi rend="i">verucht</hi> van <hi rend="i">ugen</hi> ook <hi rend="i">uwen,</hi> waarvan 't Eng. <hi rend="i">ugly</hi> en ons <hi rend="i">schuwen</hi> is, uit de oude interjectie <hi rend="i">hu</hi> trillen, met ons <hi rend="i">huilen</hi> vermaagschapt dat eigenlijk snikken, en samentrekking uit <hi rend="i">hu-elen</hi> is, ook met het Lat. <hi rend="i">hui</hi> samenhangt. <hi rend="i">Vrees</hi> is van het praeteritum van <hi rend="i">ijzen, ees</hi> (als <hi rend="i">rijzen, rees</hi>), met het zelfde <hi rend="i">ver;</hi> enz. enz.</p>
+</div>
+<div type="section">
+<head rend="h4">De W.</head>
+<p><hi rend="i">W</hi> is of blazing, of bloote overgang van vokaal tot vokaal, of 't geen ik kaakletter zou noemen.</p>
+<p>Als blazing onderscheidt zy zich door uit te gaan tusschen <hi rend="i">v</hi> en <hi rend="i">f</hi> en in breeder lijn.
+<pb n="40"/>Hiervan drukt zy niet eigenlijk blazen (dat bepaald is) uit, maar <hi rend="i">waai-ing, wind</hi>. Een zekere rolling van de onderlip daarby, doet haar ook <hi rend="i">wenteling, winding,</hi> en <hi rend="i">wending</hi> te kennen geven. De verwijding, die de lip daarby tevens ondergaat, teekent ook <hi rend="i">wijdheid, wijdte, verwijding,</hi> doch deze kennelijkst by 't gevoel der kaken achterwaart in den mond, wanneer zy op zijn Engelsch uitgebracht wordt. Ook <hi rend="i">wijsheid</hi> behoort hiertoe als bevatting zijnde, die <hi rend="i">wijdte</hi> onderstelt; en zoo ook <hi rend="i">weten,</hi> dat wederom met <hi rend="i">vatten</hi> over één stemt.</p>
+<p>Ook wordt daarby eene golving en (ruuw geschiedende) zelfs een ophaling van vocht uit de klieren gevoeld, waardoor zy en <hi rend="i">water,</hi> en <hi rend="i">welling</hi> met wat daar aan verknocht is, te kennen geeft. Inderdaad, Aristoteles heeft gelijk, en 't is alzins waar: Τὰ ὀνóματα μιμήμα<figure rend="inline"><p><xptr to="bild002begi01fi0003.gif"/></p></figure>ά ἐςι. - Hoe deze letter met <hi rend="i">wezen,</hi> en daardoor met <hi rend="i">waarheid</hi> samenhangt is uit mijne Nieuwe Taal en Dichtkundige Verscheidenheden bladz. 190 kennelijk.</p>
+</div>
+<div type="section">
+<pb n="41"/>
+<head rend="h4">De X.</head>
+<p>Deze weet men dat niet dan een samenstelling van de keelletter (het zij <hi rend="i">k, g,</hi> of <hi rend="i">ch</hi>) met de <hi rend="i">s</hi> is. In onze taal is zy geheel onbekend.</p>
+</div>
+<div type="section">
+<head rend="h4">De IJ</head>
+<p>is niet dan een verdubbeling van de <hi rend="i">i,</hi> doch men heeft er de Engelsche uitspraak van de <hi rend="i">i</hi> aan verknocht, die ook by de Franschen in de sylbe <hi rend="i">in</hi> aangenomen is. Men verwart in de uitspraak dezen klank met dien van <hi rend="i">ei</hi> welke eigenlijk niets anders dan een helder uithalen van de heldere of van de scherpe <hi rend="i">e</hi> is. Zoo werd de oude uitgang <hi rend="i">-hede</hi> tot <hi rend="i">-heid,</hi> en zoo is deze, vermeervoudigd, wederom <hi rend="i">-heden</hi>. Zoo is het met <hi rend="i">eed</hi> uit <hi rend="i">ede, leed</hi> uit <hi rend="i">lede,</hi> dat men <hi rend="i">eid</hi> en <hi rend="i">leid</hi> plach te schrijven met de Hoogduitschers. Zoo wezendlijk is het onderscheid tusschen <hi rend="i">ei</hi> en <hi rend="i">ij</hi> ook nog dat het een op het ander volstrekt
+<pb n="42"/>niet rijmt, maar <hi rend="i">ee</hi> wel op <hi rend="i">ei,</hi> alhoewel het zeker is, dat men thands de <hi rend="i">ei</hi> byna als <hi rend="i">eij</hi> uitbrengt, d.i. als <hi rend="i">ei</hi> met de <hi rend="i">j</hi> daar achter.</p>
+<p>Met deze <hi rend="i">ij</hi> is niet te verwarren de <hi rend="i">y,</hi> welke niets van dien <hi rend="i">ei</hi>-klank heeft, maar een eenvoudige lange <hi rend="i">i</hi> is; by ons noodig, om dat de <hi rend="i">i</hi> altijd kort is.</p>
+<p>Men moet ook de uitspraak van deze <hi rend="i">y</hi> niet vermengen met die van den tweeklank <hi rend="i">ie,</hi> noch deze voor een verlengde <hi rend="i">i</hi> houden. <hi rend="i">Wie</hi> hoe kort ook uitgesproken luidt niet als <hi rend="i">wi</hi> gelijk onze Ouden schreven of als ons <hi rend="i">wy</hi>.</p>
+<p>Dat de uitgang op <hi rend="i">ij</hi> eigenlijk <hi rend="i">y</hi> is, en dus geschreven moet worden, bevroedt ieder die weet dat zy een samentrekking uit den uitgang <hi rend="i">ige</hi> is. Men vergelijke § 69 der Verh. over de Geslachten.</p>
+</div>
+<div type="section">
+<head rend="h4">De Z.</head>
+<p>Deze laatste letter des Alfabeths weet ieder by ons een verzachte <hi rend="i">s</hi> te zijn, en niet een verzachte <hi rend="i">s</hi>. Zy sluit derhalve geene sylbe of woord.</p>
+<pb n="43"/>
+<p>Dit strekke ter nader en algemeener ontwikkeling van hetgeen met opzicht tot het punt der Geslachtregeling in het <hi rend="sc">Kort Overzicht</hi> voor mijne <hi rend="sc">Geslachtlijst der Naamwoorden</hi> ten grondlage gegeven is, en by de gereed liggende Nieuwe Uitgave van die, eene doorgaande toepassing vinden zal.</p>
+</div>
+</div>
+<div type="chapter">
+<pb n="44"/>
+<head rend="h3">Bijlage over
+<hi rend="i">sommige woorden</hi>
+<lb/>
+waarin men over de enkele en dubbele <hi rend="i">e</hi> en <hi rend="i">o</hi> in twijfel hangt.</head>
+<p>Het onderscheid tusschen de enkele en dubbele <hi rend="i">e</hi> en <hi rend="i">o</hi> is dus verre zeer verward voorgesteld, en de spelling die sints Moonens verschijning onder de zoogenoemde Taalleeraars of Taalkundigen plaats greep, deed er alle denkbeeld van verliezen, door dat hy die <hi rend="i">speelen</hi> met <hi rend="i">ee</hi> las, het woord niet meer met de zachte <hi rend="i">e</hi> uitbracht, maar even als <hi rend="i">deelen</hi>. Dat het onderscheid wezendlijk in onze Taal is, is zeker, maar in de uitspraak is het deels verloren, deels verward geworden. Zullen wy het dan geheel opgeven en laten varen? Zeker neen, want zoo worden wy onverstaanbaar aan elkander, gelijk men
+<pb n="45"/>'t reeds grootendeels aan zich-zelven geworden is. Wat dan? In het wilde naar voorgangers omzien, die elk hunne bijzondere stads of landstreeks dialekt hadden, die ieder nog op zijne wijze uit eigen begrip of aanwendsel of luim of toegevendheid wijzigde. Ja, zoo komt er een ellendige wurmhoop uit voort vol verwarring, en waar dan nog eindelijk een greep uit gedaan moet worden, daar men even zoo goed meê had kunnen beginnen.</p>
+<p>Neen, om te oordeelen waar de enkele of dubbele vokaal te gebruiken zy, moet het woord doorgrond worden. En hiertoe moet men een allereenvoudigst beginsel vasthouden, dat is, dat de dubbele <hi rend="i">e</hi> en <hi rend="i">dubbele</hi> o, waar het hier op aankoomt, geen verdubbeling van <hi rend="i">e</hi> of <hi rend="i">o</hi> is, maar een tweeklank. Deze tweeklank ligt tusschen <hi rend="i">e</hi> en <hi rend="i">ei,</hi> en tusschen <hi rend="i">o</hi> en <hi rend="i">ou</hi> in. Ons <hi rend="i">meester</hi> is dus <hi rend="i">meister,</hi> Fransch <hi rend="i">maistre,</hi> uit het Lat. <hi rend="i">magister,</hi> ons <hi rend="i">hoog</hi> (<hi rend="i">ho-ig</hi> of liever <hi rend="i">hoo-ig,</hi> in samentrekking) 't Fransche <hi rend="i">haut,</hi> en met het Lat. <hi rend="i">altus</hi> verwant, naar de vrij gewone samensmelting van de <hi rend="i">l</hi> met de voorgaande vokaal tot een
+<pb n="46"/>bijklank als in 't Fransche <hi rend="i">sol</hi> (nu <hi rend="i">sou</hi>) uit <hi rend="i">solidus, haume</hi> uit <hi rend="i">holling</hi> voor ons <hi rend="i">helm, sou</hi> uit <hi rend="i">sol,</hi> enz. Dezen klank hebben wy, tegenwoordige Hollanders, lang verloren, en in alle de Nederlanden is de verwarring der verschillende landspraken, door verhuizingen, vermengingen, en onderlinge gemeenschap zich-zelf ongelijk en onzeker geworden, en van daar al die nuttelooze excerpten van den ijverigen Siegenbeek, die voor eene ras voorbijgaande gloriole meer gewroet heeft dan zy waardig was, en thands ook niet meer dan door den gewetensdwang en verstandverstikking der Revolutionaire genootschappen die nog heerschen, gesteund wordt. Het is waar, Rotterdam en Zuidholland heeft van die uitspraak iets over, maar Amsterdam, na zijn bijzondere zoete uitspraak afgelegd te hebben, heerscht, en wat onze Zuidelijke broeders betreft, kost het aan 't Staatsbestuur duizenden 's jaars om ze in 't willekeurig dwangjuk van het Siegenbekianismus te spannen, het geen zonder alle te rugslaan van lieden die denken niet toegaat. Ook is noodwendig en moet alle gebruik in een taal waar men niet
+<pb n="47"/>meer by denkt, als 't by ons sedert een leeftijd toegaat, onzeker, dobberend, en in vele gevallen verkeerd en verbasterd zijn.</p>
+<p>Zie daar eene moeilijke gesteltenis. Niet alles is ook te rug te brengen wat eenmaal den verkeerden weg insloeg; en wanneer wy nu Nederduitsch spreken kan het het Neêrduitsch van onzen bloeitijd onder Koning Willem den II en den edelen Floris den V niet zijn. Die dit zoekt is dwaas. Schrijven wy slechts naar de taal die wy vonden, redelijk en verstandig; wat daar buiten gaat is pedanterie en belachlijk.</p>
+<p>Men heeft hulpmiddelen gezocht om de enkele en dubbele <hi rend="i">e</hi> en <hi rend="i">o</hi> te onderscheiden, en daartoe het verloop van eenige woorden in sommige dialekten of in de gemeene uitspraak doen strekken. Dit had eenige nuttigheid, zoo lang men nog de onnoozele kinderen niet naar de Deïstisch en Onhollandsch ingerichte scholen dreef, waar zy ouders en al wat ouderlijk is leeren verachten, en 't verderf dat het hart onzes Vaderlands aangreep, onder toejuiching inzwolgen om tot Fransche woordslaven en werktuigen der
+<pb n="48"/>domme Ochlogarchie voorbereid te worden. Thands zeker is deze toetssteen verloren. Doch hy was ook de ware niet meer en kon het niet zijn daar die dialekten sints lang vermengd waren, en vooral nu niet meer, sedert alle byzonderlijke plaats- geslacht- en menschwijziging in eene algemeene nietigheid verzwolgen is, die naar niets beter gelijkt dan 't gewoel der lijkwurmen op een oud kerkhof waar de dooden met vermolmde kisten dooréén liggen gesmeten. Ga nu heen, en vraag aan Mevrouw..... de lessen van huishouding die (gelijk men haar noemde) Grootjen Pancras b.v. aan mijn Overgrootmoeder gaf, en zie hoe gy uitkomen zult.</p>
+<p>Siegenbeek echter neemt er somwijlen en niet zonder alle gevolg zijn toevlucht toe; begrijpende dat de enkele <hi rend="i">o</hi> en <hi rend="i">e</hi> veelal in eenige Byuitspraken in <hi rend="i">eu, ee</hi> en <hi rend="i">ie</hi> ontaart is. Zoo is 't: <hi rend="i">keuning</hi> en <hi rend="i">speulen</hi> hoorde ik mijn kindschheid voor <hi rend="i">koning</hi> en <hi rend="i">spelen</hi> zeggen, en <hi rend="i">mienen</hi> voor <hi rend="i">meenen</hi>. Maar ook dit bedriegt somwijlen. Want gelijk <hi rend="i">ou</hi> en <hi rend="i">au</hi> in 't praeteritum tot <hi rend="i">ieuw</hi> verzacht of verkrompen zijn, zoo is er zekerlijk een overgang
+<pb n="49"/>van den een dezer klanken in den andere. Ook was de eigenlijke uitspraak niet altijd even kennelijk, hier platter, daar ronder of boller, en eigenlijk gezegd vloeien alle vokalen en diftongen ongevoelig in <hi rend="i">e,</hi> door zelfs zeer geringe afwijkingen in den klankladder.</p>
+<p>In zich-zelve beschouwd als bloote te kennen geving der letterfiguur van de in den mond te vormen letters, moet men noch van de spelling te veel vorderen, noch daar een te groot belang in stellen. Wanneer de Engelschman <hi rend="i">o, n, e, wan</hi> spelt, heb ik er vrede meê, schoon ik het wel niet zoo volstrekt dwaas als <hi rend="i">ligt</hi> met <hi rend="i">gt,</hi> of <hi rend="i">bloeien</hi> met <hi rend="i">oeijen,</hi> en inderdaad oud en achtbaar, maar echter met den tegenwoordigen stand dier taal niet overeenkomstig vindt; en ik acht het een onlijdelijke dwang dat men in <hi rend="i">Vlaanderen</hi> niet meer <hi rend="i">dwaesheyd</hi> zou mogen schrijven, schoon ik Professor Siegenbeek gaarne toegeef dat onze tegenwoordige <hi rend="i">dwaasheid</hi> hooger uitklinke en den boventoon houdt. Mijn Grootvaders schreven ook zoo, en zouden de <hi rend="i">aa</hi> naar het dolhuis
+<pb n="50"/>verwezen hebben. Maar 't gebrek aan genoegzame openbare gestichten, brengt meê dat men (indien de bevolking niet zal uitsterven, en de meeste huizen in de steden, gelijk toch reeds gezegend voortgaat, tot afbraak worden) de gekken wel verstandig moet rekenen en de dieven eerlijk maken; waartoe ook de inrichtingen thands wél getroffen zijn. Zeker, wy zullen zoo voortgaande ons zeer wel met de aanstaande Republijk van Botaniebaai kunnen verbinden zoo dra zy in 't hoofd krijgt zich onafhankelijk te verklaren, en ik twijfel niet of het onderhandsche traktaat zal wel reeds hier of daar in den maak zijn. En als de kollecte voor het Grieksche duivelenras voorby is, zal men daar ook wel penningen voor opzamelen. 't Hapert nu slechts nog aan een aanbeveling van Fransche Journalen.</p>
+<p>Wat my betreft, ik begon mijne eerste intrede in de dichterlijke wareld al vroeg met de altijd verdubbelde klinkers by mijns Vaders later tijd in Amsterdam en ook elders algemeen geworden. Weldra achtte ik die verdubbeling onnoodig en ik schreef met en-<pb n="51"/>kele klinkers, zoo lang ik in de oude taal geen genoegzaam inzicht had. Van de maatschappy der Nederlandsche letterkunde, waar de kundige en welmeenende Fr. van Lelyveld secretaris was, volgde ik de spelling door hem aldaar ingevoerd, en die zekerlijk (op enkele punten na van zeer weinig belang) wel in dit opzicht ook de beste is die tot nog toe bestond. Druk- en schrijffeilen, by mijne altijd overhoopte bezigheden niet te vermijden, afgerekend, zal men die in mijne schriften regelmatig vinden. En tot nog hield ik my daar aan, en ben er ook voor om ze aan te bevelen. Een zekere algemeene overeenstemming in het geen goed is, uit eene inschikkelijkheid die 't rechtschapen hart eigen is, mag bevorderd worden als nuttig, daar niet ieder tot de gronden kan doordringen: schoon volstrekte <hi rend="i">eenparigheid</hi> onder menschen tot het verfoeilijkste behoort, wat de booze tot verwoesting van hart en verstand heeft kunnen uitvinden. Siegenbeeks afwijkingen van deze spelling der Maatschappy zijn ook zelden te wettigen, doch zy zijn weinig. Wy zullen de woorden door hem in betrek-<pb n="52"/>king tot de enkele en dubbele <hi rend="i">e</hi> en <hi rend="i">o</hi> bygebracht, en met de geleerdheid die hy daar by brengen kon, opgesierd, hier één voor één opnemen.</p>
+<p>Omtrent <hi rend="sc">beer</hi> heeft S. volkomen gelijk. Maar waarom? 't Is omdat het woord een uitspraak tusschen <hi rend="i">e</hi> en <hi rend="i">a</hi> vordert die 't <hi rend="i">fremere</hi> van 't Latijn uitdrukt, en dus een zachter <hi rend="i">ei</hi> is.</p>
+<p><hi rend="sc">Begeeren</hi> heeft zijn dubbele <hi rend="i">ee</hi> niet, omdat het als <hi rend="i">begeiren</hi> (schoon flaauwer) zou klinken; neen, maar om dat het een famentrekking is van <hi rend="i">bega-eren,</hi> waarin <hi rend="i">ae</hi> tot éénen klank smelt, die naar <hi rend="i">ei</hi> trekt, gelijk de Hoogduitschers daar ook hun <hi rend="i">geur</hi> van hebben by ons tot <hi rend="i">gier</hi> saamgetrokken. Dat zy die een woord niet innig en in zijn oorsprong verstonden, in twijfel geraakten, moet ons niet verwarren.</p>
+<p><hi rend="sc">Deren</hi> of <hi rend="sc">deeren</hi>, is even zoo <hi rend="i">de-e-ren</hi> van <hi rend="i">de-en</hi> en het hangt dus samen met <hi rend="i">dier,</hi> carus. Het is gevoelig maken en dus verwant met <hi rend="i">teder,</hi> en van daar is 't <hi rend="i">smart doen,</hi> en hiervan geeft het ook oorsprong aan <hi rend="i">deerne,</hi> dat is <hi rend="i">tedere</hi> of die tederheid opwekt,
+<pb n="53"/>waarom 't ook een woord van <hi rend="i">affectie</hi> is, en dat deelneming opwekt en liefst met <hi rend="i">onnoozele</hi> verbonden gaat. Men schrijft het dus met <hi rend="i">ee</hi> als saamgetrokken uit <hi rend="i">e-e;</hi> maar de <hi rend="i">ee</hi> van diftong heeft het niet gelijk <hi rend="i">heelen</hi> by voorbeeld. Ik voor my zou met de Maatschappij der Letterkunde wanneer Lelyveld haar nog bezielde, de <hi rend="i">ee</hi> verkiezen, als alom waar samentrekking van vokalen is, maar kan ieders verkiezing licht inwilligen, mits zy niet uit voorbeelden van onkundige of achtelooze afschrijvers geput is, waarvan wy de oorspronklijke niet hebben. Wat wil b.v. het afschrift des lekenspigels van Clignet zeggen, thands by het Instituut daar ik er onder ken, niet in alles overeenstemmend. Wy willen deze aanmerking niet sterker aandringen, dan ter verklaring der zaak. Want het zelfde zoo men dit als grondbeginsel aannam, zou ook de verdubbeling der <hi rend="i">a</hi> en der <hi rend="i">u</hi> wettigen, die men nu overeengekomen is geheel te verwerpen. <hi rend="i">Sparen,</hi> toch is <hi rend="i">spa-eren, duren</hi> is <hi rend="i">du-eren,</hi> en zoo menigte. Inderdaad is ook de vokaalklank in zich-zelf te vluchtig om hem altijd juist te vatten.</p>
+<pb n="54"/>
+<p><hi rend="sc">Gele, Geluwe</hi>, 't zy zoo. Maar waarom? om dat het woord uit <hi rend="i">go</hi> oorspronklijk is waar van <hi rend="i">goud</hi> en <hi rend="i">guld,</hi> en de <hi rend="i">o</hi> nooit <hi rend="i">ee</hi> wordt, maar <hi rend="i">e</hi>.</p>
+<p><hi rend="sc">Geneeren</hi> (Hoogd. <hi rend="i">nähren</hi>) is voeden, en saamgetrokken uit <hi rend="i">na-eren,</hi> zoo wel by ons als in 't Hd. uit <hi rend="i">naheren,</hi> dat is aantrekken, eigenen, waarin de voeding door de spijze bestaat. Kwalijk derhalve wil S. hier de enkele <hi rend="i">e</hi>. Maar hy heeft dit geheele punt van samentrekking voorby gezien. Nu hy mag wat stikziende zijn, wie neemt het hem kwalijk?</p>
+<p><hi rend="sc">Heeten</hi>. Dit woord ten minste sprak in mijn tijd ieder een <hi rend="i">hieten</hi> uit, en wie kan dan twijfelen? Ook het adjectief (in het Hd. <hi rend="i">heiss</hi>) lijdt geene bedenking.</p>
+<p><hi rend="sc">Kele</hi>. Noodwendig even als <hi rend="i">gele</hi>. 't Is <hi rend="i">gol-e</hi>.</p>
+<p><hi rend="sc">Keeren</hi> met de dubbele <hi rend="i">e</hi>. 't Is hier wederom een frequentativum <hi rend="i">ke-eren</hi> van <hi rend="i">ke-en</hi> dat oudtijds <hi rend="i">werpen</hi> en <hi rend="i">opstuiten</hi> was, en dus is 't <hi rend="i">op-</hi> en <hi rend="i">weêropwerpen</hi> of <hi rend="i">stuiten</hi>. Zoo ook de Maatschappy in haar tijd.</p>
+<p><hi rend="sc">Keten</hi>. Zekerlijk de zachte <hi rend="i">e</hi>. Maar waarom?
+<pb n="55"/>Eenvoudig om dat het een verbastering van 't Lat. <hi rend="i">catena,</hi> uit het thema <hi rend="i">ca,</hi> omvatting, verbinding is.</p>
+<p><hi rend="sc">Kneden</hi>, met ééne <hi rend="i">e</hi>. Recht, Siegenbeek. Wist ge dat het eigenlijk <hi rend="i">ge-neden</hi> is en met <hi rend="i">nodus</hi> verwant, het zou er niet te slimmer om zijn, maar ten minste is het woord hier niet verknoeid.</p>
+<p><hi rend="sc">Kweken</hi> is vrij twijfelachtig. Dat S. zich hier naar de Maatschappy van Letterkunde in haar bloeitijd schikt, is ook loffelijk. Echter moet ik opmerken dat het woord niet uit <hi rend="i">ge-weeken,</hi> maar <hi rend="i">ge-wekken</hi> (dat is <hi rend="i">excitare, educare,</hi> optrekken) is: het geen de enkele <hi rend="i">e</hi> voor zou staan, zoo wel als dat het met <hi rend="i">kwik</hi> van éénen oorsprong is.</p>
+<p><hi rend="sc">Menigte</hi> is van <hi rend="i">man,</hi> en zekerlijk met eene enkele <hi rend="i">e</hi> te schrijven.</p>
+<p><hi rend="sc">Ontberen</hi>. Die weet dat onze Ouden <hi rend="i">oorboren</hi> zeiden en het voor het zelfde woord erkent, zal aan de enkele <hi rend="i">e</hi> niet twijfelen.</p>
+<p><hi rend="sc">Peren</hi>. Met de enkele <hi rend="i">e</hi>. Want dat de Fransche <hi rend="i">poire</hi> hebben is eigenlijk een bloote adspiratie aan de <hi rend="i">i</hi> van <hi rend="i">pirum</hi> toegevoegd om 't van hun <hi rend="i">pire</hi> te onderscheiden.</p>
+<pb n="56"/>
+<p><hi rend="sc">Scheren</hi>, dat dit woord met de <hi rend="i">a</hi> in <hi rend="i">scharren,</hi> en de <hi rend="i">o</hi> in <hi rend="i">geschoren,</hi> en <hi rend="i">eu</hi> in <hi rend="i">scheuren</hi> verwant is en dus de enkele <hi rend="i">e</hi> heeft, eischte immers geen twee bladzijden gehaspel of gerafel hoe zal ik het noemen?</p>
+<p><hi rend="sc">Sleepen</hi>. Dit woord met ééne <hi rend="i">e,</hi> hoe! Zoo moest zijn praeteritum <hi rend="i">geslopen</hi> (ten minste <hi rend="i">geslepen</hi>) zijn. Dit gelijkt nu nergens naar. Een <hi rend="i">sleip</hi> zei men voorheen.</p>
+<p><hi rend="sc">Smeren</hi> en <hi rend="sc">smeeren</hi> zijn beide goed, maar verschillende woorden. Het laatste is voller van beteekenis als saamgetrokken uit <hi rend="i">sme-eren</hi>. 't Oorspronkelijke is <hi rend="i">smeren</hi> en met <hi rend="i">smet, smaden,</hi> enz. verwant. De Maatschappy gebruikte slechts <hi rend="i">smeeren</hi>.</p>
+<p><hi rend="sc">Spenen</hi>. Met de enkele <hi rend="i">e,</hi> als van <hi rend="i">spa-en</hi>.</p>
+<p><hi rend="sc">Teder</hi>, met de enkele <hi rend="i">e,</hi> zie <hi rend="i">deren</hi>. Hier schijnt Lelyveld zich bedrogen te hebben.</p>
+<p><hi rend="sc">Telen</hi> met ééne <hi rend="i">e</hi>. Te recht: doch ook <hi rend="sc">teelen</hi> is te wettigen als frequentativum <hi rend="i">te-elen</hi>. 't Is <hi rend="i">producere</hi> en de kracht zit in de <hi rend="i">te</hi> die met <hi rend="i">to</hi> verwant is en waar uit <hi rend="i">tot</hi> en <hi rend="i">toe,</hi> voorzetting uitdrukkende.</p>
+<p><hi rend="sc">Teren</hi> van <hi rend="i">tar,</hi> en <hi rend="sc">teeren</hi> als frequentativum <hi rend="i">te-eren,</hi> en zoo <hi rend="i">verteeren, teering,</hi> schoon
+<pb n="57"/>niemand misdoet die <hi rend="i">tering</hi> schrijft als uit het primitivum dat <hi rend="i">druipen</hi> of <hi rend="i">smelten</hi> beteekent.</p>
+<p><hi rend="sc">Weeren</hi> van <hi rend="b">νΛικ</hi> <hi rend="i">man,</hi> <hi rend="sc">weren</hi> van <hi rend="i">war,</hi> zijn beide te dulden. En ik beslis niet.</p>
+<p><hi rend="sc">Zweeren</hi> en <hi rend="sc">zweren</hi> zijn niet eenerlei. Het laatste is verbinden, het eerste bevestigen doch eigenlijk is <hi rend="i">zweeren</hi> een frequentativum <hi rend="i">zwe-eren,</hi> terwijl <hi rend="i">zweren</hi> van <hi rend="i">zwa-en</hi> is, waaruit <hi rend="i">zwachtel, zwager,</hi> enz.</p>
+<p><hi rend="sc">Zweeren</hi>, voor etteren is <hi rend="i">zweren</hi> of <hi rend="i">zweeren,</hi> naar men 't opvat; ik zou echter hierin voor de dubbele <hi rend="i">ee</hi> zijn als een doorgaande werking, en frequentativum van het Thema <hi rend="i">zwe,</hi> waar uit ook <hi rend="i">zweeten</hi> is, 't geen men <hi rend="i">zwieten</hi> hoorde uitspreken, gelijk 't oude <hi rend="i">sute,</hi> nu <hi rend="i">zoet,</hi> ook by de Engelschen <hi rend="i">sweat</hi> (d.i. zwiet) is.</p>
+<p><hi rend="sc">Zweven</hi> eischt de enkele <hi rend="i">e,</hi> 't is eene versterking van <hi rend="i">weven</hi> en <hi rend="i">wuiven,</hi> 't geen de verwantschap dezer <hi rend="i">e</hi> met de <hi rend="i">o</hi> aantoont.</p>
+<p><hi rend="sc">Betoogen</hi>. <hi rend="i">Toogen</hi> is trekken in alle toepassing, en eigenlijk <hi rend="i">to-igen</hi> van <hi rend="i">to</hi> voortgang in een vaste richting. Zie boven. Hiervan is <hi rend="i">toogen</hi> goed, zoo dra men deze sylben uit
+<pb n="58"/>twee saamgetrokken, een dubbele vokaal toeschrijft. En dit is het punt waar 't op aan komt. Verlaat men dit, zoo vervalt er vrij wat, van 't geen aangenomen is.</p>
+<p><hi rend="sc">Blode</hi> en <hi rend="sc">bloode</hi> zijn verschillende woorden. Het laatste is <hi rend="i">timidus animi</hi> en van <hi rend="i">blouwen,</hi> (<hi rend="i">slaan</hi>) en dus is een synonymum van <hi rend="i">verslagen.</hi> Het eerste daartegen is van het wortelwoord <hi rend="i">lo,</hi> waar van <hi rend="i">lo-en, gloed,</hi> en zoo, <hi rend="i">roodheid,</hi> en beteekent dus de <hi rend="i">blozing,</hi> die van 't zelfde thema is, en ook eene enkele <hi rend="i">o</hi> heeft.</p>
+<p><hi rend="sc">Boren</hi> van <hi rend="i">baren</hi> in <hi rend="i">geboren,</hi> en ook voor dragen, heeft zekerlijk de enkele <hi rend="i">o.</hi> Maar <hi rend="i">boren,</hi> doordringen kon bedenklijker zijn. Echter zie ik geen genoegzame reden om het niet voor het zelfde woord te houden, als zeggende eigenlijk in beteekenis <hi rend="i">ontdekken,</hi> schoon dit door indringing geschiedt. Zie onze Byvoegsels op <hi rend="i">boor.</hi></p>
+<p><hi rend="sc">Dolen</hi>. Indien men <hi rend="i">dolen</hi> het zelfde met <hi rend="i">dollen</hi> acht, dat is draaien, zuizelen, is de enkele <hi rend="i">o</hi> buiten twijfel gevestigd. Zoo men 't voor 't frequentatief <hi rend="i">do-elen</hi> houdt, komen wy weêr tot het oude punt. Wat is <hi rend="i">do-en?</hi>
+<pb n="59"/>Hier komt de geheele vraag op neder. Hangt het samen met <hi rend="i">douwen</hi> (duwen) en met <hi rend="i">dauwelen,</hi> 't geen men van doffe en daardoor trage menschen zegt? Zoo schijnt het. Maar is dit <hi rend="i">douwen</hi> wel eigenlijk een tweeklank, en niet bloot <hi rend="i">do-en, dowen</hi> en <hi rend="i">doven</hi> waar <hi rend="i">dof</hi> van is? Hoe het genomen worde, 't is echter en blijft een frequentative samentrekking.</p>
+<p><hi rend="sc">Gedogen</hi> is <hi rend="i">lijden</hi> en heeft de enkele <hi rend="i">o.</hi> Maar <hi rend="sc">doogen</hi> is een ander woord eigenlijk <hi rend="i">daugen</hi> en beteekent <hi rend="i">goed zijn,</hi> en 't vordert dus eigenlijk de dubbele <hi rend="i">o.</hi> Dat men <hi rend="i">deugd</hi> (d.i. <hi rend="i">dögede</hi>) zegt strijdt hier niet meer tegen dan dat men <hi rend="i">verheugd</hi> van <hi rend="i">hoog</hi> zegt: want dit <hi rend="i">heuge</hi> is <hi rend="i">huge,</hi> 't gemoed, en niet (als men aanneemt,) <hi rend="i">hoog,</hi> en even zoo mag <hi rend="i">deugd</hi> voor <hi rend="i">de huge</hi> ('t gemoed) gehouden worden, want inderdaad bestaat zy daar in, en niet in eenige daad. Onze afleidingen gaan zelden diep genoeg; ook veranderen de woorden allengs van beteekenis door het gebruik: en van daar eene onregelmatigheid die niet te weren is.</p>
+<p>Dat <hi rend="sc">genooten</hi> aan eene <hi rend="i">o</hi> genoeg heeft blijkt
+<pb n="60"/>uit <hi rend="i">genot.</hi> Ook maakt, de <hi rend="i">ie</hi> van de wortel des werkwoords geen praeteritum in <hi rend="i">oo</hi> het geen hooger klinken zou dan het praefens. Even weinig moet men <hi rend="i">vloten</hi> met twee <hi rend="i">o</hi> spellen. Ik zou dus hier wederom van Lelyveld verschillen, zoo 't der moeite waard is. Ik merk daar by nog op, zoo de uitspraak <hi rend="i">eu</hi> de enkele <hi rend="i">o</hi> kenteekent, wat is <hi rend="i">korneut</hi> (<hi rend="i">kornuit</hi> zegt men gewonelijk) dan <hi rend="i">keurnoot?</hi></p>
+<p><hi rend="sc">Honen</hi> is spatten en hiervan <hi rend="i">honig</hi> en <hi rend="i">honing.</hi> Siegenbeek heeft hier gelijk, schoon zijn redenen niets afdoen, en de Maatschappy het ook anders begreep.</p>
+<p><hi rend="sc">Kloven</hi> met de enkele <hi rend="i">o.</hi> Dat de Angelsax. ea de dubbele <hi rend="i">o</hi> by ons aanwijst is een bloote opvatting. 't Woord is uit het praeteritum van <hi rend="i">klieven,</hi> en deze ea duidt dit aan, maar brengt ons niet noodwendig de <hi rend="i">oo</hi> aan. <hi rend="i">Ik klief,</hi> maakt in praeterito <hi rend="i">ik kloof,</hi> en van dit praeteritum is ons werkwoord <hi rend="i">kloven.</hi> Die deze voortbrenging der werkwoorden niet begrijpt, begrijpt onze taal niet. Wat wil men ons A-S voor Neêrduitsch opdisschen? Moet de zuster juist haar broeders baard hebben?</p>
+<p>Dat <hi rend="sc">kozen</hi> de enkele <hi rend="i">o</hi> heeft, toont <hi rend="i">keuzelen.</hi>
+<pb n="61"/>Doch die <hi rend="i">eu</hi> is meer dan eens als een tweeklank aangemerkt, daar het echter integendeel slechts een verminderde klank is. Dit heeft meer verwarring gemaakt.</p>
+<p>Waarom <hi rend="sc">kroonen</hi> als meerv. van <hi rend="sc">kroon</hi>, de dubbele <hi rend="i">o</hi> juist zou moeten hebben, ware moeilijk te zeggen. Vooral daar 't hetzelfde woord met ons <hi rend="i">kruin</hi> is. Daar was by onze Ouden in 't overnemen van Latijnsche woorden geen vasten grond. Volgen wy in zulke woorden een standhoudend gebruik, wy mogen, maar niemand moet er een Hollander wet van maken, noch den Napoleon in de taal spelen. Doch hiervan nader op <hi rend="i">personen.</hi> - Zeker is het intusschen, dat het zich daardoor beter van <hi rend="i">kronen</hi> (anders <hi rend="i">kreunen</hi>) voor flaauw zuchten of kermen, onderscheidt.</p>
+<p><hi rend="sc">Loochenen</hi> dient met de dubbele <hi rend="i">o</hi> geschreven te worden op dat men 't geen <hi rend="i">lochenen</hi> uitspreke; want de <hi rend="i">ch</hi> verheldert de vokaal die er voorgaat door dat zy er zich in oplost. Zoo is het met <hi rend="i">lachen, prachen,</hi> 't oude <hi rend="i">gechen,</hi> met <hi rend="i">rochelen</hi> en <hi rend="i">ruchelen,</hi> enz. Maar men moet er de botte uitspraak van <hi rend="i">oo,</hi> naar <hi rend="i">au</hi> trekkende, niet aan geven.</p>
+<pb n="62"/>
+<p><hi rend="sc">Nopens</hi> vordert eene <hi rend="i">o,</hi> als meervoudig van <hi rend="i">nop.</hi> Maar <hi rend="sc">noopen</hi> met <hi rend="i">oo</hi> is prikkelen. Goth. en Run. stemmen hier ook in. Kwalijk wil men <hi rend="i">nopens,</hi> eigenlijk <hi rend="i">nopends,</hi> (dat is roerende) tot dit <hi rend="i">noopen</hi> brengen. 't Behoort tot <hi rend="i">nop,</hi> knoop, en is het Lat. <hi rend="i">quod attinet.</hi></p>
+<p><hi rend="sc">Personen</hi> hebben in 't Nd. zoo weinig een tweede <hi rend="i">o</hi> noodig als in 't Latijn, en als <hi rend="i">Rome.</hi> Waar is het, dat <hi rend="i">kroonen</hi> ingedrongen is met twee <hi rend="i">o;</hi> maar de oorsprong hiervan was in dit werkwoord van het meervoudig naamwoord te willen onderscheiden. Deze zucht heeft veel verwarring gemaakt, en was meestal geheel noodeloos. De grond hiervan bestond in 't begrip dat een verbum nominale het naamwoord daar 't van gevormd was, volkomen moest uitdrukken. Te onrecht. Het woord <hi rend="i">kroon</hi> bestaat eigenlijk niet; het is <hi rend="i">krone.</hi> Zoo schreef men dan ook <hi rend="i">slaaven</hi> voor 't werkwoord van <hi rend="i">slaaf</hi> gemaakt. Waar geen tweeklank is komt geen dubbele vokaal ter sluiting van een sylbe te pas. - Onze Bijbelvertalers stelden zich voor de Grieksche eigen namen volstrekt getrouw uit te drukken, en van daar schreven zy <hi rend="i">Roome.</hi> <hy>-</hy><pb n="63"/>Deze naauwgezetheid was loflijk in dat werk, maar verplicht ons even weinig als zy daar door verbonden werden om <hi rend="i">Petros</hi> of <hi rend="i">Joannees</hi> te schrijven.</p>
+<p><hi rend="sc">Pogen</hi> heeft geen dubbele <hi rend="i">o</hi> in ons Hollandsch. <hi rend="sc">Poogen</hi> is eigenlijk Vlaamsch, welke dialekt genegen is eenigzins meerder galm aan aan de <hi rend="i">o</hi> te geven, dan wy doen. Hun <hi rend="i">a</hi>-zelve trekt eenigzins naar den <hi rend="i">o</hi>-klank. Wy spreken platter, zy ronder. Men vergunne en hun en ons elks vrije land- en volksdialekt.</p>
+<p><hi rend="sc">Roze</hi> vordert zekerlijk de dubbele <hi rend="i">o</hi> niet meer dan <hi rend="i">blozen</hi>. 't Woord is ook niet van <hi rend="i">rood</hi> maar uit het Latijn. Onze Landaart kent den <hi rend="i">eglantier,</hi> maar de eigenlijke <hi rend="i">roos</hi> is er niet oorspronklijk.</p>
+<p><hi rend="sc">Schroomen</hi> eischt de dubbele <hi rend="i">o</hi> om dat <hi rend="i">schroom schro-ing</hi> is en dus samentrekking. Het <hi rend="i">schreumen</hi> is wanspraak en niet uit de open <hi rend="i">o,</hi> maar uit den tweeklank <hi rend="i">oi</hi> verbastert. Het geen wel onderscheiden moet worden. Or is <hi rend="i">ui</hi> maar niet <hi rend="i">eu,</hi> ondanks alle dialektverwarring.</p>
+<p><hi rend="sc">Smoken</hi> heeft genoeg aan eene <hi rend="i">o,</hi> schoon
+<pb n="64"/>het (als <hi rend="i">smo-igen</hi> zijnde,) met de dubbele <hi rend="i">o</hi> te wettigen zijn zou; doch de veelvuldige samenvoeging van <hi rend="i">rooken</hi> en <hi rend="i">smoken</hi> heeft een soort van rijm daarin doen zoeken. <hi rend="i">Smoken</hi> hangt samen met <hi rend="i">smaken,</hi> dat de warme damp tot het verhemelte opgaande, uitdrukt. 't Is duidelijk het zelfde met het Gr. <hi rend="i">σμύχειν,</hi> en tevens met <hi rend="i">smingen, smots,</hi> enz.</p>
+<p><hi rend="sc">Smoren</hi>, vordert eene <hi rend="i">o,</hi> geen twee. Doch als <hi rend="i">smo-eren</hi> beschouwd, laat het die toe, even als <hi rend="i">smeeren</hi> de dubbele <hi rend="i">e.</hi></p>
+<p>Aan <hi rend="sc">snoode</hi> geeft men de dubbele <hi rend="i">o.</hi> Ik zou het echter aanmerken als met <hi rend="i">snedig</hi> verwant, en hoor er geenen tweeklank in.</p>
+<p><hi rend="sc">Storen</hi>, <hi rend="i">steuren</hi> by ons gemeen, duidt de enkele <hi rend="i">o</hi> aan. De dubbele kan het echter aannemen als <hi rend="i">sto-eren.</hi> Hoe het zy, ik houde 't voor na verwant met <hi rend="i">stuwen</hi> en <hi rend="i">stouwen,</hi> en ben dus in geenen deele tegen de <hi rend="i">oo</hi> in dit woord, maar hou heide voor goed in zich-zelf. - Doch waar blijft dan de eenparigheid? - In de Pausselijke onfeilbaarheid van Siegenbeek en die zijn afgod aanbidden, en de bespottelijke Agenten-inquisitie van 1803 en 1804.</p>
+<pb n="65"/>
+<p><hi rend="sc">Stroomen</hi>. <hi rend="i">Stroen</hi> is verspreiden, en hiervan is <hi rend="i">stro-ing,</hi> tot <hi rend="i">stroom</hi> geworden. Men schrijve 't dus met verdubbelde <hi rend="i">o,</hi> maar spreke 't vooral niet uit met den bollen klank van <hi rend="i">koolen,</hi> caulus.</p>
+<p><hi rend="sc">Toonen</hi> (ostendere) lijdt geen twijfel; maar het meervoudige van <hi rend="i">toon</hi> als 't Lat. <hi rend="i">tonus</hi> heeft zekerlijk (met wat bygalm men het hier of daar opsieren mag) niet dan de enkele <hi rend="i">o.</hi> Vergelijk <hi rend="i">persoon</hi> en <hi rend="i">Rome.</hi></p>
+<p><hi rend="sc">Thronen</hi> dulden even weinig de dubbele <hi rend="i">o.</hi>. Die bevreesd is dat men 't met <hi rend="i">tronië</hi> verwarren zou, mag zich helpen zoo hy kan. Als een vreemd woord wilden onze Bijbelvertalers den accent kennelijk maken, en van daar hun <hi rend="i">troonen.</hi></p>
+<p><hi rend="sc">Vrome</hi> behoeft de dubbele <hi rend="i">o</hi> niet. Gelijk de <hi rend="i">m</hi> achter de samentrekking uit <hi rend="i">o-ing</hi> toont, is er de grond voor, nu reeds dikwijls aangeroerd. En het koomt er op aan, hoe verr' men dien wil laten gelden.</p>
+<p>In <hi rend="sc">wonen</hi> is zekerlijk de eenvoudige <hi rend="i">o</hi> kennelijk, en alles vereenigt zich om die te bevestigen.</p>
+<p>Zoo is eenmaal ingevoerd en heeft iets meer plechtigs dan <hi rend="i">zo. Zoo</hi> veel is zeker,
+<pb n="66"/>dat geen Hollander ooit <hi rend="i">zo</hi> zegt met een klank of 't in oude lappen verstikte, maar kennelijk de <hi rend="i">o</hi> hooren doet, ook waar het geen byzonderen toon vat.</p>
+<p>&nbsp;</p>
+<p><hi rend="sc">Leyden</hi> 1826.</p>
+<p>&nbsp;</p>
+<cf>
+<p>Ter Drukkerij van G.T.N. <hi rend="sc">Suringar</hi>.</p>
+</cf>
+</div>
+</body>
+</text>
+
+</TEI.2>

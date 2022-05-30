@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6. Introduction to the Alto/Didle, TEI and Page format &#8212; Automatically extract XML content with Python</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="7. Practical lesson: Alto/Didle and ElementTree" href="7_alto_ET.html" />
+    <link rel="prev" title="5. Practical session: Working with Beautiful Soup" href="5_example_BS.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Automatically extract XML content with Python</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to this XML with Python course
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_introduction_python.html">
+   1. Introduction to Python and Jupyter Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_introduction_xml.html">
+   2. Introduction to XML
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_introduction_packages.html">
+   3. Introduction to the packages ElementTree and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_example_ET.html">
+   4. Practical session: Working with ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_example_BS.html">
+   5. Practical session: Working with Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   6. Introduction to the Alto/Didle, TEI and Page format
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_alto_ET.html">
+   7. Practical lesson: Alto/Didle and ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_alto_BS.html">
+   9. Practical lesson: Alto/Didle and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_page_ET.html">
+   8. Practical lesson: Page and Elementree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_page_BS.html">
+   11. Practical lesson: Page and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_tei_BS.html">
+   10. Practical lesson: TEI and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_auto_batch.html">
+   12. Practical lesson: Automatically extract information from a batch of files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="end.html">
+   End of course
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/6_xmlformats_intro.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/xml-workshop"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/xml-workshop/issues/new?title=Issue%20on%20page%20%2F6_xmlformats_intro.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alto">
+   Alto
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tei">
+   TEI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#page">
+   PAGE
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>6. Introduction to the Alto/Didle, TEI and Page format</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#alto">
+   Alto
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tei">
+   TEI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#page">
+   PAGE
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="introduction-to-the-alto-didle-tei-and-page-format">
+<h1>6. Introduction to the Alto/Didle, TEI and Page format<a class="headerlink" href="#introduction-to-the-alto-didle-tei-and-page-format" title="Permalink to this headline">¶</a></h1>
+<p>Although XML is a structured way to store data, the structuring itself is left to the user. This means that there is not one style or format of XML. This has led to a high variety of different formats and styles of storing data and information with XML.
+To battle this, multiple standards have been developed. These standards offer a guideline or framework for developers to store data.</p>
+<p>In humanities research multiple standards are in use. In this chapter we will shortly describe some of the standards that are commonly used within the KB and other digital heritage insitutions, and will be used in this workshop.</p>
+<div class="section" id="alto">
+<h2>Alto<a class="headerlink" href="#alto" title="Permalink to this headline">¶</a></h2>
+<p>ALTO (Analyzed Layout and Text Object) is an open XML Schema developed by the EU-funded project called METAe. The standard was developed for the description of text OCR and layout information of pages for digitized material.
+The goal of this standard was to describe the layout and text in such a way that it would enable the reconstruction of the original appearance.
+ALTO is often used with a metadata encoding file for the description of the whole digitized object and for creating references across mulitple ALTO files, such as reading order description. Commenly used files are Didl and METS.
+The ALTO standard is hosted by the Library of Congress (USA) and maintained by the Editorial Board initialized at the same time.</p>
+<p>Within the KB, Alto is the format that is used for most of the digital heritage content. All content of books, periodicals and newspapers on <a class="reference external" href="http://Delpher.nl">Delpher.nl</a> (the websites that stores the largest part of the digital hertige collection of the KB) is
+digitized in the Alto format, with a corresponding Didl xml file that containts the metadata.  Within the MPEG-21 framework, a Digital Item is defined as a structured digital object with a standard representation, identification, and description.</p>
+<p>An illustration of a newspaper page and (snippits of) its corresponding Alto and Didle file.</p>
+<p><img alt="alto newspaper" src="_images/alto_fig.png" /></p>
+</div>
+<div class="section" id="tei">
+<h2>TEI<a class="headerlink" href="#tei" title="Permalink to this headline">¶</a></h2>
+<p>The Text Encoding Initiative (TEI) is a non-profit consortium which collectively develops and maintains a standard for the representation of texts in digital form. They have developed a set of Guidelines which specify encoding methods for machine-readable texts,
+mostly focused on the humanities, social sciences and linguistics. The TEI Guidelines are widely used by libraries, museums, publishers, and individual scholars to present texts for online research, teaching, and preservation.</p>
+<p>The TEI Consortium is a non-profit membership organization composed of academic institutions, research projects, and individual scholars from around the world.</p>
+<p>At the KB, the TEI format is used to store the OCR content of the DBNL (Digital Library for Dutch Literature). The content of the DBNL is all manually reviewed, providing an accuracy of 99%.
+The TEI format was chosen for the DBNL collection, as it is more flexible and can be richer annotated than the Alto xml formats. In the TEI format, content can be divided into chapters, parts can be marked as poems, and annotations can be easily added.</p>
+<p>Whilst a beneift of the TEI format is the richness of metadata that can be added, a downside is that it is harder to automatically retreive informations from such files.
+Before extracting TEI files with automated scripts, it is always a good habit to check whether the specific TEI formats are all comparable.</p>
+<p>An illustration of a book page and a snippit of its corresponding TEI file:</p>
+<p><img alt="dbnl" src="_images/dbnl_fig.png" /></p>
+</div>
+<div class="section" id="page">
+<h2>PAGE<a class="headerlink" href="#page" title="Permalink to this headline">¶</a></h2>
+<p>PAGE has been designed to support the individual stages of the workflow of document image analysis methods (from document image enhancement to layout analysis to OCR) and their evaluation. PAGE is an image representation framework that not only records layout structure and page content, but information on image characteristics such as image borders, distortions and corresponding corrections, etc.
+It is used extensively in public contemporary and historical ground-truthed datasets and in the ICDAR Page Segmentation competition series.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="5_example_BS.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">5. Practical session: Working with Beautiful Soup</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="7_alto_ET.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">7. Practical lesson: Alto/Didle and ElementTree</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mirjam Cuper & Ethan den Boer<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

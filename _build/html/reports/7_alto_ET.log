@@ -1,0 +1,49 @@
+Traceback (most recent call last):
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\jupyter_cache\executors\utils.py", line 51, in single_nb_execution
+    executenb(
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "C:\Users\mirjam\anaconda3\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "C:\Users\mirjam\anaconda3\lib\site-packages\nbclient\client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+ns_didl = {'dc': 'http://purl.org/dc/elements/1.1/',
+			'ns2': 'urn:mpeg:mpeg21:2002:02-DIDL-NS', 
+			'ns4' : 'info:srw/schema/1/dc-v1.1', 
+			'ns7' : 'http://www.kb.nl/namespaces/ddd' }
+
+for item in root_didl.findall('.//ns2:Resource', ns_didl):
+	for article in item.findall('.//ns4:dcx', ns_didl):
+		a_type = article.find('.//dc:subject', ns_didl)
+		## The first block will not have a subject as it contains newspaper metadata instead of article metadata.
+		## This can be filtered out using an 'if [subject] is None' control structure.
+		if a_type is not None:
+			title = article.find('.//dc:title', ns_didl)
+			identifier = article.find('.//dc:identifier', ns_didl)
+			print(a_type.text, title.text, identifier.text)
+------------------
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mNameError[0m                                 Traceback (most recent call last)
+Input [1;32mIn [6][0m, in [0;36m<cell line: 6>[1;34m()[0m
+[0;32m      1[0m ns_didl [38;5;241m=[39m {[38;5;124m'[39m[38;5;124mdc[39m[38;5;124m'[39m: [38;5;124m'[39m[38;5;124mhttp://purl.org/dc/elements/1.1/[39m[38;5;124m'[39m,
+[0;32m      2[0m 			[38;5;124m'[39m[38;5;124mns2[39m[38;5;124m'[39m: [38;5;124m'[39m[38;5;124murn:mpeg:mpeg21:2002:02-DIDL-NS[39m[38;5;124m'[39m, 
+[0;32m      3[0m 			[38;5;124m'[39m[38;5;124mns4[39m[38;5;124m'[39m : [38;5;124m'[39m[38;5;124minfo:srw/schema/1/dc-v1.1[39m[38;5;124m'[39m, 
+[0;32m      4[0m 			[38;5;124m'[39m[38;5;124mns7[39m[38;5;124m'[39m : [38;5;124m'[39m[38;5;124mhttp://www.kb.nl/namespaces/ddd[39m[38;5;124m'[39m }
+[1;32m----> 6[0m [38;5;28;01mfor[39;00m item [38;5;129;01min[39;00m [43mroot_didl[49m[38;5;241m.[39mfindall([38;5;124m'[39m[38;5;124m.//ns2:Resource[39m[38;5;124m'[39m, ns_didl):
+[0;32m      7[0m 	[38;5;28;01mfor[39;00m article [38;5;129;01min[39;00m item[38;5;241m.[39mfindall([38;5;124m'[39m[38;5;124m.//ns4:dcx[39m[38;5;124m'[39m, ns_didl):
+[0;32m      8[0m 		a_type [38;5;241m=[39m article[38;5;241m.[39mfind([38;5;124m'[39m[38;5;124m.//dc:subject[39m[38;5;124m'[39m, ns_didl)
+
+[1;31mNameError[0m: name 'root_didl' is not defined
+NameError: name 'root_didl' is not defined
+

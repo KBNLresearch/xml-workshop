@@ -1,0 +1,1652 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Introduction to Python and Jupyter Notebooks &#8212; Automatically extract XML content with Python</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. Introduction to XML" href="2_introduction_xml.html" />
+    <link rel="prev" title="Welcome to this XML with Python course" href="intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Automatically extract XML content with Python</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to this XML with Python course
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Introduction to Python and Jupyter Notebooks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_introduction_xml.html">
+   2. Introduction to XML
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_introduction_packages.html">
+   3. Introduction to the packages ElementTree and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_example_ET.html">
+   4. Practical session: Working with ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5_example_BS.html">
+   5. Practical session: Working with Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="6_xmlformats_intro.html">
+   6. Introduction to the Alto/Didle, TEI and Page format
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="7_alto_ET.html">
+   7. Practical lesson: Alto/Didle and ElementTree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="8_alto_BS.html">
+   9. Practical lesson: Alto/Didle and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="9_page_ET.html">
+   8. Practical lesson: Page and Elementree
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10_page_BS.html">
+   11. Practical lesson: Page and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11_tei_BS.html">
+   10. Practical lesson: TEI and Beautiful Soup
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12_auto_batch.html">
+   12. Practical lesson: Automatically extract information from a batch of files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="end.html">
+   End of course
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="_sources/1_introduction_python.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/1_introduction_python.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/xml-workshop"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/xml-workshop/issues/new?title=Issue%20on%20page%20%2F1_introduction_python.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/xml-workshop/master?urlpath=tree/docs/1_introduction_python.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#notebooks">
+   Notebooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-does-a-notebook-work">
+   How does a Notebook work?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#different-cell-types">
+     Different cell types
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#running-cells">
+     Running cells
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adding-new-cells">
+     Adding new cells
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comments">
+     Comments
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python">
+   Python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#input-and-variables">
+     Input and variables
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#output">
+     Output
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#functions">
+     Functions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conditional-statements-if-else">
+     Conditional statements,
+     <em>
+      if else
+     </em>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#packages">
+     Packages
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>1. Introduction to Python and Jupyter Notebooks</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#notebooks">
+   Notebooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-does-a-notebook-work">
+   How does a Notebook work?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#different-cell-types">
+     Different cell types
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#running-cells">
+     Running cells
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adding-new-cells">
+     Adding new cells
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comments">
+     Comments
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python">
+   Python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#input-and-variables">
+     Input and variables
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#output">
+     Output
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#functions">
+     Functions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conditional-statements-if-else">
+     Conditional statements,
+     <em>
+      if else
+     </em>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#packages">
+     Packages
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="introduction-to-python-and-jupyter-notebooks">
+<h1>1. Introduction to Python and Jupyter Notebooks<a class="headerlink" href="#introduction-to-python-and-jupyter-notebooks" title="Permalink to this headline">¶</a></h1>
+<p>This lesson will give a short introduction on how to work with Notebooks in combination with Python.
+It consists of explanation followed by pratical exercises. To get the most out of this lesson it is best to manually type the code into your Jupyter Notebook instead of copy-pasting.</p>
+<div class="section" id="notebooks">
+<h2>Notebooks<a class="headerlink" href="#notebooks" title="Permalink to this headline">¶</a></h2>
+<p>First, lets start up Jupyter and open a Notebook.
+In the taskbar searchbox, type ‘jupyter’ and open <em>jupyter notebook</em>.</p>
+<div class="figure align-default" id="openjupyter">
+<a class="reference internal image-reference" href="_images/openJupyter.png"><img alt="_images/openJupyter.png" src="_images/openJupyter.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Open Jupyter Notebook.</span><a class="headerlink" href="#openjupyter" title="Permalink to this image">¶</a></p>
+</div>
+<p>This should open a tab in your browser with the jupyter hub in the installation folder.
+This folder will act as your home folder for jupyter.
+All Notebooks you make will be stored here unless explicitely saved elsewhere or moved.</p>
+<div class="figure align-default" id="jupyterhub">
+<a class="reference internal image-reference" href="_images/JupyterHub.png"><img alt="_images/JupyterHub.png" src="_images/JupyterHub.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">The Jupyter home or hub where all Notebooks reside.</span><a class="headerlink" href="#jupyterhub" title="Permalink to this image">¶</a></p>
+</div>
+<p>To open a new Python Jupyter Notebook click the <strong>new</strong> button in the topright corner and select <strong>python3</strong> from the dropdown list.</p>
+<div class="figure align-default" id="opennotebookoptions">
+<a class="reference internal image-reference" href="_images/OpenNotebookOptions.png"><img alt="_images/OpenNotebookOptions.png" src="_images/OpenNotebookOptions.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Click new and python3 to open a new Notebook.</span><a class="headerlink" href="#opennotebookoptions" title="Permalink to this image">¶</a></p>
+</div>
+<p>A new tab should open dispaying your new Notebook, usually called <em>Untitled</em></p>
+<div class="figure align-default" id="notebook">
+<a class="reference internal image-reference" href="_images/Notebook.png"><img alt="_images/Notebook.png" src="_images/Notebook.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Your freshly started Notebook with inspiring name.</span><a class="headerlink" href="#notebook" title="Permalink to this image">¶</a></p>
+</div>
+<p>Notebooks can be renamed by clicking on the name and typing a different name. It is best to make these names descriptive so they are still recognizable after a while.</p>
+</div>
+<div class="section" id="how-does-a-notebook-work">
+<h2>How does a Notebook work?<a class="headerlink" href="#how-does-a-notebook-work" title="Permalink to this headline">¶</a></h2>
+<p>A Notebook is not a static page, but an interactive enviroment. Within the blocks (cells) of a Notebook code can be written ánd executed.</p>
+<div class="section" id="different-cell-types">
+<h3>Different cell types<a class="headerlink" href="#different-cell-types" title="Permalink to this headline">¶</a></h3>
+<p>Notebooks are compromised of different types of cells.
+The main cell types are <em>text cells</em> and <em>code cells</em>.</p>
+<p>Text cells are generally used for descriptions and explanations. These cells are inactive and code written in these cells cannot be executed.</p>
+<div class="figure align-default" id="textcell">
+<a class="reference internal image-reference" href="_images/textcell.png"><img alt="_images/textcell.png" src="_images/textcell.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">This is a text cell.</span><a class="headerlink" href="#textcell" title="Permalink to this image">¶</a></p>
+</div>
+<p>The layout is managed through <em>markdown</em> (see <a class="reference external" href="https://www.markdownguide.org/basic-syntax/">markdown syntax</a> for more information).</p>
+<p>The second main type of cell is the code cell.
+Code cells are used to write and execute code. In our case Python. When a code cell is run, Python will execute the code in the cell. More information about Python will follow in the next section.</p>
+<div class="figure align-default" id="codecell">
+<a class="reference internal image-reference" href="_images/codecell.png"><img alt="_images/codecell.png" src="_images/codecell.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">This is a code cell.</span><a class="headerlink" href="#codecell" title="Permalink to this image">¶</a></p>
+</div>
+<p>Code cells are easily recognized by the ‘In [ ]:’ to the left of the cell.</p>
+<p>The type of a cell can be changed by selecting a cell and either going through the menu (Cell/Cell Type/<option>) or by selecting a cell and pressing either <strong>Y</strong> for a code cell or <strong>M</strong> for a text cell.</p>
+<div class="figure align-default" id="celltypeoptions">
+<a class="reference internal image-reference" href="_images/celltypeOptions.png"><img alt="_images/celltypeOptions.png" src="_images/celltypeOptions.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Via this menu you can select the cell type.</span><a class="headerlink" href="#celltypeoptions" title="Permalink to this image">¶</a></p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Select a cell in the Notebook and change the type by using the hotkeys or the menu.</p>
+</div>
+</div>
+<div class="section" id="running-cells">
+<h3>Running cells<a class="headerlink" href="#running-cells" title="Permalink to this headline">¶</a></h3>
+<p>There are multiple ways to run a cell:</p>
+<ul class="simple">
+<li><p>By clicking the ‘Run’ button in the taskbar;</p></li>
+<li><p>By pressing ‘shift + enter’ when the cell is selected (green frame)
+<em>Note that this will move the selection box down one cell. When the end of the cells is reached this will add new empty cells to the Notebook.</em></p></li>
+</ul>
+<p>The moment a cell generates <em>output</em> the output is displayed beneath the cell, keeping code and output together.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new code cell in your Notebook and run the cell.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">2</span><span class="o">*</span><span class="mi">8</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Python will simply multiply the numbers and display the answer below the code cell.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>16
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="adding-new-cells">
+<h3>Adding new cells<a class="headerlink" href="#adding-new-cells" title="Permalink to this headline">¶</a></h3>
+<p>One cell is rarely enough to make a clearly structured Notebook. Adding more cells can be done by pressing the ‘+’ button in the taskbar.</p>
+<div class="figure align-default" id="newcell">
+<a class="reference internal image-reference" href="_images/newcell.png"><img alt="_images/newcell.png" src="_images/newcell.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Click the + to add a new cell directly below the selected one</span><a class="headerlink" href="#newcell" title="Permalink to this image">¶</a></p>
+</div>
+<p>This will add a new cell directly below the currently active cell.</p>
+<p>Another way is to use the menu ‘Insert’, where the choice is given between adding a cell above or below the current active cell.</p>
+<div class="figure align-default" id="newcellmenu">
+<a class="reference internal image-reference" href="_images/newcellmenu.png"><img alt="_images/newcellmenu.png" src="_images/newcellmenu.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">In this menu you can add a new cell above or below.</span><a class="headerlink" href="#newcellmenu" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="comments">
+<h3>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h3>
+<p>Comments can be added to a code cell. Comments can be used to describe what a piece of code does, or can be used to tell where values can be changed.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is an example of a comment in a code cell.</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>The moment a # is typed in a code cell, everything after it <em>on the same line</em> will be regarded as a comment. Lines that have been marked as a comment will <strong>not</strong> be executed by Python when the cell is run.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell. Does Python return output?</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1">#print(&quot;The solution to 35+12 is:&quot;)</span>
+<span class="c1">#print(35+12)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The cell should not return any output as the code is commented out by the #.</p>
+</div>
+<p>When the <strong>#</strong> is removed and the cell is run again, Python wil recognize the code and execute it.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Alter the cell so the code is no longer seen as a comment.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Removing the # from the code should enable Python to recognize the code and return output when the cell is run.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The solution to 35+12 is:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">35</span><span class="o">+</span><span class="mi">12</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>This should then print:</p>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The solution to 35+12 is: 
+47
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="python">
+<h2>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
+<p>Python was developed in 1991 by Guido van Rossum. The purpose of Python was to create a programming language that is both simple to understand and readable.
+Python works on different platforms such as Windows, Mac, Linux, etc. It is a very popular programming language in data analysis and data science because of its versatality.
+Python is open source, and can therefore be used for free.</p>
+<div class="section" id="input-and-variables">
+<h3>Input and variables<a class="headerlink" href="#input-and-variables" title="Permalink to this headline">¶</a></h3>
+<p>When using Python there are multiple types of input data, such as lists, numbers, text, and even whole tables.
+We put these input into <em>variables</em>. A variable is essentially a container for the data. The name of a variable is up to your own discretion, although there are some <a class="reference external" href="https://www.w3schools.com/python/gloss_python_variable_names.asp">rules and guidlines</a>.
+Python remembers which input was loaded into which variable. This means that the variables can be used in the code instead of the data itself.</p>
+<p>When creating a variable, it is important to input data correctly: for numbers <em>no</em> quotation marks are used, for text quotation marks <em>must be</em> used!</p>
+<p>The command <em>type()</em> can be used to determine what type of input a variable contains. For example:
+<em>int</em> indicates a variable contains an integer, or whole number.
+<em>str</em> indicates a variable contains a string, a piece of text.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a newcell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># This stores the data in the variable</span>
+<span class="n">number</span> <span class="o">=</span> <span class="mi">9</span>
+<span class="c1"># This determines its type</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Python will return the type of the variable.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>int
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now let’s repeat that for another data type.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># This stores the data in the variable</span>
+<span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;this is a text&quot;</span>
+<span class="c1"># This determines its type</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Python will return the type of the variable.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>str
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition-note admonition">
+<p class="admonition-title">Note</p>
+<p><strong>Important!</strong> If you input a number <em>with</em> quotation marks Python will see it as text!</p>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the following code in a new cell in your Notebook and run the cell. What data type is the number?</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">number_but_wrong</span> <span class="o">=</span> <span class="s2">&quot;9&quot;</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">number_but_wrong</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The cell should return ‘str’. The number is seen as a string because of the quotation marks.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Sometimes an error in the code is due to the wrong data type. Checking data type is always a good start when error checking.</p>
+</div>
+<p>As mentioned above it is possible to use previously assigned variables in your code.
+This makes it possible to input a value just one time when it is needed more than once in the code.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">number_1</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">number_2</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="n">number_1</span> <span class="o">+</span> <span class="n">number_2</span> 
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Python simply adds the original numbers as it remembers which input belongs to which variable.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>9
+</pre></div>
+</div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Using Python variables, calculate the sum of “35 + 69” in the cell below. Start with making two variables to assign the numbers <em>35</em> and <em>69</em> to. Calculate the sum using these variables.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Make a variable for the number 35</span>
+
+<span class="c1"># Make a variable for the number 69</span>
+
+<span class="c1"># Calculate the sum using the variables</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Your code should look a bit like this:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">number_1</span> <span class="o">=</span> <span class="mi">35</span>
+<span class="n">number_2</span> <span class="o">=</span> <span class="mi">69</span>
+<span class="n">number_1</span> <span class="o">+</span> <span class="n">number_2</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>104
+</pre></div>
+</div>
+</div>
+</div>
+<p>The plus sign can be used to calculate sums, as you did in the above exercise. However, the plus sign can also be used to stick different strings together.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;This is a &quot;</span>
+<span class="n">line_2</span> <span class="o">=</span> <span class="s2">&quot;stuck together text&quot;</span>
+<span class="n">line_1</span> <span class="o">+</span> <span class="n">line_2</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>As you can see Python adds the text elements together to form a longer sentence. This also works with multiple variables.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;This is a stuck together text&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Ensure that the four lines below are printed as one sentence in the output.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;Because of this Notebook &quot;</span>
+<span class="n">line_2</span> <span class="o">=</span> <span class="s2">&quot;I now know &quot;</span>
+<span class="n">line_3</span> <span class="o">=</span> <span class="s2">&quot;that programming with Python &quot;</span>
+<span class="n">line_4</span> <span class="o">=</span> <span class="s2">&quot;is very fun!&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Your code should look like this:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">+</span> <span class="n">line_2</span> <span class="o">+</span> <span class="n">line_3</span> <span class="o">+</span> <span class="n">line_4</span>
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Because of this Notebook I now know that programming with Python is very fun!&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now, what about adding text and numbers from variables together?</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a cell in your Notebook and see what happens when you run the code.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;The amount of abstracts for DHBenelux is: &quot;</span>
+<span class="n">amount_1</span> <span class="o">=</span> <span class="mi">43</span>
+<span class="n">line_1</span> <span class="o">+</span> <span class="n">amount_1</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>This gives an error:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="ne">TypeError</span><span class="p">:</span> <span class="n">can</span> <span class="n">only</span> <span class="n">concatenate</span> <span class="nb">str</span> <span class="p">(</span><span class="ow">not</span> <span class="s2">&quot;int&quot;</span><span class="p">)</span> <span class="n">to</span> <span class="nb">str</span>
+</pre></div>
+</div>
+<p>Just adding numbers and text does not work. Some extra work needs to be done in order for Python to correctly return output without errors</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output tag_raises-exception docutils container">
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="nn">Input In [10],</span> in <span class="ni">&lt;cell line: 3&gt;</span><span class="nt">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;The amount of abstracts for DHBenelux is: &quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">amount_1</span> <span class="o">=</span> <span class="mi">43</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">line_1</span> <span class="o">+</span> <span class="n">amount_1</span>
+
+<span class="ne">TypeError</span>: can only concatenate str (not &quot;int&quot;) to str
+</pre></div>
+</div>
+</div>
+</div>
+<p>There are multiple options to convince Python to return combinations of numbers and  text:</p>
+<ul class="simple">
+<li><p>force numbers to text with <em>str()</em></p></li>
+<li><p><em>f strings</em></p></li>
+</ul>
+<p>To force Python to interpret a number as text its type can be changed with str(number).</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;The amount of abstracts for DHBenelux is: &quot;</span>
+<span class="n">amount_1</span> <span class="o">=</span> <span class="mi">43</span>
+<span class="n">line_1</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">amount_1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Now the text and number are succesfully stuck together.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{code-cell} 
+:tags: [remove-output,hide-output]
+line_1 = &quot;The amount of abstracts for DHBenelux is: &quot;
+amount_1 = 43
+line_1 + str(amount_1)
+</pre></div>
+</div>
+</div>
+<p>This also works with multiple variabeles and pieces of text outside of variables.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;coffee breaks &quot;</span>
+<span class="n">amount_1</span> <span class="o">=</span> <span class="mi">2</span>
+ 
+<span class="s2">&quot;The amount of &quot;</span> <span class="o">+</span> <span class="n">line_1</span> <span class="o">+</span> <span class="s2">&quot;in this workshop is: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">amount_1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Python will stick anything together, as long as it is of type text.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;The amount of coffee breaks in this workshop is: 2&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notice the space after each of the pieces of text (either in or outside a variable).
+Try removing it to see what happens</p>
+</div>
+<p>Another option is the use of <em>f strings</em>. This is a way of telling Python where to insert the contents of a variable into a string.</p>
+<p>The syntax for <em>f strings</em> is:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sa">f</span><span class="s2">&quot;This is the string we type and </span><span class="si">{</span><span class="n">this_is_the_variable</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span> <span class="o">=</span> <span class="s2">&quot;coffee breaks &quot;</span>
+<span class="n">amount_1</span> <span class="o">=</span> <span class="mi">2</span>
+ 
+<span class="sa">f</span><span class="s2">&quot;The amount of </span><span class="si">{</span><span class="n">line_1</span><span class="si">}</span><span class="s2"> in this workshop is: </span><span class="si">{</span><span class="n">amount_1</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>This gives the same output as simply sticking strings together with the + sign.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;The amount of coffee breaks  in this workshop is: 2&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p><em>f strings</em> can be very powerful for making dynamic strings, such as automatically numbered filenames.</p>
+</div>
+<div class="section" id="output">
+<h3>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h3>
+<p>As you have already seen, executing code can produce output. In Jupyter Notebooks the output is presented within an output cell. Errors will be printed here too.
+Not all code will produce output, so don’t be alarmed.</p>
+<p>Output should generally be created by printing using:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;whatever you wish to print&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>whatever you wish to print
+</pre></div>
+</div>
+</div>
+</div>
+<p>Text must be put between quotes or Python will assume you wish to print variables.</p>
+<p>Variables can be printed the same way as text, but must <strong>not</strong> have quotation marks.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>In a new code cell, create the variable ‘print_me’ and assign to it “I was printed with the print function”
+Using the print function, print out the variable.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>print_me = &quot;I was printed with the print function&quot;
+print(print_me)
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>I was printed with the print function
+</pre></div>
+</div>
+</div>
+</div>
+<p>As you can see, this prints the contents of the variable to the output cell.</p>
+<p>However, using Jupyter Notebooks there is also another way to create output. You have seen, and used, this before. The last line of a cell will always create output, if there is any output to create.</p>
+<p>To demonstrate this, let’s reuse some of our variabeles.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>In a new code cell, type out the following code and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">line_1</span>
+<span class="n">amount_1</span>
+<span class="n">print_me</span>
+</pre></div>
+</div>
+<p>Which variable is printed to the output?</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>Only the last variable <em>print_me</em> is printed.
+Try changing the order and see if this behaviour is consistent.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;I was printed with the print function&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>These two ways of printing output are not completely the same. Printing using the print() function removes some of the layout that Jupyter creates for you.
+This is very noticable when printing tables (which we call ‘Dataframes’).</p>
+<p>We have created a variable <em>table_1</em> for you that contains a table of numbers. Which we will use to demonstrate the difference in printing.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>In a new code cell, print out the variable <em>table</em> using the print() function and by executing the variabel
+Which variable is printed to the output?</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>You will have used
+<code class="docutils literal notranslate"><span class="pre">print(table_1)</span></code>
+or
+<code class="docutils literal notranslate"><span class="pre">table_1</span></code>
+to print out the table. You can check below of the output matches yours.</p>
+</div>
+<p>The output of <code class="docutils literal notranslate"><span class="pre">print(table_1)</span></code></p>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>This was printed with the print() function.
+     I   am   a  table     of  numbers
+0   32    6   7      5  34534        7
+1  123  543   3      7      8       43
+2   12   34   8      6     34       65
+3   12   32  56    873     56        3
+</pre></div>
+</div>
+</div>
+</div>
+<p>The output of <code class="docutils literal notranslate"><span class="pre">table_1</span></code></p>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>This was printed by executing table_1
+</pre></div>
+</div>
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>I</th>
+      <th>am</th>
+      <th>a</th>
+      <th>table</th>
+      <th>of</th>
+      <th>numbers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>32</td>
+      <td>6</td>
+      <td>7</td>
+      <td>5</td>
+      <td>34534</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>123</td>
+      <td>543</td>
+      <td>3</td>
+      <td>7</td>
+      <td>8</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>12</td>
+      <td>34</td>
+      <td>8</td>
+      <td>6</td>
+      <td>34</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>12</td>
+      <td>32</td>
+      <td>56</td>
+      <td>873</td>
+      <td>56</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>While this difference is purely aesthetic, it is good to know, especially when working with table formatted data.</p>
+</div>
+<div class="section" id="functions">
+<h3>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h3>
+<p>When you program in Python you will make use of functions. The <em>str()</em> code used in the previous exercise to make Python recognize numbers as text was an example of a function. Python contains a lot of built-in functions that are ready to use. Saving us a lot of manual coding!</p>
+<p>Functions need to be passed one or more parameters as input. The syntax of a function is as follows: <em>functionname(parameters)</em>. When there are multiple parameters these are seperated with a comma.</p>
+<p>You can find some examples below.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Calculate the highest number using the max() function.</span>
+<span class="nb">max</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>See how this function finds the highest number for you?</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>75
+</pre></div>
+</div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Round the number below using the round() function. The first parameter is the number to round. The second number is the required number of decimals. Type the code below in a new cell in your Notebook and run the cell</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="nb">round</span><span class="p">(</span><span class="mf">36.53343</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>This function neatly rounds the number to the amount of digits you specified. You can try inputting a different amount of digits.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>36.53
+</pre></div>
+</div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Calculate the <em>lowest</em> number using the function min(). This functions works similarly to the previously used max() function.
+Use the following numbers: 6, 24, 8, 2, 14.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>The code should look like this</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">min</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">14</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="conditional-statements-if-else">
+<h3>Conditional statements, <em>if else</em><a class="headerlink" href="#conditional-statements-if-else" title="Permalink to this headline">¶</a></h3>
+<p>Python is able to use conditional statements. These are control structures that enable us to decide what to do based on what happens in our code and input. It requires that that one or more conditions are specified to be evaluated or tested by the program, along with something that the code must do if the condition is determined to be true, and optionally, something else if the condition is determined to be false.</p>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="s2">&quot;hungry&quot;</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Lunch!&quot;</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Work!&quot;</span>
+</pre></div>
+</div>
+<p>These can also be extended using multiple choices:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="s2">&quot;hungry&quot;</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Lunch!&quot;</span>
+<span class="k">elif</span> <span class="s2">&quot;tired&quot;</span><span class="p">:</span> 
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Coffee!&quot;</span> 
+<span class="k">else</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Work!&quot;</span>
+</pre></div>
+</div>
+<p>Instead of coding out conditions directly into the <em>if else</em>, it is also possible to evaluate the contents of a variable. This enables us to reuse an <em>if else</em> block multiple times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## First we put the condition into a variable </span>
+<span class="n">current_state</span> <span class="o">=</span> <span class="s2">&quot;hungry&quot;</span>
+<span class="c1">## then we evaluate the variable</span>
+<span class="k">if</span> <span class="n">current_state</span> <span class="o">==</span> <span class="s2">&quot;hungry&quot;</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Lunch!&quot;</span>
+<span class="k">elif</span> <span class="n">current_state</span> <span class="o">==</span> <span class="s2">&quot;tired&quot;</span><span class="p">:</span> 
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Coffee!&quot;</span> 
+<span class="k">else</span><span class="p">:</span>
+	<span class="n">to_do</span> <span class="o">=</span> <span class="s2">&quot;Work!&quot;</span>
+	
+</pre></div>
+</div>
+</div>
+</div>
+<p>If we would now print the contents of the variable <em>to_do</em> we would get:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">to_do</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Lunch!
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="packages">
+<h3>Packages<a class="headerlink" href="#packages" title="Permalink to this headline">¶</a></h3>
+<p>The last important thing to know is that Python works with packages. A package is a collection of modules with predefined functions. These functions can than be used in your own code. Using packages can save a lot of programming work and enhances the functionality of base Python. Most Python programmers regularly use packages.</p>
+<p>Before using a Python package it needs to be <em>installed</em>. This is preferably done using the command line but can also be done within your Jupyter Notebook.
+Afterwards the package needs to be <em>imported</em> into the Notebook. After importing the package is ready for use.</p>
+<p>To demonstrate this we will install, import and use a package to display some information about the contents of the presentations during DHBenelux 2022.</p>
+<p>First you will need to download the dataset. The dataset can be <a class="reference external" href="https://github.com/MirjamC/xml-workshop/blob/master/data/wordcloud_dataset.csv">downloaded here</a>.
+To be able to install wordcloud correctly, you preferably have Anaconda installed, as installing it can be difficult otherwise.</p>
+<p>Now let’s install and import the packages we need.
+We will need three packages:</p>
+<ul class="simple">
+<li><p>Pandas, for easy data manipulation;</p></li>
+<li><p>matplotlib, for plotting in Python;</p></li>
+<li><p>WordCloud, for generating a wordcloud.</p></li>
+</ul>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Open “Anaconda prompt” through the start menu and install the packages with the following code. Install them sequentially and wait until a package is installed
+before installing the next one.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pandas</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">wordcloud</span> 
+<span class="n">pip</span> <span class="n">install</span> <span class="n">matplotlib</span>
+</pre></div>
+</div>
+</div>
+<div class="figure align-default" id="open-anaconda-prompt">
+<a class="reference internal image-reference" href="images/anacondaprompt.png"><img alt="images/anacondaprompt.png" src="images/anacondaprompt.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Open Anaconda prompt.</span><a class="headerlink" href="#open-anaconda-prompt" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="the-anaconda-commandline">
+<a class="reference internal image-reference" href="images/anacondaprompt3.png"><img alt="images/anacondaprompt3.png" src="images/anacondaprompt3.png" style="height: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Type out the install code.</span><a class="headerlink" href="#the-anaconda-commandline" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When installing packages within a Jupyter Notebook, an exlamation mark is needed to activate <em>pip</em> within the Notebook enviroment. When installing from the command line this is not needed.
+For example:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span>!pip install pandas
+</pre></div>
+</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Now let’s import the packages. Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import the packages</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">wordcloud</span> <span class="kn">import</span> <span class="n">WordCloud</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is a difference between the import statements of the three packages. In the case of <em>pandas</em> and <em>wordcloud</em> we import the whole package.
+For <em>matplotlib</em> we only want the <em>pyplot</em> module, so we added this explicitly after the package name. This ensures that ony that module is imported. The <em>as plt</em> and <em>as pd</em> statement renames package to a shorter and easier typable code. You will see this used below.</p>
+</div>
+<p>A package can be used in the same way as a function.
+We will use the <em>pandas</em> package to load data into the Notebook in a way that is digestable for the creation of a wordcloud.
+Many packages feature multiple functions for data manipulation, calculation or visualisation. The function you wish to use is added after the package name. The package name points Python to the location of the function.</p>
+<p>Syntax:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">packagename</span><span class="o">.</span><span class="n">function</span><span class="p">(</span><span class="n">parameters</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Type the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Read the dataset into Python using pandas</span>
+<span class="n">wordcloud</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/wordcloud_dataset.csv&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">squeeze</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Transform into dictionary for use in the WordCloud</span>
+<span class="n">wordcloud_dict</span> <span class="o">=</span> <span class="n">wordcloud</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+<span class="c1"># It is good practice to check if the data is loaded correctly</span>
+<span class="n">wordcloud_dict</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As you can see, the <em>pandas</em> name ‘pd’ precedes the option <em>read_csv</em>.</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>This should have loaded the data into your Notebook. As stated in the comment it is good practice to check what you have loaded. See if the output matches that below.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output tag_output_scroll docutils container">
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\Users\mirjam\AppData\Local\Temp\ipykernel_14636\1470747503.py:1: FutureWarning: The squeeze argument has been deprecated and will be removed in a future version. Append .squeeze(&quot;columns&quot;) to the call to squeeze.
+
+
+  wordcloud = pd.read_csv(&quot;data/wordcloud_dataset.csv&quot;, header=None, index_col=0, squeeze=True)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;machine&#39;: 1,
+ &#39;learning&#39;: 1,
+ &#39;read&#39;: 1,
+ &#39;yesterdays&#39;: 1,
+ &#39;news&#39;: 1,
+ &#39;how&#39;: 3,
+ &#39;semantic&#39;: 1,
+ &#39;enrichments&#39;: 1,
+ &#39;enhance&#39;: 1,
+ &#39;study&#39;: 1,
+ &#39;digitised&#39;: 2,
+ &#39;historical&#39;: 8,
+ &#39;newspapers&#39;: 4,
+ &#39;creating&#39;: 1,
+ &#39;data&#39;: 11,
+ &#39;workflows&#39;: 2,
+ &#39;humanities&#39;: 4,
+ &#39;research&#39;: 4,
+ &#39;automatically&#39;: 2,
+ &#39;extract&#39;: 3,
+ &#39;text&#39;: 4,
+ &#39;layout&#39;: 2,
+ &#39;metadata&#39;: 3,
+ &#39;information&#39;: 2,
+ &#39;from&#39;: 5,
+ &#39;xmlfiles&#39;: 2,
+ &#39;ocred&#39;: 2,
+ &#39;texts&#39;: 2,
+ &#39;greening&#39;: 1,
+ &#39;digital&#39;: 5,
+ &#39;writing&#39;: 2,
+ &#39;multilayered&#39;: 1,
+ &#39;articles&#39;: 1,
+ &#39;example&#39;: 1,
+ &#39;journal&#39;: 1,
+ &#39;history&#39;: 7,
+ &#39;are&#39;: 2,
+ &#39;we&#39;: 1,
+ &#39;working&#39;: 1,
+ &#39;with&#39;: 3,
+ &#39;opening&#39;: 1,
+ &#39;keynote&#39;: 1,
+ &#39;modeling&#39;: 1,
+ &#39;investigating&#39;: 1,
+ &#39;variation&#39;: 1,
+ &#39;language&#39;: 1,
+ &#39;use&#39;: 2,
+ &#39;communicative&#39;: 1,
+ &#39;perspective&#39;: 1,
+ &#39;methods&#39;: 2,
+ &#39;challenges&#39;: 2,
+ &#39;types&#39;: 1,
+ &#39;evidence&#39;: 1,
+ &#39;twoway&#39;: 1,
+ &#39;street&#39;: 1,
+ &#39;between&#39;: 1,
+ &#39;ai&#39;: 1,
+ &#39;media&#39;: 2,
+ &#39;scholars&#39;: 1,
+ &#39;developing&#39;: 1,
+ &#39;stories&#39;: 1,
+ &#39;as&#39;: 1,
+ &#39;enhanced&#39;: 1,
+ &#39;publications&#39;: 1,
+ &#39;open&#39;: 2,
+ &#39;science&#39;: 1,
+ &#39;linked&#39;: 2,
+ &#39;create&#39;: 1,
+ &#39;fair&#39;: 1,
+ &#39;corpus&#39;: 1,
+ &#39;intra&#39;: 1,
+ &#39;belgian&#39;: 1,
+ &#39;literary&#39;: 3,
+ &#39;translations&#39;: 1,
+ &#39;19702020&#39;: 1,
+ &#39;extracting&#39;: 1,
+ &#39;providing&#39;: 1,
+ &#39;online&#39;: 1,
+ &#39;access&#39;: 1,
+ &#39;annotated&#39;: 1,
+ &#39;semantically&#39;: 1,
+ &#39;enriched&#39;: 1,
+ &#39;agoda&#39;: 1,
+ &#39;project&#39;: 1,
+ &#39;moving&#39;: 1,
+ &#39;beyond&#39;: 1,
+ &#39;tooloriented&#39;: 1,
+ &#39;teaching&#39;: 1,
+ &#39;within&#39;: 1,
+ &#39;challenge&#39;: 1,
+ &#39;appropriating&#39;: 1,
+ &#39;clariah&#39;: 1,
+ &#39;suite&#39;: 1,
+ &#39;into&#39;: 2,
+ &#39;toolsupported&#39;: 1,
+ &#39;network&#39;: 1,
+ &#39;analysis&#39;: 2,
+ &#39;wikipedia&#39;: 1,
+ &#39;editors&#39;: 1,
+ &#39;engagement&#39;: 1,
+ &#39;interests&#39;: 1,
+ &#39;identities&#39;: 1,
+ &#39;power&#39;: 1,
+ &#39;hierarchy&#39;: 1,
+ &#39;key&#39;: 1,
+ &#39;actors&#39;: 1,
+ &#39;events&#39;: 1,
+ &#39;discourses&#39;: 1,
+ &#39;gormanrijneveld&#39;: 1,
+ &#39;translation&#39;: 1,
+ &#39;controversy&#39;: 1,
+ &#39;twitter&#39;: 1,
+ &#39;dragen&#39;: 1,
+ &#39;van&#39;: 1,
+ &#39;mondkapjes&#39;: 2,
+ &#39;niet&#39;: 1,
+ &#39;nodig&#39;: 1,
+ &#39;is&#39;: 2,
+ &#39;zijn&#39;: 1,
+ &#39;verplichthow&#39;: 1,
+ &#39;netherlands&#39;: 1,
+ &#39;dealt&#39;: 1,
+ &#39;first&#39;: 1,
+ &#39;wave&#39;: 1,
+ &#39;covid19&#39;: 1,
+ &#39;pandemic&#39;: 1,
+ &#39;promising&#39;: 1,
+ &#39;road&#39;: 1,
+ &#39;automatic&#39;: 1,
+ &#39;speech&#39;: 1,
+ &#39;recognition&#39;: 1,
+ &#39;privacysensitive&#39;: 1,
+ &#39;dutch&#39;: 4,
+ &#39;doctorpatient&#39;: 1,
+ &#39;consultation&#39;: 1,
+ &#39;recordings&#39;: 1,
+ &#39;understanding&#39;: 1,
+ &#39;bias&#39;: 3,
+ &#39;through&#39;: 2,
+ &#39;datadriven&#39;: 1,
+ &#39;digitisation&#39;: 1,
+ &#39;enrichment&#39;: 1,
+ &#39;100000&#39;: 1,
+ &#39;pages&#39;: 1,
+ &#39;handwritten&#39;: 1,
+ &#39;police&#39;: 1,
+ &#39;reports&#39;: 1,
+ &#39;antwerp&#39;: 1,
+ &#39;18291945&#39;: 1,
+ &#39;extraction&#39;: 1,
+ &#39;classification&#39;: 1,
+ &#39;stamp&#39;: 1,
+ &#39;cards&#39;: 1,
+ &#39;using&#39;: 2,
+ &#39;computer&#39;: 1,
+ &#39;vision&#39;: 1,
+ &#39;unlocking&#39;: 1,
+ &#39;web&#39;: 1,
+ &#39;archives&#39;: 2,
+ &#39;seed&#39;: 1,
+ &#39;lists&#39;: 1,
+ &#39;derived&#39;: 1,
+ &#39;defying&#39;: 1,
+ &#39;expectations&#39;: 1,
+ &#39;stylistically&#39;: 1,
+ &#39;unconventional&#39;: 1,
+ &#39;anger&#39;: 1,
+ &#39;contemporary&#39;: 1,
+ &#39;novel&#39;: 1,
+ &#39;clip&#39;: 1,
+ &#39;analyze&#39;: 1,
+ &#39;images&#39;: 1,
+ &#39;family&#39;: 1,
+ &#39;3000&#39;: 1,
+ &#39;dutchlanguage&#39;: 1,
+ &#39;childrens&#39;: 1,
+ &#39;books&#39;: 1,
+ &#39;18001940&#39;: 1,
+ &#39;distant&#39;: 2,
+ &#39;reading&#39;: 1,
+ &#39;gender&#39;: 1,
+ &#39;prizes&#39;: 1,
+ &#39;claudine&#39;: 1,
+ &#39;at&#39;: 2,
+ &#39;workshop&#39;: 1,
+ &#39;impact&#39;: 1,
+ &#39;willy&#39;: 1,
+ &#39;his&#39;: 1,
+ &#39;secretaries&#39;: 1,
+ &#39;colettes&#39;: 1,
+ &#39;shape&#39;: 1,
+ &#39;doubt&#39;: 1,
+ &#39;employing&#39;: 1,
+ &#39;visualization&#39;: 1,
+ &#39;investigate&#39;: 1,
+ &#39;stylistic&#39;: 1,
+ &#39;features&#39;: 1,
+ &#39;narrative&#39;: 1,
+ &#39;works&#39;: 1,
+ &#39;italo&#39;: 1,
+ &#39;calvino&#39;: 1,
+ &#39;unmixing&#39;: 1,
+ &#39;remix&#39;: 1,
+ &#39;publishing&#39;: 1,
+ &#39;complete&#39;: 1,
+ &#39;manuscripts&#39;: 1,
+ &#39;anne&#39;: 1,
+ &#39;frank&#39;: 1,
+ &#39;zortify&#39;: 1,
+ &#39;round&#39;: 1,
+ &#39;table&#39;: 1,
+ &#39;hybrid&#39;: 1,
+ &#39;knowledge&#39;: 1,
+ &#39;new&#39;: 2,
+ &#39;insights&#39;: 1,
+ &#39;augmented&#39;: 1,
+ &#39;intelligence&#39;: 1,
+ &#39;human&#39;: 1,
+ &#39;decisionmaking&#39;: 1,
+ &#39;user&#39;: 1,
+ &#39;demand&#39;: 1,
+ &#39;supporting&#39;: 1,
+ &#39;advanced&#39;: 1,
+ &#39;collections&#39;: 2,
+ &#39;exploring&#39;: 1,
+ &#39;setting&#39;: 1,
+ &#39;an&#39;: 1,
+ &#39;agenda&#39;: 1,
+ &#39;historic&#39;: 1,
+ &#39;machines&#39;: 1,
+ &#39;prams&#39;: 1,
+ &#39;parliament&#39;: 1,
+ &#39;avenues&#39;: 1,
+ &#39;collaborative&#39;: 1,
+ &#39;linguistic&#39;: 1,
+ &#39;clash&#39;: 1,
+ &#39;colorful&#39;: 1,
+ &#39;worlds&#39;: 1,
+ &#39;viewing&#39;: 1,
+ &#39;color&#39;: 1,
+ &#39;western&#39;: 1,
+ &#39;visual&#39;: 1,
+ &#39;representations&#39;: 1,
+ &#39;orient&#39;: 1,
+ &#39;occident&#39;: 1,
+ &#39;1890&#39;: 1,
+ &#39;1920&#39;: 1,
+ &#39;cutting&#39;: 1,
+ &#39;its&#39;: 1,
+ &#39;joints&#39;: 1,
+ &#39;computational&#39;: 1,
+ &#39;approach&#39;: 2,
+ &#39;periodizing&#39;: 1,
+ &#39;concept&#39;: 1,
+ &#39;manuscript&#39;: 1,
+ &#39;syntactic&#39;: 1,
+ &#39;tree&#39;: 1,
+ &#39;long&#39;: 1,
+ &#39;journey&#39;: 1,
+ &#39;mathematical&#39;: 1,
+ &#39;bibliographic&#39;: 1,
+ &#39;textual&#39;: 1,
+ &#39;studies&#39;: 1,
+ &#39;personal&#39;: 1,
+ &#39;library&#39;: 1,
+ &#39;medieval&#39;: 1,
+ &#39;sweden&#39;: 1,
+ &#39;reference&#39;: 1,
+ &#39;work&#39;: 1,
+ &#39;transformed&#39;: 1,
+ &#39;xml&#39;: 1,
+ &#39;whose&#39;: 1,
+ &#39;i&#39;: 1,
+ &#39;it&#39;: 1,
+ &#39;anyway&#39;: 2,
+ &#39;comparing&#39;: 2,
+ &#39;rulebased&#39;: 1,
+ &#39;bert&#39;: 1,
+ &#39;token&#39;: 1,
+ &#39;classifier&#39;: 1,
+ &#39;quote&#39;: 1,
+ &#39;detection&#39;: 1,
+ &#39;whats&#39;: 1,
+ &#39;liberal&#39;: 1,
+ &#39;newspaper&#39;: 1,
+ &#39;performance&#39;: 1,
+ &#39;usability&#39;: 1,
+ &#39;stateoftheart&#39;: 1,
+ &#39;ocr&#39;: 1,
+ &#39;frenchdutch&#39;: 1,
+ &#39;bilingual&#39;: 1,
+ &#39;sources&#39;: 1,
+ &#39;detecting&#39;: 1,
+ &#39;perspectives&#39;: 1,
+ &#39;population&#39;: 1,
+ &#39;subgroups&#39;: 1,
+ &#39;pillarised&#39;: 1,
+ &#39;contentious&#39;: 1,
+ &#39;words&#39;: 1,
+ &#39;represented&#39;: 1,
+ &#39;museum&#39;: 1,
+ &#39;collection&#39;: 1,
+ &#39;montage&#39;: 1,
+ &#39;towards&#39;: 1,
+ &#39;coherence&#39;: 1,
+ &#39;multimodal&#39;: 1,
+ &#39;representation&#39;: 1,
+ &#39;enriching&#39;: 1,
+ &#39;cultural&#39;: 2,
+ &#39;heritage&#39;: 1,
+ &#39;quest&#39;: 1,
+ &#39;interoperability&#39;: 1,
+ &#39;audiovisual&#39;: 1,
+ &#39;digitized&#39;: 1,
+ &#39;natural&#39;: 1}
+</pre></div>
+</div>
+</div>
+</div>
+<p>When the data is loaded correctly we can use the <em>WordCloud</em> and <em>matplotlib</em> packages to create a wordcloud from the data.</p>
+<div class="attention admonition">
+<p class="admonition-title">Exercise</p>
+<p>Copy the code below in a new cell in your Notebook and run the cell.</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># initialise the wordcloud</span>
+<span class="n">wc</span> <span class="o">=</span> <span class="n">WordCloud</span><span class="p">(</span><span class="n">background_color</span><span class="o">=</span><span class="s2">&quot;white&quot;</span><span class="p">,</span> <span class="n">max_words</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="c1"># generate the wordcloud </span>
+<span class="n">wc</span><span class="o">.</span><span class="n">generate_from_frequencies</span><span class="p">(</span><span class="n">wordcloud_dict</span><span class="p">)</span>
+<span class="c1"># plt the wordcloud to the output</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">wc</span><span class="p">,</span><span class="n">interpolation</span><span class="o">=</span><span class="s2">&quot;bilinear&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s2">&quot;off&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Solution</p>
+<p>This should plot a wordcloud showing maximally 20 word in different sizes. Each word is sized by the amount of times it occurs in the titles of the DHBenelux 2022 abstract. Common words like ‘the’ and ‘of’ have already been removed.
+This visualiation can give quick insight to which items are popular at the moment.</p>
+</div>
+<div class="cell tag_remove-input tag_hide-output docutils container">
+<div class="cell_output docutils container">
+<img alt="_images/1_introduction_python_49_0.png" src="_images/1_introduction_python_49_0.png" />
+</div>
+</div>
+<p>Well done! Now you know the basics of working with Jupyter Notebooks and Python. We will use this in the coming chapters.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Welcome to this XML with Python course</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="2_introduction_xml.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">2. Introduction to XML</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By Mirjam Cuper & Ethan den Boer<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

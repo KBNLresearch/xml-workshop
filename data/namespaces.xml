@@ -1,0 +1,6 @@
+<p:student xmlns:p="http//www.imaginarypythoncourses.com/student">
+  <p:id>3235329</p:id>
+  <p:name>Jeff Smith</p:name>
+  <p:language>Python</p:language>
+  <p:rating>9.5</p:rating>
+</p:student>

@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: 1_introduction_python
+- file: 2_introduction_xml
+- file: 3_introduction_packages
+- file: 4_example_ET
+- file: 5_example_BS
+- file: 6_xmlformats_intro
+- file: 7_alto_ET
+- file: 8_alto_BS
+- file: 9_page_ET
+- file: 10_page_BS
+- file: 11_tei_BS
+- file: 12_auto_batch
+- file: end
+

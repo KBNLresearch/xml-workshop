@@ -1,0 +1,3443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//DBNL//DTD TEI.2 XML//NL" "http://www.dbnl.org/xml/dtd/teixlite.dtd">
+<TEI.2>
+   <teiHeader>
+        <fileDesc>
+           <titleStmt>
+               <title type="main">Avondschemering</title>
+               <author>Willem Bilderdijk</author>
+           </titleStmt>
+           <editionStmt>
+               <edition>
+                   Dit bestand biedt, behoudens een aantal hierna te noemen ingrepen, een diplomatische weergave van <hi rend="i">Avondschemering</hi> van Willem Bilderdijk uit 1828.
+               </edition>
+               <respStmt>
+                   <resp>
+                       <corr>De koppen zijn tussen vierkante haken toegevoegd.</corr>
+                   </resp>
+               </respStmt>
+           </editionStmt>
+           <extent><!-- aantal pagina's --></extent>
+           <publicationStmt>
+               <idno type="titelcode">bild002avon01_01</idno>
+               <idno type="format">DBNL-TEI 1</idno>
+               <availability>
+                   <p>2015 dbnl</p>
+               </availability>
+           </publicationStmt>
+            <notesStmt>
+                <note type="clarin-edite">yes</note>
+            </notesStmt>            
+           <sourceDesc>
+               <bibl>
+                   <idno type="isbn"></idno>
+                   <idno type="usedcopy">eigen exemplaar DBNL</idno>
+               </bibl>
+               <p>Willem Bilderdijk, <hi rend="i">Avondschemering</hi>. J. Sacré, Brussel 1828</p>
+               <p>&nbsp;</p>
+           </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+           <projectDesc>
+               <p>Wijze van coderen: standaard</p>
+               <p></p>
+           </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+           <langUsage>
+               <language id="nl">Nederlands</language>
+           </langUsage>
+       </profileDesc>
+       <ebook>
+           <bibl>
+               <title type="main">Avondschemering</title>
+               <author>Willem Bilderdijk</author>
+               <idno type="isbn"></idno>
+               <idno type="nur"></idno>
+               <imprint>
+                   <date></date>
+                   <publisher></publisher>
+                   <pubPlace></pubPlace>
+               </imprint>
+           </bibl>
+           <idno type="isbn"></idno>
+           <idno type="nur"></idno>
+           <availability>
+               <p></p>
+           </availability>
+           <order>
+               <price curr="euro"></price>
+               <link></link>
+           </order>
+           <blurb><p></p></blurb>
+           <titlepage><p></p></titlepage>
+           <colofon><p></p></colofon>
+       </ebook>
+       <pod>
+           <bibl>
+               <title type="main">Avondschemering</title>
+               <author>Willem Bilderdijk</author>
+               <idno type="isbn"></idno>
+               <idno type="nur"></idno>
+               <imprint>
+                   <date></date>
+                   <publisher></publisher>
+                   <pubPlace></pubPlace>
+               </imprint>
+           </bibl>
+           <idno type="isbn"></idno>
+           <idno type="nur"></idno>
+           <availability>
+               <p></p>
+           </availability>
+           <order>
+               <price curr="euro"></price>
+               <link></link>
+           </order>
+           <blurb><p></p></blurb>
+           <titlepage><p></p></titlepage>
+           <colofon><p></p></colofon>
+       </pod>
+       <revisionDesc>
+           <change>
+               <date>2015-10-14</date>
+               <respStmt>
+                   <name type="person">RK</name>
+               </respStmt>
+               <item>colofon toegevoegd</item>
+           </change>
+       </revisionDesc>
+   </teiHeader>
+   <text>
+<body>
+<cf>
+<div type="chapter">
+<pb n="π1"/>
+<p>AVONDSCHEMERING.</p>
+<pb rend="blank" n="π2"/>
+<pb n="I"/>
+<p>AVONDSCHEMERING.</p>
+<p>door</p>
+<p><hi rend="i">M<hi rend="sup">r</hi>. W. Bilderdijk.</hi></p>
+<q rend="bq"><hi rend="i">Carmina jam moriens canit exsequialia cygnus.
+<lb/>
+Ovid.</hi></q>
+<p><figure>
+<p><xptr to="bild002avon01ill0001.gif"/></p>
+</figure></p>
+<p>Brussel,</p>
+<p><hi rend="i">J. Sacré, Drukker en Boekhandelaar.</hi></p>
+<p>1828.</p>
+<pb rend="blank" n="II"/>
+</div>
+</cf>
+<div type="chapter">
+<pb n="III"/>
+<head rend="h3">[Voorreden]</head>
+<p><figure>
+<p><xptr to="bild002avon01ill0002.gif"/></p>
+</figure></p>
+<p>De hereeniging der sints meer dan twee eeuwen van elkander gescheiden Nederlanden onder den meestgewenschten Koningsscepter, heeft by ieder weldenkende, met de vroeger eindpalen des Vaderlands, ook de zucht en belangstelling onzer harten uitgebreid; en geen Brussel of Gent is ons Hollanderen tegenwoordig meer vreemd dan of Leyden, of Utrecht, of Groningen: ook mag men 't een plicht rekenen, het onze aan eene steeds engere verbroedering toe te brengen.</p>
+<p>Als tot deze strekking dienstig, beschouwde ik het aanzoek, my van uit de Zuidelijker gewesten van ons Rijk gedaan, om een Dichtbondel van my aldaar uit te geven, en het is met een byzonder genoegen, dat ik daarin bewilligde.</p>
+<p>Dit weinige zij hier vooraf gezegd: verdere of andere Voorrede behoeven deze mijne losse vaerzen niet. Men
+<pb n="IV"/>kent den geest die in mijne schriften ademt, vooraf, en zekerlijk behoeft hy geene verdediging. En, wat de inkleeding betreffe; die uit den uitgedorden tronk sierlijke bloesems verwachtede, zou zich-zelven bedriegen, en even zoo die in de <hi rend="sc">Avondschemering</hi> helderen zonneschijn.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0003.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<pb n="1"/>
+<head rend="h2">Verstand en Menschlievendheid.</head>
+<q rend="bq"><hi rend="i">Virtutis olim vertimus jam nomina.</hi>
+<lb/>
+<hi rend="sc">Buchanan</hi>.</q>
+<pb rend="blank" n="2"/>
+<div type="section">
+<pb n="3"/>
+<head rend="h3">[Inleiding]</head>
+<p><figure>
+<p><xptr to="bild002avon01ill0004.gif"/></p>
+</figure></p>
+<p><hi rend="i">Een aanzienlijk Genootschap in ons Vaderland schreef nu onlangs de Prijsvraag uit:</hi> Of onze tegenwoordige leeftijd zich als een tijdvak van gezond verstand en menschelijkheid onderscheide dan niet? <hi rend="i">Men begrijpt lichtlijk</hi> (<hi rend="i">vertrouw ik</hi>) <hi rend="i">dat nooit by my opkwam, in dit kleine Dichtstukjen de vraag dier Maatschappy te beandwoorden, alschoon ik wellicht in vroegere jaren, indien zy toen voorgesteld ware geworden, by eene andere ziels- en ligchaamsgesteldheid wel genegen had kunnen zijn, daar, uit ondervinding en waarneming eene veelomvattende oplossing, en dit uit minder bepaald oogpunt als waarin alles zich tegenwoordig by my vereenigt, op te beproeven. Doch het onderwerp trof my niet te min; en van daar dit tweehonderdtal verzen</hi> (<hi rend="i">of zoo veel meer of minder het bevonden mag worden</hi>), <hi rend="i">my uit hart en pen gevloeid</hi>, <hi rend="i">en die ik geve voor 't geen zy zijn.</hi></p>
+<p>&nbsp;</p>
+<p>In Haarlem, Hooimaand 1827.</p>
+<p>B.</p>
+<pb rend="blank" n="4"/>
+</div>
+</div>
+<div type="chapter">
+<pb n="5"/>
+<head rend="h3">[Verstand en Menschlievendheid]</head>
+<p><figure>
+<p><xptr to="bild002avon01ill0005.gif"/></p>
+</figure></p>
+<lg type="poem">
+<l><hi rend="sc">Dit</hi> gaat elk Grijzaart na: <hi rend="i">Laudator temp'ris acti</hi></l>
+<l><hi rend="i">Se puëro;</hi> en (het moog dan <hi rend="i">juris</hi> zijn of <hi rend="i">facti</hi>)</l>
+<l>Men hoort het, en men heeft het daaglijks voor het oog,</l>
+<l>In wie het zesde kruis zijns levens eens voltoog.</l>
+<l>Natuurlijk ziet de man, een leven lang bedrogen,</l>
+<l>Al wat hem voorkomt thands met minder gunstige oogen;</l>
+<l>Ja, is 't gezicht hem zwak. Ja zelfs, hy meent misschien</l>
+<l>Den vlek die 't oog bezwalkt, in 't voorwerp zelf te zien.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Dit alles geve ik toe. Voor kunsten, voor vermaken,</l>
+<l n="10">Wordt vatbaarheid vereischt zoo ze iemand wel zal smaken:</l>
+<l>Om mijn verduisterd oog, is 't licht niet minder hel,</l>
+<l>Enby mijn doofheid lijdt noch snaar- noch orgelspel.</l>
+<l>Maar 't blijft een andre vraag: Is thands de wareld beter</l>
+<l>Dan voor den leeftijd van my, tandloos melkpap-eter,</l>
+<l>Of slimmer? - Is zy meer, of minder, God naby?</l>
+<l>Min slaaf van willekeur? meer van Geweten vrij?</l>
+<l>Meer zeedlijk? meer het recht zijns naasten heilig achtend?</l>
+<l>Meer met zich-zelf bekend? meer ernstig plichtbetrachtend?</l>
+<l>Meer hartlijk? minder door verbeelding waar zy vleit,</l>
+<l n="20">En door zijn eigenwaan en valsche lust, verleid? -</l>
+<l>Is ze ook, by weinig meer 't zij waar 't zij schijnbaar weten,</l>
+<l>Verstandiger? - of 't nutte om 't nutlooze ook vergeten? -</l>
+<pb n="6"/>
+<l>Voor my, die vrij wat zag, beleefde, en ondervond,</l>
+<l>En menig stapjen zette op dit eenzelvig rond,</l>
+<l>'k Zag goed, maar schaars gezaaid, en in de voor verdorven;</l>
+<l>En 't onkruid blij geoogst by opgehoopte korven;</l>
+<l>Ja, zoo er hier of daar wat voedzaam graan by was,</l>
+<l>'t Was luttel, en werd meest vertreden onder 't gras.</l>
+<l>Zoo vond ik 't. Ik, die steeds naar 't zuivre tarwbrood hong'rend,</l>
+<l n="30">En (schoon men 't vergen dorst) niet met den tijd verjong'rend,</l>
+<l>Niet knabblen kon op 't nu voor elk bestemd gebit,</l>
+<l>Moest uit mijn Vaderland en schamel goedbezit.</l>
+<l>'k Kwam weêr: de haat verkoelt? - Helaas, hy kwam weêr boven. -</l>
+<l>Waarom? Ik kon 't gevoel niet in mijn boezem doven;</l>
+<l>En, wat veranderde, ik bleef toch my-zelf alleen,</l>
+<l>En smolt mijn denkwijs met geen tijdgeest ondereen.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Wat vraagt men dan, wat biedt men goud of eermetalen</l>
+<l>Voor die de vraag beslist, naar 't rijzen of het dalen</l>
+<l>Des thermometers van menschlievendheid, verstand,</l>
+<l n="40">(Van wat er loflijkst is,) in eeuw of Vaderland?</l>
+<l>Ach, die de graden van dat weêrglas na durft kijken,</l>
+<l>Zal naar het oogglas dat hy opzet, vonnis strijken;</l>
+<l>En de oude paai als ik, of de opgeruimde jeugd</l>
+<l>(Dees in zijn dut, en die in dronkenschap der vreugd</l>
+<l>Van 't vluchtig stroomend bloed, 't geen hoop en lust doorwoelen,)</l>
+<l>Kan 't zelfde wenschen, maar het zelfde niet gevoelen.</l>
+<l>Doch ('t hart van reine zucht voor God en Volk vervuld,)</l>
+<l>Mag dwalen, wie er dwaalt, en dwalen zonder schuld.</l>
+</lg>
+</div>
+<div type="chapter">
+<pb n="7"/>
+<head rend="h3">Verstand en Menschlievendheid.</head>
+<q rend="bq"><hi rend="i">Zeg niet: Wat is er dat de vorige dagen beter geweest zijn dan deze? want gy zoudt zulks niet uit wijsheid vragen.</hi>
+<lb/>
+<hi rend="sc">Prediker</hi> VII, 10.</q>
+<lg type="poem">
+<l rend="; 1tab"><hi rend="sc">Men</hi> vraagt, of goed Verstand en of Menschlievendheid</l>
+<l>Dees onzen leeftijd van den vroegren onderscheid'?</l>
+<l>ô Dat mijn hart zijn wensch volmondig mocht bestemmen;</l>
+<l>Maar ach! 't blijmoedig JA blijft me in den gorgel klemmen.</l>
+<l>Doch - is 't gezond verstand den mensch niet algemeen?</l>
+<l>Is menschenliefde ons vreemd? Mijn God, waar wil dit heen!</l>
+<l>Ach, waarom mag ik niet erkennen voor my-zelven,</l>
+<l>Niet luidkeels galmen doen door lucht en luchtgewelven,</l>
+<l>Niet zeggen: Ja, de mensch, en Neêrland boven al,</l>
+<l n="10">Kent, in verstand noch hart, van de Oudren geen verval!</l>
+<pb n="8"/>
+<l rend="; 1tab">Gods gramschap dreef den drom der langvereende Volken</l>
+<l>Uit één, gelijk een storm de saamgepakte wolken</l>
+<l>Hier opstuwt, daar verspreidt en door de lucht verdeelt,</l>
+<l>En lucht en levenswijs ontvormde de oude teelt.</l>
+<l>Van daar verscheidenheên, die inborst, meening, zeden,</l>
+<l>En brein en hart gelijk een lenig wasch verkneedden;</l>
+<l>Maar 't kenmerk van den mensch, in hart geprent en hoofd,</l>
+<l>Behield zijn aart en werd door eeuw noch lucht gedoofd.</l>
+<l>'t Werd min of meer verrijkt, gekoesterd, en vertederd,</l>
+<l n="20">Veredeld of misbruikt, verheven of vernederd.</l>
+<l>Maar 't schoon van waar en goed verloor geen aart of kracht,</l>
+<l>En nooit verviel de mensch beneden zijn geslacht.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Is 't waar, of meent men 't ons als waarheid op te dringen?</l>
+<l>Ons, zeg ik, eeuw aan eeuw geschokte stervelingen!</l>
+<l>Zie onze broedrenteelt, op de ijsschors voortgebracht,</l>
+<l>Die walvischspek en traan den hoogsten wellust acht;</l>
+<l>Of wilden, die elkaâr met wolvenaart verslinden,</l>
+<l>Of, waar we, op vleugelen door golfgebruisch en winden</l>
+<l>Geslingerd, menschen zien ontbloot van menschlijkheid,</l>
+<l n="30">Tot beest verlaagd (ja meer!) op strand aan strand verspreid.</l>
+<l>Moordzuchtig, vratig, en beneden 't geen de dieren</l>
+<l>De drift, in ieder ras, geregeld leert bestieren. -</l>
+<l>Is dit verval, of niet? - Neen 't menschdom rijst en daalt,</l>
+<l>Naar mate 't Godlijk licht zijn werkzaam hart doorstraalt.</l>
+<pb n="9"/>
+<l rend="; 1tab">Maar zijn we in geest of hart voor hoog of lager vatbaar,</l>
+<l>En zijn ons Deugdgevoel en Waarheidszicht onschatbaar,</l>
+<l>'t Is billijk dat men vrage, of die voortreflijkheên</l>
+<l>'t Zij sluimren in verval, 't zij hooger trap betreên.</l>
+<l>Welaan! beschouwen we ons in 't innigst onzer zielen,</l>
+<l n="40">Of we Oudren roem voorby, gelijk zijn, of vervielen;</l>
+<l>En ligg' de blinddoek daar, van strafbren eigenwaan,</l>
+<l>Die niet dan Waarheid, Deugd, en God-zelf, kan verraân!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach! zelfgevlei is niets. Om 't kinderhart te paaien</l>
+<l>Is flikkring van een schijn, is speelziek wimpelzwaaien</l>
+<l>Genoeg. Verbeelding grijpt: ze omarmt een blooten schijn,</l>
+<l>Wat zou zy, vreemd aan God en aan 't waarachtig ZIJN?</l>
+<l>Maar, zijn we 't kinderspel ontwassen, ô mijn vrinden,</l>
+<l>Ach, laten we ons geen oog door guichlary verblinden:</l>
+<l>Neen, Waarheid is ons deel; hier vormde ons de Almacht voor.</l>
+<l n="50">Ja, dring' 't gescherpt gezicht den diepsten schuilhoek door.</l>
+<l>De mensch verbergt zich aan zich-zelven, zoekt omwindsels,</l>
+<l>En loochent aan zich-zelf zijn eigen grondbeginsels,</l>
+<l>Pronkt zich, bewondrend, op; en wie 't bestemt of wraakt,</l>
+<l>Roept: 'k ben verstandig, braaf, en daaglijks meer volmaakt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Wat is 't Verstand dan? wat Menschlievendheid? - Vermeten,</l>
+<l>Prijkt Eerzucht met dien naam, in weêrwil van 't Geweten,</l>
+<pb n="10"/>
+<l>Dat ras verstomt wanneer verwaten Hoogmoed spreekt,</l>
+<l>En vleizucht zich in 't kleed van Deugd en Wijsheid steekt.</l>
+<l>Dan ach! hoe weinigen die kennen 't geen zy roemen,</l>
+<l n="60">Voor voedzame airen geen verwelkbre korenbloemen,</l>
+<l>Geen weêrglansflikkring voor 't alvoedend zonnelicht</l>
+<l>Verheffen -! 't woord <hi rend="i">Verdienst</hi> niet stemplen op den plicht,</l>
+<l>En waar 't lauwriergekraak niet ruischen mag door de ooren,</l>
+<l>De stem van Liefde en Deugd in 't weeldrig hart niet smooren.</l>
+<l>Gy weet dit, ja te wel, ô zoo geroemde tijd,</l>
+<l>Die goud en eerbewijs zoo ruim te grabblen smijt</l>
+<l>Om harten tot den plicht der menschheid aan te lokken,</l>
+<l>Niet door de deugd gespoord, maar door dat aas getrokken.</l>
+<l>Wat hengelt men naar Deugd of Wijsheid by den tast,</l>
+<l n="70">Zoo ze in de zielen bloeit, onwrikbaar, wortelvast,</l>
+<l>En immer naar heur aart zich uitbreidt en vervuldigt?</l>
+<l>Uw goud, uw eerbewijs, is 't geen uwe eeuw beschuldigt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Beschuldigt? - Ja, verdoemt. Geen deugd, geen weldoen ooit,</l>
+<l>Of schaamt zich voor zich-zelf, met menschenlof getooid;</l>
+<l>En, door menschlievendheid naar onderscheiding trachten,</l>
+<l>Is Gods genadeloon in 't booze hart verachten.</l>
+<l>'t Bouwt Satans outers; ja, in Godvruchts schijn misschien;</l>
+<l>Maar gy, wie 't aanlokt, beef; leer in uw boezem zien!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Neen, 't loon des weldoens is van God, en ligt in 't harte.</l>
+<l n="80">Dit zalft by 's kranken bed zich-zelf in 's lijders smarte,</l>
+<pb n="11"/>
+<l>Dit smaakt verkwikking, in den beet die hem verkwikt,</l>
+<l>Den beker die hem laaft als hy van droogte stikt;</l>
+<l>Dit smaakt, wien God het geeft zijn naasten uit gevaren</l>
+<l>Te redden, en door hulp tot 's Hoogsten eer te sparen.</l>
+<l>En wee, als de Almacht zendt waar die verplichting spreekt,</l>
+<l>Die loon van de aarde wacht, of aan Gods stem ontbreekt!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maar Wijsheid! maar Verstand! - Is de omvang van ons weten</l>
+<l>Niet uitgebreid? - Mag dit geen zielvolmaking heeten? -</l>
+<l>Het zij zoo! Zie ik rond, ach alles leest, studeert,</l>
+<l n="90"><hi rend="i">In omni scibili</hi> (zoo sprak men eens,) geleerd.</l>
+<l>Maar is 't ook weten, veel by andren uit te venten</l>
+<l>Wat meesters kindren thands in zwakke hersens prenten?</l>
+<l>'t Is, ja, geheugen - maar <hi rend="i">te weten</hi> sluit meer in,</l>
+<l>En 'k laat daar, of 't doorgaands een schade is of gewin.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Gewin is 't, zegt ge. Zie die glorierijke prijzen</l>
+<l>Der leerzucht. Zie alom de blinkendste bewijzen.</l>
+<l>Is thands de boerenknaap, geboren tot de ploeg,</l>
+<l>Tot Staats- en Rechtsgestoelt' niet meer dan knap genoeg?</l>
+<l>Is 't al niet overpakt met Filozoofsche koppen,</l>
+<l n="100">Met hersenen, gesterkt door Duitsche zwindeldroppen</l>
+<l>En Fransche luchtwind die 't nog altijd domme volk</l>
+<l>Van oud vooroordeel heelt en 't opheft tot de wolk.</l>
+<pb n="12"/>
+<l>Is Godsdienst, 't Godlijk woord, is alles niet versmeten</l>
+<l>Wat immer achtbaar, goed, en heilig, plach te heeten;</l>
+<l>Is alles waar m' op steunde en rust vond voor 't gemoed,</l>
+<l>Niet nageproefd, gewraakt, vertreden met den voet?</l>
+<l>En wat 's in plaats gesteld voor 't omgestootne? - Wijsheid;</l>
+<l>Verlichting, louter licht, beschaming van de Grijsheid,</l>
+<l>En roem op Deugden? - Ja, hetgeen voor deugden geldt;</l>
+<l n="110">En kennis? - Die voor 't minst zich als zoodanig meldt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">'k Ontken niet echter dat de vlijt is aangewakkerd,</l>
+<l>En vruchten uit den grond van Wijsheid heeft geäkkerd,</l>
+<l>Ja oogsten toont; en ik verblij me in deze winst.</l>
+<l>Maar onkruid in dien hoop is mooglijk niet het minst.</l>
+<l>'k Laat daar de oplettendheid in 't aardrijk na te speuren,</l>
+<l>Den sluier der Natuur vrijmoedig op te scheuren: -</l>
+<l>De Wiskunst (wierd ze altijd door zuivre redenkracht</l>
+<l>Geleid!), en wat de dwaas uit onverstand belacht.</l>
+<l>Doch wat is 't samenstel en de uitslag van die kennis? -</l>
+<l n="120">Ach, zelfvergoding, en (door deze) heiligschennis.</l>
+<l>Ja: afval van zijn God, aanbidding van 't Geval,</l>
+<l>Of eigen dwaasheid; en - verdovend windgeknal!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Heet dit dan Wijsheid? dit, Verstand? - Ja, veel te weten,</l>
+<l>Maar Waar- en Wijsheids bron voor eigenroem vergeten,</l>
+<pb n="13"/>
+<l>Den stroom vermoddren die uit 's Hemels volheid vliet,</l>
+<l>Zijn vocht vermengen met een doodlijk akoniet,</l>
+<l>Dit is waar op onze Eeuw zich billijk kon beroemen,</l>
+<l>Zoo 't giftig mengsel zich een Hemelval mocht noemen,</l>
+<l>Terwijl zy duizend dien zy 't toereikt, wreed vermoordt,</l>
+<l n="130">En op geen toekomst ziet die reeds ter kimm' ontgloort.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Verstand! Menschlievendheid! - Zoo 't meer dan leêge klanken</l>
+<l>Of bloote omhangsels zijn, genadig God, wy danken:</l>
+<l>Maar toon me, ô tijdgenoot, die rijke deugdenrij</l>
+<l>De vruchten van die twee, in onze Maatschappy,</l>
+<l>Doch lang, als wars van de aard ten hemel opgeklommen,</l>
+<l>Waar echter 't zelfgevlei niet nalaat op te brommen:</l>
+<l>Die edelmoedigheid, die billijkheid, die zucht</l>
+<l>Voor 't welzijn van zijn naaste, en voor zijn goed gerucht,</l>
+<l>Die andren boven zich naar 't Christlijk hart bevoordeelt;</l>
+<l n="140">Geen kwaad denkt, 't goede hoopt, geen evenmensch veroordeelt,</l>
+<l>Waar Liefde heerscht, daar staat die vrucht in volle bloem,</l>
+<l>Geen aanhang, geen party, geen walglijke eigenroem:</l>
+<l>En, waar 't Verstand regeert, geen roekloos stout beslissen</l>
+<l>Op schijngrond zonder steun, geen alvermetend gissen,</l>
+<l>Maar vlijtig onderzoek met God' geopend hart,</l>
+<l>Nooit (Waarheid zoekende,) in 't Sofisten net verward.</l>
+<l>Geen stelselbouwery, maar needrig blij genieten</l>
+<l>Van 't geen uit hooger kring den stervling toe mag vlieten:</l>
+<pb n="14"/>
+<l>Geen zich in eigen kring besluiten, als een God,</l>
+<l n="150">Die 't hoogere of ontkent of als een droom bespot.</l>
+<l>Wat nu, wat heeft er plaats in 't vak waarin wy leven</l>
+<l>En 't aaklig vonnis ligt geveld en onderschreven.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Bedroef u, ja, mijn ziel, en Gy die alles kent,</l>
+<l>Sla de ijdle glorie neêr, die al wat goed heet, schendt!</l>
+<l>ô Neêrland! ô mijne eeuw! wat zag ik? - Zedenloosheid?</l>
+<l>Ach, 't zaad was eens gestrooid. Maar - 't uiterste aller boosheid.</l>
+<l>De Hel ontbarstend, en het middenpunt der Hel</l>
+<l>Zijn Duivlen zendend! - Ja, van d' ijsbren gruwelwel</l>
+<l>Die gantsch Europa stond te smooren in zijn golven,</l>
+<l n="160">Mijn dierbaar Vaderland tot over 't hoofd bedolven,</l>
+<l>En omgekeerd, verwoest, en uitgeput; ja, meer,</l>
+<l>Van Hem vervreemd die 't vormde en ophief tot Zijne eer;</l>
+<l>In Frankrijks jammerpoel zijn naam en erf verloren;</l>
+<l>God, Heiland, Kerk en Vorst, baldadig afgezworen;</l>
+<l>Door slaven van een erfvijandig ras vertreên;</l>
+<l>Met kluisters omgesnoerd om lenden, hals, en leên;</l>
+<l>Verlossing biddende in het harte, maar in banden</l>
+<l>Van meer dan Helsche, ja, van Fransche dwingelanden;</l>
+<l>En nu? - tot Jezus niet als Heerscher weêrgekeerd,</l>
+<l n="170">Maar slaaf van menschenvond die ge in Zijn naam bezweert.</l>
+<l>Een Koning kiezende, maar als een Hoofdbediende,</l>
+<l>Verbeelder van een Volk, geen scepterrecht ontziende,</l>
+<pb n="15"/>
+<l>En wien ge aan koorden bindt door de eigen hand geknoopt,</l>
+<l>Die al uw welvaart, bloei, en zelfheid heeft gesloopt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach, zijn in Nederland nog Christnen? - Ja. Zy treuren;</l>
+<l>Zy zagen, ach! met my, de Godsdienstbanden scheuren,</l>
+<l>En 't kind der Kerk, de Staat, die uit haar midden rees,</l>
+<l>Bleef God- en Vaderloos en ach! vervoogde Wees.</l>
+<l>Wy smeeken; maar hoe kan by Hem dien 't heeft verlaten</l>
+<l n="180">(Den Vader, dien 't verwierp!) ons brandendst smeeken baten!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">ô God, koom hier te hulp! Verniel het Ongeloof,</l>
+<l>En geef ons niet op nieuw aan 's Boozen klaauw ten roof.</l>
+<l>Dan zal <hi rend="sc">menschlievendheid</hi> geen schijn meer zijn maar wezen,</l>
+<l>Van zelfzucht vrij, en uit den waren grond gerezen,</l>
+<l>(Uit boezems, van Uw geest, Uw liefdezucht, vervuld,)</l>
+<l>En Godvrucht zijn, geen zich vermommende Adamsschuld:</l>
+<l>Dan zal 't <hi rend="sc">verstand</hi> gezond en vrij zijn van de smetten</l>
+<l>Die 't zuiver spieglen door een valsche glans beletten:</l>
+<l>Dan zal der Vaadren deugd herleven in een bloed</l>
+<l n="190">Dat Gode 't offer brengt van 't waar of schijnbre goed.</l>
+<l>Tot zoo lang (ach! nog lang, naar 't om ons staat geschapen,)</l>
+<l>Wat zullen we? - In het stof gevoelloos blijven slapen? -</l>
+<l>Of - werken, waar vermaan of voorbeeld iets vermag,</l>
+<l>Dat onverhoedsche nacht geen eind make aan den dag? -</l>
+<l>Ja, 't schreiend oog op God, op Hem-alleen, geslagen,</l>
+<l>Volharden we in den plicht ons eenmaal opgedragen,</l>
+<pb n="16"/>
+<l>Bevelende de Kerk, en dees haar Wondervrucht,</l>
+<l>Het dierbaar Vaderland waar 't kinderhart voor zucht,</l>
+<l>Aan de Eeuwige Genade, in vurige gebeden.</l>
+<l n="200">Ach, immers is Uw Kerk nog niet geheel vertreden,</l>
+<l>ô Heiland! Vluchtig zelfs, verjaagd uit weide en kooi,</l>
+<l>Nog geeft ze Uw toezicht aan den Wolfsmuil niet ten prooi.</l>
+<l>Nog durven we Uwen naam belijden en vervechten;</l>
+<l>Nog dragen we Uw banier als moedige Oorlogsknechten:</l>
+<l>Nog zijn er in den ring dien Nederland omvat</l>
+<l>Rechtvaardigen door 't bloed uit Uwe zijde ontspat.</l>
+<l>Om tien rechtvaardigen zou Sodom zijn behouen:</l>
+<l>Gy kent, Gy onderscheidt de oprechte Godgetrouwen,</l>
+<l>Verhoor Gy hun gebed en zend den Geest ons toe,</l>
+<l n="210">Die blinden 't oog ontsluit en 't hart bekeeren doe!</l>
+</lg>
+<p><figure>
+<p><xptr to="bild002avon01ill0006.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="17"/>
+<head rend="h3">Ware rijkdom op aarde.</head>
+<q rend="bq">Π<hi rend="i">ολλοὶ γυπλ<figure rend="inline"><p><xptr to="bild002avon01fi0001.gif"/></p></figure>τούσι ϰαϰοὶ, ἀγαθοὶ δὲ πεπόνται, ἀλλ᾽ ἡμεῖς ἀυεῖς <figure rend="inline"><p><xptr to="bild002avon01fi0002.gif"/></p></figure> διαμειψόμεϑα.</hi>
+<lb/>
+<hi rend="sc">Solon</hi>.</q>
+<lg type="poem">
+<l>Ja, 'k wil en wensch my ook wel goederen,</l>
+<l rend="; 1tab">Maar, die het recht my geven kon.</l>
+<l>Doch wee den wroegenden gemoederen</l>
+<l rend="; 1tab">Van, wien 't vergrijp zijn schatten won!</l>
+<l>&nbsp;</l>
+<l>'t Kan zijn dat snooden zich verrijken,</l>
+<l rend="; 1tab">En vromen blijven zonder goed:</l>
+<l>Maar woudt ge d' eersten wel gelijken,</l>
+<l rend="; 1tab">En met hun ruilen van gemoed?</l>
+<l>&nbsp;</l>
+<l>De rust duurt eeuwig van 't Geweten;</l>
+<l rend="; 1tab">Maar 't goud is wuft en wankelbaar,</l>
+<l>En mag dat ware rijkdom heeten,</l>
+<l rend="; 1tab">Dat immer blootstelt aan gevaar?</l>
+<l>&nbsp;</l>
+<pb n="18"/>
+<l>Neen, rijk is hy, en meer dan Koning,</l>
+<l rend="; 1tab">Die, zonder last van overvloed,</l>
+<l>Een hut heeft tot geruste woning,</l>
+<l rend="; 1tab">En wat het lichaam kleedt en voedt.</l>
+<l>&nbsp;</l>
+<l>Wat kan hy meer, wat hooger, wenschen</l>
+<l rend="; 1tab">Dan minlijke Egâ, dankbaar kroost!</l>
+<l>Met dit de zaligste aller menschen,</l>
+<l rend="; 1tab">Is hy, wat de Almacht geeft, getroost.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0007.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18240000"/>
+</interpGrp>
+<pb n="19"/>
+<head rend="h3">Leven.</head>
+<q rend="bq">Ἐ<hi rend="i">ν πίςει ξῶ τῇ τ<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure> ὑι<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure> τ<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure></hi> Θ<hi rend="i">ε<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure>.</hi>
+<lb/>
+<hi rend="sc">Gal.</hi> II, 20.</q>
+<lg type="poem">
+<l>Hy leeft die voor zijn Heiland leeft,</l>
+<l rend="; 1tab">En niet voor aardsche draf:</l>
+<l>Voor Jezus die hem 't leven geeft,</l>
+<l rend="; 1tab">Ook na den dood en 't graf.</l>
+<l>&nbsp;</l>
+<l>Hem leven is ons dankbewijs,</l>
+<l rend="; 1tab">Hem juichend toegebracht,</l>
+<l>Van wie als zijn verlossingsprijs</l>
+<l rend="; 1tab">Zijn blijde weêrkomst wacht.</l>
+<l>&nbsp;</l>
+<l>Maar leven in den naauwen kring</l>
+<l rend="; 1tab">Van zuizlend lijfsgenot,</l>
+<l>Wat is dat, dan vermomde dood?</l>
+<l rend="; 1tab">Ons leven is in God.</l>
+<l>&nbsp;</l>
+<pb n="20"/>
+<l>Of stelt men daar het leven in,</l>
+<l rend="; 1tab">Wanneer men dwaasheên kiest</l>
+<l>Voor 't eeuwigdurig heilgewin,</l>
+<l rend="; 1tab">En heel zich-zelv' verliest?</l>
+<l>&nbsp;</l>
+<l>Ja, krank ter dood, met redding spot,</l>
+<l rend="; 1tab">En diepe wonden draagt,</l>
+<l>Slechts heelbaar door de hand van God,</l>
+<l rend="; 1tab">Maar geen genezing vraagt?</l>
+<l>&nbsp;</l>
+<l>Wanneer men Godsdienst smaadt en schuwt</l>
+<l rend="; 1tab">Geloof begoochling scheldt;</l>
+<l>Van Heiland en verzoening gruwt;</l>
+<l rend="; 1tab">Van dollen hoogmoed zwelt;</l>
+<l>&nbsp;</l>
+<l>Het Heilig Woord vervalscht, verdraait;</l>
+<l rend="; 1tab">Om Hemel lacht en Hel;</l>
+<l>En 't wroegende gewisse paait</l>
+<l rend="; 1tab">Met dartel vreugdespel?</l>
+<l>&nbsp;</l>
+<l>Zou zulk-één leven! - Neen ô neen;</l>
+<l rend="; 1tab">Hy sterft steeds eeuwig voort,</l>
+<l>In zielverscheurende ijslijkheên,</l>
+<l rend="; 1tab">En angsten, nooit gesmoord.</l>
+<l>&nbsp;</l>
+<pb n="21"/>
+<l>ô Mocht Gods kracht zijn trotschen geest</l>
+<l rend="; 1tab">In tijds met siddring slaan!</l>
+<l>Of - kon by met het reedloos beest</l>
+<l rend="; 1tab">Tot louter stof vergaan!</l>
+</lg>
+<p>1824.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0008.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="22"/>
+<head rend="h3">Sterven.</head>
+<lg type="poem">
+<l rend="; 1tab">Hoe zalig legt men zich te rust</l>
+<l rend="; 2tab">Op 't peuluw van de dood,</l>
+<l rend="; 1tab">In 't Godbetrouwend hart bewust</l>
+<l rend="; 2tab">Van 't naadrend morgenrood!</l>
+<l rend="; 1tab">Dat morgenrood van hooger trans,</l>
+<l rend="; 2tab">Waar veld- noch boschgeschal,</l>
+<l rend="; 1tab">Maar aldoordringende uchtendglans</l>
+<l rend="; 2tab">Mijn slaap verbreken zal.</l>
+<l rend="; 1tab">Kom, feestbazuin van 't Hemelsch heir,</l>
+<l rend="; 2tab">En roep dien morgen uit!</l>
+<l rend="; 1tab">Daal, wolk van Hemelluister, neêr,</l>
+<l rend="; 2tab">Op 't dondrend stemgeluid.</l>
+<l rend="; 1tab">Schok, aarde, schok van 't diepst ontzag,</l>
+<l rend="; 1tab">En gy, verberg u, aardsche dag,</l>
+<l rend="; 2tab">Voor 't aldoorvlammend licht</l>
+<l rend="; 2tab">Van 's Heilands aangezicht!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Wat heerlijk schoone Dageraad,</l>
+<l>Wanneer de ontwaakte ziel by 't nieuwe zonnelicht,</l>
+<pb n="23"/>
+<l rend="; 3tab">Op 't door haar uitgeschud gewaad</l>
+<l>Den laatsten opslag werpt van 't niet meer aardsch gezicht!</l>
+<l>Wat morgen, als, bestelpt van nooit gevoeld genot,</l>
+<l rend="; 3tab">Zy dees haar nieuwe schepping ziet,</l>
+<l>En in 't gevoel des heils versmeltende, als vervliet</l>
+<l rend="; 3tab">Voor 't aanschijn van haar God!</l>
+<l rend="; 2tab">Als 't talloos Choor met licht bekleed,</l>
+<l rend="; 4tab">Haar broederlijk ontfangt,</l>
+<l rend="; 2tab">In teedre omhelzing welkom heet,</l>
+<l rend="; 4tab">En aan haar boezem hangt!</l>
+<l rend="; 2tab">Als 't groot Heelal in vollen dag</l>
+<l rend="; 2tab">Zich voor haar oogen oopnen mag</l>
+<l rend="; 2tab">By 't lieflijk- stroomend harpenlied,</l>
+<l rend="; 2tab">En duizend zonnen in een vloed</l>
+<l rend="; 2tab">Van één te saamgesmolten gloed</l>
+<l rend="; 4tab">Zich wentlen in 't verschiet!</l>
+<l>&nbsp;</l>
+<l rend="; 3tab">ô God des levens, wie beseft</l>
+<l rend="; 5tab">Dat ongelijkbre zoet,</l>
+<l rend="; 3tab">Dat al wat aardsch is overtreft</l>
+<l rend="; 3tab">In 't nog door 't stof verdrukt gemoed?</l>
+<l rend="; 1tab">Bereide ons in 't Geloof uw heiligende Geest</l>
+<l rend="; 1tab">De zaalge vatbaarheid voor 't juichend Englenfeest!</l>
+<l rend="; 1tab">En leer ons met uw keurelingen</l>
+<l rend="; 1tab">Hier reeds in vreugde en druk het Hallelujah zingen;</l>
+<l rend="; 1tab">Ja vorme 't, U ter eer', uit wormen van het stof</l>
+<l rend="; 5tab">Bazuinen van uw lof!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="24"/>
+<head rend="h3">Stoïcismus.</head>
+<lg type="poem">
+<l>Van niets afhanklijk zijn, zegt Epicteet, is <hi rend="sc">heil</hi>.</l>
+<l>En waarvoor, Filozoof, is dat geluk dan veil? -</l>
+<l>‘In niets genieten, en niets hopen, vreezen, wenschen,</l>
+<l>En, met gevoelloosheid wat voorkomt te ondergaan.’ -</l>
+<l>Wel, dit 's geluk van steen, maar geen geluk van menschen,</l>
+<l>'k Begeer geen steen te zijn, maar wil als mensch bestaan.</l>
+<l>&nbsp;</l>
+<l>Doch zacht, bedenken we eens! Het goede is mooglijk minder</l>
+<l>Dan 't kwade, en 't leven vol van kwelling, smart, en hinder.</l>
+<l>Wanneer ik d'arm eens breek, bevrijdt me uw leer van pijn?</l>
+<l>‘Heb slechts een vasten <hi rend="sc">wil</hi>, en wil de pijn niet voelen.’ -</l>
+<l rend="; 1tab">Maar 't <hi rend="sc">willen</hi> kan toch nooit de <hi rend="sc">daad</hi> in werking zijn,</l>
+<l>En 't wit <hi rend="sc">bereiken</hi> is iets anders dan 't <hi rend="sc">bedoelen</hi>.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Is dat, ô Stoïcijn, uw onafhanklijkheid</l>
+<l rend="; 1tab">Waarop ge u-zelf verheft, waarmeê ge uw leerling vleit,</l>
+<l>Ze is niets. De daad eischt meer dan 't zich vergodend willen.</l>
+<l>Neen, wat wanneer 't ontstond zich-zelf 't bestaan niet gaf,</l>
+<l rend="; 2tab">Hangt van zich-zelf alleen niet af,</l>
+<l rend="; 2tab">In spijt van hoogmoeds hersengrillen.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="25"/>
+<head rend="h3">Goed.</head>
+<lg type="poem">
+<l>'t Is wel, 't is fraai bedacht: ‘De wil hangt aan 't verstand;</l>
+<l>'t Verstand moet opgeklaard.’ - Met Filozoofsche grillen? -</l>
+<l>‘Met vlijtig onderzoek: dan zal men 't goede willen</l>
+<l rend="; 1tab">Wanneer men alles recht zal kennen in 't verband.</l>
+<l>Tot zoo lang dan, geduld!’ - Daar gingen zoo veel eeuwen</l>
+<l>Meê om, en 't blijft tot nog by 't oud éénzelvig schreeuwen. -</l>
+<l>‘Nu nog een korte poos, thands zijn we in 't ware spoor,</l>
+<l>En 't nieuw gevonden gas licht onze stappen voor.’ -</l>
+<l>Nu, Wijsgeer, vind eens 't ware; ik twijfel nog aan 't kiezen:</l>
+<l>Het <hi rend="sc">kennen</hi> bracht verderf, en deed de keus verliezen.</l>
+<l rend="; 1tab">Doch zoek, en zie, en proef, merk op, en ondervind,</l>
+<l rend="; 1tab">Wat is er de uitslag van? Gy zoekt u-zelven blind;</l>
+<l>En 't schijngoed is alleen de baat van al uw zorgen.</l>
+<l>'t Waarachtig goed is God, die blijft aan u verborgen.</l>
+<l rend="; 1tab">Wat beeldt ge U in! 't Verstand heeft oogen in zijn kring;</l>
+<l rend="; 1tab">Maar 't hoogre -! God en Ziel doorschouwt geen sterveling.</l>
+<l>Bid om die lichtstraal die 't gesloten hart heropent,</l>
+<l>Wiens onweêrstaanbre kracht zich Godlijk kennen doet,</l>
+<l>En buigt geloovig neêr, steeds smeekend, dankend, hopend,</l>
+<l>Zoo leert ge, ô stervling, eerst wat naam verdient van <hi rend="sc">goed</hi>.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="26"/>
+<head rend="h3">Onzekerheid.</head>
+<lg type="poem">
+<l rend="; 1tab">Tel elken dag gelijk uw laatsten, sterveling!</l>
+<l>Wat weet gy of de zon u morgen op zal rijzen?</l>
+<l>Daar rekent ge op; maar, op wat gronden of bewijzen?</l>
+<l rend="; 1tab">Hier boven houdt men van uw dagen rekening.</l>
+<l>Licht sluit die nog dit uur; ten minste nog dit heden.</l>
+<l>Hoe 't zijn moge, eer gy 't weet is u de rest ontgleden,</l>
+<l rend="; 1tab">Van 't geen ge u dacht nog als uw aandeel weggeleid.</l>
+<l>Ach, niets onzekerer dan 't uurtjen van ons sterven,</l>
+<l>En niets zoo zeker, als het leven eens te derven:</l>
+<l rend="; 1tab">Zijn we ieder oogenblik ter afreis toebereid!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0009.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="27"/>
+<head rend="h3">Verzoening.</head>
+<q rend="bq"><hi rend="i">Hy is om onze overtredingen verwond.</hi>
+<lb/>
+<hi rend="sc">Jes.</hi> LIII, 5.</q>
+<lg type="poem">
+<l rend="; 2tab">Een God, de menschlijkheid en heur besef te hoog,</l>
+<l>Almachtig, en gekrenkt door 't gruwelvolst verbreken,</l>
+<l rend="; 2tab">Die 't schuldig hart doordringt met onbedrieglijk oog,</l>
+<l>ô Stervling (welk besef!) zal de overtreding wreken!</l>
+<l rend="; 1tab">Ach, kost ge in 't niet te rug... wat zeg ik! - ja, vergaan!</l>
+<l rend="; 1tab">Hoe kunt ge 't denkbeeld van Zijn gramschap wederstaan,</l>
+<l>En niet van siddring voor uw jammerstaat verbleeken?</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maar neen; een God die zelf zich met uw vleesch omgordt,</l>
+<l>Uw zwakheên aanneemt, draagt, en deel neemt in uw lijden;</l>
+<l rend="; 1tab">Uw medgenoot in 't stof, uw vriend, uw broeder wordt;</l>
+<l>Uw misdrijf torscht en delgt om u van straf te vrijden;</l>
+<l rend="; 1tab">Die, Christnen, is uw hoop, die heeft voor u geboet:</l>
+<l rend="; 1tab">Ja, legt uw siddring af, gewasschen in Zijn bloed,</l>
+<l>Geheiligd, en door Hem, ten hemel Ingewijden!</l>
+<l>&nbsp;</l>
+<pb n="28"/>
+<l rend="; 1tab">Zijn aanschijn licht u voor, Zijn heil bestraalt uw pad;</l>
+<l>Zijn naam stort zegen toe uit altijd zwellende ader;</l>
+<l rend="; 1tab">Zijn woord versterkt het hart, hoe moede en afgemat;</l>
+<l>Zijn stem toomt storm en zee en afgrondskolk te gader;</l>
+<l rend="; 1tab">Zijn heilgenade heelt der zonden wroegingbeet;</l>
+<l rend="; 1tab">De ontzachbre Wreker, ten verdelgingslag gereed,</l>
+<l>Verzoende en is voortaan een tederminnend Vader.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach, hadt Ge Uw leden niet aan 't kruishout uitgestrekt,</l>
+<l>Verlosser, die voor my 't rantsoen hebt opgenomen,</l>
+<l rend="; 1tab">Wat waren we -? Eeuwig met onredbre schuld bedekt,</l>
+<l>En vruchtloos overplascht met eeuwig tranenstroomen;</l>
+<l rend="; 1tab">Ja, in geen eeuwig vuur te loutren door de vlam.</l>
+<l rend="; 1tab">Geef dank, genadig God en vlekloos Offerlam,</l>
+<l>Doorstraal my met Uw Geest, en maak Uw werk volkomen!</l>
+</lg>
+<p>1825.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0010.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="29"/>
+<head rend="h3">Toevlucht.</head>
+<lg type="poem">
+<l>Bezweken in den prang der knellende aardsche banden;</l>
+<l rend="; 1tab">Verplet door 't zondepak op hals en hoofd getast;</l>
+<l rend="; 1tab">Een ledig wrak gelijk, onttakeld en ontmast,</l>
+<l>Ontdreef ik 't golfgeklots om op een klip te stranden.</l>
+<l>&nbsp;</l>
+<l>Maar, by Uw doornenkroon en wreed doorboorde handen</l>
+<l rend="; 1tab">En 't bloed dat uit Uw zijde en langs het kruishout plascht,</l>
+<l rend="; 1tab">Is toevlucht voor 't berouw in wroegings zwaarste last,</l>
+<l>Ach, open my dien weg; ik heb Uwe onderpanden.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Wend in rechtvaardigheid Uw heilige oogen niet</l>
+<l>Naar 't opgehoopt vergrijp, maar, Heiland, hoor mijn smeeken,</l>
+<l>Wat stervling zal bestaan wilt Ge onze zonde wreken?</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maar wasch me in 's levens stroom die uit Uw wonden vliet,</l>
+<l>En, algenadig God, Verhoorder der gebeden,</l>
+<l>Red me en van 't erflijk kwaad en 't wilvol overtreden!</l>
+</lg>
+<p><hi rend="i">Na</hi> <hi rend="sc">Michel Angelo</hi> <hi rend="i">gevolgd.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="30"/>
+<head rend="h3">Eerzucht.</head>
+<lg type="poem">
+<l>Hoe schoon is de Eerzucht! hoe veredelt zy het leven!</l>
+<l rend="; 1tab">Hoe spoort zy 't hart tot deugd, onthouding, heldenmoed! -</l>
+<l>Zoo is 't. - Ook Razerny, wat kunt gy krachten geven!</l>
+<l rend="; 1tab">Wat wondren wrocht niet soms een ongeregeld bloed!</l>
+<l>Doch wilde ik daarom dol of razend zijn? - Voorzeker,</l>
+<l>Men vindt het zwelgen zoet uit zulk een tooverbeker;</l>
+<l rend="; 1tab">Maar 'k haat de dronkenschap en 't zuizlen van het brein.</l>
+<l>Wat zegt het, met wat naam we een geestbedwelming noemen?</l>
+<l rend="; 1tab">Wees nuchtren, ga uw weg, en hou uw boezem rein,</l>
+<l>En acht op 't oordeel niet van zulken die iets roemen:</l>
+<l>De lofkrans die men wint, zijn enkel blaauwe bloemen,</l>
+<l rend="; 1tab">Die wijs is, werpt haar af, en zoekt geen schittrend licht.</l>
+<l rend="; 1tab">Onze eer is, God in 't hart; onze eerbaan is de plicht.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0011.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="secundair" value="17950000"/>
+</interpGrp>
+<pb n="31"/>
+<head rend="h3">De Balling
+<lb/>
+in 1795.</head>
+<q rend="bq"><hi rend="i">Ik betrouwe op den</hi> Heere; <hi rend="i">wat zegt gylieden tot mijne ziele: Zwerf henen!</hi>
+<lb/>
+<hi rend="sc">Ps.</hi> XI, v. 1.</q>
+<lg type="poem">
+<l rend="; 1tab">Niets onderdrukt den moed van hem die kracht bezit;</l>
+<l>De onschuldige staat vast en weet van geen gevaren.</l>
+<l>Hy voelt zich door Gods hand in nood en dood bewaren,</l>
+<l rend="; 1tab">En heeft den plicht ten doel, geen ander menschlijk wit.</l>
+<l>Nooit vraagt hy, is de trouw, de plichtsbetrachting, veilig,</l>
+<l rend="; 1tab">Of voert ze in dood of ramp? 't Geweten is zijn wet;</l>
+<l>De waarheid en die stem zijn hem onschendbaar heilig;</l>
+<l rend="; 1tab">'t Vertrouwen is zijn steun, en 't danken zijn gebed.</l>
+<l>&nbsp;</l>
+<l>Welaan dan, 'k ben gehard. Driedubble harnasplaten</l>
+<l rend="; 1tab">Omgeven my de borst waar 't vrije hart in woont,</l>
+<l rend="; 1tab">Wie 't zij, die Godsdienst eert, of braafheid wrevel toont,</l>
+<l>Zijn God verlaat hem niet, die alles kan verlaten.</l>
+<pb n="32"/>
+<l rend="; 1tab">Geweldenaars, regeert! ik lij' wat Hy gedoog;</l>
+<l>Het Vaderland werp' me uit, Gods wareld staat my open,</l>
+<l rend="; 1tab">Waar de aanblik my verzelt van 't Alvoorzienig oog.</l>
+<l>Het Christenhart kan meer dan twijfelmoedig hopen.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Zoo de armoê, zoo 't gebrek my volgen moet, het zij!</l>
+<l>Verdrukking moog me en leed in 't zwerven achterhalen!</l>
+<l>Nooit zal ik (dit 's genoeg) van uit dat oog verdwalen,</l>
+<l rend="; 1tab">En 't bitter uit Gods hand is heilzame artseny.</l>
+<l>De nacht valle op my neêr in donderslag op slagen,</l>
+<l rend="; 1tab">Mijne onbeklemde borst is met geene angst bezwaard;</l>
+<l>Hy zal in mijn gemoed den morgen op doen dagen,</l>
+<l rend="; 1tab">En heeft me in hooger sfeer een beter lot bewaard.</l>
+<l>&nbsp;</l>
+<l>Wat zegt een leeftijd van bekomm'ren, strijden, zwoegen?</l>
+<l rend="; 1tab">'t Is als een bange droom dien 't uchtendlicht verdrijft.</l>
+<l rend="; 1tab">Bekrompen is de kring die 't aardsche lot omschrijft;</l>
+<l>Niet vluchtig slechts maar valsch, het ondermaansch genoegen.</l>
+<l rend="; 1tab">God roept my, 'k volg en sta van eer en aanzien af:</l>
+<l>'k Genoot ze en vond ze een voos en smaakloos zelfmisleiden,</l>
+<l rend="; 1tab">'k Verzaak, en blij gemoed, aan 't licht verstuivend kaf,</l>
+<l>Hy wil me aan beter disch een voedend brood bereiden.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Vaarwel dan, Vaderland, in dierbaar Oudrenbloed</l>
+<l>Gevestigd, en zoo vaak van 's afgronds rand getogen!</l>
+<pb n="33"/>
+<l>'k Beveel u, mag ik 't nog, aan 't reddend Alvermogen,</l>
+<l rend="; 1tab">Doch schud, ondankbre grond, uw stofzand van mijn voet;</l>
+<l>Wees prooi, dewijl gy 't wilt, van vloekbre Heltyrannen!</l>
+<l rend="; 1tab">Ik heb zoo lang ik 't mocht, hun euvelzin weêrstaan;</l>
+<l rend="; 1tab">Maar zag ik Deugd en Wet en Vrijheid uitgebannen,</l>
+<l>God schenkt het me als een gunst, in haar gevolg te gaan.</l>
+</lg>
+<p><figure>
+<p><xptr to="bild002avon01ill0012.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="34"/>
+<head rend="h3">In een dikken vriendenrol.</head>
+<lg type="poem">
+<l>In zulk een dikken Rol me een plaatsjen in te ruimen,</l>
+<l rend="; 1tab">Is zeker my veel eer:</l>
+<l>Doch waartoe by den lof van zoo veel ganzenpluimen</l>
+<l rend="; 1tab">Voor u een streekjen meer?</l>
+<l>Och 't klatert hier alreeds van zoo veel lauwerblaâren</l>
+<l rend="; 1tab">In plechtig windgeruisch;</l>
+<l>Ge moogt u-zelv' 't papier, en my de moeite sparen,</l>
+<l rend="; 1tab">Laat d'ouden Paai maar t'huis.</l>
+<l>Hier staat zoo 'n menigte van wijdberoemde namen</l>
+<l rend="; 1tab">Doorstraald van 't nieuwe licht;</l>
+<l>Die zouden zich te zeer om d'armen sukkel schamen,</l>
+<l rend="; 1tab">Nog duister van gezicht.</l>
+<l>En ik, indien ik 't u naar waarheid moet belijden,</l>
+<l rend="; 1tab">Vond me onder zulke maats,</l>
+<l>Als vreemdling, onbekend met deze Modetijden,</l>
+<l rend="; 1tab">Ook gants niet op mijn plaats.</l>
+<l>‘Een Heilwensch evenwel!’ - Dien wil ik gaarne geven,</l>
+<l rend="; 1tab">Dien schenk ik gul en blij:</l>
+<l>Meer wijsheid schenke u God voor dit en beter leven</l>
+<l>Dan in de hoofden schuilt van heel dees vriendenrij,</l>
+<l rend="; 1tab">En nog de helft daar by!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="35"/>
+<head rend="h3">De Vreemdeling.</head>
+<lg type="poem">
+<l>Vreemdling waar ik rustloos zwerve,</l>
+<l rend="; 1tab">vreemdling in mijn bakermat,</l>
+<l>Vreemdling waar mijn voet zich zette,</l>
+<l rend="; 1tab">waar ik schuil- of rustplaats had,</l>
+<l>Vreemdling by bekende en vreemde,</l>
+<l rend="; 1tab">vreemdling by mijn eigen bloed,</l>
+<l>Moog ik 't slechts by God niet wezen,</l>
+<l rend="; 1tab">'t is genoeg voor mijn gemoed.</l>
+</lg>
+<p><hi rend="i">Na Motanabbi.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0013.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="36"/>
+<head rend="h3">Zelfonderzoek.</head>
+<q rend="bq">Ἐ<hi rend="i">αυτ<figure rend="inline"><p><xptr to="bild002avon01fi0004.gif"/></p></figure>ς πειράξετε.</hi>
+<lb/>
+II <hi rend="sc">Kor.</hi> XIII. 5.</q>
+<lg type="poem">
+<l rend="; 1tab">Wat, zoo de grond hier beefde en schokte</l>
+<l rend="; 3tab">En voor mijne oogen openspleet,</l>
+<l rend="; 1tab">En 't dor gebeente, lang verzwolgen,</l>
+<l rend="; 3tab">Al bruizend naar de hoogte smeet;</l>
+<l rend="; 2tab">Een hoop van halfontvleeschde schenkels</l>
+<l rend="; 2tab">My rammelden voor scheen en enkels,</l>
+<l rend="; 3tab">En, in hun menigte verward,</l>
+<l rend="; 2tab">Omcingelden en 't lijf omklemden?</l>
+<l rend="; 2tab">Het zou, het moest u, ja, bevremden;</l>
+<l>Bevremden, ja, maar niet verschrikken, ô mijn hart.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Verschrikken! - Neen: wat zou hy schrikken</l>
+<l rend="; 3tab">Die voor geen onderaardschen Geest,</l>
+<l rend="; 1tab">Geen spooksel dat de lucht doorwemelt,</l>
+<l rend="; 3tab">Geen nietige verschijnsels vreest;</l>
+<pb n="37"/>
+<l rend="; 2tab">En, zoo het eind genaakt der tijden,</l>
+<l rend="; 2tab">Zich in den Heiland mag verblijden</l>
+<l rend="; 3tab">Die, Rechter, op de wolken daalt,</l>
+<l rend="; 2tab">Der menschheid vonnis uit zal spreken</l>
+<l rend="; 2tab">En 't misdrijf der Godloozen wreken,</l>
+<l>Maar wiens doorborend oog in hart en nieren straalt?</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Doch-hoe, hoe zoude ik dan niet siddren</l>
+<l rend="; 3tab">Met heel de bevende Natuur,</l>
+<l rend="; 1tab">Geen doodsangst my de ziel benaauwen,</l>
+<l rend="; 3tab">Niet schokken in dat vreeslijk uur.</l>
+<l rend="; 2tab">Of zoude ik dan op deugden roemen,</l>
+<l rend="; 2tab">Mijn eindloos zware schuld verbloemen,</l>
+<l rend="; 3tab">En huichlen voor den Rechterstoel?</l>
+<l rend="; 2tab">Ik, smisse en moordhol van de zonden,</l>
+<l rend="; 2tab">Ik, in der zondenboei gebonden,</l>
+<l>Niet nederzinken, gants verkrompen van 't gevoel? -</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach! moog mijn hart zich niet misleiden!</l>
+<l rend="; 2tab">Doch neen, mijn boezemwroeging sliep,</l>
+<l rend="; 1tab">Wanneer by 's warelds tijdvolending</l>
+<l rend="; 3tab">Gods Engel ons ten oordeel riep!</l>
+<l rend="; 2tab">Ja eens gerust op 't schuldvergeven,</l>
+<l rend="; 2tab">Wat zou my voor my-zelf doen beven?</l>
+<pb n="38"/>
+<l rend="; 3tab">Mijn hart vloog juichende uit mijn borst,</l>
+<l rend="; 2tab">Den Goël, den Verlosser tegen,</l>
+<l rend="; 2tab">En, tot zijn voeten opgestegen,</l>
+<l>Aanbad, door niets verdeeld, mijn Heer en Levensvorst.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Geen zonde zou my dan bezwaren;</l>
+<l rend="; 3tab">Hy nam ze op zich, en van my af:</l>
+<l rend="; 1tab">Geen wroeging my het hart verscheuren;</l>
+<l rend="; 3tab">Hy droeg voor my de zondenstraf.</l>
+<l rend="; 2tab">Neen, Heiland, 'k zoude u niet mistrouwen,</l>
+<l rend="; 2tab">Voor u my niet misdadig houen</l>
+<l rend="; 3tab">Die voor my op het Kruis voldeedt!</l>
+<l rend="; 2tab">'k Zou loven, danken, met uwe Engelen,</l>
+<l rend="; 2tab">Mijn stem in 't Hemeljuichen mengelen,</l>
+<l>En zeggen de aard vaarwel, en 't eens doorworsteld leed.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Doch hoe! - wat zegt gy, onbedachte!</l>
+<l rend="; 3tab">Hebt gy Zijn goedheid niet gesmaad?</l>
+<l rend="; 1tab">Den spot gedreven met Zijn lijden?</l>
+<l rend="; 3tab">Uw lust, uw troost gezocht in 't kwaad?</l>
+<l rend="; 2tab">Vermeetle, wordt u dan 't Geweten</l>
+<l rend="; 2tab">Niet door de wroeging opgereten</l>
+<l rend="; 3tab">Wanneer ge uw levensloop herpeinst?</l>
+<l rend="; 2tab">Is die geroemde zielsgerustheid</l>
+<l rend="; 2tab">Eene innig-ware zelfbewustheid,</l>
+<l rend="; 3tab">En niet, slechts voor zich-zelv geveinsd?</l>
+<l>&nbsp;</l>
+<pb n="39"/>
+<l rend="; 1tab">O God, ô Heiland! Ja, we erkennen,</l>
+<l rend="; 3tab">Gy hebt voor onze schuld voldaan;</l>
+<l rend="; 1tab">Maar, zondaar, steeds verdiept in zonden,</l>
+<l rend="; 3tab">Hoe moet ik voor Uw vierschaar staan?</l>
+<l rend="; 2tab">Ach! schaamrood voor Uw gunstgenooten,</l>
+<l rend="; 2tab">Heb ik u-zelf voor 't hoofd gestooten,</l>
+<l rend="; 3tab">Uw bloed gehoond, veracht, gesmaad;</l>
+<l rend="; 2tab">En, duizend-, duizendmaal gevallen</l>
+<l rend="; 2tab">Hoe durf ik op Uw weldaad brallen,</l>
+<l>Na 't steeds in achtloosheid verdubbeld zondekwaad?</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Neen, Heiland! neen, ik durf slechts <hi rend="sc">hopen</hi>,</l>
+<l rend="; 3tab">Ik die Uw zondaarliefde ken,</l>
+<l rend="; 1tab">Die onder duizend van de snoodsten</l>
+<l rend="; 3tab">De onwaardigste der zondaars ben.</l>
+<l rend="; 2tab">Doch, de oogen op Uw Kruis geslagen,</l>
+<l rend="; 2tab">Durf ik me op Uw genade wagen,</l>
+<l rend="; 3tab">En treden 't oordeel in 't gemoet'.</l>
+<l rend="; 2tab">Genade zal geen schuld'naar doemen;</l>
+<l rend="; 2tab">Genade tegen 't Oordeel roemen:</l>
+<l>'k Heb deel, zy schonk het my, aan Uw vergotenbloed.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja, 'k mocht in 't hart die troosttaal hooren:</l>
+<l rend="; 3tab">‘Koomt tot my, die beladen kruipt;</l>
+<l rend="; 1tab">De balsem voor uw vuile wonden</l>
+<l rend="; 3tab">Is 't bloed dat uit de mijne druipt.’</l>
+<pb n="40"/>
+<l rend="; 1tab">Wat schuld kan by Uw offer halen!</l>
+<l rend="; 1tab">Dat bloed kan alles afbetalen</l>
+<l rend="; 2tab">En spreekt, wie tot U vluchten, vrij.</l>
+<l rend="; 1tab">Ja, Gy, voor schuldigen gestorven,</l>
+<l rend="; 2tab">Gy hebt de zaligheid verworven</l>
+<l>Voor geen rechtvaardigen, maar zondaars, en ook my.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0014.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="41"/>
+<head rend="h3">Op een versjen tegen de Oprechtheid.</head>
+<q rend="bq">(<hi rend="sc">Gedichten</hi>, enz. <hi rend="i">van het Kon. Genootschap te Andwerpen, bladz.</hi> 83.)</q>
+<lg type="poem">
+<l rend="; 1tab">By duiven-eenvoud dient voorzichtigheid der slang;</l>
+<l>De Waarheid gaf die les, en - wijs die haar betrachten!</l>
+<l rend="; 1tab">Maar padden-hoogmoed by arglistig zelfbelang,</l>
+<l>Leert, Christnen, dien in hem die haar misbruikt, verachten!</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<head rend="h3">Omzichtigheid.</head>
+<lg type="poem">
+<l rend="; 1tab">De Waarheid leerde ons, ja, <hi rend="i">voorzichtigheid;</hi> 'k erken 't:</l>
+<l>'t Is <hi rend="i">voor</hi> zich <hi rend="i">zien</hi> op 't pad, tot 's Heilands eer betreden;</l>
+<l rend="; 1tab">Maar <hi rend="i">omzien</hi> op zijn weg hoe 's warelds rad zich wendt?</l>
+<l>Wee die 't beweeren durft! hy is er afgegleden.</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<pb n="42"/>
+<head rend="h3">Grijzaarts bruiloftszang.</head>
+<lg type="poem">
+<l>Wat begeert gy van den Grijze,</l>
+<l rend="; 1tab">Jong en dartlend Huwlijkspaar,</l>
+<l>Dat hy de oude bruiloftswijze</l>
+<l rend="; 1tab">Zal vernieuwen op zijn snaar?</l>
+<l>Neen, die gladde koorden sprongen,</l>
+<l>En zijn keel is heesch gezongen,</l>
+<l rend="; 1tab">Adem bleef hem noch geluid:</l>
+<l>'t Hart inwendig is bevroren,</l>
+<l>Kunst en melody verloren,</l>
+<l rend="; 1tab">Vuur en zielsgevoel ging uit.</l>
+<l>Neen, de Jeugd mag lusten kwelen,</l>
+<l>Lier en feestcymbaal bespelen;</l>
+<l>Zy, zy weet van stroken, streelen,</l>
+<l rend="; 1tab">Kusjens drukken malsch en zacht;</l>
+<l>D'armen Grijzaart (ach!) vergingen</l>
+<l>Al die lustherinneringen,</l>
+<l rend="; 1tab">En zijn toon is jammerklacht.</l>
+<l>Zingt hier, jeugdige Poëeten,</l>
+<l>In de tuimelvreugd gezeten</l>
+<l rend="; 1tab">Tusschen Schoonheid, Wijn, en Min;</l>
+<pb n="43"/>
+<l>Zwelgt met hart en mond en oogen</l>
+<l>Zielverhemelende toogen</l>
+<l rend="; 1tab">Van tiendubblen nektar in;</l>
+<l>Stort ze in stoute Dichtrentonen</l>
+<l>Als rechtaarde Febus zonen</l>
+<l rend="; 1tab">Golvend uit op de elpen Lier,</l>
+<l>En ontsteke, vlamme, en bruische,</l>
+<l>Waar uw zwellende adem ruische,</l>
+<l rend="; 1tab">Alles van geheiligd vier!</l>
+<l>Hupple ziel en hart en aâren</l>
+<l>Op de golving van uw snaren,</l>
+<l rend="; 1tab">Op de tokkling van uw hand;</l>
+<l>Zingt wat Grijzaarts eens gevoelden</l>
+<l>Eer de jaren 't vuur bekoelden</l>
+<l rend="; 1tab">Dat in uwen boezem brandt.</l>
+<l>Zingt (gy moogt daar wy verstommen,)</l>
+<l>Van de prille jeugd ontglommen,</l>
+<l rend="; 1tab">Wat den Bruiloftsdisch betaamt;</l>
+<l>Wat, zoo 't frissche maagdenwangen</l>
+<l>Met een blosjen mag bevangen,</l>
+<l rend="; 1tab">Zoo 't geen argloos hart beschaamt!</l>
+<l>Zingt die zoete zielsbetoovering,</l>
+<l>Dien triomf der Minverovering,</l>
+<l rend="; 1tab">Die dit zalig paar verwacht:</l>
+<l>Zingt die zalvende Echtgenoegens:</l>
+<l>Zingt wat jaren zuchtens, zwoegens,</l>
+<l rend="; 1tab">Oplost in een enklen nacht.</l>
+<pb n="44"/>
+<l>Zingt - want ik, wat zou ik trachten? -</l>
+<l>Zingt die zaligheid der nachten;</l>
+<l rend="; 1tab">Mijn gestamel ware om niet.</l>
+<l>Zingt dien kus vol hemelvonken,</l>
+<l>Als m' elkaâr in d'arm gezonken</l>
+<l rend="; 1tab">Aard en sterflijkheid ontschiet. -</l>
+<l>Maar, ô neen, bedwingt uw tonen</l>
+<l>(Ook de zedigheid verschoonen,</l>
+<l rend="; 1tab">Eischt de Dichterlijke plicht:)</l>
+<l>Zingt nochtans, gy moogt ze zingen,</l>
+<l>Liefdes teedre worstelingen,</l>
+<l rend="; 1tab">Maar, bestraald van schemerlicht.</l>
+<l>Zingt geen murmlend lipgefluister</l>
+<l>Dat de Min verschuilt in 't duister;</l>
+<l rend="; 1tab">Maar verbergt de kusjens niet!</l>
+<l>Voel' men ze in uw zangen klemmen,</l>
+<l>En de zielen overzwemmen</l>
+<l rend="; 1tab">In de tonen van uw lied.</l>
+<l>Zingt dat innig kusjens mengelen,</l>
+<l>Tooverlieflijk lipjenshengelen,</l>
+<l rend="; 1tab">Zwelgend mond- aan mondgevlij,</l>
+<l>Trekkebekkend, lustenwekkend,</l>
+<l>Zielen uit den boezem trekkend;</l>
+<l rend="; 1tab">Hemelnektarsnoepery.</l>
+<l>'t Smakkend, schroevend mondtjens-tippen,</l>
+<l>'t Spartelen met tong en lippen</l>
+<l rend="; 1tab">'t Smachtend kronklen van de lust;</l>
+<pb n="45"/>
+<l>'t Kittlen, stroken, streelen, stoeien,</l>
+<l>'t Aâm met adem samenvloeien,</l>
+<l>'t Blaakrend, brandend zieldoorgloeien</l>
+<l>En in laaie vlam verschroeien</l>
+<l rend="; 1tab">Van den Minnaar en zijn Bruid,</l>
+<l>Wen zy, ziel aan ziel geklonken,</l>
+<l>Smelten in verëende vonken,</l>
+<l rend="; 1tab">Barstende oog en boezem uit: -</l>
+<l>Vonken die gebeent' en spieren,</l>
+<l>Hart en ademtocht doorzwieren,</l>
+<l rend="; 1tab">Tot zy ademtocht en bloed</l>
+<l rend="; 1tab">Doen verteeren in den gloed,</l>
+<l>Om met onbeschrijflijk hijgen</l>
+<l rend="; 1tab">Van op één gekleefde borst,</l>
+<l>Ongevoelig weg te zijgen</l>
+<l rend="; 1tab">In de nooit geleste dorst;</l>
+<l>Als de zielen langs de lippen</l>
+<l rend="; 1tab">In elkander overglippen,</l>
+<l rend="; 1tab">En met uitgeputte kracht,</l>
+<l>Zwemmend, domplend in een weelde</l>
+<l>Die nooit zintuig zich verbeeldde,</l>
+<l rend="; 1tab">'t Hart naar stervensrust versmacht.</l>
+<l>Ach! dien waren toon te treffen</l>
+<l>Eischt een levendig beseffen,</l>
+<l rend="; 1tab">Door een brandend hart gestookt;</l>
+<l>Eischt een taal van vuur en leven,</l>
+<l>In verrukking uitgedreven,</l>
+<pb n="46"/>
+<l rend="; 2tab">Door geen ouderdom verrookt.</l>
+<l rend="; 1tab">Neen, des Grijzaarts stijve vingeren</l>
+<l rend="; 1tab">Kunnen gloed noch vonken slingeren</l>
+<l rend="; 2tab">Uit zijne afgespeelde Lier:</l>
+<l rend="; 1tab">Dichterlijke Jongelingen,</l>
+<l rend="; 1tab">'t Koomt u toe, de Min te zingen;</l>
+<l rend="; 2tab" n="108">Grijze hairen, wijkt van hier!</l>
+</lg>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<head rend="h3">Oostersche minnebede.</head>
+<lg type="poem">
+<l>Alleen een opslag van uw oog, een lonk vall' my ten deel';</l>
+<l>Het minste, zegt der Wijzen spreuk, van die men mint is veel.</l>
+</lg>
+<p><hi rend="i">Na Motanabbi.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0015.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18240000"/>
+</interpGrp>
+<pb n="47"/>
+<head rend="h3">Staatsrust.</head>
+<q rend="bq">Ἐ<hi rend="i">ν τοῖσι μωροῖς τ<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure>τον ἔγω ϰρίνω βροτῶν</hi>,
+<lb/>
+Ὁ<hi rend="i">ςις τῶν πα<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>έρων παισὶ μὴ φρον<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure>σιν ε῏υ</hi>,
+<lb/>
+Ἢ <hi rend="i">ϰαὶ πολί<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>αις παραδίδωσ᾽ ᾽εξ<figure rend="inline"><p><xptr to="bild002avon01fi0001.gif"/></p></figure>σίαν.</hi>
+<lb/>
+<hi rend="sc">Stobaeus</hi>.</q>
+<lg type="poem">
+<l>In zijn Vorst die hand te erkennen</l>
+<l rend="; 1tab">Die der dingen teugels klemt,</l>
+<l>Hem den toom te laten mennen,</l>
+<l rend="; 1tab">Wien Gods ordening bestemt;</l>
+<l>Of met schuim van aterlingen</l>
+<l>Zich in de oppermacht te dringen</l>
+<l rend="; 1tab">Door klubistendwinglandy,</l>
+<l>En met opgeruide hoopen</l>
+<l>Kerk en Burgerstaat te slopen;</l>
+<l rend="; 1tab">Wat verdient den naam van VRIJ?</l>
+<l>&nbsp;</l>
+<l>Vredig in zijn wijngaardlommer</l>
+<l rend="; 1tab">Met zijn zalig huisgezin,</l>
+<pb n="48"/>
+<l>'t Brood te smaken zonder kommer,</l>
+<l rend="; 1tab">Door zijn dagelijks gewin;</l>
+<l>Of met opgeblazen dwazen</l>
+<l>In een Staatspaleis te razen</l>
+<l rend="; 1tab">Over 't geen men niet verstaat,</l>
+<l>En, met bloed en brein aan 't gisten</l>
+<l>Deel te nemen in hun twisten</l>
+<l rend="; 1tab">In verwarden dolhuispraat?</l>
+<l>&nbsp;</l>
+<l>Aan zijn Koning deel te brengen</l>
+<l rend="; 1tab">Van den zegen onzer vlijt;</l>
+<l>Of zijn inkomst uit te plengen</l>
+<l rend="; 1tab">Voor den dwaas die ze ons benijdt?</l>
+<l>In een dankstofvol genieten</l>
+<l>'t Heil van God ons toe zien vlieten,</l>
+<l rend="; 1tab">'t Zoete smakend van zijn stand;</l>
+<l>Of in eeuwig rustloos woelen</l>
+<l>'t Kostbre leven henen spoelen</l>
+<l rend="; 1tab">In een stormig, zinkend land?</l>
+<l>&nbsp;</l>
+<l>Kunt gy twijflen, gy Bataven,</l>
+<l rend="; 1tab">Eertijds vrij by Nassaus staf:</l>
+<l>Nu, van uw gelijken slaven,</l>
+<l rend="; 1tab">En gedoemd tot zwijnendraf?</l>
+<pb n="49"/>
+<l>Leert uw jammer recht beseffen,</l>
+<l>En uw stem tot God verheffen,</l>
+<l rend="; 1tab">Smeekt een Vaderlijk gezag:</l>
+<l>Geeft uw' Vorst het roer in handen,</l>
+<l>Dat de Staatshulk niet moog stranden</l>
+<l rend="; 1tab">Waar geen wijsheid redden mag!</l>
+</lg>
+<p>1824.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0016.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="50"/>
+<head rend="h3">Wijsbegeerte.</head>
+<q rend="bq">Ὀ<hi rend="i">υχὶ ἐμώρανον ὁ</hi> Θ<hi rend="i">εὸς <figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ὴν σοφίαν τ<figure rend="inline"><p><xptr to="bild002avon01fi0003.gif"/></p></figure> ϰόσμ<figure rend="inline"><p><xptr to="bild002avon01fi0001.gif"/></p></figure> τ<figure rend="inline"><p><xptr to="bild002avon01fi0006.gif"/></p></figure>τ<figure rend="inline"><p><xptr to="bild002avon01fi0001.gif"/></p></figure></hi>;
+<lb/>
+I <hi rend="sc">Kor.</hi> I. 20.</q>
+<lg type="poem">
+<l>Ja, <hi rend="sc">Wijsbegeerte</hi> heeft heur rechten naam verkregen:</l>
+<l rend="; 1tab"><hi rend="i">Begeerte</hi> is ze, anders niet, als die van 't onwijs wicht</l>
+<l rend="; 1tab">Dat naar den spiegel grijpt, bedrogen door 't gezicht,</l>
+<l>Om d'appel, achter hem op 't dischkleed neêrgelegen.</l>
+<l rend="; 1tab">Grijp toe, grijp dieper door en dieper, Filozoof,</l>
+<l>Uw poging breke 't glas en doe het beeld verzwinden,</l>
+<l>Maar 't geen gy zocht, is in dien luchtgreep niet te vinden;</l>
+<l rend="; 1tab">Begeerte is geen bezit, noch Wijsheid menschenroof.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0017.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="51"/>
+<head rend="h3">Geboorte.</head>
+<q rend="bq"><hi rend="i">Les Chrétiens parfaits l'honorent par une lumière supérieure.</hi>
+<lb/>
+<hi rend="sc">Pascal</hi>. <hi rend="i">Pensées.</hi> XXIX. 2.</q>
+<lg type="poem">
+<l>Het voorrecht der geboorte omvat een waren zegen.</l>
+<l>De dwaas veracht het, als door 't blind geval verkregen;</l>
+<l>Maar wijs is die 't waardeert als schikking van zijn' God</l>
+<l>En erf, 't bereik te hoog van 't wisselvallig lot.</l>
+<l>'t Bevat een weldaad, door geen stervling door te schouwen,</l>
+<l>Maakt God-aanhanklijkvrij, en breekt het aardschvertrouwen;</l>
+<l>'t Geeft in verdrukking troost, en ondersteunt den moed,</l>
+<l>En regelt, spoort, en toomt een wild en vadsig bloed.</l>
+<l>'t Ziet op de hand te rug, die orde en regel stichtte,</l>
+<l>Elk voorwerp aan verband van plaats en tijd verplichtte,</l>
+<l>Aan elk bestemming gaf die nimmer wijkt of faalt,</l>
+<l>Van hoogsten Geestenrang tot ieder voorwerp daalt,</l>
+<l>En wie te aanbidden met een dankbaar zielsdoordringen</l>
+<l>Den zoetsten plicht vervult der broze stervelingen.</l>
+</lg>
+<p>1826.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="52"/>
+<head rend="h3">In het Album van Aletta.....</head>
+<lg type="poem">
+<l>Wat vraagt ge van mijn hand? wat zal dit blad bevatten?</l>
+<l rend="; 1tab">Een vaderlijken wensch, een Christelijken raad? -</l>
+<l>Ja! waardiger zijn die dan 's warelds rijkste schatten</l>
+<l rend="; 1tab">Voor 't onbedorven hart dat voor de Oprechtheid slaat.</l>
+<l>Welaan! de Grijzaart spreekt, geleerd door de ondervinding,</l>
+<l>En Maagdlijke onschuld neem zijn zeegnend voorschrift aan:</l>
+<l>Alette, ken u-zelv, schuw valschheid en verblinding;</l>
+<l rend="; 1tab">Wat om ons is, bedriegt; wat wijsheid schijnt, is waan;</l>
+<l>Betrouw geen uiterlijk, maar zie tot door de omwinding;</l>
+<l rend="; 1tab">By Jezus slechts is heil, al 't andre zal vergaan.</l>
+</lg>
+<p>1826.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0018.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="53"/>
+<head rend="h3">Gebed.</head>
+<q rend="bq"><hi rend="i">Op Uwe zaligheid wacht ik,</hi> Heer!
+<lb/>
+<hi rend="sc">Gen.</hi> XLIX, 18.</q>
+<lg type="poem">
+<l>Neen, Heer, ik smeek U geen verlenging van dit leven;</l>
+<l rend="; 1tab">Verlengt Gy 't, zij het dan ter Uwer eer besteed,</l>
+<l rend="; 1tab">Vertrooste ik 't Christlijk hart in 't prangen van zijn leed,</l>
+<l>En leere ik d'ongodist, in de ijzren boezem beven!</l>
+<l>Stem my 't steeds zwak gemoed tot weldoen en vergeven,</l>
+<l rend="; 1tab">Maak me ieder oogenblik voor 't stervensuur gereed,</l>
+<l rend="; 1tab">Leg me op (maar steun me er by) wat Gy my dienstig weet</l>
+<l>En red my van 't verderf dat me eindloos aan blijft kleven!</l>
+<l rend="; 1tab">Gy kent den duivel die my pijnigt en ontrust;</l>
+<l rend="; 1tab">Ontruk me aan 't dwanggeweld der aardsche zondelust:</l>
+<l>Roei uit wat in mijn borst Uw Heilwoord wil verstikken.</l>
+<l rend="; 1tab">Ontwortel elke sprank van hoogmoed waar by sluipt,</l>
+<l rend="; 1tab">En onder 't danken zelfs de onzuivre ziel bekruipt;</l>
+<l>En, sta me Uw Zoentroost by in de uiterste oogenblikken!</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18230000"/>
+</interpGrp>
+<pb n="54"/>
+<head rend="h3">Lofprijs.</head>
+<q rend="bq"><hi rend="i">Fuit moris antiqui, eos, qui vel singulorum laudes vel urbium scripserant, aut honoribus, aut pecuniâ ornare; nostris autem temporibus, ut alia speciosa, ita hoc imprimis exolevit.</hi>
+<lb/>
+<hi rend="sc">Plinius</hi>. (Ep. 1.3.)</q>
+<lg type="poem">
+<l rend="; 1tab">De lof te lonen met geschenken, ja, was oud;</l>
+<l>Maar thands - ach! laten wy die Mode niet herwenschen.</l>
+<l rend="; 1tab">'t Vindt alles, alles lof wat m' op deze aard aanschouwt;</l>
+<l>En Reednaars zijn er thands wel tienmaal meer dan menschen.</l>
+<l rend="; 1tab">Kreeg elk slechts iets, 't ontbrak op 't wareldrond aan goud.</l>
+<l rend="; 1tab">En de eer -? Heeft elk die zich wat adems toebetrouwt.</l>
+</lg>
+<p>1823.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0019.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="55"/>
+<head rend="h3">Onbekookte geleerdheid.</head>
+<lg type="poem">
+<l rend="; 1tab">O welk een overvloed van wijsheid! welk een tijd!</l>
+<l>Wie lust heeft kan zich thands tot aan de keel verzaden.</l>
+<l>Ja, alles hikt en rispt van 't eindloos overladen</l>
+<l rend="; 1tab">By zwelgen waar m' in stikt en altoos dorst by lijdt.</l>
+<l>Ja, is 't geen overvloed, voor 't minst is 't overvloeiing:</l>
+<l rend="; 1tab">De maag verkropt, verteert, en overvat het niet.</l>
+<l>'t Verzuurt en wordt tot schuim door onbewerkte broeiing,</l>
+<l rend="; 1tab">En borlend gist het op en wemelt, bruischt en ziedt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">'k Gun elk die volheid van door één gesmeten kost;</l>
+<l>Maar hou me aan 't sober maal van onzer Vaadren dagen.</l>
+<l>Zy spijsden doch met maat, en geen verkrachte magen</l>
+<l rend="; 1tab">Verdierven tot een last wat voeding geven most.</l>
+<l>En praalt de gulzigheid op 't roekloos dus verbraste;</l>
+<l rend="; 1tab">Men slikke en stikk' er in zoo veel men wil of kan!</l>
+<l>'k Mag lijden dat m' er hond of katten op vergaste;</l>
+<l rend="; 2tab">Voor my, ik heb een walg daar van.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="56"/>
+<head rend="h3">Droomen.</head>
+<lg type="poem">
+<l rend="; 1tab">Een droom en waarheid, wat verschillen zy op de aard?</l>
+<l>De droom wordt voortgebracht door zintuigprikkelingen;</l>
+<l rend="; 1tab">Maar 't denkbeeld dat men vormt van waar het oog op staart,</l>
+<l rend="; 1tab">Of wat het oor, gevoel, of reuk, of smaak ontwaart,</l>
+<l>Is meê 't gewrocht in ons van d' indruk dien we ontfingen.</l>
+<l rend="; 1tab">'t Is alles zelfgevoel; de waarheid, buiten ons.</l>
+<l>Te kennen eischt een God, het onze slechts is droomen;</l>
+<l rend="; 1tab">Wat wiegen we ons in slaap op 't zinnenvleiend dons,</l>
+<l>En doen in sluimerzucht ons 't leven-zelf ontstroomen?</l>
+<l rend="; 1tab">Wat stellen we in den droom ons welzijn, heel ons doel?</l>
+<l>Voorbygaande is die schim by 't naadrend morgengloren.</l>
+<l rend="; 1tab">Neen, houde ons bloed zich kalm by 't zwevend zingewoel;</l>
+<l>'t Ontwaken zal en de angst en 't valsch genot verstooren,</l>
+<l rend="; 1tab">En dan zal 't Waarheid zijn, waar in de ontbonden geest</l>
+<l rend="; 1tab">Door heel 't geschapendom Gods alvolmaaktheid leest.</l>
+</lg>
+<p>1826.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18240000"/>
+</interpGrp>
+<pb n="57"/>
+<head rend="h3">Een Liberaal,
+<lb/>
+gelijk er zijn, of geweest zijn.</head>
+<q rend="bq"><hi rend="i">Rebellion is my theme all day;
+<lb/>
+I only wish 't would come.</hi> -
+<lb/>
+<hi rend="sc">Cowper</hi>.</q>
+<lg type="poem">
+<l>Onrust, oproer, is mijn text,</l>
+<l rend="; 1tab">Dat geeft vreugd en blijheid;</l>
+<l>Doch de wareld is behext,</l>
+<l rend="; 1tab">Want zy wil geen vrijheid.</l>
+<l>&nbsp;</l>
+<l>Koning....? Ja, maar geen gezag;</l>
+<l rend="; 1tab">Af en aan te zetten;</l>
+<l>Wy, by openlijk verdrag,</l>
+<l rend="; 1tab">Meester van de wetten!</l>
+<l>&nbsp;</l>
+<l>Ja, dat ongestadig beest</l>
+<l rend="; 1tab">Met zijn duizend koppen</l>
+<l>Is te lang in band geweest,</l>
+<l rend="; 1tab">'t Laat zich niet meer foppen.</l>
+<l>&nbsp;</l>
+<pb n="58"/>
+<l>'t Brak nu toom en strikken uit,</l>
+<l rend="; 1tab">'t Moet zich-zelf regeeren:</l>
+<l>Staan wanneer de sleeper fluit,</l>
+<l rend="; 1tab">Zou het paard onteeren.</l>
+<l>&nbsp;</l>
+<l>Neen, den sleeper nu getoomd;</l>
+<l rend="; 1tab">Ons de zweep in handen!</l>
+<l>En de scheepjens voort<hi rend="i">gestoomd,</hi></l>
+<l rend="; 1tab">Waar 't ook moog belanden.</l>
+<l>&nbsp;</l>
+<l>Waar? dat weten wy niet recht,</l>
+<l rend="; 1tab">Maar dat zal zich vinden,</l>
+<l>Mits wy schippersbaas en knecht</l>
+<l rend="; 1tab">Oog en handen binden.</l>
+<l>&nbsp;</l>
+<l>Weg met d'ouderwetschen praat</l>
+<l rend="; 1tab">Van gestelde machten!</l>
+<l>Waar de wareld rond van gaat,</l>
+<l rend="; 1tab">Zijn de dommekrachten.</l>
+<l>&nbsp;</l>
+<l>O wat rijk gezegende Eeuw</l>
+<l rend="; 1tab">Die wy thands beleven,</l>
+<l>Nu het razend volksgeschreeuw</l>
+<l rend="; 1tab">Elk de wet mag geven!</l>
+<l>&nbsp;</l>
+<pb n="59"/>
+<l>'t Strij' met God, Geweten, Eer,</l>
+<l rend="; 1tab">Afgesleten namen!</l>
+<l>Foei, dat al bestaat niet meer,</l>
+<l rend="; 1tab">Die moet elk zich schamen!</l>
+<l>&nbsp;</l>
+<l>Eenmaal was er heel veel vast,</l>
+<l rend="; 1tab">Aan het Landbesturen;</l>
+<l>Nu kan 't ieder weversgast,</l>
+<l rend="; 1tab">Of - hy vraagt zijn buren.</l>
+<l>&nbsp;</l>
+<l>O verstandig Brittenland!</l>
+<l rend="; 1tab">O verstandig Frankrijk!</l>
+<l>Die uw kool in Holland plant,</l>
+<l rend="; 1tab">Maakt het onverganklijk.</l>
+<l>&nbsp;</l>
+<l>Wil die kool in dezen grond</l>
+<l rend="; 1tab">Niet recht welig groeien,</l>
+<l>Wel, men zal ze zoo terstond</l>
+<l rend="; 1tab">Met wat bloed besproeien.</l>
+<l>&nbsp;</l>
+<l>Dat beviel de Franschen wel;</l>
+<l rend="; 1tab">Dat deed elk regeeren.</l>
+<l>Dat 's een hemel als de hel!</l>
+<l rend="; 1tab">Wie kan meer begeeren!</l>
+<l>&nbsp;</l>
+<pb n="60"/>
+<l>Domheid, dolheid, razerny,</l>
+<l rend="; 1tab">Eertijds aan de keten,</l>
+<l>Geef de wet der maatschappy,</l>
+<l rend="; 1tab">Dat mag zalig heeten.</l>
+<l>&nbsp;</l>
+<l>Dat is 't recht der menschlijkheid,</l>
+<l rend="; 1tab">Daar moet elk voor buigen;</l>
+<l>En wie anders denkt of zeit,</l>
+<l>'t Fransche moordtuig staat bereid</l>
+<l rend="; 1tab">Om hem te overtuigen.</l>
+</lg>
+<p>1824.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0020.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="61"/>
+<head rend="h3">Weg naar hooger.</head>
+<lg type="poem">
+<l>Wat te weten, wel of kwalijk, met verzeekring dat men 't weet;</l>
+<l>Middelmatigheid in alles, onder hoogmoeds overkleed;</l>
+<l>Nooit te blozen; taamlijk praten, maar niet al te klaar van zin,</l>
+<l>Op zijn eigenroem te doelen onder schijn van menschenmin;</l>
+<l>Alle Godsdienst uit te schudden, en te wawelen van deugd;</l>
+<l>De eerste kiemen uit te roeien in de nog onnoozle jeugd;</l>
+<l>Mensch en beest door een te mengen; nieuwerwetschen zottenklap</l>
+<l>Half begrepen uit te venten als verkregen wetenschap;</l>
+<l>Alle dwaasheên nog iets verder voort te drijven zoo men kan;</l>
+<l>Meer behoort niet tot de lofspraak van een recht uitmuntend man.</l>
+<l>Of men dan zich-zelf zoo zot veinst of het waarlijk is - wat nood!</l>
+<l>Op die wijze wordt m' onfeilbaar machtig, rijk, beroemd, en groot!</l>
+</lg>
+<p>1825.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0021.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<pb n="62"/>
+<head rend="h3">Braafheid.</head>
+<lg type="poem">
+<l>De deugdzame is hier onder bozen,</l>
+<l rend="; 1tab">Als 't goud in de ertsgroef onder aard.</l>
+<l>Bevreemt ons dan 't verwarelozen</l>
+<l rend="; 1tab">Hetgeen de brave hier ervaart?</l>
+<l>Waar is die 't kent in zulk vermengen,</l>
+<l rend="; 1tab">Bezoedeld en met slijk bedekt,</l>
+<l>Zal 't vuur het tot geen glinstring brengen,</l>
+<l rend="; 1tab">Waardoor het de oogen tot zich trekt?</l>
+<l>Ja, 't proef- en zuivervuur van 't lijden,</l>
+<l rend="; 1tab">Van onderdrukking, tegenspoed!</l>
+<l>Dit moet de deugd van 't slijk bevrijden</l>
+<l rend="; 1tab">Dat 's wat ze in luister schittren doet.</l>
+</lg>
+<p><hi rend="i">Na Motanabbi.</hi></p>
+<p>&nbsp;</p>
+<p>1828.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0022.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="63"/>
+<head rend="h3">In het Album
+<lb/>
+van een afscheid nemenden zeeman.</head>
+<lg type="poem">
+<l>Vergeefs voert gy mijn naam door stormgeweld en golven</l>
+<l rend="; 1tab">Naar 't verstgelegen strand den Zuidpool in 't gemoet:</l>
+<l>Wat eens uit stof verrees moet weêr in 't stof bedolven,</l>
+<l rend="; 1tab">En eens verzinkt al 't aardsch in d'algemeenen gloed.</l>
+<l>Doch ga - het zij u hier de Noorderbuien loeien,</l>
+<l rend="; 1tab">'t Zij ginds de warmer zon u koester' van omhoog,</l>
+<l>Dezelfde levens aâm blijft door uwe aders vloeien,</l>
+<l rend="; 1tab">Hetzelfde hemellicht blijft stralen in uw oog.</l>
+<l>Doorstreef den kring der aard, gy blijft er in besloten:</l>
+<l>Ze is eng (hoe ruimze ook schijn) voor 't hart dat meer verlangt,</l>
+<l>En de opgezette boeg der stoutste wareldvloten</l>
+<l rend="; 1tab">Dringt door de omneevling niet die ze in haar wolk omvangt.</l>
+<l>Wat is 't dan, zoo mijn naam by tegenvoetelingen</l>
+<l rend="; 1tab">Genoemd werde op een deel van 't andre halve rond?</l>
+<l>Neen, moog ze in hooger sfeer op Englenwieken dringen,</l>
+<l rend="; 1tab">Als mededeelgenoot in 't Godlijk Zoenverbond!</l>
+</lg>
+<p>1826.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="64"/>
+<head rend="h3">De Taalkennis.</head>
+<lg type="poem">
+<l>Laat Apen grijnzen, Honden bassen</l>
+<l>En grimmig Uilgebroedsel krassen,</l>
+<l rend="; 1tab">'k Beklaag den wandlaar wien 't gekrijsch</l>
+<l>Verbijstert; maar hy stopp' zijne ooren,</l>
+<l rend="; 1tab">Een ieder schreeuwt toch op zijn wijs!</l>
+<l>Of lust hem, zottenklap te hooren,</l>
+<l rend="; 1tab">Hy stell' dien op den waren prijs.</l>
+<l>&nbsp;</l>
+<l>De weg is recht. Met kromme lanen</l>
+<l>Door kreupelhout een pad te banen,</l>
+<l rend="; 1tab">Is vruchtloos, by geopend spoor.</l>
+<l>Wat ezels door de ruigte zwieren</l>
+<l rend="; 1tab">En bulken bosch en heggen door;</l>
+<l>Laat u door ezels niet bestieren,</l>
+<l rend="; 1tab">Al doen zy zich als Leeraars voor.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="65"/>
+<head rend="h3">'t Algemeene Godsrijk.</head>
+<lg type="poem">
+<l>Waar 't tiende deel der ons bewoonbare Aard</l>
+<l>Door 't reuzig Rijk van Rusland wordt bezwaard;</l>
+<l>Waar Noorman, Pool, Kozakken, en Tartaren,</l>
+<l>Beschaafden geest met blinden krijgsmoed paren,</l>
+<l>En 't uiterst dat de weelde met zich brengt,</l>
+<l>Aan 't engst gebrek, maar zonder afgunst, mengt.</l>
+<l>Wat ziet men daar? - Des menschen aart ontwikkelen,</l>
+<l>Door nooddruft, vlijt, en eer, en voorbeeld prikkelen.</l>
+<l>Daar leert men, wat hy is, en worden kan.</l>
+<l n="10">Wat wild, half dier, wat godvereerend man,</l>
+<l>Hoe in 't verval, en hoe in 't weêrverheffen,</l>
+<l>Niet door 't verstand, maar zelfs door 't oog, beseffen.</l>
+<l>Daar, wat de leer der Godsdienst heeft voor kracht</l>
+<l>Ter vorming, ter vereedling van 't geslacht,</l>
+<l>En hoe de zucht voor haardstede en altaren</l>
+<l>Slechts bentleus is, en meer niet, by barbaren.</l>
+<l>Daar roept ons hart: vermag het Christenschap</l>
+<l>Zoo veel, daar 't kruipt op dees zoo lagen trap;</l>
+<l>Wat (Heiland!) zal het heil des aardrijks wezen,</l>
+<l n="20">Als we allen eens uit dood en graf gerezen,</l>
+<l>En door 't Geloof, en door 't aanschouwen-zelf,</l>
+<l>Uw eeuwig Rijk zien dalen van 't gewelf!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="66"/>
+<head rend="h3">Zondewraak.</head>
+<q rend="bq">Ο<hi rend="i">ὔ<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ε ϑαλάσσης ϰῦμα τ<figure rend="inline"><p><xptr to="bild002avon01fi0007.gif"/></p></figure>ον βοάα πο<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ὶ χέρσον</hi>
+<lb/>
+Π<hi rend="i">ον<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>όϑεν ὀρνύμενον πνοιῇ</hi> Β<hi rend="i">ορέω ἀλέγεινῇ.</hi>
+<lb/>
+Ο<hi rend="i">ὔ<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ε πυρὸς <figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>όσσος γε πο<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ὶ βρόμος ἀιϑομένοιο,</hi>
+<lb/>
+Ο<hi rend="i">ὔρεος ἐν βησσῇς ὅτε <figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ὤρετο ϰάιεμεν ὕλην.</hi>
+<lb/>
+Ο<hi rend="i">ὔ<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure> ἄνεμος <figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>όσσον γε πο<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ὶ δρυσὶν ὑψιϰόμοισιν</hi>
+<lb/>
+Ἠ<hi rend="i">πύει, ὅςε μάλιςα μέγα βρέμεις χαλεπάινων.</hi>
+<lb/>
+<hi rend="sc">Homer</hi>. <hi rend="i">Il. Ξ.</hi></q>
+<lg type="poem">
+<l>Geen buldrend zeegegolf door 't Noorder windgeblaas</l>
+<l>Gedreven, geesselde ooit het strand met zulk geraas; -</l>
+<l>Geen vuurvlam blakert zoo in 't bruischen van zijn vlammen</l>
+<l>En klatert, loeit, en knalt, door beuk- en eikenstammen; -</l>
+<l>Geen noodorkaan, wiens woudontwortlend algeweld</l>
+<l>Slechts ademt, en den roem van vijftig eeuwen velt; -</l>
+<l>Geen wolkbreuk, die op eens het aardrijk weg doet zinken;</l>
+<l>Geen bliksem, die, eer 't oog zijn slikkring nog ziet blinken,</l>
+<l>Reeds heeft vermorseld wat hy aantreft. - Niets op aard,</l>
+<l n="10">In lucht, of hoofdstof, dat Gods strafwenk evenaart,</l>
+<l>Ontzachlijk boven al wat geest of stof kan dragen</l>
+<l>Als Hy 't verbolgen oog op 't aardrijk heeft geslagen!</l>
+<pb n="67"/>
+<l>En, stervling, gy bezwijmt op 't bloote denkbeeld niet,</l>
+<l>Wanneer ge en in uw hart, en om u henen, ziet?</l>
+<l>Gy smelt, gy vloiet niet weg in heete tranen stroomen,</l>
+<l>En 't bloed verstijft niet in uw aadren? Valsche droomen</l>
+<l>Der zelfzucht doven u het schokkend luchtgeschal</l>
+<l>Van 's Engels boetbazuin, die 't sloopen van 't heelal</l>
+<l>Verkondigt, en wat leeft verdagvaardt tot verbeiding</l>
+<l n="20">Van 't naadrend oogenblik in stille voorbereiding</l>
+<l>Wanneer de Rechter op d'ontzachbren wolkenthroon</l>
+<l>Verschijnen zal als God, en wreker van zijn hoon? -</l>
+<l>Als God en - wreker! - ach! Hy, louter mededogen, -</l>
+<l>Zachtmoedig, - met het leed des stervlings zoo bewogen! -</l>
+<l>Hy, redder, heeler, en beschreier van ons leed,</l>
+<l>Die 't voor ons opnam, torschte, al kostte 't bloedig zweet,</l>
+<l>En zondestraf en dood en hellenangst aanvaardde,</l>
+<l>Op dat Hy 't heil herwon voor 't doemvol kind der aarde.</l>
+<l>Hy komt als rechter, Hy, de middlaar by Gods wraak,</l>
+<l n="30">Verplettraar van d' op ons ten roof verhitten draak!</l>
+<l>Wat denkbeeld! ach de in liefde en weldaân zoo verheven,</l>
+<l>Oneindige, in geen perk van ons besef omschreven,</l>
+<l>Is ook oneindig, waar zijn toornegloed ontbrandt;</l>
+<l>En ach, daar is op nieuw geene andere offerhand.</l>
+<l>Ze is eens voor ons volbracht. Geen redding, geen beschermen,</l>
+<l>Bestaat er meer; het uur, bewilligd tot erbarmen,</l>
+<l>Verliep, daar 't dwarlend hart verbijsterd suft en draalt,</l>
+<l>En de onwaardeerbre tijd wordt nooit weêr ingehaald.</l>
+<l>'t Verliep, en ach, het werd verroekloost -! Zondaar, sidder!</l>
+<pb n="68"/>
+<l n="40">Maar - Heiland is Hy, nog hier boven; nog verbidder</l>
+<l>(Voor die Hem aanroept) van de zondewraak. - Ja, keer,</l>
+<l>Verdoolde, nog is 't tijd, tot Hem als Heiland weêr.</l>
+<l>Zoek rust en toevlucht van 't wanhopige aardsche dwalen!</l>
+<l>Nog niet, omschitterd van den gloed der bliksemstralen,</l>
+<l>Verplettrend voor wat leeft, verschijnt Hy. Nog dit uur</l>
+<l>Is Hy de Borggod. Ja, dit oogenblik is duur!</l>
+<l>Nog noodigt u zijn oog dat voor het menschdom weende.</l>
+<l>Zijn bloed, dat met zijn zweet, zijn stroomend zweet vereende,</l>
+<l>Uit wond by wond stortte, en, daar 't uit zijn zijde vloot,</l>
+<l n="50">Het heerlijk '<hi rend="sc">t is volbracht</hi> bevestigde in zijn dood.</l>
+<l>Ach! hoor, ja hoor het als in deernis voor u ruischen;</l>
+<l>Wat zoudt gy 't tegen u ten wraakeisch op zien bruischen,</l>
+<l>En elken druppel u verdoemen tot de straf</l>
+<l>Om wier bevrijding Hy zich-zelven overgaf?</l>
+<l>Ach mocht ge u-zelf, als Hy u, zondaar, mint, beminnen!</l>
+<l>U-zelf voor die ons kocht, als zijn verloste, winnen!</l>
+<l>Hem eeuwig danken, en, aanbiddend voor zijn throon,</l>
+<l>Geen zoon der aard meer zijn, maar Gods, uws Scheppers, zoon!</l>
+<l>Ach de Eeuwigheid toont in nooit toe te sluiten kaken</l>
+<l n="60">Hier 't onverganklijkst heil, voor Jezus oog te smaken;</l>
+<l>Daar, eindloos lijden, door geen aardsch beperkt verstand,</l>
+<l>Door geen verbeelding, die heur veerkracht overspant,</l>
+<l>Geen menschen -, ja ook zelfs geen Geest- of Englentalen,</l>
+<l>Of in te dringen, of met klanken af te malen.</l>
+<l>En dit, dit treden wy, wy roekloos slijkgebroed,</l>
+<l>Dolzinnig roekloos, ja, zelfs tergende, in 't gemoed?</l>
+<pb n="69"/>
+<l>Dit durven we in 't gezicht van 't naadrend nooduur trotsen?</l>
+<l>Wat zijn wy? menschen? of (verdoolden) zijn wy rotsen,</l>
+<l>Die 't bliksemen vergruist, maar zonder zelfbesef?</l>
+<l>Wy, siddrend, kermend, week, bij 't nietigst wat ons treff'!</l>
+<l>Onzinnigen, of is 't, van wanhoop aangegrepen,</l>
+<l n="70">Dat ge u gedachtloos in de draaikolk weg laat sleepen,</l>
+<l>En, éénmaal blindgehold, u-zelf te barsten rent? -</l>
+<l>Helaas! dit zelfs waar nog iets troostends in de ellend; -</l>
+<l>Maar ziel en lichaam en van één verscheurd geweten,</l>
+<l>In gloeiend zelfverwijt steeds dieper opgereten,</l>
+<l>Onheelbaar, reddingloos; en 't jammer uitgebreid</l>
+<l>Door aller eeuwigheên ondenkbare eeuwigheid! -</l>
+<l>Berouw -? Neen: geen berouw of 't rust op zelferkenning;</l>
+<l>Maar voortgang in den vloek van God- en Heilandschenning,</l>
+<l>Ja, tot verzinking toe in waren Duivlenaart!</l>
+<l n="80">Wat denkbeeld, ô mijn God! Bewaar ons, die bewaart!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0023.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="70"/>
+<head rend="h3">'t Weldadige geldleenen.</head>
+<q rend="bq">Δ<hi rend="i">ανέιξε<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ε μηδὲν ἀπελπίξον<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>ες.</hi>
+<lb/>
+<hi rend="sc">Luc.</hi> VI. 35.</q>
+<lg type="poem">
+<l>‘'k Leen gaarne d'arme die in nood is.’ - Gy doet wel;</l>
+<l rend="; 1tab">Maar, vriend-lief, wees dan ook in 't manen niet zoo fel. -</l>
+<l>‘Met recht vraagt hy die 't gaf, het uitgeleende weder.’ -</l>
+<l rend="; 1tab">Zoo is 't; maar als die 't leent niet wedergeven kan,</l>
+<l>Is 't wedervergen van die geldschuld nog veel wreeder</l>
+<l rend="; 1tab">Dan of 't geweigerd ware, en 't hart verscheurt daar van.</l>
+<l>Ach, Christen, geef, ja geef om niet weêrom te ontfangen,</l>
+<l rend="; 1tab">Leen, zonder dat ge een hoop op 't wedergeven kweekt.</l>
+<l>Uw leen zij bloote gift! Waar 't hart er aan blijft hangen,</l>
+<l rend="; 1tab">Is 't zelfbegoocheling waarin de Boze spreekt.</l>
+</lg>
+<p>1825.</p>
+<lg type="poem">
+<l>De man vraagt iets te leen? - Gy, zeg niet: 'k wil 't u <hi rend="i">geven;</hi></l>
+<l rend="; 1tab">Dat woord vernedert hem, beschaamt, en doet hem zeer:</l>
+<l>Ontfang' hy 't blijgemoed, met de oogen opgeheven;</l>
+<l rend="; 1tab">Maar schenke uw hart het hem, en vorder 't nimmer weêr.</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+<interp type="secundair" value="cats001"/>
+</interpGrp>
+<pb n="71"/>
+<head rend="h3">Vrede met God.</head>
+<lg type="poem">
+<l rend="; 1tab">Daar is, ô sterveling, geen vrede zonder zoen;</l>
+<l>Daar is geen zoen met God dan door het schuldvergeven;</l>
+<l rend="; 1tab">En geen vergeving kan bestaan dan door 't voldoen;</l>
+<l>En geen voldoening baat dan die de schuld vereven'.</l>
+<l rend="; 1tab">Zie daar, ô mensch, uw staat, zie daar het Godsbesluit:</l>
+<l rend="; 1tab">Alleen betaling delgt uw zondeschulden uit.</l>
+<l>En wie betaalt voor u? - Zie daar de vraag der vragen!</l>
+<l>Beandwoord die, of leer uw jammerlot beklagen.</l>
+</lg>
+<p><hi rend="i">Na Cats.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0013.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<pb n="72"/>
+<head rend="h3">Grafschrift.</head>
+<lg type="poem">
+<l>Hier onder ligt een uil der uilen,</l>
+<l rend="; 1tab">Maar toch een man van groot fatsoen.</l>
+<l>Zijn vrouw die dikwils zat te pruilen,</l>
+<l>En uitriep: Mocht ik hem verruilen,</l>
+<l>Moest nu als weêuw in 't rouwkleed schuilen;</l>
+<l rend="; 1tab">Maar eenmaal, zittende in het groen,</l>
+<l>Kreeg ze in haar hoofd, om hem te huilen:</l>
+<l rend="; 1tab">Want anders had ze niet te doen.</l>
+<l>Och! die van Westen of van Oosten</l>
+<l>Het arme schepsel kwam vertroosten!</l>
+<l rend="; 1tab">Zy gaf hem vast een welkomzoen.</l>
+</lg>
+<p><figure>
+<p><xptr to="bild002avon01ill0024.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="73"/>
+<head rend="h3">Hooger licht.</head>
+<q rend="bq"><hi rend="i">De</hi> Heer <hi rend="i">zal zijn tot een eeuwig licht.</hi>
+<lb/>
+<hi rend="sc">Jesaia</hi>. LX. 19.</q>
+<lg type="poem">
+<l>Vaart wel, gy lampen, hoog in d'ether opgehangen;</l>
+<l rend="; 1tab">Gy wisselende Maan, beheerscheres der Nacht,</l>
+<l>Nu schaamrood, dan verbleekt by 't slinken uwer wangen,</l>
+<l rend="; 1tab">Dan, moedig op uw glans by wintersterrenpracht!</l>
+<l>&nbsp;</l>
+<l>En gy, ô wareldbol van vuurvlam, nooit bezweken,</l>
+<l rend="; 1tab">Wiens aanblik de aarde wekt, en 't leven uit haar schoot;</l>
+<l>Beheerscher der Natuur, wien blinde volken smeeken,</l>
+<l rend="; 1tab">Wien de aard heur groeikracht dankt, wy 't onderhoudend brood!</l>
+<l>&nbsp;</l>
+<l>En gy, ô blaauw lazuur, besprenkeld met geen vonken,</l>
+<l rend="; 1tab">Maar wareldzonnen, op uw schijnvlakte uitgestrooid,</l>
+<l>Der Englen vloertapijt, van hooger licht doorblonken,</l>
+<l rend="; 1tab">Ten deel' voor 't sterflijk oog met wolken overplooid!</l>
+<l>&nbsp;</l>
+<pb n="74"/>
+<l>Vaart wel! 'k Moet hooger nog dan uwe omgording streven</l>
+<l rend="; 1tab">En werpen me aan den voet mijns Heilands voor Zijn throon;</l>
+<l>Mijn adem moet door 't lied der Throonherauten zweven,</l>
+<l rend="; 1tab">Ik, smelten in het licht dat uitstraalt van Zijn kroon.</l>
+<l>&nbsp;</l>
+<l>ô Jezus, zie mijn hart! het wenscht U toe te stroomen:</l>
+<l rend="; 1tab">Ach, schud my 's lichaams stof en al mijne aardschheid af!</l>
+<l>Gy hebt my 't hart verlicht, ô maak uw werk volkomen,</l>
+<l rend="; 1tab">En zink' 't verdorven rif in 't naar my gapend graf!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0025.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18240000"/>
+</interpGrp>
+<pb n="75"/>
+<head rend="h3">Antonides.</head>
+<lg type="poem">
+<l>De Dichter op wiens stoute en forse reuzenschreden</l>
+<l rend="; 1tab">Mijn starend oog zich hechtte, in d'opgang van Parnas:</l>
+<l>Wien ik my kracht gevoelde om op het spoor te treden,</l>
+<l rend="; 1tab">Doch wien mijn hart te groot tot Mededinger was.</l>
+<l>Wiens geest ik altijd eere en in zijn vlucht bewonder,</l>
+<l rend="; 1tab">Ja, licht onwetend volge als hy zijn toon verheft;</l>
+<l>Maar minder windgebrom by 't rollen van zijn donder,</l>
+<l rend="; 1tab">En meer verplettrends wensch wanneer zijn bliksem treft.</l>
+</lg>
+<p>1824.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0026.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="76"/>
+<head rend="h3">Zuiverheid.</head>
+<lg type="poem">
+<l>Laat zuiverheid van hart uitblinken op 't gelaat,</l>
+<l>Zich toonen in gebaar, in zeden, in gewaad.</l>
+<l>Die rein van boezem is, heeft afschuw van 't onreine,</l>
+<l>In 't stoflijke als den geest, in 't grootere en in 't kleine:</l>
+<l>Onreinheid heeft haar grond in traagheid, bron van leed,</l>
+<l>Die onlust, wrevel teelt, en eer en deugd vergeet,</l>
+<l>Onvatbaar voor genot, en schuw van plichtbetrachten,</l>
+<l>Zich-zelv ten last is en Gods weldaân leert verachten.</l>
+<l>Beef, jongling, dat ge in 't hart haar ooit een schuilplaats geeft;</l>
+<l>En, grijzaart, zoo ze u treft, gevoel u uitgeleefd!</l>
+</lg>
+<p>1825.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0022.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18240000"/>
+</interpGrp>
+<pb n="77"/>
+<head rend="h3">Levensles.</head>
+<lg type="poem">
+<l>Wees Grijzaart, om de ramp te torsen van dit leven;</l>
+<l rend="; 1tab">Wees kind om 't streelend zoet te smaken van uw lot;</l>
+<l>Maar leer, als over 't ijs, door beide heen te zweven,</l>
+<l rend="; 1tab">En hecht uw ziel niet vast aan 't kinderlijk genot!</l>
+<l>Wat zoudt ge u aan een vlaag van blijdschap overgeven</l>
+<l>Voor nawee dat u 't hart in 't grootst vermaak deed beven?</l>
+<l rend="; 2tab">Neen, stervling, leer naar waarheid streven,</l>
+<l rend="; 3tab">En zoek 't waarachtig heil in God.</l>
+</lg>
+<p>1824.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0027.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18230000"/>
+</interpGrp>
+<pb n="78"/>
+<head rend="h3">De Pen aan den Schrijver.</head>
+<lg type="poem">
+<l>Laat me eenmaal rust: het is het recht</l>
+<l>Van d' u zoo lang getrouwen knecht.</l>
+<l>'k Ben steeds het speeltuig van uw geest,</l>
+<l>En tolk van uw gevoel geweest,</l>
+<l>Die immer in uw dienst vernoegd,</l>
+<l>'t Papieren veld heb doorgeploegd;</l>
+<l>En stortte tienmaal zoo veel inkt</l>
+<l>Dan ge in tien jaar aan wijn verdrinkt;</l>
+<l>Ja, stond by nacht en dag gereed</l>
+<l>In vrolijkheid en hartenleed. -</l>
+<l>En, heb ik soms wat inkt verkwist,</l>
+<l>Of was mijn punt niet wel gespitst,</l>
+<l>Nooit heeft zy zich gedoopt in gal,</l>
+<l>Noch werd bestierd door 't blind geval,</l>
+<l>Noch zocht door opgepronkte kunst</l>
+<l>By tijdgeest, volk, of vorsten gunst;</l>
+<l>Maar trooste zich der bozen haat,</l>
+<l>Der domme wareld blinden smaad,</l>
+<l>En bleef in ballingschap en nood,</l>
+<l>By welvaart, en gebrek aan brood,</l>
+<pb n="79"/>
+<l>Zich-zelve en ook uw hart gelijk,</l>
+<l>En waard den naam van <hi rend="sc">Bilderdijk</hi>.</l>
+<l>Zoo diende ik zestig jaren lang,</l>
+<l>En trotste vijandschap en dwang,</l>
+<l>En zag, den geest der eeuw ten spijt,</l>
+<l>Vrijmoedig uit naar beter tijd;</l>
+<l>Of mooglijk weêr een flikkerglans</l>
+<l>Zich op moog doen aan 's hemels trans,</l>
+<l>Dat waarheid eens niet meer in 't land</l>
+<l>Verstikt word' door het onverstand,</l>
+<l>Maar onzer Vaadren aart herbloei'</l>
+<l>En 't dartel onkruid weêr besnoei'.</l>
+<l>Dan, ach! wat werd er van die hoop!</l>
+<l>De stroom van dwaasheid houdt zijn loop,</l>
+<l>Uit bodemloozen poel geweld,</l>
+<l>Terwijl de tijd ten afgrond snelt</l>
+<l>Hoe zeer men luchtkasteelen bouwt;</l>
+<l>En gy en ik, te saam veroud,</l>
+<l>En afgesleten even zeer,</l>
+<l>Wy dienen voor deze eeuw niet meer.</l>
+<l>Dus geef my eindlijk mijn ontslag,</l>
+<l>Neem zelf uw rust op d'ouden dag,</l>
+<l>En of men lof of laster schreeuw,</l>
+<l>Vertrouwen we op geen wijzer eeuw.</l>
+</lg>
+<p>1823.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="80"/>
+<head rend="h3">'t Akkerleven.</head>
+<lg type="poem">
+<l rend="; 1tab">Is het waar, geroemde Poot,</l>
+<l rend="; 1tab">Zeker, van geen geest ontbloot;</l>
+<l>Is by 't planten, zaaien, ploegen,</l>
+<l>Zulk een overgroot genoegen</l>
+<l>In het lijfvermoeiend zwoegen</l>
+<l rend="; 1tab">Om den schralen mondvol brood?</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">'k Gun het u en elk wien 't smaakt;</l>
+<l rend="; 1tab">Waarom schuldloos zoet gewraakt?</l>
+<l>Doch voor my is daar geen zegen</l>
+<l>Van den Hemel in gelegen;</l>
+<l>Maar-wanneer Hy 't door zijn regen</l>
+<l rend="; 1tab">Zon en daauwdrop vruchtbaar maakt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach, zoo 't zoete zelfgenot</l>
+<l rend="; 1tab">Tot vertroosting van ons lot,</l>
+<l>Aan het land- en akkerleven,</l>
+<l>Door den Hemel werd gegeven,</l>
+<pb n="81"/>
+<l>'t Doet my steeds den boezem beven</l>
+<l rend="; 1tab">Als Gods pijnlijk strafgebod.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja, 'k erken het en belij'</l>
+<l rend="; 1tab">Wat of wrang of bitter zij,</l>
+<l>'s Allerhoogsten geesselroede</l>
+<l>Is geen dolle menschenwoede:</l>
+<l>Neen, wy leven in zijn hoede,</l>
+<l rend="; 1tab">En hy voegt er weldaad by.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maakt de slovende arbeid moê,</l>
+<l rend="; 1tab">'t Sterkt de leden, 'k sta het toe,</l>
+<l>'t Drijft de vochten door de spieren,</l>
+<l>'t Doet het bloed geregeld zwieren,</l>
+<l>Zuivert ingewand en nieren:</l>
+<l rend="; 1tab">Zegen is er by zijn roê.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maar, als 't gras den grond bekleedt,</l>
+<l rend="; 1tab">En de voet op bloemen treedt,</l>
+<l>Boom en struik en heester bloeien,</l>
+<l>'k Zie er Abels bloed nog vloeien,</l>
+<l>En 't verstikkend zonnegloeien</l>
+<l rend="; 1tab">Wordt my zevendubbel heet.</l>
+<l>&nbsp;</l>
+<pb n="82"/>
+<l rend="; 1tab">'k Hoor den diepen zondenval</l>
+<l rend="; 1tab">Ook in 't meest aanlokkend dal</l>
+<l>Schrikbaar ruischen door 't geblader;</l>
+<l>'k Denk te rug aan d' eersten vader,</l>
+<l>En mijn bloed verstokt in de ader</l>
+<l rend="; 1tab">Als by 't schrikbaarst moordgeschal.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ach! hoe wensch ik, vreemd aan de aard,</l>
+<l rend="; 1tab">Met het hart te hemelwaart</l>
+<l>En voor 't stof gesloten oogen,</l>
+<l>Uit my-zelven weggetogen,</l>
+<l>By dit kruipend onvermogen,</l>
+<l rend="; 1tab">Naar een hooger, steiler vaart!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Immers 'k leef voor 't heden niet</l>
+<l rend="; 1tab">Dat gedurig van my vliedt,</l>
+<l>Altijd hopend, altijd schroomend,</l>
+<l>Altijd van een morgen droomend;</l>
+<l>Maar voor zaliger toekomend,</l>
+<l rend="; 1tab">Dat zich 's Christens uitzicht biedt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Neen, mijn hart, hoe licht verstrikt,</l>
+<l rend="; 1tab">Wordt door 't landheil niet verkwikt;</l>
+<l>'k Zocht het nooit, noch leerde 't minnen;</l>
+<l>In geen streeling van de zinnen;</l>
+<pb n="83"/>
+<l>Maar in 't geestgenot van binnen,</l>
+<l rend="; 1tab">Als het tot zijn Oorsprong blikt.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Kenniszucht die in 't gemoed</l>
+<l rend="; 1tab">Naar den diepen wortel wroet</l>
+<l>Van moedwillig blinde dwaling;</l>
+<l>Inzien onzer kringbepaling;</l>
+<l>Hoop op hooger lichtbestraling;</l>
+<l rend="; 1tab">Dat is my des levens zoet.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Stervling, wend het hart niet af,</l>
+<l rend="; 1tab">En verkeer des Wrekers straf</l>
+<l>In geen ijdle vreugdbeseffen:</l>
+<l>Voel, waar u zijn slagen treffen,</l>
+<l>Dat Hy ze eenmaal op moog heffen!</l>
+<l rend="; 1tab">Voed u met geen ledig kaf!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">God is goed op 't menschlijk kroost</l>
+<l rend="; 1tab">Als het voor zijn aanschijn bloost.</l>
+<l>Ja, ook midden in zijn slagen</l>
+<l>(Sidder slechts om ze uit te dagen!)</l>
+<l>Geeft zijn weldoend welbehagen</l>
+<l rend="; 1tab">Troost; maar 't zij u louter <hi rend="sc">troost</hi>!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+<interp type="primair" value="itali01"/>
+</interpGrp>
+<pb n="84"/>
+<head rend="h3">Oud Rome.</head>
+<lg type="poem">
+<l rend="; 1tab">Bewierookt Rome, ja, ik laat uw deugden daar</l>
+<l rend="; 1tab">Die elk zoo hoog verheft, zy zijn dan valsch of waar!</l>
+<l>Doch moedig wist gy 't staal voor uw belang te zwieren,</l>
+<l>En ketende de zege aan uwe veldbanieren;</l>
+<l rend="; 1tab">Ja, alles bukte neêr voor uwen Adelaar.</l>
+<l rend="; 2tab">Maar zoo we uw grootheid wel beschouwen</l>
+<l rend="; 2tab">Waar heel het wareldrond voor zwicht,</l>
+<l rend="; 2tab">Gy zijt ze aan 't krijten van de vrouwen<note n="(1)" place="foot">In den oorlog met de Sabijnen.</note></l>
+<l rend="; 2tab">En 't ganzengaggelen<note n="(2)" place="foot">In dien met de Gallen.</note> verplicht.</l>
+</lg>
+<p>1826.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0028.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="85"/>
+<head rend="h3">Leven en Sterven.</head>
+<lg type="poem">
+<l>Wat is 't leven toch dan zwerven</l>
+<l rend="; 1tab">Op een hobbelige zee;</l>
+<l>En wat anders is ons sterven</l>
+<l rend="; 1tab">Dan 't bereiken van de ree'? -</l>
+<l>Maar men vreest daar holle stroomen</l>
+<l rend="; 1tab">Waar de kiel in zinken mocht. -</l>
+<l>En wat valt daarvoor te schroomen</l>
+<l rend="; 1tab">By geheel voltrokken tocht?</l>
+<l>Schenk dat uitgediende bootjen</l>
+<l rend="; 1tab">Willig aan het golfgebruisch:</l>
+<l>Met dat eenig laatste stootjen,</l>
+<l rend="; 1tab">Zijt gy toch voor altijd t' huis.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0029.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="86"/>
+<head rend="h3">Één doel van alles.</head>
+<q rend="bq"><hi rend="i">Quicquid patimur, mortale genus,
+<lb/>
+Quicquid facimus, venit ex alto.</hi>
+<lb/>
+<hi rend="sc">Seneca</hi>.</q>
+<lg type="poem">
+<l>Wat wy, stervelingen, lijden,</l>
+<l rend="; 1tab">Wat ons toekomt, is van HEM,</l>
+<l rend="; 1tab">Wiens in 't hart gevoelde stem</l>
+<l rend="; 1tab">Ons met meer dan donderklem</l>
+<l>Toeroept, Hem dat hart te wijden,</l>
+<l rend="; 1tab">Dat, hoe 't zich aan alles kleeft,</l>
+<l rend="; 1tab">Nergens rust of steunsel heeft.</l>
+<l>&nbsp;</l>
+<l>Woelen, wroeten, kruipen, draven</l>
+<l rend="; 1tab">Door dit nietig aardsche draf;</l>
+<l rend="; 1tab">Grijpen naar een handvol kaf,</l>
+<l rend="; 1tab">Om den dorren boord van 't graf;</l>
+<l>Lijf- en zielvermoeiend slaven;</l>
+<l rend="; 1tab">Alles - roept ons: Heft het oog</l>
+<l rend="; 1tab">Tot het middelpunt om hoog!</l>
+<l>&nbsp;</l>
+<pb n="87"/>
+<l>Wat, ô stervling, is uw leven?</l>
+<l rend="; 1tab">Eindloos zoeken naar de rust;</l>
+<l rend="; 1tab">Altijd op en neêr gehutst,</l>
+<l rend="; 1tab">Nu in woeligheid van lust,</l>
+<l>Dan door zorg of angst gedreven,</l>
+<l rend="; 1tab">Met een hart dat, nooit verzaad,</l>
+<l rend="; 1tab">Altijd naar iets anders staat.</l>
+<l>&nbsp;</l>
+<l>Vruchteloos is al 't beproeven</l>
+<l rend="; 1tab">Van wat heel deze aard bezit.</l>
+<l rend="; 1tab">Hoe uw boezem zich verhitt',</l>
+<l rend="; 1tab">Uw bestaan heeft hooger wit:</l>
+<l>God is 't al wat wy behoeven.</l>
+<l rend="; 1tab">Niets dan Hy vernoegt het hart,</l>
+<l rend="; 1tab">Naar vervulling opgespard.</l>
+<l>&nbsp;</l>
+<l>Hiervan schenkt Hy u 't gevoelen;</l>
+<l rend="; 1tab">Hiertoe spoort u alles aan;</l>
+<l rend="; 1tab">Faalt de hoop, misleidt de waan,</l>
+<l rend="; 1tab">Kronkelt zich des levens baan,</l>
+<l>Wart ge u vast in eigen woelen;</l>
+<l rend="; 1tab">'t Is de erkentnis u ontprest,</l>
+<l rend="; 1tab">Dat geene aard de heildorst lescht.</l>
+<l>&nbsp;</l>
+<l>Wat dan langer om te zwerven</l>
+<l rend="; 1tab">Door des warelds hobbelzee</l>
+<pb n="88"/>
+<l rend="; 1tab">In een steeds vernieuwend wee?</l>
+<l rend="; 1tab">Voor onze oogen ligt de ree'</l>
+<l>Waar wy 't eeuwig goed verwerven;</l>
+<l rend="; 1tab">'t Eenig, onafhanklijk goed:</l>
+<l rend="; 1tab">God in 't wroegingvrij gemoed!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0030.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<pb n="89"/>
+<head rend="h3">Wareld.</head>
+<lg type="poem">
+<l>Erken het, ô mijn hart: 't gewin van heel een wareld</l>
+<l rend="; 1tab">Waar niets, indien de ziel zich-zelv daarmeê verloor.</l>
+<l>Geen Koninklijke kroon, hoe schittrend overpareld,</l>
+<l rend="; 1tab">(Indien ze ook 't hoofd niet klemt) heeft meer danvalschen gloor</l>
+<l>Geen wellust, geen genot, kan ooit de ziel genoegen,</l>
+<l rend="; 1tab">Voor grooter vatbaar dan dit plekjen van 't heelal,</l>
+<l>Hetgeen men, na een perk van steeds onvruchtbaar zwoegen,</l>
+<l rend="; 1tab">In 't einde met zijn rif gevoelloos dekken zal.</l>
+<l>Wat dan, wat zorgt ge steeds in 't nietig lijfsbehoeven,</l>
+<l rend="; 1tab" n="10">(Dat eenigst hier op aard wat steeds onze aandacht boeit!)</l>
+<l>En wroet in 't blinkend slijk uit onderaardsche groeven,</l>
+<l rend="; 1tab">Als waar 't geluk een klomp die in een mijnkloof groeit?</l>
+<l>Wat wenscht ge reis aan reis in ijdlen arbeid zuchtend,</l>
+<l rend="; 1tab">Naar de avond van een dag verwoest in zelfgekwel -</l>
+<l>Wat hijgt ge op 't slaaploos bed naar d' aan te breken uchtend,</l>
+<l rend="; 1tab">Bedrieglijk even zeer, en enkel guichelspel?</l>
+<l>Ach! 't één dat noodig is, dat graf noch dood kan slopen,</l>
+<l rend="; 1tab">Spilt ge om een schemerschim die op de wolken zweeft,</l>
+<l>In luchtgreep zonder baat en zielverteerend hopen</l>
+<l rend="; 1tab" n="20">Om't geen wanneer ge 't grijpt, noch lijf noch wezen heeft!</l>
+<pb n="90"/>
+<l>Weg, zielsbetoovering! vaarwel, gy trouwlooze aarde</l>
+<l rend="; 1tab">Wier oogsten ledig zijn van levenvoedend graan:</l>
+<l>En wee, wiens dorschvloer niets dan nutloos stroo vergaârde,</l>
+<l rend="; 1tab">Dat schoon 't de schuren berst, geen honger kan verzaân!</l>
+<l>Of voelt men 't prikklen niet, het ingewandverscheuren</l>
+<l rend="; 1tab">Der zielbehoefte, meer dan 's lichaams hongersnood?</l>
+<l>Wat spilt men bloed en merg voor klaterende leuren,</l>
+<l rend="; 1tab">En spijst zich-zelf met wind in plaats van 's levens brood?</l>
+<l>Neen, Wareld, aardsche schijn van leven, mijmrend droomen,</l>
+<l rend="; 1tab" n="30">'k Beproefde u lang genoeg, en 'k walg van heel uw schat:</l>
+<l>'k Ben eindlijk worstlens moê, maar aan uw fuik ontkomen,</l>
+<l rend="; 1tab">En zoek in hooger kring hetgeen geene aard bevat.</l>
+</lg>
+<p>1828.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0031.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<pb n="91"/>
+<head rend="h3">Nietigheid.</head>
+<lg type="poem">
+<l>Ach! al des stervlings roem is niet</l>
+<l>Dan blinkend ijs en ruischend riet.</l>
+<l>Het ijs versmelt, het rietjen knikt,</l>
+<l>Als zon of wind het tegen blikt.</l>
+<l>Waar blijft dan 't schitterschoon kristal?</l>
+<l>Waar 't oorbehagend pijpgeschal?</l>
+<l>Één rukjen luchts, één zonnestraal!</l>
+<l>Daar ligt des hoogmoeds flonkerpraal.</l>
+</lg>
+<p><figure>
+<p><xptr to="bild002avon01ill0032.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="92"/>
+<head rend="h3">Sterven.</head>
+<lg type="poem">
+<l rend="; 2tab">Waar leeft in d'aardschen nevelkring,</l>
+<l rend="; 2tab">Waar vond men ooit den sterveling,</l>
+<l rend="; 2tab">Die, als de dood dit lichaam sloopt,</l>
+<l rend="; 2tab">Geen nieuw, geen beter leven hoopt,</l>
+<l>Maar in zijn zelfgevoel aan 't aanzijn gants verzaakt</l>
+<l>Dat uit de sluimring die 't bedolven hield, ontwaakt?</l>
+<l rend="; 2tab">Wie heeft besef van eeuwig niet,</l>
+<l rend="; 2tab">Bestaanbaar met Gods rijksgebied? -</l>
+<l>&nbsp;</l>
+<l rend="; 2tab">Neen, 't werk van Hem die ons bezielt,</l>
+<l rend="; 2tab">Wordt door geweld noch tijd vernield:</l>
+<l rend="; 2tab">Hy bracht door 't Godlijk scheppingswoord</l>
+<l>Veranderbaar gewrocht, maar niets te niet gaand voort.</l>
+<l>En zou des menschen Geest, door Hem ons ingeblazen,</l>
+<l>Met d'adem van het vee dat we in het veld zien grazen,</l>
+<l rend="; 1tab">En niets dan spijsbehoefte en lichaamsprikkel voelt,</l>
+<l rend="; 1tab">Zich menglen aan de lucht die om zijn leden spoelt? -</l>
+<l rend="; 2tab">Neen, hijg' men afgemat en moê</l>
+<pb n="93"/>
+<l rend="; 1tab">De sluimering des sterfbeds toe,</l>
+<l>Als heul des ouderdoms, gebukt by 's levens smarte;</l>
+<l>Vernietiging weêrspreekt de ervaring beide en 't harte.</l>
+<l rend="; 1tab">Verknaag 't gewormt', verstrooi', verslind',</l>
+<l rend="; 1tab">De vlam, de watervloed, de wind,</l>
+<l>Dit losverbonden stof der ons omkleedende aard,</l>
+<l>'t Gevoel der zelfheid blijft in de eeuwigheid bewaard.</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0033.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="94"/>
+<head rend="h3">'s Levens dronkenschap.</head>
+<lg type="poem">
+<l>ô God, bevrij my van de dronkenschap van 't leven,</l>
+<l rend="; 1tab">Die zuisling van het brein, dien nevel van 't gezicht,</l>
+<l>Dat zwaaien in mijn gang en ongewillig beven;</l>
+<l rend="; 1tab">En schenk me een vasten tred op 't voetpad van den plicht!</l>
+<l>Ach! mocht ik meê een teug uit 's wareldsbeker proeven,</l>
+<l rend="; 1tab">Nooit hing mijn hart daar aan noch vond ik 't overzoet;</l>
+<l>'t Was walgend laf, of wrang; de nasmaak, zielsbedroeven,</l>
+<l rend="; 1tab">En 't bracht geen werking voort dan wrevel in 't gemoed.</l>
+<l>Wat rest me er van, dan slechts een pijnlijk zelfbewustzijn,</l>
+<l rend="; 1tab">Door geen herinnering aan waar genot verzacht:</l>
+<l>Neen, de aarde heeft geen heil, 't moet heel een andre lust zijn,</l>
+<l rend="; 1tab">Die Christnen hooger op by hun Verlosser wacht!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0034.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="95"/>
+<head rend="h3">Van Beuningen.</head>
+<lg type="poem">
+<l rend="; 1tab">Wanneer met paddentrots en echten Buffeltoon,</l>
+<l>Van Beuning, eens getild op d'Amsterdamschen throon,</l>
+<l>In 't hart door Burger- en Regentenmoed geprikkeld,</l>
+<l rend="; 1tab">De vorsten lang getergd door onverdraagbren hoon,</l>
+<l>Het Vaderland in haat en oorlogsramp gewikkeld,</l>
+<l rend="; 1tab">En 't strengetjen, te ruw en driftig aangevat,</l>
+<l rend="; 1tab">Nu al te zeer gerekt en uitgetrokken had;</l>
+<l>Zoo, dat gezag, en macht en moed, en hart met eenen,</l>
+<l>Hem in een oogenblik gelijk een droom verdwenen,</l>
+<l rend="; 1tab">Wat deed hy toen? - Hy riep al krijschend door de stad:</l>
+<l>‘De wareld is ten eind, de jongste dag verschenen!’ -</l>
+<l rend="; 1tab">Is 't wonder? Neen zijn trots, zijn hoogmoed, kwam ten val,</l>
+<l rend="; 1tab">En deze hoogmoed was van Beuningen 't Heelal.</l>
+</lg>
+<p>1826.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0035.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="96"/>
+<head rend="h3">De drie Blinden.</head>
+<lg type="poem">
+<l>Drie Blinden schildert m' ons als heerschende overmachten:</l>
+<l rend="; 1tab">De <hi rend="i">Liefde</hi> die en 't hart en 't hoofd bedwelmt en krenkt;</l>
+<l rend="; 1tab">'t <hi rend="i">Geluk</hi> dat steeds in 't wild heur gaven neemt en schenkt;</l>
+<l>En 't lelijk spook, de <hi rend="i">Dood,</hi> wien we allen eens verwachten.</l>
+<l rend="; 1tab">Wie 't best is van die drie blijft nog een harde strijd;</l>
+<l rend="; 1tab">Wat dunkt u? - ‘Die ons best van de andre twee bevrijdt.’</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0036.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+<interp type="secundair" value="will096"/>
+</interpGrp>
+<pb n="97"/>
+<head rend="h3">Aan Zijne Koninklijke Hoogheid,
+<lb/>
+den Heere Prinse van Oranje,
+<lb/>
+Kroonprins der Nederlanden, enz., enz., enz.</head>
+<lg type="poem">
+<l>Doorluchte, dierbre Prins, door 's Hoogsten gunst verkoren</l>
+<l rend="; 1tab">Tot wat de toekomst met haar sluier nog omhult,</l>
+<l>Maar tot de Koningskroon en scepterstaf geboren,</l>
+<l rend="; 1tab">Die Ge eenmaal (geve 't God!) met glorie voeren zult!</l>
+<l>Gy, 't echt Nassausche bloed, door geenen geest verbasterd</l>
+<l rend="; 1tab">Die 't aardrijk overheert en, wie hem weêrbiedt, vloekt</l>
+<l>En ('t zij zoo!) met den God van onze Vaadren, lastert,</l>
+<l rend="; 1tab">Terwijl Gy lof noch eer by gruweldaders zoekt!</l>
+<l>Zoo, van den boord des grafs een afgeleefde Grijze,</l>
+<l rend="; 1tab">Door afkomst, hart, en plicht d'Oranjestam verkleefd,</l>
+<l>U in dees Zwanenzang zijn barstend hart bewijze,</l>
+<l rend="; 1tab">Misduid niet dat uw beeld hem steeds voor oogen zweeft.</l>
+<l>Ach, 'k mocht uw eerste wieg met Pindus bloemen sieren;</l>
+<l rend="; 1tab">U klemmen aan dit hart op Brittenlandschen grond,</l>
+<l>Uw feestdag steeds als 't heil van 't lijdend Neêrland vieren,</l>
+<l rend="; 1tab">Waarheen me ook 't wufte lot op vreemde stranden zond.</l>
+<pb n="98"/>
+<l>Uw prille jonglingschap, aan wie ik lauwren spelde,</l>
+<l rend="; 1tab">Vervulde 't gene ik zong, op 't zeegrijk Waterloo,</l>
+<l>Waar God, uw bloed ten prijz', den trotschen dwingland velde,</l>
+<l rend="; 1tab">En Neêrland galmde uw naam by 't onverdeeld Jö!</l>
+<l>Maar 't oude gift bruischte op, en Neêrland, eens veradderd,</l>
+<l rend="; 1tab">Was Neêrland niet, maar kroost uit slaven voortgeteeld,</l>
+<l>Dat valschen waan aanbidt, en ware deugd bezwaddert,</l>
+<l rend="; 1tab">Wier hart geen droppel meer van Neêrlandsch bloed doorspeelt.</l>
+<l>'t Vleit die u eren moest, als tot zijn Vorst geboren;</l>
+<l rend="; 1tab">En geen Oranje meer, geen erfrecht, treft het hart:</l>
+<l>Ja, d'eedlen naam des Helds van <hi rend="i">Quatre-bras</hi> te hooren</l>
+<l rend="; 1tab">Is vreemd, ja wekt zelfs spijt by wien uw erfrecht smart.</l>
+<l>Sta echter, dierbre Prins! De Rijksstaf voegt uw handen,</l>
+<l rend="; 1tab">En zal gezegend zijn van Die hem u bestemt.</l>
+<l>Verschrikbaar zij die staf voor de onderdwingelanden</l>
+<l rend="; 1tab">Wier vuist zich onbemerkt om 't schuddend Staatsroer klemt!</l>
+<l>Men kent hen, maar daar zijn nog God- en Vorstgetrouwen</l>
+<l rend="; 1tab">(Dit gaat gepaard in 't hart, dat vrij en rein gevoelt),</l>
+<l>Die nooit eene andre dan uw standaartvaan ontvouwen,</l>
+<l rend="; 1tab">In spijt van muitery en wat daar onder woelt.</l>
+<l>God laat zijne Ordning door geen menschentrots verbreken:</l>
+<l rend="; 1tab">Ze is heilig - Hy vergaat die ze immer tegenstaat!</l>
+<l>En duizend die voor u met harte tranen smeeken,</l>
+<l rend="; 1tab">Erkennen u, naast God, als hoop en toeverlaat.</l>
+<l>Ach, mag mijn vaderland behouden zijn en bloeien,</l>
+<l rend="; 1tab">U draagt geheel zijn wensch, geheel ons hart, zich op;</l>
+<l>Geen zegening dan die door uwe hand zal vloeien!</l>
+<pb n="99"/>
+<l rend="; 1tab">Uw naam vernieuwt zich ons in elken harteklop.</l>
+<l>Ach! zie mijn dierbre Telg, de spruit uit zoo veel Vaderen,</l>
+<l rend="; 1tab">Uw stamhuis reeds verknocht eer Neêrland Neêrland wierd,</l>
+<l>Wien 't onvervalschte bloed nog ombruischt door zijne aderen,</l>
+<l rend="; 1tab">Uw voorhoofd met een meer dan Koningskroon gesierd.</l>
+<l>Smaak hy het heil, de rust, den bloei, die op u wachten</l>
+<l rend="; 1tab">Om zich in Neêrland weêr te zeetlen als voorheen;</l>
+<l>En sta een nakroost op als de oude voorgeslachten,</l>
+<l rend="; 1tab">Ten koste van wier bloed wy eens zijn vrijgestreên!</l>
+<l>Ach! moet die hartewensch in enkle lucht verdwijnen,</l>
+<l rend="; 1tab">Wat is dees grond ons nog, hoe met ons bloed beplascht?</l>
+<l>Dan vlieg' mijn Nageslacht waar andre starren schijnen,</l>
+<l rend="; 1tab">En waar de jachtpijl 't wild in struik en den verrast: -</l>
+<l>Of waar de Noordbeer blinkt en neêrduikt op de stranden</l>
+<l rend="; 1tab">De helft van 't krimpend jaar door 't winterijs bedekt,</l>
+<l>En ongefnuikt gezag in vrije Vorstenhanden</l>
+<l rend="; 1tab">Den scepter over 't hoofd van twintig volken strekt.</l>
+<l>Of, zoo die vrijplaats aan den zwerver moet ontbreken,</l>
+<l rend="; 1tab">(Wat is, als m' alles derft, de grond waarop men treedt?)</l>
+<l>Een andre hemelstreek biê dan bewoonbre streken,</l>
+<l rend="; 1tab">Waar 't later Nageslacht der Oudren ramp vergeet.</l>
+<l>Klink' slechts de naam van 't hoogst-ondankbaar volk der aarde</l>
+<l rend="; 1tab">Hun nimmer weêr in 't oor; maar zweve aan 's Hoogsten hand,</l>
+<l>Waar ze aan de menschlijkheid nog eene vonk bewaarde,</l>
+<l rend="; 1tab">En wortle zich mijn tronk in beter Vaderland!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="100"/>
+<head rend="h3">Amarante.</head>
+<lg type="poem">
+<l>Zoo schoone als zedige en bevallige Amarant,</l>
+<l>Wat pronkt ge u op met zijde en goud en diamant?</l>
+<l>Gewis uw oogmerk is geen schittringrijk braveeren,</l>
+<l>Maar door verbijstring 't oog van u op 't kleed te keeren.</l>
+<l>'k Bevat uw needrigheid. Maar helpt het? - Die u ziet,</l>
+<l>Bemerkt uw schoonheid slechts, en die der kleeding niet.</l>
+</lg>
+<p><hi rend="i">Na Motanabbi.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0037.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="101"/>
+<head rend="h3">Kaïn.</head>
+<q rend="bq"><hi rend="i">Het geluid der verschrikkingen is in zijne ooren.</hi>
+<lb/>
+<hi rend="sc">Job.</hi> XV. 21.</q>
+<lg type="poem">
+<l>Hoe vreeslijk ploft Gods toorn op 't hoofd des wetverkrachters!</l>
+<l rend="; 1tab">Als 't onweêr dat de Lente ontbloessemt en verdort,</l>
+<l rend="; 1tab">De donder die 't gebergt' van d'eeuw'gen wortel stort,</l>
+<l>Zoo viel hy op het hoofd des eersten broederslachters.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Als 't afgejaagde hert, van de angst des doods geprangd,</l>
+<l>Het doemmerk op 't gelaat, en d'angel in 't Gewisse,</l>
+<l>Stuift hy woestijnen door, en woud en wildernisse,</l>
+<l rend="; 1tab">Van 's Hoogsten wraak vervolgd, die op zijn hielen hangt.</l>
+<l>&nbsp;</l>
+<l>Natuur, voor hem (eilaas!) met dubblen vloek beladen,</l>
+<l rend="; 1tab">Biedt slechts verdelging aan by 't rookend broederbloed.</l>
+<l rend="; 1tab">Geen bron heeft laafnis meer tot lessing van zijn gloed;</l>
+<l>Geen vrucht, geen bezie, sap, zijn dorre tong te baden!</l>
+<l>&nbsp;</l>
+<pb n="102"/>
+<l rend="; 1tab">'t Gekerm zijns vaders, waar hy 't hoofd ter neder legt,</l>
+<l>Breekt alle sluimring af, met 's moeders wanhoopkrijten:</l>
+<l>De omhelzing van zijn kroost zal hem door 't harte rijten,</l>
+<l rend="; 1tab">Daar 't hem den vloek vernieuwt, die op zijne afkomst hecht.</l>
+<l>&nbsp;</l>
+<l>Zijn teedre en dierbre Gâ, heeft, om zijn boezem kronkelend,</l>
+<l rend="; 1tab">Geen zuivren droppel zoets te mengen in zijn wee:</l>
+<l rend="; 1tab">De wrevel zijns gemoeds breekt alle zielenvreê,</l>
+<l>In 't midden zelfs der weelde uit grimmende oogen vonkelend.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Zijn offerwalen stijge op, geen Hemel neemt hem aan;</l>
+<l>Zijn boezem vormt een beê, zij weet niet op te steigeren.</l>
+<l>Het graf ontfang' zijn lijk, 't is om hem rust te weigeren.</l>
+<l rend="; 1tab">Ach! vreeslijk is Gods wraak; geen' schepslen door te staan!</l>
+</lg>
+<p><hi rend="i">Naar 't Engelsch van Knox.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0022.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<pb n="103"/>
+<head rend="h3">In een Vriendenrol.</head>
+<lg type="poem">
+<l>Wat ruimt ge een bladzijde in aan deze onzeekre vingeren,</l>
+<l rend="; 1tab">Verkrimpende en verstijfd by 't slaaprig stilstaand bloed.</l>
+<l>Eens mochten ze op 't papier, ja, stoute trekken slingeren;</l>
+<l rend="; 1tab">Maar kracht en zwier verging met jeugd en levensgloed.</l>
+<l>Doch moet een letter schrifts u aan een hart herinneren</l>
+<l rend="; 1tab">Dat tot zijn laatsten snik voor waarheid kloppen moet,</l>
+<l>Ontfang gy in den kring van deugd- en Godsdienstminneren,</l>
+<l rend="; 1tab">Mijn vriend, een blijk van zucht, in dezen stervensgroet!</l>
+</lg>
+<p>1828.</p>
+<p>&nbsp;</p>
+<p><hi rend="i">Ex tempore.</hi></p>
+<p><figure>
+<p><xptr to="bild002avon01ill0038.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="104"/>
+<head rend="h3">By mijne Verjaring.</head>
+<lg type="poem">
+<l rend="; 1tab">Een jaar op nieuw verlengdet Gy mijn leven,</l>
+<l>Maar bracht my dit tot u iets nader op mijn pad?</l>
+<l rend="; 1tab">ô Mocht mijn ziel zich des getuignis geven,</l>
+<l>En geen verwijt, dat ze u zoo menigwerf vergat!</l>
+<l rend="; 1tab">ô Levensvorst! Gy die my door de baren</l>
+<l>Van meer dan zeën, ja door Helnacht, hebt geleid,</l>
+<l rend="; 1tab">My 't hoofd verhieft by neêrslaand zielsbezwaren,</l>
+<l>En troost schenkt in uw zorg en algenoegzaamheid!</l>
+<l rend="; 1tab">Hoe danke ik U? - Ja, jammer en ellenden</l>
+<l>Was heel mijn weg, met bloed en tranen overspoeld;</l>
+<l rend="; 1tab">Maar Gy die 't lot besturen kunt en wenden,</l>
+<l>Gy schonkt me een hart dat daar uw goedheid in gevoelt.</l>
+<l rend="; 1tab">Ik treur niet, neen! Neen, geen ondankbre klachten</l>
+<l>Ontglippen me aan de borst terwijl zy t' Uwaart zucht.</l>
+<l rend="; 1tab">Waar scheen me een dag, niet donkrer dan de nachten?</l>
+<l>De Tijd verloochende in mijn lijden steeds zijn vlucht.</l>
+<l rend="; 1tab">Maar nu, mijn God! wat heeft het luttel dagen,</l>
+<l>Door 's Grijzaarts oog, hoe zwak, toch lichtlijk te overzien,</l>
+<l rend="; 1tab">Of, in uw steun zal ik hun lastpak dragen;</l>
+<l>Laat slechts uw wil aan my, de mijne niet geschiên!</l>
+<pb n="105"/>
+<l rend="; 1tab">Ik vraag niets meer: wat zoude ik nog genieten,</l>
+<l>Van hoofd, van brein verzwakt, en beidende op de dood?</l>
+<l rend="; 1tab">Mijn leven moet als 't water thands vervlieten,</l>
+<l>Dat afliep, maar op 't eind nog druppelt uit zijn goot.</l>
+<l rend="; 1tab">Zij 't weinig dat nog overschiet voor 't sterven,</l>
+<l>Dees levensrest op de aard, geheiligd naar uw wil;</l>
+<l rend="; 1tab">En doe my 't al, maar nooit het anker derven</l>
+<l>Der vaste Hoop, en 'k zwijg by uw gehengnis stil!</l>
+</lg>
+<p>1827.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0039.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="106"/>
+<head rend="h3">Aan een Prediker.</head>
+<lg type="poem">
+<l>Gy leert niet zoo gy doet, en doet niet zoo gy leert.</l>
+<l>Dit vindt men overal onvoegzaam en verkeerd:</l>
+<l>Een Preêker, zegt men, moet door les en voorbeeld stichten,</l>
+<l>En toonen zich in 't hart doordrongen van die plichten.</l>
+<l>Maar 'k vind het dubbel goed. Gy leert door woord en daad</l>
+<l>Aan andren, wat te <hi rend="i">doen</hi>, en wat te mijden staat.</l>
+</lg>
+<p><hi rend="i">Naar 't hoogduitsch van Grijf.</hi></p>
+<p>&nbsp;</p>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<head rend="h3">Wijn.</head>
+<lg type="poem">
+<l rend="; 1tab">Eerst een luchthart maakt de Wijn,</l>
+<l rend="; 1tab">Dan een exter, dan een zwijn;</l>
+<l rend="; 1tab">Maar verheert hy eens 't gemoed,</l>
+<l rend="; 1tab">Ieder drop kost menschenbloed.</l>
+<l rend="; 1tab">Weg dien beker! weg van my!</l>
+<l rend="; 1tab">Liever Dood dan Razerny!</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+</interpGrp>
+<pb n="107"/>
+<head rend="h3">Zielzucht in lijden.</head>
+<q rend="bq">Π<hi rend="i">άν<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>α συνεργεῖ εἰς ἀγαϑὸν τυῖς ϰατὰ πρόϑεσιν ϰλν<figure rend="inline"><p><xptr to="bild002avon01fi0005.gif"/></p></figure>οῖς <figure rend="inline"><p><xptr to="bild002avon01fi0008.gif"/></p></figure>σιν.</hi>
+<lb/>
+<hi rend="sc">Rom.</hi> VIII. 28.</q>
+<lg type="poem">
+<l>Ja, mijn verdorvenheid vergiftigt me uwe gaven,</l>
+<l rend="; 1tab">Mijn God! Kastij my des: het is weldadigheid.</l>
+<l>Ja, wilt Gy me in genade uw heilbelofte staven,</l>
+<l rend="; 1tab">Mijn hart erkent haar best wanneer mijn boezem schreit.</l>
+<l>Verlokt door 't klatergoud van 's Warelds valsch genoegen,</l>
+<l rend="; 1tab">Door d'Eigenwil bestormd, door zelfzucht steeds vervoerd,</l>
+<l>Wat kan my nutter zijn dan in een kwaal te zwoegen</l>
+<l rend="; 1tab">Die 't zich verdartlend lijf aan 't dorre krankbed snoert?</l>
+<l>Ja, maak Gy me onbekwaam om met haar iets te deelen</l>
+<l rend="; 1tab">Waaraan zy waarde hecht, langs welk een weg Gy kiest!</l>
+<l>De wonden die Gy slaat, zijn om de ziel te heelen,</l>
+<l rend="; 1tab">En zalig, die zich-zelf ten zelfbehoud verliest!</l>
+<l>'k Aanbid, genadig God, uw heilig welbehagen;</l>
+<l rend="; 1tab">Schik van my naar uw wil, ik buig my willig neêr:</l>
+<l>Mijn Heiland heeft voor my mijn zondeschuld gedragen;</l>
+<l rend="; 1tab">Van my eischt ge in uw wraak geen zoenvoldoening meer</l>
+<l>Neen, 't is uw goedheid die my treft uit mededogen,</l>
+<l rend="; 1tab">Heb dank, en schenk my kracht naar 't geen ik doorstaan moet,</l>
+<l>En vestig me in mijn eind de halfgebroken oogen</l>
+<l rend="; 1tab">Op 't onderpand des heils in JEZUS Godlijk bloed!</l>
+</lg>
+<p>1826.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<pb n="108"/>
+<head rend="h3">Ter verjaring
+<lb/>
+van mijn' dierbaren zoon.</head>
+<lg type="poem">
+<l rend="; 1tab">Het is, mijn zoon, het is dan waar,</l>
+<l rend="; 1tab">Ik mocht uw zestiend levensjaar</l>
+<l>Ook dees zijn loopkring zien voltrekken:</l>
+<l rend="; 1tab">Een nieuw en heilbelovend rond</l>
+<l rend="; 1tab">Mag me in dees blijden morgenstond</l>
+<l>Tot nieuwen hartedank verwekken.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Een nieuwe zegenvolle kring</l>
+<l rend="; 1tab">Bezielt in u den Jongeling</l>
+<l>Met nieuwen moed en kracht en leven,</l>
+<l rend="; 1tab">Als 't Arendsjong tot hooger vlucht</l>
+<l rend="; 1tab">Zijn wieken uitslaande in de lucht,</l>
+<l>Om 't wolkgespansel door te zweven.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">ô Heil my, dat ik 't nog mag zien,</l>
+<l rend="; 1tab">En God den dank eens vaders biên</l>
+<pb n="109"/>
+<l>Voor 't hoogst der aardsche zegeningen!</l>
+<l rend="; 1tab">Heil u, wien nog het vaderhart</l>
+<l rend="; 1tab">In 't midden van des levens smart</l>
+<l>Een nieuwen zegen toe mag zingen!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Maar zingen! - Neen, daar is geen zang</l>
+<l rend="; 1tab">By 't nijpen van den ketenprang</l>
+<l>Die nog mijn ziel aan 't lichaam strengelt,</l>
+<l rend="; 1tab">En 't kwijnend leven nog verbindt;</l>
+<l rend="; 1tab">Een leven dat zich-zelf verslindt,</l>
+<l>Met staâge stervenspijn doormengeld!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Waar ieder dag aan 't mijmrend hoofd</l>
+<l rend="; 1tab">Een deel der denkenskracht ontrooft,</l>
+<l>'t Gevoel verstompt in d' engen boezem,</l>
+<l rend="; 1tab">En 's levens uitgeleegde dronk</l>
+<l rend="; 1tab">Die eens in 't glas zoo sierlijk blonk,</l>
+<l>Ontaarde in ongenietbren droezem.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Neen, zingen kan geens Grijzaarts borst,</l>
+<l rend="; 1tab">Waar 't bloed in vrijen loop geschorst</l>
+<l>Slechts zuchten aâmt voor jubelklanken,</l>
+<l rend="; 1tab">In uitzicht op zijn jongsten stond</l>
+<l rend="; 1tab">Die d'adem opsluit in den mond;</l>
+<l>Maar, toch die boezem kan nog danken.</l>
+<l>&nbsp;</l>
+<pb n="110"/>
+<l rend="; 1tab">Ja, danken voor het dierbaar kind,</l>
+<l rend="; 1tab">Waarin zijn hoop vervulling vindt,</l>
+<l>Waarin zijn adem mag herleven;</l>
+<l rend="; 1tab">Dat met hem in 't gelei' van God,</l>
+<l rend="; 1tab">In uitzicht boven 't aardsche lot,</l>
+<l>Aan plicht en Heiland zal verkleven!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja, eenige, zoo teêrgeliefd,</l>
+<l rend="; 1tab">Die nooit uwe Ouders hebt gegriefd,</l>
+<l>Maar steeds met kinderlijke hulde</l>
+<l rend="; 1tab">Hun teêrste wellust waart en vreugd,</l>
+<l rend="; 1tab">En wiens aan God verknochte jeugd</l>
+<l>Hun teêrste hoop en wensch vervulde:</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja danken, lieve en teedre spruit!</l>
+<l rend="; 1tab">Geen taal, geen woorden, drukken 't uit,</l>
+<l>Wat oudrenzucht houdt ingesloten.</l>
+<l rend="; 1tab">Zy dankt, meer vurig ieder dag</l>
+<l rend="; 1tab">Die aan het oog verrijzen mag,</l>
+<l>Voor u, ô dierbaarste aller loten.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Voor u in wien zich 't zevental</l>
+<l rend="; 1tab">Uw' Ouderen vergoeden zal,</l>
+<l>Door wie mijn stam zich moest hertelen,</l>
+<pb n="111"/>
+<l rend="; 1tab">Getrouw aan God en vaderland,</l>
+<l rend="; 1tab">En in verdrukking zoo bestand</l>
+<l>Als waar Geluk en voorspoed streelen.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Het Hollandsch bloed waaruit gy spruit,</l>
+<l rend="; 1tab">Blonk steeds in moed en braafheid uit,</l>
+<l>En heeft voor Kerk en Staat gevloten:</l>
+<l rend="; 1tab">In u, mijn zoon, ontaarde 't niet</l>
+<l rend="; 1tab">Zoo lang een drop door de aders schiet',</l>
+<l>Maar kenmerk' zich in brave loten!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Roll', tuimel' dan dees wareld om!</l>
+<l rend="; 1tab">Niet hier bestaat ons eigendom:</l>
+<l>Hier, vreemdling op dees dorre kusten,</l>
+<l rend="; 1tab">Omzoomd van stoorlooze eeuwigheid;</l>
+<l rend="; 1tab">Hier is ons 't erfdeel niet bereid,</l>
+<l>Waarin 't geloovig hart mag rusten.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja, schokken we op dit hobblend meir</l>
+<l rend="; 1tab">In storm en branding op en neêr,</l>
+<l>De haven wacht en lacht ons tegen.</l>
+<l rend="; 1tab">Op JEZUS kruis zij 't oog gericht,</l>
+<l rend="; 1tab">Het hart geklonken aan den plicht,</l>
+<l>En ieder ademtocht is zegen.</l>
+<l>&nbsp;</l>
+<pb n="112"/>
+<l rend="; 1tab">Gedenk uw' Vader steeds, mijn zoon;</l>
+<l rend="; 1tab">Doch voer zijn naam niet om, ten toon,</l>
+<l>Maar gloei' zijn teêrheid u in 't harte!</l>
+<l rend="; 1tab">Dit zij, wanneer hy niet meer is,</l>
+<l rend="; 1tab">Zijne eer en lijkgedachtenis,</l>
+<l>En dan, vertreed alle aardsche smarte!</l>
+</lg>
+<p><hi rend="i">Ex tempore.</hi></p>
+<p>&nbsp;</p>
+<p>1828.</p>
+<p><figure>
+<p><xptr to="bild002avon01ill0040.gif"/></p>
+</figure></p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<pb n="113"/>
+<head rend="h3">Op de dood eens Godvruchtigen.</head>
+<lg type="poem">
+<l>Gy stierft niet, neen; maar steegt naar 't Ongeschapen licht,</l>
+<l rend="; 2tab">Van voor ons sterfelijk gezicht</l>
+<l>Dees nacht des stervens uit, waarin we om redding hijgen;</l>
+<l rend="; 1tab">En wie, omdat ge alhier het stofkleed achterliet,</l>
+<l rend="; 1tab">U dood acht en de traan van eeuwig afscheid biedt,</l>
+<l>Weet van onsterflijkheid noch tot den Hemelstijgen.</l>
+</lg>
+<p>1827.</p>
+<p>&nbsp;</p>
+<p><hi rend="i">Na Guarini.</hi></p>
+<p>&nbsp;</p>
+<p>Madrigale 137.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<head rend="h3">Ondankbaarheid.</head>
+<lg type="poem">
+<l>‘Foei, welke ondankbaarheid! Zoo duur aan u verplicht,</l>
+<l>En echter nooit een blijk van zijne erkentenisse!</l>
+<l>Wat zegt ge er van?’ - Voor my, het geen ik heb verricht,</l>
+<l>Was enkel zielbehoefte, en kwijting van 't Gewisse;</l>
+<l rend="; 1tab">En zoo hy 't niet erkent, nooit heb ik dat bedoeld.</l>
+<l>Beklaag er my niet om, als die er iets by misse:</l>
+<l rend="; 1tab">Hy klage, dat hy 't zoet van danken niet gevoelt.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="114"/>
+<head rend="h3">Onwaarachtige Gift.</head>
+<q rend="bq"><hi rend="i">Het is alles van U, en wij geven 't uit Uwe hand.</hi>
+<lb/>
+I <hi rend="sc">Chron.</hi> XXIX. 13.</q>
+<lg type="poem">
+<l rend="; 1tab">Verwaten pronkery, die als ge een aalmoes geeft</l>
+<l>Den Duivel 't offert en van God den dank durft vragen,</l>
+<l rend="; 1tab">En wie dien gruwel prijst, ontchristend Helvolk, beeft!</l>
+<l>De vloek is op uw gift, gy zult er 't loon van dragen.</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+</interpGrp>
+<head rend="h3">Doe wel en zie niet om.</head>
+<q rend="bq"><hi rend="i">Un quart d'once de patience pourvoit à tels inconvéniens.</hi>
+<lb/>
+<hi rend="sc">Montaigne</hi>.</q>
+<lg type="poem">
+<l>Die zich 't geweten kwijt vraagt naar geen lof of smaad:</l>
+<l>Men prijze, 't goed blijft goed; men lake, 't wordt geen kwaad.</l>
+<l>Miskennen, lastren, zal geen vrije borst doen zwoegen;</l>
+<l>Een aassjen van geduld geneest dat ongenoegen.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18250000"/>
+</interpGrp>
+<pb n="115"/>
+<head rend="h3">Aard of Hemel.</head>
+<q rend="bq"><hi rend="i">Mira come vezzosa l'Aurora
+<lb/>
+Furando al ciel le stelle,
+<lb/>
+Empie di fior la terra.</hi>
+<lb/>
+<hi rend="sc">Buonarelli</hi>.</q>
+<lg type="poem">
+<l rend="; 2tab">Zie hoe de schoone Morgenstond</l>
+<l rend="; 2tab">De starren rooft aan 't Hemelrond</l>
+<l rend="; 1tab">Om de aard met bloemen te overspreiden!</l>
+<l rend="; 2tab">Doch, stervling, vraag: is 't schoon der aard</l>
+<l rend="; 2tab">Of dat der heemlen meerder waard,</l>
+<l rend="; 2tab">En kies bedachtzaam tusschen beiden.</l>
+</lg>
+<p>1825.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<head rend="h3">Onderwerping.</head>
+<lg type="poem">
+<l>Geleid me, ô Vader, die der Heemlen zwaai gebiedt,</l>
+<l>Waarheen 't uw wil behaagt! 'k weêrstreef of aarzel niet.</l>
+<l>'k Ben vaardig: wilde ik niet, met schreien en verzuchten</l>
+<l>Zou ik 't vervullen van uw raadslag niet ontvluchten.</l>
+<l>Het lot geleidt die wil; die niet wil, sleept het meê</l>
+<l>En weêrstand maakt voor 't hart wat plichtig is tot wee.</l>
+</lg>
+<p>1828.</p>
+<p>&nbsp;</p>
+<p><hi rend="i">Uit Seneca.</hi> (Epist. CVII.)</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18260000"/>
+<interp type="secundair" value="groo001"/>
+</interpGrp>
+<pb n="116"/>
+<head rend="h3">Huig de Groot.</head>
+<lg type="poem">
+<l>'k Heb eens ter goeder trouw den nagalm opgevangen,</l>
+<l rend="; 1tab">En hield beroemden Huig als ongelijkbaar groot,</l>
+<l>Maar zoo die wolk van waan my eenmaal om bleef hangen,</l>
+<l rend="; 1tab">Zy brak en 'k zag den man, in al zijn naaktheid, bloot.</l>
+<l>Geleerdheid had hy, ja, zoo veel zijn hoofd verzwelgen</l>
+<l rend="; 1tab">Maar slecht verteeren kon by 't vroeg bezwaard verstand,</l>
+<l>En, die de roem moest zijn der vrijgeworden Belgen,</l>
+<l rend="; 1tab">Werd dienstbaar aan 't verderf van 't rijzend Vaderland.</l>
+<l>Eens werktuig in de hand van drijvende tyrannen,</l>
+<l rend="; 1tab">Wier pen en mond hy wierd, kortzichtig in hun doel,</l>
+<l>En, 't zij in 't net verstrikt, of in hun juk gespannen,</l>
+<l>Werd, by hun val, de wraak zijn eenigst zielsgevoel.</l>
+<l>Nu holde 't walend brein, verdoofde 't licht der reden,</l>
+<l rend="; 1tab">Zijn vroeger glorie smolt in dwaas- en nietigheên;</l>
+<l>Zijn naam gaf ze aanzien, en werd zinloos aangebeden,</l>
+<l rend="; 1tab">Twee eeuwen hield hy 't uit, maar eindlijk, hy verdween.</l>
+<l>Voor wijzer inzicht? - Neen, voor grooter wangevoelens,</l>
+<l rend="; 1tab">Zich wortlende in den tronk die van hem overbleef;</l>
+<l>En Neêrland smaakte de eeuw des Staats- en Kerkomwoelens,</l>
+<l rend="; 1tab">Die al wat was verplaatste, en alles even scheef.</l>
+</lg>
+<p>1826.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18270000"/>
+<interp type="primair" value="veren02"/>
+</interpGrp>
+<pb n="117"/>
+<head rend="h3">America.</head>
+<q rend="bq"><hi rend="i">Daarom zal u de melaatsheid Naamans aankleven.</hi>
+<lb/>
+II <hi rend="sc">Kon.</hi> V. 27.</q>
+<lg type="poem">
+<l rend="; 1tab">'k Beklaag, uit grond van 't hart, de aan jammer zwangre stond,</l>
+<l>Kolombus, dat ge 't land van vloek en zilver vondt,</l>
+<l>'t Geen op de gruwlen waar ons warelddeel in plaschte</l>
+<l>Dien nieuwen zondvloed van nog nieuwe jamm'ren taste.</l>
+<l>Viel, Hemel! ons Euroop niet diep genoeg in 't wee</l>
+<l>Om niet een dubble Hel van over 't ruim der zee</l>
+<l>Te zoeken, en door macht van volgeladen schepen,</l>
+<l>Met feest- en jubelzang naar herwaart heen te sleepen?</l>
+<l>Ach! 't veege Troje danst en dartelt dol van zin,</l>
+<l n="10">En haalt zijn ondergang met trotsche blijdschap in.</l>
+<l>Zoo doet ge, ô dwaas Euroop, in 't nieuwe wareldvinden</l>
+<l>Verheerlijkt, dwars door zee en onbetoomde winden:</l>
+<l>Zoo springt u 't hart omhoog by d' u zoo nieuwen buit,</l>
+<l>Dien 't overweldigd ruim uw hebzucht opensluit;</l>
+<l>En ach! wat gadert ge voor oogsten op die stranden?</l>
+<l>'t Verval van 't menschlijk ras, en nieuwe Duivlenbanden.</l>
+<l>ô Welk een jammer heeft dat Westland niet gebaard!</l>
+<l>Wat kwaad voor lijf en ziel gegoten over de aard!</l>
+<pb n="118"/>
+<l>Hoe 't menschlijk ras verzwakt, ontedeld, en in de aderen</l>
+<l n="20">Het leven-zelf verpest, de reuzenkracht der Vaderen</l>
+<l>Ontwricht! ja zelfs 't verstand beneveld, en 't gemoed</l>
+<l>Verbasterd, met de bron van 't oude Heldenbloed!</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ja, Zeevaart juich' zich toe op 't heerlijk landontdekken</l>
+<l>Dat 's aardrijks ronden bol volkomen om deed trekken,</l>
+<l>De wetenschap volmaakte, en als een nieuw heelal</l>
+<l>Aan 't vorschend oog ontsloot, der Leerzucht ten gevall',</l>
+<l>De kennissen verrijkte, en werkzaamheid by 't woelen</l>
+<l>Een nieuwe richting gaf in 't rustloos winstbedoelen.</l>
+<l>Ach! 't goud, het zilver waar m' op vlamde als 't hoogste wit,</l>
+<l n="30">Werd uitgeput, en zonk in waarde by 't bezit. -</l>
+<l>De ontvolkte streken en wijduitgestrekte stranden</l>
+<l>Beloven vruchtbaarheid aan altijd nijvre handen,</l>
+<l>Men vormt er akkers, plant; by de eigen landschapsvrucht</l>
+<l>Rijst Noordscheen Oostersche oogst, gekweekt in Westerlucht.</l>
+<l>Sicieljes suikerteelt, Egyptens welige oesten</l>
+<l>Verdwijnen; land by land in werkloosheid, verwoesten;</l>
+<l>En 't is America dat alles leevren moet!</l>
+<l>Daar woont de welvaart thands, de bron van overvloed!</l>
+<l>&nbsp;</l>
+<l>Het zij zoo! Maar bedenkt ge, ô roekeloos Europe,</l>
+<l n="40">Tot welk een duren prijs men dees verplaatsing koope,</l>
+<l>En hoe ge u-zelv ontvolkt, ontzenuwt, en verkracht,</l>
+<l>En steeds gelijker wordt aan 't uitgeroeid geslacht?</l>
+<l>Zie 't Europeesche ras van huis- en runderdieren</l>
+<l>Daar ze in die Westerlucht naar 't schijnt zoo welig tieren;</l>
+<l>De meestertrouwe hond verliest er zijn geblaf;</l>
+<l>Het rund zwelt op in grootte, en neemt in krachten af.</l>
+<pb n="119"/>
+<l>Zijn vleesch zet uit, maar 't mist de oorspronklijke eigenschappen,</l>
+<l>Heeft d' eigen geest niet meer noch 't voedsel in zijn sappen:</l>
+<l>Ja, zelfs de mensch ontaart, by grooter lichaamsstal,</l>
+<l n="50">In neiging, en begrip, aan d' overzeeschen wal.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Van kwalen rep ik niet en de ijslijkste aller plagen,</l>
+<l>Van de eerste ontdekking af, naar herwaart meêgedragen;</l>
+<l>Van 't leven, reeds verwoest in 's levens eersten wel,</l>
+<l>En de in 't Natuurgenot zich openende Hel.</l>
+<l>Voor 't duurgeliefkoosd oord 't geen elk verkiest te roemen</l>
+<l>Mag thands geleerdheids kraam wat zekerst is, verbloemen,</l>
+<l>En loochnen 't licht der zon, en wikklen in heur gaas</l>
+<l>Wat waarheid kenbaar is voor wijsgeer en voor dwaas;</l>
+<l>Ja laat men, zoo men kan, dat land, die lucht bevrijden</l>
+<l n="60">Van 't gruwzaamst dat op aarde ooit menschdom heeft doen lijden,</l>
+<l>Hoe veel nog andere....! Ach, ik sidder op 't gezicht</l>
+<l>Van 't door der oudren bloed in 't zaad verbasterd wicht.</l>
+<l>'k Zwijg van den tuimelgeest die de altijd heilge banden</l>
+<l>Verscheurt, de haven schuwt om op een bank te stranden,</l>
+<l>En vrijheid schreeuwt, om aan een opgeraapten drom</l>
+<l>Zijn rechten af te staan en 't dierbaarst eigendom,</l>
+<l>Gewetenslicht, en bloei en welvaart: - ja, te bukken</l>
+<l>In 't zwaarste juk op aard, het onderling verdrukken.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Ik vraag ook niet, of 't geen die veldgrond overplant,</l>
+<l n="70">Geen eigenschap ontleend van 't nieuw ontgonnen land?</l>
+<l>Of 't voedsel, daar geteeld uit Europeesche zaden,</l>
+<l>Geen giften in zich trekt die bloed en lichaam schaden?</l>
+<l>Gewis (ontkenn' men 't vrij!) het Siciljaansche riet</l>
+<l>Had by zijn balsemzoet de zure scherpte niet</l>
+<pb n="120"/>
+<l>Die 't ingewand ontstelt, waarvan de tanden breken.</l>
+<l>Geen rijst als 't Ooste schenkt, bedekt de Westerstreken;</l>
+<l>In de eene en andre schuilt geen zelfde voedingkracht.</l>
+<l>America verwoest heel 't menschelijk geslacht.</l>
+<l>&nbsp;</l>
+<l rend="; 1tab">Doch, Hemel, 't was uw wil! wie zal uw straftuig wraken,</l>
+<l n="80">Wanneer ons boven 't hoofd de schorre donders kraken.</l>
+<l>Dit tuighuis was bewaard tot straf voor 't halve rond</l>
+<l>Dat uw getergden vloek zich afdaagde op zijn grond.</l>
+<l>Het uurglas van geduld was verr' genoeg verloopen;</l>
+<l>Dit tuighuis van Gods wraak viel op zijn wenken open,</l>
+<l>En stortte op dat Euroop dat de aarde wetten gaf</l>
+<l>'t Vermomde jammer, in een nieuwe wareld, af.</l>
+<l>'t Onbandig trotsch Euroop moest eenmaal, ja, vervallen:</l>
+<l>'t Was, Azie, ook uw lot na 't overmatig brallen:</l>
+<l>Ons aandeel stak na u 't vermetel hoofd om hoog,</l>
+<l n="90">Het strekte de armen uit, en heel het aardrijk boog.</l>
+<l>Ja, alles volgt den weg van zon- en hemellichten.</l>
+<l>Het aardrijk heeft zijn zwaai, waar alles voor moet zwichten.</l>
+<l>Euroop was eenmaal ook verwilderd, bar, en woest,</l>
+<l>En in die woestheid lag al 't geen het worden moest.</l>
+<l>America werd ook in 's Hemels hooger orde</l>
+<l>Een zuivering bestemd waar 't door veredeld worde.</l>
+<l>Het lot van volk, van land, van ieder warelddeel</l>
+<l>Is in Gods raad bepaald, en geldt Hem evenveel.</l>
+</lg>
+<p>1827.</p>
+</div>
+<div type="chapter">
+<interpGrp>
+<interp type="primair" value="18280000"/>
+</interpGrp>
+<pb n="121"/>
+<head rend="h3">Vaarwel.</head>
+<lg type="poem">
+<l>Versleten is de pen, verstijfd de vingerknokkelen</l>
+<l>Die meer dan zestig jaar de snaren mochten tokkelen;</l>
+<l>Verward en dof is 't brein in 't zuizlend zwakke hoofd,</l>
+<l>En 't vuur des levens in den boezem uitgedoofd.</l>
+<l>ô Gunt den Grijzaart rust: zijn uurglas is verloopen,</l>
+<l>Zijn lichaam wacht de stond van 't onherstelbaar sloopen</l>
+<l>En zijgt in moedloosheid by 't pak der jaren neêr;</l>
+<l>Reeds over 't graf gebukt, wat kan, wat mag hy meer!</l>
+<l>Wat wil men nog van hem? bezweken onder 't zwoegen,</l>
+<l n="10">Gevoelloos voor genot, en wars van 't schijngenoegen,</l>
+<l>Dat de aarde in 't vluchtig schoon van ijdle flikkering biedt,</l>
+<l>Die d'arm in 't grijpen als een bliksemstraal ontschiet?</l>
+<l>Ja, rust zij 't voor het hart als voor de stramme leden;</l>
+<l>En is er ander loon op 't noeste tijdbesteden,</l>
+<l>Den moede wenschelijk na d' afgewerkten dag,</l>
+<l>Dan dat hem de avondzon in kalmte ontzinken mag?</l>
+<l>Wat wreedheid stoort hem dan in de uiterste oogenblikken</l>
+<l>'t Verademend gevoel van 't nooit beproefd verkwikken?</l>
+<l>Hy immers heeft het door geen ledigheid verbeurd,</l>
+<l n="20">Of ooit zich aan den plicht der werkzaamheid ontscheurd.</l>
+<pb n="122"/>
+<l>Wat was 't dan arbeidszucht waar steeds zijn borst van gloeide?</l>
+<l>Wat ademde elke drop die door zijne aders vloeide?</l>
+<l>Wat gaf voor hem de waarde aan 't dierbre levenslicht,</l>
+<l>Dan oefning van den geest en kwijting van den plicht?</l>
+<l>Van nijd, van hebzucht vrij, en wars van staat en weelde,</l>
+<l>(Zoo zelfs een handvol lofs zijn jeugd aandoenlijk streelde,)</l>
+<l>'t Geweten steeds getrouw ten prijz' van goed en bloed,</l>
+<l>Verwierp hy roem en eer voor 't immer vrij gemoed.</l>
+<l>Geen smaad, geen ballingschap, gebrek noch doodsgevaren,</l>
+<l n="30">Beklemden 't, by 't gegrim der Aartsgeweldenaren,</l>
+<l>Maar midden in hun kring, met altijd open borst,</l>
+<l>Deed hy zijn trouw gestand aan Vaderland en Vorst.</l>
+<l>Nog klinken wijd en zijd, zijn echt-Bataafsche galmen,</l>
+<l>En smelten krijgstrompet en zachte vredehalmen</l>
+<l>Door één, zoo verr' de dag aan Oost- of Avondkim</l>
+<l>Den Leeuw van Nassau groete of nijdig tegengrimm'.</l>
+<l>Ach, eenmaal zij 't genoeg, in wroeten, torschen, draven,</l>
+<l>Het nietig overschot des levens af te slaven,</l>
+<l>Het uitgeput verstand met bloed en merg verteerd,</l>
+<l n="40">En vroeger roem wellicht door later vrucht ontëerd!</l>
+<l>Vaarwel dan Poëzy! Geliefkoosde oefeningen,</l>
+<l>Vaartwel, mijn cyther barst, heur laatste snaren springen,</l>
+<l>'t Is uit, mijn borst verstijft, en schept geen klanken meer,</l>
+<l>Mijn doodbaar staat gereed, ik leg mij dankend neêr.</l>
+</lg>
+<p>1828.</p>
+<p>&nbsp;</p>
+<p>EINDE.</p>
+<cf>
+<pb n="123"/>
+<p><hi rend="spat">BLADWIJZER</hi>.</p>
+<p><table>
+<row>
+<cell><hi rend="sc">Voorreden</hi></cell>
+<cell>Bl. 111</cell>
+</row>
+<row>
+<cell>Inleiding</cell>
+<cell>3</cell>
+</row>
+<row>
+<cell>Verstand en Menschlievendheid</cell>
+<cell>5 en 7</cell>
+</row>
+<row>
+<cell>Ware rijkdom op aarde</cell>
+<cell>17</cell>
+</row>
+<row>
+<cell>Leven</cell>
+<cell>19</cell>
+</row>
+<row>
+<cell>Sterven</cell>
+<cell>22</cell>
+</row>
+<row>
+<cell>Stoicismus</cell>
+<cell>24</cell>
+</row>
+<row>
+<cell>Goed</cell>
+<cell>25</cell>
+</row>
+<row>
+<cell>Onzekerheid</cell>
+<cell>26</cell>
+</row>
+<row>
+<cell>Verzoening</cell>
+<cell>27</cell>
+</row>
+<row>
+<cell>Toevlucht</cell>
+<cell>29</cell>
+</row>
+<row>
+<cell>Eerzucht</cell>
+<cell>30</cell>
+</row>
+<row>
+<cell>De Balling in 1795</cell>
+<cell>31</cell>
+</row>
+<row>
+<cell>In een dikken vriendenrol</cell>
+<cell>34</cell>
+</row>
+<row>
+<cell>De Vreemdeling</cell>
+<cell>35</cell>
+</row>
+<row>
+<cell>Zelfonderzoek</cell>
+<cell>36</cell>
+</row>
+<row>
+<cell>Op een versjen tegen de Oprechtheid</cell>
+<cell>41</cell>
+</row>
+<row>
+<cell>Omzichtigheid</cell>
+<cell><hi rend="i">ib.</hi></cell>
+</row>
+<row>
+<cell>Grijzaarts bruiloftszang</cell>
+<cell>42</cell>
+</row>
+<row>
+<cell>Oostersche minnebede</cell>
+<cell>46</cell>
+</row>
+<row>
+<cell>Staatsrust</cell>
+<cell>47</cell>
+</row>
+<row>
+<cell>Wijsbegeerte</cell>
+<cell>50</cell>
+</row>
+<row>
+<cell>Geboorte</cell>
+<cell>51</cell>
+</row>
+<row>
+<cell>In het Album van Aletta</cell>
+<cell>52</cell>
+</row>
+<row>
+<cell>Gebed</cell>
+<cell>53</cell>
+</row>
+<row>
+<cell>Lofprijs</cell>
+<cell>54</cell>
+</row>
+<row>
+<cell>Onbekookte geleerdheid</cell>
+<cell>55</cell>
+</row>
+<row>
+<cell>Droomen</cell>
+<cell>56</cell>
+</row>
+<row>
+<cell>Een Liberaal, gelijk er zijn, of geweest zijn</cell>
+<cell>57</cell>
+</row>
+<row>
+<cell>Weg naar hooger</cell>
+<cell>61</cell>
+</row>
+<row>
+<cell>Braafheid</cell>
+<cell>62</cell>
+</row>
+<row>
+<cell>In het Album van een afscheid nemenden zeeman</cell>
+<cell>63</cell>
+</row>
+<row>
+<cell>De Taalkennis</cell>
+<cell>64</cell>
+</row>
+<row>
+<cell>'t Algemeene Godsrijk</cell>
+<cell>65</cell>
+</row>
+</table></p>
+<pb n="124"/>
+<p><table>
+<row>
+<cell>Zondewraak</cell>
+<cell>Bl. 66</cell>
+</row>
+<row>
+<cell>'t Weldadige geldleenen</cell>
+<cell>70</cell>
+</row>
+<row>
+<cell>Vrede met God</cell>
+<cell>71</cell>
+</row>
+<row>
+<cell>Grafschrift</cell>
+<cell>72</cell>
+</row>
+<row>
+<cell>Hooger licht</cell>
+<cell>73</cell>
+</row>
+<row>
+<cell>Antonides</cell>
+<cell>75</cell>
+</row>
+<row>
+<cell>Zuiverheid</cell>
+<cell>76</cell>
+</row>
+<row>
+<cell>Levensles</cell>
+<cell>77</cell>
+</row>
+<row>
+<cell>De Pen aan den Schrijver</cell>
+<cell>78</cell>
+</row>
+<row>
+<cell>'t Akkerleven</cell>
+<cell>80</cell>
+</row>
+<row>
+<cell>Oud Rome</cell>
+<cell>84</cell>
+</row>
+<row>
+<cell>Leven en Sterven</cell>
+<cell>85</cell>
+</row>
+<row>
+<cell>Één doel van alles</cell>
+<cell>86</cell>
+</row>
+<row>
+<cell>Wareld</cell>
+<cell>89</cell>
+</row>
+<row>
+<cell>Nietigheid</cell>
+<cell>91</cell>
+</row>
+<row>
+<cell>Sterven</cell>
+<cell>92</cell>
+</row>
+<row>
+<cell>'s Levens dronkenschap</cell>
+<cell>94</cell>
+</row>
+<row>
+<cell>Van Beuningen</cell>
+<cell>95</cell>
+</row>
+<row>
+<cell>De drie Blinden</cell>
+<cell>96</cell>
+</row>
+<row>
+<cell>Aan Zijne Koninklijke Hoogheid, den Heere Prinse van Oranje, Kroonprins der Nederlanden, enz., enz., enz.</cell>
+<cell>97</cell>
+</row>
+<row>
+<cell>Amarante</cell>
+<cell>100</cell>
+</row>
+<row>
+<cell>Kaïn</cell>
+<cell>101</cell>
+</row>
+<row>
+<cell>In een Vriendenrol</cell>
+<cell>103</cell>
+</row>
+<row>
+<cell>By mijne Verjaring</cell>
+<cell>104</cell>
+</row>
+<row>
+<cell>Aan een Prediker</cell>
+<cell>106</cell>
+</row>
+<row>
+<cell>Wijn</cell>
+<cell><hi rend="i">ib.</hi></cell>
+</row>
+<row>
+<cell>Zielzucht in lijden</cell>
+<cell>107</cell>
+</row>
+<row>
+<cell>Ter verjaring van mijn' dierbaren zoon</cell>
+<cell>108</cell>
+</row>
+<row>
+<cell>Op de dood eens Godvruchtigen</cell>
+<cell>113</cell>
+</row>
+<row>
+<cell>Ondankbaarheid</cell>
+<cell><hi rend="i">ib.</hi></cell>
+</row>
+<row>
+<cell>Onwaarachtige Gift</cell>
+<cell>114</cell>
+</row>
+<row>
+<cell>Doe wel en zie niet om</cell>
+<cell><hi rend="i">ib.</hi></cell>
+</row>
+<row>
+<cell>Aard of Hemel</cell>
+<cell>115</cell>
+</row>
+<row>
+<cell>Onderwerping</cell>
+<cell><hi rend="i">ib.</hi></cell>
+</row>
+<row>
+<cell>Huig de Groot</cell>
+<cell>116</cell>
+</row>
+<row>
+<cell>America</cell>
+<cell>117</cell>
+</row>
+<row>
+<cell>Vaarwel</cell>
+<cell>121</cell>
+</row>
+</table></p>
+<p><hi rend="sc">einde van den bladwijzer</hi>.</p>
+</cf>
+</div>
+</body>
+</text>
+
+</TEI.2>

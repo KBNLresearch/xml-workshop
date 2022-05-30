@@ -1,0 +1,4988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19 http://schema.primaresearch.org/PAGE/gts/pagecontent/2010-03-19/pagecontent.xsd" pcGtsId="pc-00530997">
+	<Metadata>
+	<Creator></Creator>
+	<Created>2011-10-18T00:16:46</Created>
+	<LastChange>2012-02-09T17:17:24</LastChange></Metadata>
+	<Page imageFilename="00530997.tif" imageWidth="2833" imageHeight="4097">
+	<ReadingOrder>
+	<UnorderedGroup id="ro357564684568544579089">
+	<OrderedGroup id="r107">
+	<RegionRefIndexed regionRef="r24" index="0"/>
+	<RegionRefIndexed regionRef="r26" index="1"/>
+	<RegionRefIndexed regionRef="r1" index="2"/>
+	<RegionRefIndexed regionRef="r28" index="3"/>
+	<RegionRefIndexed regionRef="r32" index="4"/>
+	<RegionRefIndexed regionRef="r36" index="5"/>
+	<RegionRefIndexed regionRef="r40" index="6"/>
+	<RegionRefIndexed regionRef="r42" index="7"/></OrderedGroup>
+	<OrderedGroup id="r108">
+	<RegionRefIndexed regionRef="r3" index="0"/>
+	<RegionRefIndexed regionRef="r4" index="1"/>
+	<RegionRefIndexed regionRef="r45" index="2"/>
+	<RegionRefIndexed regionRef="r49" index="3"/>
+	<RegionRefIndexed regionRef="r53" index="4"/>
+	<RegionRefIndexed regionRef="r57" index="5"/>
+	<RegionRefIndexed regionRef="r59" index="6"/>
+	<RegionRefIndexed regionRef="r61" index="7"/>
+	<RegionRefIndexed regionRef="r65" index="8"/>
+	<RegionRefIndexed regionRef="r69" index="9"/>
+	<RegionRefIndexed regionRef="r73" index="10"/>
+	<RegionRefIndexed regionRef="r77" index="11"/>
+	<RegionRefIndexed regionRef="r79" index="12"/>
+	<RegionRefIndexed regionRef="r7" index="13"/>
+	<RegionRefIndexed regionRef="r81" index="14"/>
+	<RegionRefIndexed regionRef="r89" index="15"/>
+	<RegionRefIndexed regionRef="r91" index="16"/>
+	<RegionRefIndexed regionRef="r93" index="17"/>
+	<RegionRefIndexed regionRef="r97" index="18"/>
+	<RegionRefIndexed regionRef="r101" index="19"/>
+	<RegionRefIndexed regionRef="r105" index="20"/>
+	<RegionRefIndexed regionRef="r109" index="21"/>
+	<RegionRefIndexed regionRef="r113" index="22"/>
+	<RegionRefIndexed regionRef="r68" index="23"/>
+	<RegionRefIndexed regionRef="r74" index="24"/>
+	<RegionRefIndexed regionRef="r76" index="25"/>
+	<RegionRefIndexed regionRef="r159" index="26"/>
+	<RegionRefIndexed regionRef="r161" index="27"/>
+	<RegionRefIndexed regionRef="r157" index="28"/>
+	<RegionRefIndexed regionRef="r153" index="29"/>
+	<RegionRefIndexed regionRef="r149" index="30"/>
+	<RegionRefIndexed regionRef="r145" index="31"/>
+	<RegionRefIndexed regionRef="r141" index="32"/>
+	<RegionRefIndexed regionRef="r137" index="33"/>
+	<RegionRefIndexed regionRef="r133" index="34"/>
+	<RegionRefIndexed regionRef="r129" index="35"/>
+	<RegionRefIndexed regionRef="r125" index="36"/>
+	<RegionRefIndexed regionRef="r121" index="37"/></OrderedGroup>
+	<OrderedGroup id="r110">
+	<RegionRefIndexed regionRef="r10" index="0"/>
+	<RegionRefIndexed regionRef="r114" index="1"/>
+	<RegionRefIndexed regionRef="r116" index="2"/>
+	<RegionRefIndexed regionRef="r111" index="3"/></OrderedGroup>
+	<OrderedGroup id="r112">
+	<RegionRefIndexed regionRef="r12" index="0"/>
+	<RegionRefIndexed regionRef="r102" index="1"/>
+	<RegionRefIndexed regionRef="r104" index="2"/>
+	<RegionRefIndexed regionRef="r99" index="3"/>
+	<RegionRefIndexed regionRef="r94" index="4"/>
+	<RegionRefIndexed regionRef="r87" index="5"/>
+	<RegionRefIndexed regionRef="r83" index="6"/></OrderedGroup></UnorderedGroup></ReadingOrder>
+	<TextRegion id="r7" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1528" y="1737"/>
+	<Point x="1520" y="1772"/>
+	<Point x="1639" y="1771"/>
+	<Point x="1766" y="1763"/>
+	<Point x="1770" y="1772"/>
+	<Point x="1799" y="1762"/>
+	<Point x="1801" y="1730"/>
+	<Point x="1619" y="1737"/>
+	<Point x="1620" y="1745"/>
+	<Point x="1592" y="1744"/>
+	<Point x="1589" y="1738"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>(Waakzaamheid.)</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r1" readingDirection="left-to-right" type="heading">
+	<Coords>
+	<Point x="347" y="517"/>
+	<Point x="348" y="555"/>
+	<Point x="621" y="557"/>
+	<Point x="621" y="520"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Duitschland.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r3" readingDirection="left-to-right" type="heading">
+	<Coords>
+	<Point x="112" y="1725"/>
+	<Point x="112" y="1805"/>
+	<Point x="842" y="1805"/>
+	<Point x="842" y="1725"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>BINNENLANDSCHE
+NIEUWSTIJDINGEN.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r4" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="315" y="1807"/>
+	<Point x="315" y="1852"/>
+	<Point x="672" y="1852"/>
+	<Point x="672" y="1807"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Utrecht, 22 October.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r10" readingDirection="left-to-right" type="heading">
+	<Coords>
+	<Point x="2210" y="1920"/>
+	<Point x="2210" y="1972"/>
+	<Point x="2452" y="1972"/>
+	<Point x="2452" y="1920"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Drukfeilen.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r12" readingDirection="left-to-right" type="heading">
+	<Coords>
+	<Point x="2027" y="2386"/>
+	<Point x="2030" y="2434"/>
+	<Point x="2627" y="2434"/>
+	<Point x="2630" y="2387"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>(Vervolg; zie de Nederlander 1020.)</Unicode></TextEquiv></TextRegion>
+	<SeparatorRegion id="r21">
+	<Coords>
+	<Point x="954" y="99"/>
+	<Point x="954" y="100"/>
+	<Point x="955" y="100"/>
+	<Point x="955" y="106"/>
+	<Point x="954" y="106"/>
+	<Point x="954" y="112"/>
+	<Point x="953" y="112"/>
+	<Point x="953" y="119"/>
+	<Point x="952" y="119"/>
+	<Point x="952" y="191"/>
+	<Point x="951" y="191"/>
+	<Point x="951" y="243"/>
+	<Point x="950" y="243"/>
+	<Point x="950" y="422"/>
+	<Point x="951" y="422"/>
+	<Point x="951" y="434"/>
+	<Point x="950" y="434"/>
+	<Point x="950" y="498"/>
+	<Point x="949" y="498"/>
+	<Point x="949" y="632"/>
+	<Point x="950" y="632"/>
+	<Point x="950" y="686"/>
+	<Point x="949" y="686"/>
+	<Point x="949" y="859"/>
+	<Point x="948" y="859"/>
+	<Point x="948" y="1016"/>
+	<Point x="947" y="1016"/>
+	<Point x="947" y="1133"/>
+	<Point x="946" y="1133"/>
+	<Point x="946" y="1370"/>
+	<Point x="945" y="1370"/>
+	<Point x="945" y="1613"/>
+	<Point x="946" y="1613"/>
+	<Point x="946" y="1614"/>
+	<Point x="945" y="1614"/>
+	<Point x="945" y="1653"/>
+	<Point x="944" y="1653"/>
+	<Point x="944" y="1804"/>
+	<Point x="943" y="1804"/>
+	<Point x="943" y="1992"/>
+	<Point x="944" y="1992"/>
+	<Point x="944" y="2057"/>
+	<Point x="945" y="2057"/>
+	<Point x="945" y="2095"/>
+	<Point x="946" y="2095"/>
+	<Point x="946" y="2120"/>
+	<Point x="947" y="2120"/>
+	<Point x="947" y="2226"/>
+	<Point x="948" y="2226"/>
+	<Point x="948" y="2263"/>
+	<Point x="947" y="2263"/>
+	<Point x="947" y="2440"/>
+	<Point x="948" y="2440"/>
+	<Point x="948" y="2572"/>
+	<Point x="949" y="2572"/>
+	<Point x="949" y="2630"/>
+	<Point x="950" y="2630"/>
+	<Point x="950" y="2693"/>
+	<Point x="949" y="2693"/>
+	<Point x="949" y="2991"/>
+	<Point x="948" y="2991"/>
+	<Point x="948" y="3136"/>
+	<Point x="949" y="3136"/>
+	<Point x="949" y="3234"/>
+	<Point x="948" y="3234"/>
+	<Point x="948" y="3363"/>
+	<Point x="949" y="3363"/>
+	<Point x="949" y="3370"/>
+	<Point x="948" y="3370"/>
+	<Point x="948" y="3490"/>
+	<Point x="949" y="3490"/>
+	<Point x="949" y="3716"/>
+	<Point x="950" y="3716"/>
+	<Point x="950" y="3955"/>
+	<Point x="951" y="3955"/>
+	<Point x="951" y="3956"/>
+	<Point x="952" y="3956"/>
+	<Point x="952" y="4045"/>
+	<Point x="951" y="4045"/>
+	<Point x="951" y="4047"/>
+	<Point x="946" y="4047"/>
+	<Point x="946" y="4046"/>
+	<Point x="945" y="4046"/>
+	<Point x="945" y="3846"/>
+	<Point x="944" y="3846"/>
+	<Point x="944" y="3776"/>
+	<Point x="943" y="3776"/>
+	<Point x="943" y="3492"/>
+	<Point x="942" y="3492"/>
+	<Point x="942" y="3473"/>
+	<Point x="941" y="3473"/>
+	<Point x="941" y="3470"/>
+	<Point x="942" y="3470"/>
+	<Point x="942" y="3235"/>
+	<Point x="943" y="3235"/>
+	<Point x="943" y="2762"/>
+	<Point x="944" y="2762"/>
+	<Point x="944" y="2593"/>
+	<Point x="943" y="2593"/>
+	<Point x="943" y="2496"/>
+	<Point x="942" y="2496"/>
+	<Point x="942" y="2495"/>
+	<Point x="941" y="2495"/>
+	<Point x="941" y="2494"/>
+	<Point x="942" y="2494"/>
+	<Point x="942" y="2368"/>
+	<Point x="941" y="2368"/>
+	<Point x="941" y="2101"/>
+	<Point x="940" y="2101"/>
+	<Point x="940" y="2076"/>
+	<Point x="939" y="2076"/>
+	<Point x="939" y="2017"/>
+	<Point x="938" y="2017"/>
+	<Point x="938" y="1994"/>
+	<Point x="937" y="1994"/>
+	<Point x="937" y="1936"/>
+	<Point x="936" y="1936"/>
+	<Point x="936" y="1850"/>
+	<Point x="937" y="1850"/>
+	<Point x="937" y="1600"/>
+	<Point x="936" y="1600"/>
+	<Point x="936" y="1599"/>
+	<Point x="935" y="1599"/>
+	<Point x="936" y="1599"/>
+	<Point x="936" y="1595"/>
+	<Point x="937" y="1595"/>
+	<Point x="937" y="1580"/>
+	<Point x="938" y="1580"/>
+	<Point x="938" y="1488"/>
+	<Point x="939" y="1488"/>
+	<Point x="939" y="1327"/>
+	<Point x="940" y="1327"/>
+	<Point x="940" y="1082"/>
+	<Point x="941" y="1082"/>
+	<Point x="941" y="982"/>
+	<Point x="942" y="982"/>
+	<Point x="942" y="877"/>
+	<Point x="943" y="877"/>
+	<Point x="943" y="500"/>
+	<Point x="944" y="500"/>
+	<Point x="944" y="208"/>
+	<Point x="943" y="208"/>
+	<Point x="943" y="171"/>
+	<Point x="944" y="171"/>
+	<Point x="944" y="116"/>
+	<Point x="945" y="116"/>
+	<Point x="945" y="99"/></Coords></SeparatorRegion>
+	<SeparatorRegion id="r22">
+	<Coords>
+	<Point x="1876" y="98"/>
+	<Point x="1876" y="101"/>
+	<Point x="1877" y="101"/>
+	<Point x="1877" y="104"/>
+	<Point x="1878" y="104"/>
+	<Point x="1878" y="113"/>
+	<Point x="1877" y="113"/>
+	<Point x="1877" y="198"/>
+	<Point x="1875" y="198"/>
+	<Point x="1875" y="226"/>
+	<Point x="1874" y="226"/>
+	<Point x="1874" y="515"/>
+	<Point x="1873" y="515"/>
+	<Point x="1873" y="620"/>
+	<Point x="1874" y="620"/>
+	<Point x="1874" y="783"/>
+	<Point x="1873" y="783"/>
+	<Point x="1873" y="955"/>
+	<Point x="1872" y="955"/>
+	<Point x="1872" y="1058"/>
+	<Point x="1871" y="1058"/>
+	<Point x="1871" y="1351"/>
+	<Point x="1872" y="1351"/>
+	<Point x="1872" y="1370"/>
+	<Point x="1871" y="1370"/>
+	<Point x="1871" y="1473"/>
+	<Point x="1872" y="1473"/>
+	<Point x="1872" y="1678"/>
+	<Point x="1871" y="1678"/>
+	<Point x="1871" y="1752"/>
+	<Point x="1870" y="1752"/>
+	<Point x="1870" y="2021"/>
+	<Point x="1871" y="2021"/>
+	<Point x="1871" y="2069"/>
+	<Point x="1872" y="2069"/>
+	<Point x="1872" y="2102"/>
+	<Point x="1873" y="2102"/>
+	<Point x="1873" y="2302"/>
+	<Point x="1872" y="2302"/>
+	<Point x="1872" y="2490"/>
+	<Point x="1873" y="2490"/>
+	<Point x="1873" y="2491"/>
+	<Point x="1874" y="2491"/>
+	<Point x="1874" y="2529"/>
+	<Point x="1873" y="2529"/>
+	<Point x="1873" y="2667"/>
+	<Point x="1874" y="2667"/>
+	<Point x="1874" y="2876"/>
+	<Point x="1875" y="2876"/>
+	<Point x="1875" y="3084"/>
+	<Point x="1876" y="3084"/>
+	<Point x="1875" y="3084"/>
+	<Point x="1875" y="3355"/>
+	<Point x="1876" y="3355"/>
+	<Point x="1876" y="3476"/>
+	<Point x="1875" y="3476"/>
+	<Point x="1875" y="3802"/>
+	<Point x="1874" y="3802"/>
+	<Point x="1874" y="3900"/>
+	<Point x="1873" y="3900"/>
+	<Point x="1873" y="4047"/>
+	<Point x="1867" y="4047"/>
+	<Point x="1867" y="4046"/>
+	<Point x="1866" y="4046"/>
+	<Point x="1866" y="4038"/>
+	<Point x="1867" y="4038"/>
+	<Point x="1867" y="3986"/>
+	<Point x="1868" y="3986"/>
+	<Point x="1868" y="3921"/>
+	<Point x="1869" y="3921"/>
+	<Point x="1869" y="3857"/>
+	<Point x="1870" y="3857"/>
+	<Point x="1870" y="3450"/>
+	<Point x="1869" y="3450"/>
+	<Point x="1869" y="3427"/>
+	<Point x="1870" y="3427"/>
+	<Point x="1870" y="3294"/>
+	<Point x="1869" y="3294"/>
+	<Point x="1869" y="3120"/>
+	<Point x="1870" y="3120"/>
+	<Point x="1870" y="2968"/>
+	<Point x="1869" y="2968"/>
+	<Point x="1869" y="2966"/>
+	<Point x="1870" y="2966"/>
+	<Point x="1870" y="2862"/>
+	<Point x="1869" y="2862"/>
+	<Point x="1869" y="2772"/>
+	<Point x="1868" y="2772"/>
+	<Point x="1868" y="2480"/>
+	<Point x="1865" y="2480"/>
+	<Point x="1865" y="2476"/>
+	<Point x="1866" y="2476"/>
+	<Point x="1866" y="2464"/>
+	<Point x="1867" y="2464"/>
+	<Point x="1867" y="2255"/>
+	<Point x="1868" y="2255"/>
+	<Point x="1868" y="2093"/>
+	<Point x="1867" y="2093"/>
+	<Point x="1867" y="2051"/>
+	<Point x="1866" y="2051"/>
+	<Point x="1866" y="2025"/>
+	<Point x="1865" y="2025"/>
+	<Point x="1865" y="1980"/>
+	<Point x="1864" y="1980"/>
+	<Point x="1864" y="1924"/>
+	<Point x="1863" y="1924"/>
+	<Point x="1863" y="1805"/>
+	<Point x="1864" y="1805"/>
+	<Point x="1864" y="1766"/>
+	<Point x="1865" y="1766"/>
+	<Point x="1865" y="1664"/>
+	<Point x="1866" y="1664"/>
+	<Point x="1866" y="1523"/>
+	<Point x="1865" y="1523"/>
+	<Point x="1865" y="1369"/>
+	<Point x="1864" y="1369"/>
+	<Point x="1864" y="1325"/>
+	<Point x="1865" y="1325"/>
+	<Point x="1865" y="1147"/>
+	<Point x="1864" y="1147"/>
+	<Point x="1864" y="1146"/>
+	<Point x="1865" y="1146"/>
+	<Point x="1865" y="1055"/>
+	<Point x="1866" y="1055"/>
+	<Point x="1866" y="1004"/>
+	<Point x="1867" y="1004"/>
+	<Point x="1867" y="656"/>
+	<Point x="1868" y="656"/>
+	<Point x="1868" y="514"/>
+	<Point x="1867" y="514"/>
+	<Point x="1867" y="254"/>
+	<Point x="1866" y="254"/>
+	<Point x="1866" y="107"/>
+	<Point x="1865" y="107"/>
+	<Point x="1865" y="101"/>
+	<Point x="1866" y="101"/>
+	<Point x="1866" y="99"/>
+	<Point x="1869" y="99"/>
+	<Point x="1869" y="98"/></Coords></SeparatorRegion>
+	<TextRegion id="r24" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="932" y="97"/>
+	<Point x="932" y="373"/>
+	<Point x="901" y="373"/>
+	<Point x="901" y="372"/>
+	<Point x="860" y="372"/>
+	<Point x="860" y="371"/>
+	<Point x="819" y="371"/>
+	<Point x="819" y="370"/>
+	<Point x="776" y="370"/>
+	<Point x="776" y="371"/>
+	<Point x="679" y="371"/>
+	<Point x="679" y="372"/>
+	<Point x="582" y="372"/>
+	<Point x="582" y="373"/>
+	<Point x="485" y="373"/>
+	<Point x="485" y="374"/>
+	<Point x="388" y="374"/>
+	<Point x="388" y="375"/>
+	<Point x="291" y="375"/>
+	<Point x="291" y="376"/>
+	<Point x="271" y="376"/>
+	<Point x="271" y="377"/>
+	<Point x="250" y="377"/>
+	<Point x="250" y="378"/>
+	<Point x="229" y="378"/>
+	<Point x="229" y="379"/>
+	<Point x="209" y="379"/>
+	<Point x="209" y="380"/>
+	<Point x="188" y="380"/>
+	<Point x="188" y="381"/>
+	<Point x="167" y="381"/>
+	<Point x="167" y="382"/>
+	<Point x="147" y="382"/>
+	<Point x="147" y="383"/>
+	<Point x="126" y="383"/>
+	<Point x="126" y="384"/>
+	<Point x="105" y="384"/>
+	<Point x="105" y="385"/>
+	<Point x="85" y="385"/>
+	<Point x="85" y="386"/>
+	<Point x="64" y="386"/>
+	<Point x="64" y="387"/>
+	<Point x="43" y="387"/>
+	<Point x="43" y="388"/>
+	<Point x="42" y="388"/>
+	<Point x="42" y="97"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>nopens den ongunstigen staat van zaken in de Ro-
+meinsche Staten. Zelfs wordt het berigt tegenge-
+sproken, dat de Paus eene revue van den generaal
+André over de Fransche troepen te Rome, zoude
+hebben bijgewoond. Laatstgenoemd berigt is het eerst
+medegedeeld door de zoogenoemde half-officiële Fran-
+sche bladen.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r26" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="817" y="372"/>
+	<Point x="817" y="373"/>
+	<Point x="858" y="373"/>
+	<Point x="858" y="374"/>
+	<Point x="899" y="374"/>
+	<Point x="899" y="375"/>
+	<Point x="932" y="375"/>
+	<Point x="932" y="504"/>
+	<Point x="42" y="504"/>
+	<Point x="42" y="390"/>
+	<Point x="45" y="390"/>
+	<Point x="45" y="389"/>
+	<Point x="66" y="389"/>
+	<Point x="66" y="388"/>
+	<Point x="87" y="388"/>
+	<Point x="87" y="387"/>
+	<Point x="107" y="387"/>
+	<Point x="107" y="386"/>
+	<Point x="128" y="386"/>
+	<Point x="128" y="385"/>
+	<Point x="149" y="385"/>
+	<Point x="149" y="384"/>
+	<Point x="169" y="384"/>
+	<Point x="169" y="383"/>
+	<Point x="190" y="383"/>
+	<Point x="190" y="382"/>
+	<Point x="211" y="382"/>
+	<Point x="211" y="381"/>
+	<Point x="231" y="381"/>
+	<Point x="231" y="380"/>
+	<Point x="252" y="380"/>
+	<Point x="252" y="379"/>
+	<Point x="273" y="379"/>
+	<Point x="273" y="378"/>
+	<Point x="293" y="378"/>
+	<Point x="293" y="377"/>
+	<Point x="390" y="377"/>
+	<Point x="390" y="376"/>
+	<Point x="487" y="376"/>
+	<Point x="487" y="375"/>
+	<Point x="584" y="375"/>
+	<Point x="584" y="374"/>
+	<Point x="681" y="374"/>
+	<Point x="681" y="373"/>
+	<Point x="778" y="373"/>
+	<Point x="778" y="372"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Naar men zegt is de heer Achille Fould, mi-
+nister van Staat, de man die bij de regering het
+meest op het behoud des vredes aandringt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r28" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="567"/>
+	<Point x="925" y="932"/>
+	<Point x="455" y="932"/>
+	<Point x="455" y="931"/>
+	<Point x="256" y="931"/>
+	<Point x="256" y="934"/>
+	<Point x="257" y="934"/>
+	<Point x="257" y="935"/>
+	<Point x="258" y="935"/>
+	<Point x="258" y="937"/>
+	<Point x="259" y="937"/>
+	<Point x="237" y="937"/>
+	<Point x="237" y="936"/>
+	<Point x="236" y="936"/>
+	<Point x="236" y="932"/>
+	<Point x="235" y="932"/>
+	<Point x="235" y="931"/>
+	<Point x="167" y="931"/>
+	<Point x="167" y="930"/>
+	<Point x="99" y="930"/>
+	<Point x="99" y="929"/>
+	<Point x="45" y="929"/>
+	<Point x="45" y="567"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Van de zijde der Pruissische regering zal, naar
+uit Berlijn wordt gemeld, te Londen het herstel eener
+bemiddeling in de Levantsche kwestie worden voor-
+gesteld. Reeds is een persoon met eene officieuse
+zending, daarop betrekkelijk, naar Londen vertrokken.
+De Heer v. Bunsen, Pruissisch gezant te Londen,
+zal officieel hem ter zijde staan. Men is te Berlijn
+overtuigd, dat Engeland definitieve diplomatieke on-
+derhandelingen wenscht.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r32" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="97" y="931"/>
+	<Point x="97" y="932"/>
+	<Point x="165" y="932"/>
+	<Point x="165" y="933"/>
+	<Point x="233" y="933"/>
+	<Point x="233" y="934"/>
+	<Point x="234" y="934"/>
+	<Point x="234" y="938"/>
+	<Point x="235" y="938"/>
+	<Point x="235" y="939"/>
+	<Point x="262" y="939"/>
+	<Point x="262" y="936"/>
+	<Point x="261" y="936"/>
+	<Point x="261" y="935"/>
+	<Point x="260" y="935"/>
+	<Point x="260" y="933"/>
+	<Point x="259" y="933"/>
+	<Point x="453" y="933"/>
+	<Point x="453" y="934"/>
+	<Point x="925" y="934"/>
+	<Point x="925" y="1081"/>
+	<Point x="849" y="1081"/>
+	<Point x="849" y="1082"/>
+	<Point x="769" y="1082"/>
+	<Point x="769" y="1083"/>
+	<Point x="689" y="1083"/>
+	<Point x="689" y="1084"/>
+	<Point x="609" y="1084"/>
+	<Point x="609" y="1085"/>
+	<Point x="530" y="1085"/>
+	<Point x="530" y="1086"/>
+	<Point x="450" y="1086"/>
+	<Point x="450" y="1087"/>
+	<Point x="370" y="1087"/>
+	<Point x="370" y="1088"/>
+	<Point x="291" y="1088"/>
+	<Point x="291" y="1091"/>
+	<Point x="290" y="1091"/>
+	<Point x="290" y="1092"/>
+	<Point x="282" y="1092"/>
+	<Point x="282" y="1093"/>
+	<Point x="274" y="1093"/>
+	<Point x="274" y="1094"/>
+	<Point x="269" y="1094"/>
+	<Point x="269" y="1093"/>
+	<Point x="268" y="1093"/>
+	<Point x="268" y="1091"/>
+	<Point x="267" y="1091"/>
+	<Point x="267" y="1089"/>
+	<Point x="266" y="1089"/>
+	<Point x="266" y="1087"/>
+	<Point x="263" y="1087"/>
+	<Point x="263" y="1088"/>
+	<Point x="234" y="1088"/>
+	<Point x="234" y="1089"/>
+	<Point x="205" y="1089"/>
+	<Point x="205" y="1090"/>
+	<Point x="176" y="1090"/>
+	<Point x="176" y="1091"/>
+	<Point x="147" y="1091"/>
+	<Point x="147" y="1092"/>
+	<Point x="118" y="1092"/>
+	<Point x="118" y="1093"/>
+	<Point x="89" y="1093"/>
+	<Point x="89" y="1094"/>
+	<Point x="60" y="1094"/>
+	<Point x="60" y="1095"/>
+	<Point x="45" y="1095"/>
+	<Point x="45" y="931"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Van 18—19 dezer zijn te Berlijn weder aan-
+gegeven 10 cholera-gevallen. Totaal: 1301 zieken,
+waarvan 331 hersteld, 842 overleden en 128 nog
+in behandeling.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r36" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="1083"/>
+	<Point x="925" y="1325"/>
+	<Point x="813" y="1325"/>
+	<Point x="813" y="1326"/>
+	<Point x="695" y="1326"/>
+	<Point x="695" y="1327"/>
+	<Point x="578" y="1327"/>
+	<Point x="578" y="1328"/>
+	<Point x="460" y="1328"/>
+	<Point x="460" y="1329"/>
+	<Point x="343" y="1329"/>
+	<Point x="343" y="1330"/>
+	<Point x="226" y="1330"/>
+	<Point x="226" y="1332"/>
+	<Point x="225" y="1332"/>
+	<Point x="225" y="1335"/>
+	<Point x="224" y="1335"/>
+	<Point x="224" y="1336"/>
+	<Point x="223" y="1336"/>
+	<Point x="223" y="1337"/>
+	<Point x="220" y="1337"/>
+	<Point x="220" y="1338"/>
+	<Point x="216" y="1338"/>
+	<Point x="216" y="1339"/>
+	<Point x="215" y="1339"/>
+	<Point x="215" y="1338"/>
+	<Point x="214" y="1338"/>
+	<Point x="214" y="1336"/>
+	<Point x="213" y="1336"/>
+	<Point x="213" y="1334"/>
+	<Point x="212" y="1334"/>
+	<Point x="212" y="1332"/>
+	<Point x="210" y="1332"/>
+	<Point x="210" y="1333"/>
+	<Point x="152" y="1333"/>
+	<Point x="152" y="1334"/>
+	<Point x="94" y="1334"/>
+	<Point x="94" y="1335"/>
+	<Point x="45" y="1335"/>
+	<Point x="45" y="1097"/>
+	<Point x="62" y="1097"/>
+	<Point x="62" y="1096"/>
+	<Point x="91" y="1096"/>
+	<Point x="91" y="1095"/>
+	<Point x="120" y="1095"/>
+	<Point x="120" y="1094"/>
+	<Point x="149" y="1094"/>
+	<Point x="149" y="1093"/>
+	<Point x="178" y="1093"/>
+	<Point x="178" y="1092"/>
+	<Point x="207" y="1092"/>
+	<Point x="207" y="1091"/>
+	<Point x="236" y="1091"/>
+	<Point x="236" y="1090"/>
+	<Point x="264" y="1090"/>
+	<Point x="264" y="1091"/>
+	<Point x="265" y="1091"/>
+	<Point x="265" y="1093"/>
+	<Point x="266" y="1093"/>
+	<Point x="266" y="1095"/>
+	<Point x="267" y="1095"/>
+	<Point x="267" y="1096"/>
+	<Point x="276" y="1096"/>
+	<Point x="276" y="1095"/>
+	<Point x="284" y="1095"/>
+	<Point x="284" y="1094"/>
+	<Point x="292" y="1094"/>
+	<Point x="292" y="1093"/>
+	<Point x="293" y="1093"/>
+	<Point x="293" y="1090"/>
+	<Point x="372" y="1090"/>
+	<Point x="372" y="1089"/>
+	<Point x="452" y="1089"/>
+	<Point x="452" y="1088"/>
+	<Point x="532" y="1088"/>
+	<Point x="532" y="1087"/>
+	<Point x="611" y="1087"/>
+	<Point x="611" y="1086"/>
+	<Point x="691" y="1086"/>
+	<Point x="691" y="1085"/>
+	<Point x="771" y="1085"/>
+	<Point x="771" y="1084"/>
+	<Point x="851" y="1084"/>
+	<Point x="851" y="1083"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Uit Berlijn meldt men, dat aan de voorgeno-
+men vermindering van het Oostenrijksche leger weinig
+gewigt wordt gehecht, daar bijv. de grensregimen-
+ten zeer spoedig weder voltallig kunnen worden ge-
+maakt, omdat ieder grensbewoner tot zijn 60. jaar
+soldaat blijft.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r40" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="1327"/>
+	<Point x="925" y="1442"/>
+	<Point x="856" y="1442"/>
+	<Point x="856" y="1443"/>
+	<Point x="783" y="1443"/>
+	<Point x="783" y="1444"/>
+	<Point x="710" y="1444"/>
+	<Point x="710" y="1445"/>
+	<Point x="637" y="1445"/>
+	<Point x="637" y="1446"/>
+	<Point x="564" y="1446"/>
+	<Point x="564" y="1447"/>
+	<Point x="491" y="1447"/>
+	<Point x="491" y="1448"/>
+	<Point x="418" y="1448"/>
+	<Point x="418" y="1449"/>
+	<Point x="346" y="1449"/>
+	<Point x="346" y="1451"/>
+	<Point x="345" y="1451"/>
+	<Point x="345" y="1453"/>
+	<Point x="344" y="1453"/>
+	<Point x="344" y="1454"/>
+	<Point x="343" y="1454"/>
+	<Point x="343" y="1455"/>
+	<Point x="324" y="1455"/>
+	<Point x="324" y="1456"/>
+	<Point x="307" y="1456"/>
+	<Point x="307" y="1455"/>
+	<Point x="306" y="1455"/>
+	<Point x="306" y="1451"/>
+	<Point x="208" y="1451"/>
+	<Point x="208" y="1452"/>
+	<Point x="207" y="1452"/>
+	<Point x="207" y="1453"/>
+	<Point x="206" y="1453"/>
+	<Point x="206" y="1455"/>
+	<Point x="205" y="1455"/>
+	<Point x="205" y="1456"/>
+	<Point x="204" y="1456"/>
+	<Point x="204" y="1457"/>
+	<Point x="203" y="1457"/>
+	<Point x="203" y="1458"/>
+	<Point x="196" y="1458"/>
+	<Point x="196" y="1457"/>
+	<Point x="195" y="1457"/>
+	<Point x="195" y="1456"/>
+	<Point x="194" y="1456"/>
+	<Point x="194" y="1455"/>
+	<Point x="193" y="1455"/>
+	<Point x="193" y="1454"/>
+	<Point x="192" y="1454"/>
+	<Point x="192" y="1453"/>
+	<Point x="189" y="1453"/>
+	<Point x="189" y="1454"/>
+	<Point x="45" y="1454"/>
+	<Point x="45" y="1337"/>
+	<Point x="96" y="1337"/>
+	<Point x="96" y="1336"/>
+	<Point x="154" y="1336"/>
+	<Point x="154" y="1335"/>
+	<Point x="210" y="1335"/>
+	<Point x="210" y="1336"/>
+	<Point x="211" y="1336"/>
+	<Point x="211" y="1338"/>
+	<Point x="212" y="1338"/>
+	<Point x="212" y="1340"/>
+	<Point x="213" y="1340"/>
+	<Point x="213" y="1341"/>
+	<Point x="218" y="1341"/>
+	<Point x="218" y="1340"/>
+	<Point x="222" y="1340"/>
+	<Point x="222" y="1339"/>
+	<Point x="225" y="1339"/>
+	<Point x="225" y="1338"/>
+	<Point x="226" y="1338"/>
+	<Point x="226" y="1337"/>
+	<Point x="227" y="1337"/>
+	<Point x="227" y="1334"/>
+	<Point x="228" y="1334"/>
+	<Point x="228" y="1332"/>
+	<Point x="345" y="1332"/>
+	<Point x="345" y="1331"/>
+	<Point x="462" y="1331"/>
+	<Point x="462" y="1330"/>
+	<Point x="580" y="1330"/>
+	<Point x="580" y="1329"/>
+	<Point x="697" y="1329"/>
+	<Point x="697" y="1328"/>
+	<Point x="815" y="1328"/>
+	<Point x="815" y="1327"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Uit Weenen meldt men, dat werkelijk reeds
+een aanzienlijk aantal verlofgangers naar hunne haard-
+steden zijn teruggekeerd.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r42" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="1444"/>
+	<Point x="925" y="1659"/>
+	<Point x="45" y="1659"/>
+	<Point x="45" y="1456"/>
+	<Point x="191" y="1456"/>
+	<Point x="191" y="1457"/>
+	<Point x="192" y="1457"/>
+	<Point x="192" y="1458"/>
+	<Point x="193" y="1458"/>
+	<Point x="193" y="1459"/>
+	<Point x="194" y="1459"/>
+	<Point x="194" y="1460"/>
+	<Point x="205" y="1460"/>
+	<Point x="205" y="1459"/>
+	<Point x="206" y="1459"/>
+	<Point x="206" y="1458"/>
+	<Point x="207" y="1458"/>
+	<Point x="207" y="1457"/>
+	<Point x="208" y="1457"/>
+	<Point x="208" y="1455"/>
+	<Point x="209" y="1455"/>
+	<Point x="209" y="1454"/>
+	<Point x="210" y="1454"/>
+	<Point x="210" y="1453"/>
+	<Point x="304" y="1453"/>
+	<Point x="304" y="1457"/>
+	<Point x="305" y="1457"/>
+	<Point x="305" y="1458"/>
+	<Point x="326" y="1458"/>
+	<Point x="326" y="1457"/>
+	<Point x="345" y="1457"/>
+	<Point x="345" y="1456"/>
+	<Point x="346" y="1456"/>
+	<Point x="346" y="1455"/>
+	<Point x="347" y="1455"/>
+	<Point x="347" y="1453"/>
+	<Point x="348" y="1453"/>
+	<Point x="348" y="1451"/>
+	<Point x="420" y="1451"/>
+	<Point x="420" y="1450"/>
+	<Point x="493" y="1450"/>
+	<Point x="493" y="1449"/>
+	<Point x="566" y="1449"/>
+	<Point x="566" y="1448"/>
+	<Point x="639" y="1448"/>
+	<Point x="639" y="1447"/>
+	<Point x="712" y="1447"/>
+	<Point x="712" y="1446"/>
+	<Point x="785" y="1446"/>
+	<Point x="785" y="1445"/>
+	<Point x="858" y="1445"/>
+	<Point x="858" y="1444"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Te Weenen wil men in diplomatieke kringen
+weten, dat Rusland in ieder geval dit jaar over den
+Donan zal trekken en de Turksche Donau-vestingen
+bestormen, doch zich hiertoe bepalen, met uitstel der
+verdere krijgsverrigtingen tot na het wintersaizoen.</Unicode></TextEquiv></TextRegion>
+	<SeparatorRegion id="r43">
+	<Coords>
+	<Point x="50" y="1681"/>
+	<Point x="48" y="1714"/>
+	<Point x="897" y="1706"/>
+	<Point x="898" y="1676"/></Coords></SeparatorRegion>
+	<TextRegion id="r45" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="1860"/>
+	<Point x="925" y="2225"/>
+	<Point x="755" y="2225"/>
+	<Point x="755" y="2226"/>
+	<Point x="580" y="2226"/>
+	<Point x="580" y="2227"/>
+	<Point x="406" y="2227"/>
+	<Point x="406" y="2228"/>
+	<Point x="231" y="2228"/>
+	<Point x="231" y="2229"/>
+	<Point x="230" y="2229"/>
+	<Point x="230" y="2230"/>
+	<Point x="229" y="2230"/>
+	<Point x="229" y="2231"/>
+	<Point x="228" y="2231"/>
+	<Point x="228" y="2232"/>
+	<Point x="227" y="2232"/>
+	<Point x="227" y="2233"/>
+	<Point x="225" y="2233"/>
+	<Point x="225" y="2234"/>
+	<Point x="220" y="2234"/>
+	<Point x="220" y="2233"/>
+	<Point x="219" y="2233"/>
+	<Point x="219" y="2232"/>
+	<Point x="218" y="2232"/>
+	<Point x="218" y="2231"/>
+	<Point x="217" y="2231"/>
+	<Point x="217" y="2230"/>
+	<Point x="216" y="2230"/>
+	<Point x="216" y="2229"/>
+	<Point x="215" y="2229"/>
+	<Point x="215" y="2228"/>
+	<Point x="212" y="2228"/>
+	<Point x="212" y="2229"/>
+	<Point x="148" y="2229"/>
+	<Point x="148" y="2230"/>
+	<Point x="84" y="2230"/>
+	<Point x="84" y="2231"/>
+	<Point x="30" y="2231"/>
+	<Point x="30" y="1860"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Z. M. de Koning heeft benoemd tot griffier
+bij het kanton-geregt te Vlaardingen, mr. J. C.
+Rasch, en tot griffier bij het kanton-geregt te Noord-
+wijk mr. C. G. Luzac, advocaten resp. te 's Gra-
+venhage en te Leyden. Z. M. heeft, op verzoek,
+eervol ontslag verleend aan de heeren mr. P. G.
+Hubrecht, als plaatstverv. kanton-r. te Leyden, en
+mr. S. H. Anemaet Pz., als plaatst. kanton-r. te
+Sommelsdijk.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r49" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="2227"/>
+	<Point x="925" y="2663"/>
+	<Point x="779" y="2663"/>
+	<Point x="779" y="2664"/>
+	<Point x="621" y="2664"/>
+	<Point x="621" y="2665"/>
+	<Point x="463" y="2665"/>
+	<Point x="463" y="2666"/>
+	<Point x="305" y="2666"/>
+	<Point x="305" y="2667"/>
+	<Point x="301" y="2667"/>
+	<Point x="301" y="2668"/>
+	<Point x="298" y="2668"/>
+	<Point x="298" y="2667"/>
+	<Point x="297" y="2667"/>
+	<Point x="297" y="2666"/>
+	<Point x="295" y="2666"/>
+	<Point x="295" y="2665"/>
+	<Point x="293" y="2665"/>
+	<Point x="293" y="2664"/>
+	<Point x="291" y="2664"/>
+	<Point x="291" y="2663"/>
+	<Point x="287" y="2663"/>
+	<Point x="287" y="2664"/>
+	<Point x="233" y="2664"/>
+	<Point x="233" y="2665"/>
+	<Point x="179" y="2665"/>
+	<Point x="179" y="2666"/>
+	<Point x="125" y="2666"/>
+	<Point x="125" y="2667"/>
+	<Point x="71" y="2667"/>
+	<Point x="71" y="2668"/>
+	<Point x="30" y="2668"/>
+	<Point x="30" y="2233"/>
+	<Point x="86" y="2233"/>
+	<Point x="86" y="2232"/>
+	<Point x="150" y="2232"/>
+	<Point x="150" y="2231"/>
+	<Point x="214" y="2231"/>
+	<Point x="214" y="2232"/>
+	<Point x="215" y="2232"/>
+	<Point x="215" y="2233"/>
+	<Point x="216" y="2233"/>
+	<Point x="216" y="2234"/>
+	<Point x="217" y="2234"/>
+	<Point x="217" y="2235"/>
+	<Point x="218" y="2235"/>
+	<Point x="218" y="2236"/>
+	<Point x="227" y="2236"/>
+	<Point x="227" y="2235"/>
+	<Point x="229" y="2235"/>
+	<Point x="229" y="2234"/>
+	<Point x="230" y="2234"/>
+	<Point x="230" y="2233"/>
+	<Point x="231" y="2233"/>
+	<Point x="231" y="2232"/>
+	<Point x="232" y="2232"/>
+	<Point x="232" y="2231"/>
+	<Point x="233" y="2231"/>
+	<Point x="233" y="2230"/>
+	<Point x="408" y="2230"/>
+	<Point x="408" y="2229"/>
+	<Point x="582" y="2229"/>
+	<Point x="582" y="2228"/>
+	<Point x="757" y="2228"/>
+	<Point x="757" y="2227"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Bij de memorie van Z. E. den minister van
+Financiën, gevoegd bij de voordragt, strekkende,
+om het koninklijk besluit ter vermindering van de
+inkomende regten der granen, en alzoo ter bevorde-
+ring van den invoer daarvan, bij de wet te bekrach-
+tigen, wordt aangemerkt, dat de prijzen der granen,
+zoo hier te lande als elders, door de ongunstige
+uitkomsten van den jongsten graanoogst, tot eene
+hoogte zijn gestegen, die zij zeldzaam bereiken, zoo
+dat het voor de mindere klassen der bevolking be-
+zwarend wordt, zich van levensmiddelen te voorzien.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r53" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="289" y="2666"/>
+	<Point x="291" y="2666"/>
+	<Point x="291" y="2667"/>
+	<Point x="293" y="2667"/>
+	<Point x="293" y="2668"/>
+	<Point x="295" y="2668"/>
+	<Point x="295" y="2669"/>
+	<Point x="296" y="2669"/>
+	<Point x="296" y="2670"/>
+	<Point x="303" y="2670"/>
+	<Point x="303" y="2669"/>
+	<Point x="307" y="2669"/>
+	<Point x="307" y="2668"/>
+	<Point x="465" y="2668"/>
+	<Point x="465" y="2667"/>
+	<Point x="623" y="2667"/>
+	<Point x="623" y="2666"/>
+	<Point x="781" y="2666"/>
+	<Point x="781" y="2665"/>
+	<Point x="925" y="2665"/>
+	<Point x="925" y="3057"/>
+	<Point x="845" y="3057"/>
+	<Point x="845" y="3058"/>
+	<Point x="759" y="3058"/>
+	<Point x="759" y="3059"/>
+	<Point x="673" y="3059"/>
+	<Point x="673" y="3060"/>
+	<Point x="587" y="3060"/>
+	<Point x="587" y="3061"/>
+	<Point x="501" y="3061"/>
+	<Point x="501" y="3062"/>
+	<Point x="471" y="3062"/>
+	<Point x="471" y="3063"/>
+	<Point x="441" y="3063"/>
+	<Point x="441" y="3064"/>
+	<Point x="410" y="3064"/>
+	<Point x="410" y="3065"/>
+	<Point x="380" y="3065"/>
+	<Point x="380" y="3066"/>
+	<Point x="349" y="3066"/>
+	<Point x="349" y="3067"/>
+	<Point x="319" y="3067"/>
+	<Point x="319" y="3068"/>
+	<Point x="289" y="3068"/>
+	<Point x="289" y="3071"/>
+	<Point x="288" y="3071"/>
+	<Point x="288" y="3072"/>
+	<Point x="287" y="3072"/>
+	<Point x="287" y="3073"/>
+	<Point x="281" y="3073"/>
+	<Point x="281" y="3074"/>
+	<Point x="274" y="3074"/>
+	<Point x="274" y="3075"/>
+	<Point x="270" y="3075"/>
+	<Point x="270" y="3074"/>
+	<Point x="269" y="3074"/>
+	<Point x="269" y="3073"/>
+	<Point x="268" y="3073"/>
+	<Point x="268" y="3071"/>
+	<Point x="267" y="3071"/>
+	<Point x="267" y="3070"/>
+	<Point x="266" y="3070"/>
+	<Point x="266" y="3069"/>
+	<Point x="263" y="3069"/>
+	<Point x="263" y="3070"/>
+	<Point x="142" y="3070"/>
+	<Point x="142" y="3071"/>
+	<Point x="30" y="3071"/>
+	<Point x="30" y="2670"/>
+	<Point x="73" y="2670"/>
+	<Point x="73" y="2669"/>
+	<Point x="127" y="2669"/>
+	<Point x="127" y="2668"/>
+	<Point x="181" y="2668"/>
+	<Point x="181" y="2667"/>
+	<Point x="235" y="2667"/>
+	<Point x="235" y="2666"/>
+	<Point x="289" y="2666"/>
+	<Point x="289" y="2665"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Naar luid dezer memorie is, bij onderzoek, ge-
+bleken, dat bij een gewonen graanoogst, wat de
+tarwe betreft, door eigen verbouw in de binnen-
+landsche behoefte kan worden voorzien, maar dat er
+steeds, ten aanzien van de rogge, de garst en de
+boekweit een aanzienlijk te kort bestaat, 't welk
+door aanvoer van buitenslands moet worden aange-
+vuld, en dat er alzoo, bij een minder gunstiger
+oogst, nog eene meerdere behoefte aanwezig is van
+aanvoer van granen van allerlei soort.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r57" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="925" y="3059"/>
+	<Point x="925" y="3462"/>
+	<Point x="870" y="3462"/>
+	<Point x="870" y="3463"/>
+	<Point x="805" y="3463"/>
+	<Point x="805" y="3464"/>
+	<Point x="741" y="3464"/>
+	<Point x="741" y="3465"/>
+	<Point x="676" y="3465"/>
+	<Point x="676" y="3466"/>
+	<Point x="612" y="3466"/>
+	<Point x="612" y="3467"/>
+	<Point x="547" y="3467"/>
+	<Point x="547" y="3468"/>
+	<Point x="482" y="3468"/>
+	<Point x="482" y="3469"/>
+	<Point x="481" y="3469"/>
+	<Point x="481" y="3470"/>
+	<Point x="479" y="3470"/>
+	<Point x="479" y="3471"/>
+	<Point x="477" y="3471"/>
+	<Point x="477" y="3472"/>
+	<Point x="475" y="3472"/>
+	<Point x="475" y="3473"/>
+	<Point x="473" y="3473"/>
+	<Point x="473" y="3474"/>
+	<Point x="469" y="3474"/>
+	<Point x="469" y="3475"/>
+	<Point x="465" y="3475"/>
+	<Point x="465" y="3476"/>
+	<Point x="462" y="3476"/>
+	<Point x="462" y="3475"/>
+	<Point x="461" y="3475"/>
+	<Point x="461" y="3474"/>
+	<Point x="459" y="3474"/>
+	<Point x="459" y="3473"/>
+	<Point x="458" y="3473"/>
+	<Point x="458" y="3472"/>
+	<Point x="456" y="3472"/>
+	<Point x="456" y="3471"/>
+	<Point x="455" y="3471"/>
+	<Point x="455" y="3470"/>
+	<Point x="453" y="3470"/>
+	<Point x="453" y="3469"/>
+	<Point x="451" y="3469"/>
+	<Point x="451" y="3468"/>
+	<Point x="434" y="3468"/>
+	<Point x="434" y="3467"/>
+	<Point x="416" y="3467"/>
+	<Point x="416" y="3466"/>
+	<Point x="398" y="3466"/>
+	<Point x="398" y="3465"/>
+	<Point x="380" y="3465"/>
+	<Point x="380" y="3464"/>
+	<Point x="363" y="3464"/>
+	<Point x="363" y="3463"/>
+	<Point x="345" y="3463"/>
+	<Point x="345" y="3462"/>
+	<Point x="327" y="3462"/>
+	<Point x="327" y="3461"/>
+	<Point x="307" y="3461"/>
+	<Point x="307" y="3462"/>
+	<Point x="232" y="3462"/>
+	<Point x="232" y="3463"/>
+	<Point x="157" y="3463"/>
+	<Point x="157" y="3464"/>
+	<Point x="156" y="3464"/>
+	<Point x="156" y="3465"/>
+	<Point x="155" y="3465"/>
+	<Point x="155" y="3466"/>
+	<Point x="154" y="3466"/>
+	<Point x="154" y="3467"/>
+	<Point x="153" y="3467"/>
+	<Point x="153" y="3468"/>
+	<Point x="152" y="3468"/>
+	<Point x="152" y="3469"/>
+	<Point x="149" y="3469"/>
+	<Point x="149" y="3468"/>
+	<Point x="146" y="3468"/>
+	<Point x="146" y="3467"/>
+	<Point x="143" y="3467"/>
+	<Point x="143" y="3466"/>
+	<Point x="140" y="3466"/>
+	<Point x="140" y="3465"/>
+	<Point x="137" y="3465"/>
+	<Point x="137" y="3464"/>
+	<Point x="132" y="3464"/>
+	<Point x="132" y="3465"/>
+	<Point x="131" y="3465"/>
+	<Point x="131" y="3466"/>
+	<Point x="129" y="3466"/>
+	<Point x="129" y="3467"/>
+	<Point x="128" y="3467"/>
+	<Point x="128" y="3468"/>
+	<Point x="126" y="3468"/>
+	<Point x="126" y="3469"/>
+	<Point x="124" y="3469"/>
+	<Point x="124" y="3470"/>
+	<Point x="89" y="3470"/>
+	<Point x="89" y="3471"/>
+	<Point x="54" y="3471"/>
+	<Point x="54" y="3472"/>
+	<Point x="30" y="3472"/>
+	<Point x="30" y="3073"/>
+	<Point x="144" y="3073"/>
+	<Point x="144" y="3072"/>
+	<Point x="265" y="3072"/>
+	<Point x="265" y="3073"/>
+	<Point x="266" y="3073"/>
+	<Point x="266" y="3075"/>
+	<Point x="267" y="3075"/>
+	<Point x="267" y="3076"/>
+	<Point x="268" y="3076"/>
+	<Point x="268" y="3077"/>
+	<Point x="276" y="3077"/>
+	<Point x="276" y="3076"/>
+	<Point x="283" y="3076"/>
+	<Point x="283" y="3075"/>
+	<Point x="289" y="3075"/>
+	<Point x="289" y="3074"/>
+	<Point x="290" y="3074"/>
+	<Point x="290" y="3073"/>
+	<Point x="291" y="3073"/>
+	<Point x="291" y="3070"/>
+	<Point x="321" y="3070"/>
+	<Point x="321" y="3069"/>
+	<Point x="351" y="3069"/>
+	<Point x="351" y="3068"/>
+	<Point x="382" y="3068"/>
+	<Point x="382" y="3067"/>
+	<Point x="412" y="3067"/>
+	<Point x="412" y="3066"/>
+	<Point x="443" y="3066"/>
+	<Point x="443" y="3065"/>
+	<Point x="473" y="3065"/>
+	<Point x="473" y="3064"/>
+	<Point x="503" y="3064"/>
+	<Point x="503" y="3063"/>
+	<Point x="589" y="3063"/>
+	<Point x="589" y="3062"/>
+	<Point x="675" y="3062"/>
+	<Point x="675" y="3061"/>
+	<Point x="761" y="3061"/>
+	<Point x="761" y="3060"/>
+	<Point x="847" y="3060"/>
+	<Point x="847" y="3059"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Eene vergelijking van den invoer, gedurende de
+zes eerste maanden van dit jaar, met die van 1852,
+getuigt reeds van minderen aanvoer, en van meer-
+dere aflevering voor het verbruik. De voorraad van
+granen in entrepôt is dan ook op den eersten Julij
+van dit jaar minder geweest dan op den eersten Julij
+1852, en het is dus der Regering niet twijfelachtig
+voorgekomen, of er zullen, om in de behoeften te
+voorzien, gedurende dit en volgende jaren nog be-
+langrijke aanvoeren van granen worden vereischt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r59" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="325" y="3463"/>
+	<Point x="325" y="3464"/>
+	<Point x="343" y="3464"/>
+	<Point x="343" y="3465"/>
+	<Point x="361" y="3465"/>
+	<Point x="361" y="3466"/>
+	<Point x="378" y="3466"/>
+	<Point x="378" y="3467"/>
+	<Point x="396" y="3467"/>
+	<Point x="396" y="3468"/>
+	<Point x="414" y="3468"/>
+	<Point x="414" y="3469"/>
+	<Point x="432" y="3469"/>
+	<Point x="432" y="3470"/>
+	<Point x="449" y="3470"/>
+	<Point x="449" y="3471"/>
+	<Point x="451" y="3471"/>
+	<Point x="451" y="3472"/>
+	<Point x="453" y="3472"/>
+	<Point x="453" y="3473"/>
+	<Point x="454" y="3473"/>
+	<Point x="454" y="3474"/>
+	<Point x="456" y="3474"/>
+	<Point x="456" y="3475"/>
+	<Point x="457" y="3475"/>
+	<Point x="457" y="3476"/>
+	<Point x="459" y="3476"/>
+	<Point x="459" y="3477"/>
+	<Point x="460" y="3477"/>
+	<Point x="460" y="3478"/>
+	<Point x="467" y="3478"/>
+	<Point x="467" y="3477"/>
+	<Point x="471" y="3477"/>
+	<Point x="471" y="3476"/>
+	<Point x="475" y="3476"/>
+	<Point x="475" y="3475"/>
+	<Point x="477" y="3475"/>
+	<Point x="477" y="3474"/>
+	<Point x="479" y="3474"/>
+	<Point x="479" y="3473"/>
+	<Point x="481" y="3473"/>
+	<Point x="481" y="3472"/>
+	<Point x="483" y="3472"/>
+	<Point x="483" y="3471"/>
+	<Point x="484" y="3471"/>
+	<Point x="484" y="3470"/>
+	<Point x="549" y="3470"/>
+	<Point x="549" y="3469"/>
+	<Point x="614" y="3469"/>
+	<Point x="614" y="3468"/>
+	<Point x="678" y="3468"/>
+	<Point x="678" y="3467"/>
+	<Point x="743" y="3467"/>
+	<Point x="743" y="3466"/>
+	<Point x="807" y="3466"/>
+	<Point x="807" y="3465"/>
+	<Point x="872" y="3465"/>
+	<Point x="872" y="3464"/>
+	<Point x="925" y="3464"/>
+	<Point x="925" y="4040"/>
+	<Point x="30" y="4040"/>
+	<Point x="30" y="3474"/>
+	<Point x="56" y="3474"/>
+	<Point x="56" y="3473"/>
+	<Point x="91" y="3473"/>
+	<Point x="91" y="3472"/>
+	<Point x="126" y="3472"/>
+	<Point x="126" y="3471"/>
+	<Point x="128" y="3471"/>
+	<Point x="128" y="3470"/>
+	<Point x="130" y="3470"/>
+	<Point x="130" y="3469"/>
+	<Point x="131" y="3469"/>
+	<Point x="131" y="3468"/>
+	<Point x="133" y="3468"/>
+	<Point x="133" y="3467"/>
+	<Point x="134" y="3467"/>
+	<Point x="134" y="3466"/>
+	<Point x="135" y="3466"/>
+	<Point x="135" y="3467"/>
+	<Point x="138" y="3467"/>
+	<Point x="138" y="3468"/>
+	<Point x="141" y="3468"/>
+	<Point x="141" y="3469"/>
+	<Point x="144" y="3469"/>
+	<Point x="144" y="3470"/>
+	<Point x="147" y="3470"/>
+	<Point x="147" y="3471"/>
+	<Point x="150" y="3471"/>
+	<Point x="150" y="3472"/>
+	<Point x="153" y="3472"/>
+	<Point x="153" y="3471"/>
+	<Point x="154" y="3471"/>
+	<Point x="154" y="3470"/>
+	<Point x="155" y="3470"/>
+	<Point x="155" y="3469"/>
+	<Point x="156" y="3469"/>
+	<Point x="156" y="3468"/>
+	<Point x="157" y="3468"/>
+	<Point x="157" y="3467"/>
+	<Point x="158" y="3467"/>
+	<Point x="158" y="3466"/>
+	<Point x="159" y="3466"/>
+	<Point x="159" y="3465"/>
+	<Point x="234" y="3465"/>
+	<Point x="234" y="3464"/>
+	<Point x="309" y="3464"/>
+	<Point x="309" y="3463"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Op zich zelve zouden de reeds bestaande zeer
+matige regten voor den invoer van granen geen hin-
+derpaal hebben opgeleverd, maar de algeheele op-
+heffing of aanzienlijke vermindering van regten in
+Frankrijk, Belgie en de Staten van het Tolverbond
+zoude, bij de handhaving van het nederlandsche
+tarief, welligt aanleiding hebben kunnen geven, dat
+de handel, uitgelokt door de elders uitgeloofde gun-
+sten, onze havens voorbij ging en op weg zijnde
+ladingen naar vreemde landen zond, alwaar men
+later de granen tegen hoogere prijzen zoude moeten
+koopen. Op grond van deze bedenkingen, is het
+besluit voor de zoo aanmerkelijke vermindering der
+regten op de granen, aardappelen en andere levens-</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r61" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="90"/>
+	<Point x="1850" y="252"/>
+	<Point x="1090" y="252"/>
+	<Point x="1090" y="253"/>
+	<Point x="1087" y="253"/>
+	<Point x="1087" y="254"/>
+	<Point x="1084" y="254"/>
+	<Point x="1084" y="255"/>
+	<Point x="1081" y="255"/>
+	<Point x="1081" y="256"/>
+	<Point x="1078" y="256"/>
+	<Point x="1078" y="257"/>
+	<Point x="1075" y="257"/>
+	<Point x="1075" y="258"/>
+	<Point x="1072" y="258"/>
+	<Point x="1072" y="259"/>
+	<Point x="1069" y="259"/>
+	<Point x="1069" y="260"/>
+	<Point x="1066" y="260"/>
+	<Point x="1066" y="261"/>
+	<Point x="1065" y="261"/>
+	<Point x="1065" y="260"/>
+	<Point x="970" y="260"/>
+	<Point x="970" y="90"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>middelen genomen, waarvan, ingevolge de wet van
+1845, de bekrachtiging wordt voorgedragen, en
+welke vermindering de Regering zich voorstelt, tot
+Julij 1854 in stand te zullen houden.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r65" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="254"/>
+	<Point x="1850" y="611"/>
+	<Point x="1333" y="611"/>
+	<Point x="1333" y="612"/>
+	<Point x="1209" y="612"/>
+	<Point x="1209" y="613"/>
+	<Point x="1085" y="613"/>
+	<Point x="1085" y="614"/>
+	<Point x="970" y="614"/>
+	<Point x="970" y="262"/>
+	<Point x="1063" y="262"/>
+	<Point x="1063" y="263"/>
+	<Point x="1068" y="263"/>
+	<Point x="1068" y="262"/>
+	<Point x="1071" y="262"/>
+	<Point x="1071" y="261"/>
+	<Point x="1074" y="261"/>
+	<Point x="1074" y="260"/>
+	<Point x="1077" y="260"/>
+	<Point x="1077" y="259"/>
+	<Point x="1080" y="259"/>
+	<Point x="1080" y="258"/>
+	<Point x="1083" y="258"/>
+	<Point x="1083" y="257"/>
+	<Point x="1086" y="257"/>
+	<Point x="1086" y="256"/>
+	<Point x="1089" y="256"/>
+	<Point x="1089" y="255"/>
+	<Point x="1092" y="255"/>
+	<Point x="1092" y="254"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Bij de verkiezing van een lid der Tweede Ka-
+mer in het kies-district Haarlem zijn 806 geldende
+stemmen uitgebragt. Daarvan waren uitgebragt op
+de heeren J. Heemskerk Bz. 397; Mr. H. A. A.
+van Berkel 230; Jhr. M. Salvador 134; Mr. D.
+Leon, R. F. baron v. Raders, Mr. H. C. J. Hoog,
+C. v. d. Tuuk en andere personen hadden eenige
+stemmen op zich vereenigd. Herstemming tusschen
+de heeren Heemskerk Bz. en van Berkel.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r69" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="613"/>
+	<Point x="1850" y="687"/>
+	<Point x="1749" y="687"/>
+	<Point x="1749" y="688"/>
+	<Point x="1643" y="688"/>
+	<Point x="1643" y="689"/>
+	<Point x="1537" y="689"/>
+	<Point x="1537" y="690"/>
+	<Point x="1431" y="690"/>
+	<Point x="1431" y="691"/>
+	<Point x="1325" y="691"/>
+	<Point x="1325" y="692"/>
+	<Point x="1219" y="692"/>
+	<Point x="1219" y="693"/>
+	<Point x="1113" y="693"/>
+	<Point x="1113" y="694"/>
+	<Point x="1007" y="694"/>
+	<Point x="1007" y="695"/>
+	<Point x="1006" y="695"/>
+	<Point x="1006" y="696"/>
+	<Point x="1005" y="696"/>
+	<Point x="1005" y="697"/>
+	<Point x="1004" y="697"/>
+	<Point x="1004" y="699"/>
+	<Point x="1003" y="699"/>
+	<Point x="1003" y="700"/>
+	<Point x="1002" y="700"/>
+	<Point x="1002" y="701"/>
+	<Point x="1001" y="701"/>
+	<Point x="1001" y="702"/>
+	<Point x="1000" y="702"/>
+	<Point x="1000" y="703"/>
+	<Point x="985" y="703"/>
+	<Point x="985" y="702"/>
+	<Point x="983" y="702"/>
+	<Point x="983" y="701"/>
+	<Point x="980" y="701"/>
+	<Point x="980" y="700"/>
+	<Point x="977" y="700"/>
+	<Point x="977" y="699"/>
+	<Point x="974" y="699"/>
+	<Point x="974" y="698"/>
+	<Point x="972" y="698"/>
+	<Point x="972" y="697"/>
+	<Point x="970" y="697"/>
+	<Point x="970" y="616"/>
+	<Point x="1087" y="616"/>
+	<Point x="1087" y="615"/>
+	<Point x="1211" y="615"/>
+	<Point x="1211" y="614"/>
+	<Point x="1335" y="614"/>
+	<Point x="1335" y="613"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— In de Amsterdamsche Courant leest men de vol-
+gende Advertentie:</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r73" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="689"/>
+	<Point x="1850" y="1333"/>
+	<Point x="1320" y="1333"/>
+	<Point x="1320" y="1334"/>
+	<Point x="1318" y="1334"/>
+	<Point x="1318" y="1335"/>
+	<Point x="1316" y="1335"/>
+	<Point x="1316" y="1336"/>
+	<Point x="1314" y="1336"/>
+	<Point x="1314" y="1337"/>
+	<Point x="1312" y="1337"/>
+	<Point x="1312" y="1338"/>
+	<Point x="1310" y="1338"/>
+	<Point x="1310" y="1339"/>
+	<Point x="1308" y="1339"/>
+	<Point x="1308" y="1340"/>
+	<Point x="1306" y="1340"/>
+	<Point x="1306" y="1339"/>
+	<Point x="1305" y="1339"/>
+	<Point x="1305" y="1337"/>
+	<Point x="1304" y="1337"/>
+	<Point x="1304" y="1335"/>
+	<Point x="1303" y="1335"/>
+	<Point x="1303" y="1334"/>
+	<Point x="1300" y="1334"/>
+	<Point x="1300" y="1335"/>
+	<Point x="1044" y="1335"/>
+	<Point x="1044" y="1336"/>
+	<Point x="1003" y="1336"/>
+	<Point x="1003" y="1337"/>
+	<Point x="970" y="1337"/>
+	<Point x="970" y="699"/>
+	<Point x="970" y="700"/>
+	<Point x="972" y="700"/>
+	<Point x="972" y="701"/>
+	<Point x="975" y="701"/>
+	<Point x="975" y="702"/>
+	<Point x="978" y="702"/>
+	<Point x="978" y="703"/>
+	<Point x="981" y="703"/>
+	<Point x="981" y="704"/>
+	<Point x="983" y="704"/>
+	<Point x="983" y="705"/>
+	<Point x="1002" y="705"/>
+	<Point x="1002" y="704"/>
+	<Point x="1003" y="704"/>
+	<Point x="1003" y="703"/>
+	<Point x="1004" y="703"/>
+	<Point x="1004" y="702"/>
+	<Point x="1005" y="702"/>
+	<Point x="1005" y="701"/>
+	<Point x="1006" y="701"/>
+	<Point x="1006" y="699"/>
+	<Point x="1007" y="699"/>
+	<Point x="1007" y="698"/>
+	<Point x="1008" y="698"/>
+	<Point x="1008" y="697"/>
+	<Point x="1009" y="697"/>
+	<Point x="1009" y="696"/>
+	<Point x="1115" y="696"/>
+	<Point x="1115" y="695"/>
+	<Point x="1221" y="695"/>
+	<Point x="1221" y="694"/>
+	<Point x="1327" y="694"/>
+	<Point x="1327" y="693"/>
+	<Point x="1433" y="693"/>
+	<Point x="1433" y="692"/>
+	<Point x="1539" y="692"/>
+	<Point x="1539" y="691"/>
+	<Point x="1645" y="691"/>
+	<Point x="1645" y="690"/>
+	<Point x="1751" y="690"/>
+	<Point x="1751" y="689"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>„Daar het te verwachten is, dat tegen de uitge-
+bragte beroeping door den Kerkeraad der Nederduit-
+sche Hervormde Gemeente te Amsterdam, op DR.
+L. S. P. MEIJBOOM, predikant te Groningen, zich te
+regt vele stemmen zullen doen hooren, zoodra de Be-
+roepene door openbare afkondiging in de Kerken aan
+de Gemeente zal worden voorgesteld, zoo gevoelen
+zich eenige Leden derzelve Gemeente gedrongen,
+hunne Geloofsgenooten ten ernstigste op het hart te
+drukken, om zich daarbij toch vooral te onthouden
+van allen schijn van bitterheid, als die in den geest
+der liefde tot geene andere dan geestelijke wapenen
+de toevlugt wenschen te nemen, en zulks langs den
+wettigen en geordenden weg, met inachtneming te-
+vens (zal het getuigenis effect sorteren), dat er aan
+de vereischte kerkelijke vormen niets ontbreke."</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r77" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="1335"/>
+	<Point x="1850" y="1530"/>
+	<Point x="1692" y="1530"/>
+	<Point x="1692" y="1531"/>
+	<Point x="1528" y="1531"/>
+	<Point x="1528" y="1532"/>
+	<Point x="1527" y="1532"/>
+	<Point x="1527" y="1533"/>
+	<Point x="1525" y="1533"/>
+	<Point x="1525" y="1534"/>
+	<Point x="1524" y="1534"/>
+	<Point x="1524" y="1535"/>
+	<Point x="1522" y="1535"/>
+	<Point x="1522" y="1536"/>
+	<Point x="1520" y="1536"/>
+	<Point x="1520" y="1537"/>
+	<Point x="1519" y="1537"/>
+	<Point x="1519" y="1538"/>
+	<Point x="1517" y="1538"/>
+	<Point x="1517" y="1539"/>
+	<Point x="1516" y="1539"/>
+	<Point x="1516" y="1540"/>
+	<Point x="1514" y="1540"/>
+	<Point x="1514" y="1538"/>
+	<Point x="1513" y="1538"/>
+	<Point x="1513" y="1536"/>
+	<Point x="1512" y="1536"/>
+	<Point x="1512" y="1534"/>
+	<Point x="1511" y="1534"/>
+	<Point x="1511" y="1532"/>
+	<Point x="1510" y="1532"/>
+	<Point x="1510" y="1531"/>
+	<Point x="1508" y="1531"/>
+	<Point x="1508" y="1532"/>
+	<Point x="1080" y="1532"/>
+	<Point x="1080" y="1533"/>
+	<Point x="1079" y="1533"/>
+	<Point x="1079" y="1534"/>
+	<Point x="1078" y="1534"/>
+	<Point x="1078" y="1536"/>
+	<Point x="1077" y="1536"/>
+	<Point x="1077" y="1537"/>
+	<Point x="1076" y="1537"/>
+	<Point x="1076" y="1538"/>
+	<Point x="1075" y="1538"/>
+	<Point x="1075" y="1540"/>
+	<Point x="1074" y="1540"/>
+	<Point x="1074" y="1541"/>
+	<Point x="1073" y="1541"/>
+	<Point x="1073" y="1542"/>
+	<Point x="1072" y="1542"/>
+	<Point x="1072" y="1543"/>
+	<Point x="970" y="1543"/>
+	<Point x="970" y="1339"/>
+	<Point x="1005" y="1339"/>
+	<Point x="1005" y="1338"/>
+	<Point x="1046" y="1338"/>
+	<Point x="1046" y="1337"/>
+	<Point x="1302" y="1337"/>
+	<Point x="1302" y="1339"/>
+	<Point x="1303" y="1339"/>
+	<Point x="1303" y="1341"/>
+	<Point x="1304" y="1341"/>
+	<Point x="1304" y="1342"/>
+	<Point x="1305" y="1342"/>
+	<Point x="1305" y="1343"/>
+	<Point x="1308" y="1343"/>
+	<Point x="1308" y="1342"/>
+	<Point x="1310" y="1342"/>
+	<Point x="1310" y="1341"/>
+	<Point x="1312" y="1341"/>
+	<Point x="1312" y="1340"/>
+	<Point x="1314" y="1340"/>
+	<Point x="1314" y="1339"/>
+	<Point x="1316" y="1339"/>
+	<Point x="1316" y="1338"/>
+	<Point x="1318" y="1338"/>
+	<Point x="1318" y="1337"/>
+	<Point x="1320" y="1337"/>
+	<Point x="1320" y="1336"/>
+	<Point x="1322" y="1336"/>
+	<Point x="1322" y="1335"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>„Geloofsgenooten! bij al wat u dierbaar is, laat ons
+toch zorg dragen, dat, terwijl wij de eer des Hee-
+ren en het regt Zijner Gemeente zoeken te handhaven,
+niet tevens, door onverstandigen ijver, Zijn eeuwig
+gezegende Naam om onzent wil gelasterd worde!"</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r79" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1850" y="1532"/>
+	<Point x="1846" y="1720"/>
+	<Point x="1601" y="1729"/>
+	<Point x="1598" y="1736"/>
+	<Point x="1581" y="1736"/>
+	<Point x="1575" y="1729"/>
+	<Point x="1516" y="1730"/>
+	<Point x="1515" y="1737"/>
+	<Point x="970" y="1737"/>
+	<Point x="970" y="1545"/>
+	<Point x="1074" y="1545"/>
+	<Point x="1074" y="1544"/>
+	<Point x="1075" y="1544"/>
+	<Point x="1075" y="1543"/>
+	<Point x="1076" y="1543"/>
+	<Point x="1076" y="1542"/>
+	<Point x="1077" y="1542"/>
+	<Point x="1077" y="1540"/>
+	<Point x="1078" y="1540"/>
+	<Point x="1078" y="1539"/>
+	<Point x="1079" y="1539"/>
+	<Point x="1079" y="1538"/>
+	<Point x="1080" y="1538"/>
+	<Point x="1080" y="1536"/>
+	<Point x="1081" y="1536"/>
+	<Point x="1081" y="1535"/>
+	<Point x="1082" y="1535"/>
+	<Point x="1082" y="1534"/>
+	<Point x="1509" y="1534"/>
+	<Point x="1509" y="1536"/>
+	<Point x="1510" y="1536"/>
+	<Point x="1510" y="1538"/>
+	<Point x="1511" y="1538"/>
+	<Point x="1511" y="1540"/>
+	<Point x="1512" y="1540"/>
+	<Point x="1512" y="1542"/>
+	<Point x="1513" y="1542"/>
+	<Point x="1513" y="1543"/>
+	<Point x="1516" y="1543"/>
+	<Point x="1516" y="1542"/>
+	<Point x="1518" y="1542"/>
+	<Point x="1518" y="1541"/>
+	<Point x="1519" y="1541"/>
+	<Point x="1519" y="1540"/>
+	<Point x="1521" y="1540"/>
+	<Point x="1521" y="1539"/>
+	<Point x="1522" y="1539"/>
+	<Point x="1522" y="1538"/>
+	<Point x="1524" y="1538"/>
+	<Point x="1524" y="1537"/>
+	<Point x="1526" y="1537"/>
+	<Point x="1526" y="1536"/>
+	<Point x="1527" y="1536"/>
+	<Point x="1527" y="1535"/>
+	<Point x="1529" y="1535"/>
+	<Point x="1529" y="1534"/>
+	<Point x="1530" y="1534"/>
+	<Point x="1530" y="1533"/>
+	<Point x="1694" y="1533"/>
+	<Point x="1694" y="1532"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Reconstructie. De Deutsche Volkshalle, de » on-
+verdraagzaamheid der Protestanten" betoogende, zegt
+o. a., dat Barneveldt te Dordrecht, in het bijzijn
+der » heilige" gomaristische synode, om het vrije on-
+derzoek des Bijbels is ter dood gebragt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r81" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1847" y="1769"/>
+	<Point x="1847" y="2168"/>
+	<Point x="1684" y="2168"/>
+	<Point x="1684" y="2169"/>
+	<Point x="1509" y="2169"/>
+	<Point x="1509" y="2170"/>
+	<Point x="1334" y="2170"/>
+	<Point x="1334" y="2171"/>
+	<Point x="1159" y="2171"/>
+	<Point x="1159" y="2172"/>
+	<Point x="1108" y="2172"/>
+	<Point x="1108" y="2173"/>
+	<Point x="1057" y="2173"/>
+	<Point x="1057" y="2174"/>
+	<Point x="1006" y="2174"/>
+	<Point x="1006" y="2175"/>
+	<Point x="967" y="2175"/>
+	<Point x="967" y="1770"/>
+	<Point x="1097" y="1770"/>
+	<Point x="1097" y="1771"/>
+	<Point x="1228" y="1771"/>
+	<Point x="1228" y="1772"/>
+	<Point x="1359" y="1772"/>
+	<Point x="1359" y="1773"/>
+	<Point x="1490" y="1773"/>
+	<Point x="1490" y="1774"/>
+	<Point x="1648" y="1774"/>
+	<Point x="1648" y="1773"/>
+	<Point x="1675" y="1773"/>
+	<Point x="1675" y="1776"/>
+	<Point x="1674" y="1776"/>
+	<Point x="1674" y="1779"/>
+	<Point x="1731" y="1779"/>
+	<Point x="1731" y="1778"/>
+	<Point x="1790" y="1778"/>
+	<Point x="1790" y="1777"/>
+	<Point x="1791" y="1777"/>
+	<Point x="1791" y="1776"/>
+	<Point x="1792" y="1776"/>
+	<Point x="1792" y="1775"/>
+	<Point x="1793" y="1775"/>
+	<Point x="1793" y="1774"/>
+	<Point x="1794" y="1774"/>
+	<Point x="1794" y="1773"/>
+	<Point x="1795" y="1773"/>
+	<Point x="1795" y="1772"/>
+	<Point x="1796" y="1772"/>
+	<Point x="1796" y="1771"/>
+	<Point x="1797" y="1771"/>
+	<Point x="1797" y="1769"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Gisteren morgen is te Amsterdam de voor de
+mindere geëmployeerden en werklieden aan 's rijks
+werf zoo heugelijke tijding ontvangen, dat het Z. M.
+den Koning goedgunstig heeft behaagd, hun, uit
+aanmerking van de duurte der levensmiddelen, ge-
+durende de aanstaande vier wintermaanden het be-
+houd van het zomerloon toe te kennen, en werd de
+mededeeling daarvan met vreugdeblijken, onder het
+driewerf herhaald geroep van Leve de Koning! be-
+antwoord.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r89" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1847" y="2170"/>
+	<Point x="1842" y="2603"/>
+	<Point x="1633" y="2600"/>
+	<Point x="1636" y="2610"/>
+	<Point x="1624" y="2611"/>
+	<Point x="1624" y="2612"/>
+	<Point x="1613" y="2612"/>
+	<Point x="1613" y="2613"/>
+	<Point x="1601" y="2613"/>
+	<Point x="1601" y="2614"/>
+	<Point x="1590" y="2614"/>
+	<Point x="1590" y="2615"/>
+	<Point x="1578" y="2615"/>
+	<Point x="1578" y="2616"/>
+	<Point x="1567" y="2616"/>
+	<Point x="1567" y="2617"/>
+	<Point x="1555" y="2617"/>
+	<Point x="1555" y="2618"/>
+	<Point x="1544" y="2618"/>
+	<Point x="1544" y="2619"/>
+	<Point x="1532" y="2619"/>
+	<Point x="1532" y="2620"/>
+	<Point x="1521" y="2620"/>
+	<Point x="1521" y="2621"/>
+	<Point x="1509" y="2621"/>
+	<Point x="1509" y="2622"/>
+	<Point x="1498" y="2622"/>
+	<Point x="1498" y="2623"/>
+	<Point x="1486" y="2623"/>
+	<Point x="1486" y="2624"/>
+	<Point x="1475" y="2624"/>
+	<Point x="1475" y="2625"/>
+	<Point x="1463" y="2625"/>
+	<Point x="1463" y="2626"/>
+	<Point x="1452" y="2626"/>
+	<Point x="1452" y="2627"/>
+	<Point x="1440" y="2627"/>
+	<Point x="1440" y="2628"/>
+	<Point x="1429" y="2628"/>
+	<Point x="1429" y="2629"/>
+	<Point x="1417" y="2629"/>
+	<Point x="1417" y="2630"/>
+	<Point x="1406" y="2630"/>
+	<Point x="1406" y="2631"/>
+	<Point x="1394" y="2631"/>
+	<Point x="1394" y="2632"/>
+	<Point x="1383" y="2632"/>
+	<Point x="1383" y="2633"/>
+	<Point x="1371" y="2633"/>
+	<Point x="1371" y="2634"/>
+	<Point x="1360" y="2634"/>
+	<Point x="1360" y="2635"/>
+	<Point x="1348" y="2635"/>
+	<Point x="1348" y="2636"/>
+	<Point x="1337" y="2636"/>
+	<Point x="1337" y="2637"/>
+	<Point x="1325" y="2637"/>
+	<Point x="1325" y="2638"/>
+	<Point x="1314" y="2638"/>
+	<Point x="1314" y="2639"/>
+	<Point x="1302" y="2639"/>
+	<Point x="1302" y="2640"/>
+	<Point x="1291" y="2640"/>
+	<Point x="1291" y="2641"/>
+	<Point x="1279" y="2641"/>
+	<Point x="1279" y="2642"/>
+	<Point x="1268" y="2642"/>
+	<Point x="1268" y="2643"/>
+	<Point x="1256" y="2643"/>
+	<Point x="1256" y="2644"/>
+	<Point x="1245" y="2644"/>
+	<Point x="1245" y="2645"/>
+	<Point x="1233" y="2645"/>
+	<Point x="1233" y="2646"/>
+	<Point x="1222" y="2646"/>
+	<Point x="1222" y="2647"/>
+	<Point x="1210" y="2647"/>
+	<Point x="1210" y="2648"/>
+	<Point x="1199" y="2648"/>
+	<Point x="1199" y="2649"/>
+	<Point x="1187" y="2649"/>
+	<Point x="1187" y="2650"/>
+	<Point x="1176" y="2650"/>
+	<Point x="1176" y="2651"/>
+	<Point x="1165" y="2651"/>
+	<Point x="1146" y="2647"/>
+	<Point x="1089" y="2652"/>
+	<Point x="1089" y="2653"/>
+	<Point x="1088" y="2653"/>
+	<Point x="1088" y="2654"/>
+	<Point x="1087" y="2654"/>
+	<Point x="1087" y="2655"/>
+	<Point x="1086" y="2655"/>
+	<Point x="1086" y="2656"/>
+	<Point x="1084" y="2656"/>
+	<Point x="1084" y="2657"/>
+	<Point x="1083" y="2657"/>
+	<Point x="1083" y="2658"/>
+	<Point x="1082" y="2658"/>
+	<Point x="1082" y="2659"/>
+	<Point x="1081" y="2659"/>
+	<Point x="1081" y="2660"/>
+	<Point x="1079" y="2660"/>
+	<Point x="1079" y="2661"/>
+	<Point x="1078" y="2661"/>
+	<Point x="1078" y="2662"/>
+	<Point x="1077" y="2662"/>
+	<Point x="1077" y="2663"/>
+	<Point x="1077" y="2662"/>
+	<Point x="967" y="2662"/>
+	<Point x="967" y="2177"/>
+	<Point x="1008" y="2177"/>
+	<Point x="1008" y="2176"/>
+	<Point x="1059" y="2176"/>
+	<Point x="1059" y="2175"/>
+	<Point x="1110" y="2175"/>
+	<Point x="1110" y="2174"/>
+	<Point x="1161" y="2174"/>
+	<Point x="1161" y="2173"/>
+	<Point x="1336" y="2173"/>
+	<Point x="1336" y="2172"/>
+	<Point x="1511" y="2172"/>
+	<Point x="1511" y="2171"/>
+	<Point x="1686" y="2171"/>
+	<Point x="1686" y="2170"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Wij vernemen, dat op den 14. October ll.,
+te Amsterdam eene vergadering is gehouden van
+afgevaardigden uit de besturen der afdeelingen van
+het patronaat tot de stichting te Montfoort, uit on-
+derscheidene oorden des vaderlands, met het doel
+eene protestantsche maatschappij te vormen ter ver-
+zorging en opleiding van verlaten en hulpbehoevende
+kinderen van beiderlei kunne. In die vergadering
+zijn bereids de statuten voor de maatschappij ge-
+konstateerd, en is besloten eene inschrijving tot
+eene geldleening te openen, zoo als bij die statuten
+is bepaald.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r91" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1793" y="2609"/>
+	<Point x="1798" y="2646"/>
+	<Point x="1659" y="2646"/>
+	<Point x="1659" y="2606"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>(A. Ct.)</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r93" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1642" y="2646"/>
+	<Point x="1644" y="2646"/>
+	<Point x="1644" y="2647"/>
+	<Point x="1645" y="2647"/>
+	<Point x="1645" y="2648"/>
+	<Point x="1646" y="2648"/>
+	<Point x="1646" y="2649"/>
+	<Point x="1648" y="2649"/>
+	<Point x="1648" y="2650"/>
+	<Point x="1649" y="2650"/>
+	<Point x="1649" y="2651"/>
+	<Point x="1707" y="2651"/>
+	<Point x="1707" y="2650"/>
+	<Point x="1847" y="2650"/>
+	<Point x="1847" y="2764"/>
+	<Point x="1762" y="2764"/>
+	<Point x="1762" y="2765"/>
+	<Point x="1673" y="2765"/>
+	<Point x="1673" y="2766"/>
+	<Point x="1584" y="2766"/>
+	<Point x="1584" y="2767"/>
+	<Point x="1494" y="2767"/>
+	<Point x="1494" y="2768"/>
+	<Point x="1405" y="2768"/>
+	<Point x="1405" y="2769"/>
+	<Point x="1316" y="2769"/>
+	<Point x="1316" y="2770"/>
+	<Point x="1226" y="2770"/>
+	<Point x="1226" y="2771"/>
+	<Point x="1137" y="2771"/>
+	<Point x="1137" y="2772"/>
+	<Point x="1048" y="2772"/>
+	<Point x="1048" y="2773"/>
+	<Point x="967" y="2773"/>
+	<Point x="967" y="2664"/>
+	<Point x="1075" y="2664"/>
+	<Point x="1075" y="2665"/>
+	<Point x="1079" y="2665"/>
+	<Point x="1079" y="2664"/>
+	<Point x="1080" y="2664"/>
+	<Point x="1080" y="2663"/>
+	<Point x="1081" y="2663"/>
+	<Point x="1081" y="2662"/>
+	<Point x="1083" y="2662"/>
+	<Point x="1083" y="2661"/>
+	<Point x="1084" y="2661"/>
+	<Point x="1084" y="2660"/>
+	<Point x="1085" y="2660"/>
+	<Point x="1085" y="2659"/>
+	<Point x="1086" y="2659"/>
+	<Point x="1086" y="2658"/>
+	<Point x="1088" y="2658"/>
+	<Point x="1088" y="2657"/>
+	<Point x="1089" y="2657"/>
+	<Point x="1089" y="2656"/>
+	<Point x="1090" y="2656"/>
+	<Point x="1090" y="2655"/>
+	<Point x="1091" y="2655"/>
+	<Point x="1091" y="2654"/>
+	<Point x="1162" y="2654"/>
+	<Point x="1162" y="2653"/>
+	<Point x="1233" y="2653"/>
+	<Point x="1233" y="2652"/>
+	<Point x="1240" y="2652"/>
+	<Point x="1240" y="2651"/>
+	<Point x="1247" y="2651"/>
+	<Point x="1247" y="2650"/>
+	<Point x="1253" y="2650"/>
+	<Point x="1253" y="2649"/>
+	<Point x="1277" y="2649"/>
+	<Point x="1277" y="2648"/>
+	<Point x="1301" y="2648"/>
+	<Point x="1301" y="2647"/>
+	<Point x="1324" y="2647"/>
+	<Point x="1324" y="2646"/>
+	<Point x="1392" y="2646"/>
+	<Point x="1392" y="2647"/>
+	<Point x="1394" y="2647"/>
+	<Point x="1394" y="2648"/>
+	<Point x="1395" y="2648"/>
+	<Point x="1395" y="2649"/>
+	<Point x="1396" y="2649"/>
+	<Point x="1396" y="2650"/>
+	<Point x="1397" y="2650"/>
+	<Point x="1397" y="2651"/>
+	<Point x="1398" y="2651"/>
+	<Point x="1398" y="2652"/>
+	<Point x="1553" y="2652"/>
+	<Point x="1553" y="2651"/>
+	<Point x="1568" y="2651"/>
+	<Point x="1568" y="2650"/>
+	<Point x="1583" y="2650"/>
+	<Point x="1583" y="2649"/>
+	<Point x="1598" y="2649"/>
+	<Point x="1598" y="2648"/>
+	<Point x="1613" y="2648"/>
+	<Point x="1613" y="2647"/>
+	<Point x="1628" y="2647"/>
+	<Point x="1628" y="2646"/>
+	<Point x="1642" y="2646"/>
+	<Point x="1642" y="2645"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Dr. Fr. Junghuhn te Leijden is benoemd tot
+lid der keizerlijke akademie van natuurkundigen te
+Moskou.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r97" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1847" y="2766"/>
+	<Point x="1847" y="2846"/>
+	<Point x="1818" y="2846"/>
+	<Point x="1818" y="2845"/>
+	<Point x="1779" y="2845"/>
+	<Point x="1779" y="2844"/>
+	<Point x="1740" y="2844"/>
+	<Point x="1740" y="2843"/>
+	<Point x="1701" y="2843"/>
+	<Point x="1701" y="2842"/>
+	<Point x="1660" y="2842"/>
+	<Point x="1660" y="2843"/>
+	<Point x="1644" y="2843"/>
+	<Point x="1644" y="2844"/>
+	<Point x="1628" y="2844"/>
+	<Point x="1628" y="2845"/>
+	<Point x="1611" y="2845"/>
+	<Point x="1611" y="2846"/>
+	<Point x="1595" y="2846"/>
+	<Point x="1595" y="2847"/>
+	<Point x="1578" y="2847"/>
+	<Point x="1578" y="2848"/>
+	<Point x="1562" y="2848"/>
+	<Point x="1562" y="2849"/>
+	<Point x="1545" y="2849"/>
+	<Point x="1545" y="2850"/>
+	<Point x="1529" y="2850"/>
+	<Point x="1529" y="2851"/>
+	<Point x="1512" y="2851"/>
+	<Point x="1512" y="2852"/>
+	<Point x="1496" y="2852"/>
+	<Point x="1496" y="2853"/>
+	<Point x="1479" y="2853"/>
+	<Point x="1479" y="2854"/>
+	<Point x="1463" y="2854"/>
+	<Point x="1463" y="2855"/>
+	<Point x="1448" y="2855"/>
+	<Point x="1448" y="2854"/>
+	<Point x="1447" y="2854"/>
+	<Point x="1447" y="2853"/>
+	<Point x="1446" y="2853"/>
+	<Point x="1446" y="2852"/>
+	<Point x="1444" y="2852"/>
+	<Point x="1444" y="2851"/>
+	<Point x="1443" y="2851"/>
+	<Point x="1443" y="2850"/>
+	<Point x="1441" y="2850"/>
+	<Point x="1441" y="2849"/>
+	<Point x="1440" y="2849"/>
+	<Point x="1440" y="2848"/>
+	<Point x="1437" y="2848"/>
+	<Point x="1437" y="2849"/>
+	<Point x="967" y="2849"/>
+	<Point x="967" y="2775"/>
+	<Point x="1050" y="2775"/>
+	<Point x="1050" y="2774"/>
+	<Point x="1139" y="2774"/>
+	<Point x="1139" y="2773"/>
+	<Point x="1228" y="2773"/>
+	<Point x="1228" y="2772"/>
+	<Point x="1318" y="2772"/>
+	<Point x="1318" y="2771"/>
+	<Point x="1407" y="2771"/>
+	<Point x="1407" y="2770"/>
+	<Point x="1496" y="2770"/>
+	<Point x="1496" y="2769"/>
+	<Point x="1586" y="2769"/>
+	<Point x="1586" y="2768"/>
+	<Point x="1675" y="2768"/>
+	<Point x="1675" y="2767"/>
+	<Point x="1764" y="2767"/>
+	<Point x="1764" y="2766"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Men verneemt dat Zr. Ms. fregat Doggersbank
+vooreerst niet naar de Middellandsche-zee zal stevenen.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r101" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1699" y="2844"/>
+	<Point x="1699" y="2845"/>
+	<Point x="1738" y="2845"/>
+	<Point x="1738" y="2846"/>
+	<Point x="1777" y="2846"/>
+	<Point x="1777" y="2847"/>
+	<Point x="1816" y="2847"/>
+	<Point x="1816" y="2848"/>
+	<Point x="1847" y="2848"/>
+	<Point x="1847" y="2923"/>
+	<Point x="1709" y="2923"/>
+	<Point x="1709" y="2924"/>
+	<Point x="1563" y="2924"/>
+	<Point x="1563" y="2925"/>
+	<Point x="1418" y="2925"/>
+	<Point x="1418" y="2926"/>
+	<Point x="1417" y="2926"/>
+	<Point x="1417" y="2927"/>
+	<Point x="1416" y="2927"/>
+	<Point x="1416" y="2928"/>
+	<Point x="1415" y="2928"/>
+	<Point x="1415" y="2929"/>
+	<Point x="1414" y="2929"/>
+	<Point x="1414" y="2930"/>
+	<Point x="1413" y="2930"/>
+	<Point x="1413" y="2931"/>
+	<Point x="1412" y="2931"/>
+	<Point x="1412" y="2932"/>
+	<Point x="1402" y="2932"/>
+	<Point x="1402" y="2931"/>
+	<Point x="1401" y="2931"/>
+	<Point x="1401" y="2930"/>
+	<Point x="1400" y="2930"/>
+	<Point x="1400" y="2928"/>
+	<Point x="1399" y="2928"/>
+	<Point x="1399" y="2927"/>
+	<Point x="1398" y="2927"/>
+	<Point x="1398" y="2926"/>
+	<Point x="1395" y="2926"/>
+	<Point x="1395" y="2927"/>
+	<Point x="1354" y="2927"/>
+	<Point x="1354" y="2928"/>
+	<Point x="1314" y="2928"/>
+	<Point x="1314" y="2929"/>
+	<Point x="1313" y="2929"/>
+	<Point x="1313" y="2930"/>
+	<Point x="1312" y="2930"/>
+	<Point x="1312" y="2932"/>
+	<Point x="1311" y="2932"/>
+	<Point x="1311" y="2933"/>
+	<Point x="1310" y="2933"/>
+	<Point x="1310" y="2934"/>
+	<Point x="1309" y="2934"/>
+	<Point x="1309" y="2935"/>
+	<Point x="1308" y="2935"/>
+	<Point x="1308" y="2936"/>
+	<Point x="1301" y="2936"/>
+	<Point x="1301" y="2937"/>
+	<Point x="1297" y="2937"/>
+	<Point x="1297" y="2936"/>
+	<Point x="1296" y="2936"/>
+	<Point x="1296" y="2934"/>
+	<Point x="1295" y="2934"/>
+	<Point x="1295" y="2932"/>
+	<Point x="1294" y="2932"/>
+	<Point x="1294" y="2930"/>
+	<Point x="1293" y="2930"/>
+	<Point x="1293" y="2928"/>
+	<Point x="1292" y="2928"/>
+	<Point x="1292" y="2926"/>
+	<Point x="1291" y="2926"/>
+	<Point x="1291" y="2925"/>
+	<Point x="1288" y="2925"/>
+	<Point x="1288" y="2926"/>
+	<Point x="1207" y="2926"/>
+	<Point x="1207" y="2927"/>
+	<Point x="1125" y="2927"/>
+	<Point x="1125" y="2928"/>
+	<Point x="1043" y="2928"/>
+	<Point x="1043" y="2929"/>
+	<Point x="967" y="2929"/>
+	<Point x="967" y="2851"/>
+	<Point x="1439" y="2851"/>
+	<Point x="1439" y="2852"/>
+	<Point x="1441" y="2852"/>
+	<Point x="1441" y="2853"/>
+	<Point x="1442" y="2853"/>
+	<Point x="1442" y="2854"/>
+	<Point x="1444" y="2854"/>
+	<Point x="1444" y="2855"/>
+	<Point x="1445" y="2855"/>
+	<Point x="1445" y="2856"/>
+	<Point x="1446" y="2856"/>
+	<Point x="1446" y="2857"/>
+	<Point x="1465" y="2857"/>
+	<Point x="1465" y="2856"/>
+	<Point x="1481" y="2856"/>
+	<Point x="1481" y="2855"/>
+	<Point x="1498" y="2855"/>
+	<Point x="1498" y="2854"/>
+	<Point x="1514" y="2854"/>
+	<Point x="1514" y="2853"/>
+	<Point x="1531" y="2853"/>
+	<Point x="1531" y="2852"/>
+	<Point x="1547" y="2852"/>
+	<Point x="1547" y="2851"/>
+	<Point x="1564" y="2851"/>
+	<Point x="1564" y="2850"/>
+	<Point x="1580" y="2850"/>
+	<Point x="1580" y="2849"/>
+	<Point x="1597" y="2849"/>
+	<Point x="1597" y="2848"/>
+	<Point x="1613" y="2848"/>
+	<Point x="1613" y="2847"/>
+	<Point x="1630" y="2847"/>
+	<Point x="1630" y="2846"/>
+	<Point x="1646" y="2846"/>
+	<Point x="1646" y="2845"/>
+	<Point x="1662" y="2845"/>
+	<Point x="1662" y="2844"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Ook te Arnhem heeft zich eene afdeeling van
+het Metalen Kruis gevestigd.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r105" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1847" y="2925"/>
+	<Point x="1847" y="3047"/>
+	<Point x="1762" y="3047"/>
+	<Point x="1762" y="3046"/>
+	<Point x="1666" y="3046"/>
+	<Point x="1666" y="3045"/>
+	<Point x="1568" y="3045"/>
+	<Point x="1568" y="3046"/>
+	<Point x="1567" y="3046"/>
+	<Point x="1567" y="3047"/>
+	<Point x="1566" y="3047"/>
+	<Point x="1566" y="3048"/>
+	<Point x="1565" y="3048"/>
+	<Point x="1565" y="3049"/>
+	<Point x="1564" y="3049"/>
+	<Point x="1564" y="3050"/>
+	<Point x="1563" y="3050"/>
+	<Point x="1563" y="3051"/>
+	<Point x="1561" y="3051"/>
+	<Point x="1561" y="3052"/>
+	<Point x="1557" y="3052"/>
+	<Point x="1557" y="3053"/>
+	<Point x="1552" y="3053"/>
+	<Point x="1552" y="3054"/>
+	<Point x="1547" y="3054"/>
+	<Point x="1547" y="3055"/>
+	<Point x="1545" y="3055"/>
+	<Point x="1545" y="3054"/>
+	<Point x="1544" y="3054"/>
+	<Point x="1544" y="3051"/>
+	<Point x="1543" y="3051"/>
+	<Point x="1543" y="3048"/>
+	<Point x="1445" y="3048"/>
+	<Point x="1445" y="3047"/>
+	<Point x="1347" y="3047"/>
+	<Point x="1347" y="3046"/>
+	<Point x="1246" y="3046"/>
+	<Point x="1246" y="3047"/>
+	<Point x="1245" y="3047"/>
+	<Point x="1245" y="3048"/>
+	<Point x="1244" y="3048"/>
+	<Point x="1244" y="3049"/>
+	<Point x="1243" y="3049"/>
+	<Point x="1243" y="3050"/>
+	<Point x="1242" y="3050"/>
+	<Point x="1242" y="3051"/>
+	<Point x="1233" y="3051"/>
+	<Point x="1233" y="3050"/>
+	<Point x="1232" y="3050"/>
+	<Point x="1232" y="3045"/>
+	<Point x="1128" y="3045"/>
+	<Point x="1128" y="3044"/>
+	<Point x="1127" y="3044"/>
+	<Point x="1127" y="3043"/>
+	<Point x="1126" y="3043"/>
+	<Point x="1126" y="3042"/>
+	<Point x="1125" y="3042"/>
+	<Point x="1125" y="3041"/>
+	<Point x="1123" y="3041"/>
+	<Point x="1123" y="3043"/>
+	<Point x="1122" y="3043"/>
+	<Point x="1122" y="3046"/>
+	<Point x="1121" y="3046"/>
+	<Point x="1121" y="3048"/>
+	<Point x="1120" y="3048"/>
+	<Point x="1120" y="3049"/>
+	<Point x="1119" y="3049"/>
+	<Point x="1119" y="3050"/>
+	<Point x="1117" y="3050"/>
+	<Point x="1117" y="3051"/>
+	<Point x="1115" y="3051"/>
+	<Point x="1115" y="3052"/>
+	<Point x="1113" y="3052"/>
+	<Point x="1113" y="3053"/>
+	<Point x="1111" y="3053"/>
+	<Point x="1111" y="3052"/>
+	<Point x="1110" y="3052"/>
+	<Point x="1110" y="3050"/>
+	<Point x="1109" y="3050"/>
+	<Point x="1109" y="3049"/>
+	<Point x="1108" y="3049"/>
+	<Point x="1108" y="3047"/>
+	<Point x="1107" y="3047"/>
+	<Point x="1107" y="3046"/>
+	<Point x="1104" y="3046"/>
+	<Point x="1104" y="3047"/>
+	<Point x="1032" y="3047"/>
+	<Point x="1032" y="3048"/>
+	<Point x="967" y="3048"/>
+	<Point x="967" y="2931"/>
+	<Point x="1045" y="2931"/>
+	<Point x="1045" y="2930"/>
+	<Point x="1127" y="2930"/>
+	<Point x="1127" y="2929"/>
+	<Point x="1209" y="2929"/>
+	<Point x="1209" y="2928"/>
+	<Point x="1290" y="2928"/>
+	<Point x="1290" y="2930"/>
+	<Point x="1291" y="2930"/>
+	<Point x="1291" y="2932"/>
+	<Point x="1292" y="2932"/>
+	<Point x="1292" y="2934"/>
+	<Point x="1293" y="2934"/>
+	<Point x="1293" y="2936"/>
+	<Point x="1294" y="2936"/>
+	<Point x="1294" y="2938"/>
+	<Point x="1295" y="2938"/>
+	<Point x="1295" y="2939"/>
+	<Point x="1303" y="2939"/>
+	<Point x="1303" y="2938"/>
+	<Point x="1310" y="2938"/>
+	<Point x="1310" y="2937"/>
+	<Point x="1311" y="2937"/>
+	<Point x="1311" y="2936"/>
+	<Point x="1312" y="2936"/>
+	<Point x="1312" y="2935"/>
+	<Point x="1313" y="2935"/>
+	<Point x="1313" y="2934"/>
+	<Point x="1314" y="2934"/>
+	<Point x="1314" y="2932"/>
+	<Point x="1315" y="2932"/>
+	<Point x="1315" y="2931"/>
+	<Point x="1316" y="2931"/>
+	<Point x="1316" y="2930"/>
+	<Point x="1356" y="2930"/>
+	<Point x="1356" y="2929"/>
+	<Point x="1397" y="2929"/>
+	<Point x="1397" y="2930"/>
+	<Point x="1398" y="2930"/>
+	<Point x="1398" y="2932"/>
+	<Point x="1399" y="2932"/>
+	<Point x="1399" y="2933"/>
+	<Point x="1400" y="2933"/>
+	<Point x="1400" y="2934"/>
+	<Point x="1414" y="2934"/>
+	<Point x="1414" y="2933"/>
+	<Point x="1415" y="2933"/>
+	<Point x="1415" y="2932"/>
+	<Point x="1416" y="2932"/>
+	<Point x="1416" y="2931"/>
+	<Point x="1417" y="2931"/>
+	<Point x="1417" y="2930"/>
+	<Point x="1418" y="2930"/>
+	<Point x="1418" y="2929"/>
+	<Point x="1419" y="2929"/>
+	<Point x="1419" y="2928"/>
+	<Point x="1420" y="2928"/>
+	<Point x="1420" y="2927"/>
+	<Point x="1565" y="2927"/>
+	<Point x="1565" y="2926"/>
+	<Point x="1711" y="2926"/>
+	<Point x="1711" y="2925"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— In het cholera-hospitaal te Amsterdam is op
+21 Oct. geene lijder ingekomen, hersteld 1, over-
+leden 1, en blijven in behandeling 14.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r109" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1125" y="3045"/>
+	<Point x="1125" y="3046"/>
+	<Point x="1126" y="3046"/>
+	<Point x="1126" y="3047"/>
+	<Point x="1230" y="3047"/>
+	<Point x="1230" y="3052"/>
+	<Point x="1231" y="3052"/>
+	<Point x="1231" y="3053"/>
+	<Point x="1244" y="3053"/>
+	<Point x="1244" y="3052"/>
+	<Point x="1245" y="3052"/>
+	<Point x="1245" y="3051"/>
+	<Point x="1246" y="3051"/>
+	<Point x="1246" y="3050"/>
+	<Point x="1247" y="3050"/>
+	<Point x="1247" y="3049"/>
+	<Point x="1248" y="3049"/>
+	<Point x="1248" y="3048"/>
+	<Point x="1345" y="3048"/>
+	<Point x="1345" y="3049"/>
+	<Point x="1443" y="3049"/>
+	<Point x="1443" y="3050"/>
+	<Point x="1541" y="3050"/>
+	<Point x="1541" y="3053"/>
+	<Point x="1542" y="3053"/>
+	<Point x="1542" y="3056"/>
+	<Point x="1543" y="3056"/>
+	<Point x="1543" y="3057"/>
+	<Point x="1549" y="3057"/>
+	<Point x="1549" y="3056"/>
+	<Point x="1554" y="3056"/>
+	<Point x="1554" y="3055"/>
+	<Point x="1559" y="3055"/>
+	<Point x="1559" y="3054"/>
+	<Point x="1563" y="3054"/>
+	<Point x="1563" y="3053"/>
+	<Point x="1565" y="3053"/>
+	<Point x="1565" y="3052"/>
+	<Point x="1566" y="3052"/>
+	<Point x="1566" y="3051"/>
+	<Point x="1567" y="3051"/>
+	<Point x="1567" y="3050"/>
+	<Point x="1568" y="3050"/>
+	<Point x="1568" y="3049"/>
+	<Point x="1569" y="3049"/>
+	<Point x="1569" y="3048"/>
+	<Point x="1570" y="3048"/>
+	<Point x="1570" y="3047"/>
+	<Point x="1664" y="3047"/>
+	<Point x="1664" y="3048"/>
+	<Point x="1760" y="3048"/>
+	<Point x="1760" y="3049"/>
+	<Point x="1847" y="3049"/>
+	<Point x="1847" y="3131"/>
+	<Point x="1667" y="3131"/>
+	<Point x="1667" y="3132"/>
+	<Point x="1477" y="3132"/>
+	<Point x="1477" y="3133"/>
+	<Point x="1476" y="3133"/>
+	<Point x="1476" y="3134"/>
+	<Point x="1475" y="3134"/>
+	<Point x="1475" y="3136"/>
+	<Point x="1474" y="3136"/>
+	<Point x="1474" y="3137"/>
+	<Point x="1473" y="3137"/>
+	<Point x="1473" y="3138"/>
+	<Point x="1455" y="3138"/>
+	<Point x="1455" y="3137"/>
+	<Point x="1454" y="3137"/>
+	<Point x="1454" y="3134"/>
+	<Point x="1453" y="3134"/>
+	<Point x="1453" y="3131"/>
+	<Point x="1452" y="3131"/>
+	<Point x="1452" y="3129"/>
+	<Point x="1451" y="3129"/>
+	<Point x="1451" y="3128"/>
+	<Point x="1407" y="3128"/>
+	<Point x="1407" y="3127"/>
+	<Point x="1362" y="3127"/>
+	<Point x="1362" y="3126"/>
+	<Point x="1315" y="3126"/>
+	<Point x="1315" y="3127"/>
+	<Point x="1313" y="3127"/>
+	<Point x="1313" y="3128"/>
+	<Point x="1310" y="3128"/>
+	<Point x="1310" y="3129"/>
+	<Point x="1307" y="3129"/>
+	<Point x="1307" y="3130"/>
+	<Point x="1304" y="3130"/>
+	<Point x="1304" y="3131"/>
+	<Point x="1301" y="3131"/>
+	<Point x="1301" y="3132"/>
+	<Point x="1298" y="3132"/>
+	<Point x="1298" y="3133"/>
+	<Point x="1298" y="3132"/>
+	<Point x="1297" y="3132"/>
+	<Point x="1297" y="3131"/>
+	<Point x="1296" y="3131"/>
+	<Point x="1296" y="3130"/>
+	<Point x="1295" y="3130"/>
+	<Point x="1295" y="3128"/>
+	<Point x="1294" y="3128"/>
+	<Point x="1294" y="3127"/>
+	<Point x="1293" y="3127"/>
+	<Point x="1293" y="3126"/>
+	<Point x="1292" y="3126"/>
+	<Point x="1292" y="3125"/>
+	<Point x="1289" y="3125"/>
+	<Point x="1289" y="3126"/>
+	<Point x="1287" y="3126"/>
+	<Point x="1287" y="3127"/>
+	<Point x="1285" y="3127"/>
+	<Point x="1285" y="3128"/>
+	<Point x="1283" y="3128"/>
+	<Point x="1283" y="3129"/>
+	<Point x="1280" y="3129"/>
+	<Point x="1280" y="3130"/>
+	<Point x="1270" y="3130"/>
+	<Point x="1270" y="3131"/>
+	<Point x="1262" y="3131"/>
+	<Point x="1262" y="3130"/>
+	<Point x="1261" y="3130"/>
+	<Point x="1261" y="3129"/>
+	<Point x="1260" y="3129"/>
+	<Point x="1260" y="3128"/>
+	<Point x="1259" y="3128"/>
+	<Point x="1259" y="3127"/>
+	<Point x="1258" y="3127"/>
+	<Point x="1258" y="3126"/>
+	<Point x="1257" y="3126"/>
+	<Point x="1257" y="3125"/>
+	<Point x="1254" y="3125"/>
+	<Point x="1254" y="3126"/>
+	<Point x="1126" y="3126"/>
+	<Point x="1126" y="3127"/>
+	<Point x="1119" y="3127"/>
+	<Point x="1119" y="3128"/>
+	<Point x="1111" y="3128"/>
+	<Point x="1111" y="3129"/>
+	<Point x="1103" y="3129"/>
+	<Point x="1103" y="3130"/>
+	<Point x="1095" y="3130"/>
+	<Point x="1095" y="3131"/>
+	<Point x="1087" y="3131"/>
+	<Point x="1087" y="3132"/>
+	<Point x="1079" y="3132"/>
+	<Point x="1079" y="3133"/>
+	<Point x="1071" y="3133"/>
+	<Point x="1071" y="3134"/>
+	<Point x="1063" y="3134"/>
+	<Point x="1063" y="3135"/>
+	<Point x="1055" y="3135"/>
+	<Point x="1055" y="3136"/>
+	<Point x="1049" y="3136"/>
+	<Point x="1049" y="3135"/>
+	<Point x="967" y="3135"/>
+	<Point x="967" y="3050"/>
+	<Point x="1034" y="3050"/>
+	<Point x="1034" y="3049"/>
+	<Point x="1106" y="3049"/>
+	<Point x="1106" y="3051"/>
+	<Point x="1107" y="3051"/>
+	<Point x="1107" y="3052"/>
+	<Point x="1108" y="3052"/>
+	<Point x="1108" y="3054"/>
+	<Point x="1109" y="3054"/>
+	<Point x="1109" y="3055"/>
+	<Point x="1110" y="3055"/>
+	<Point x="1110" y="3056"/>
+	<Point x="1113" y="3056"/>
+	<Point x="1113" y="3055"/>
+	<Point x="1115" y="3055"/>
+	<Point x="1115" y="3054"/>
+	<Point x="1117" y="3054"/>
+	<Point x="1117" y="3053"/>
+	<Point x="1119" y="3053"/>
+	<Point x="1119" y="3052"/>
+	<Point x="1121" y="3052"/>
+	<Point x="1121" y="3051"/>
+	<Point x="1122" y="3051"/>
+	<Point x="1122" y="3050"/>
+	<Point x="1123" y="3050"/>
+	<Point x="1123" y="3048"/>
+	<Point x="1124" y="3048"/>
+	<Point x="1124" y="3045"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Buiten het gasthuis zijn bij de cholera-commissie
+op 20. Oct. aangegeven 8 lijders en 4 overledenen.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r113" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1256" y="3128"/>
+	<Point x="1256" y="3129"/>
+	<Point x="1257" y="3129"/>
+	<Point x="1257" y="3130"/>
+	<Point x="1258" y="3130"/>
+	<Point x="1258" y="3131"/>
+	<Point x="1259" y="3131"/>
+	<Point x="1259" y="3132"/>
+	<Point x="1260" y="3132"/>
+	<Point x="1260" y="3133"/>
+	<Point x="1272" y="3133"/>
+	<Point x="1272" y="3132"/>
+	<Point x="1282" y="3132"/>
+	<Point x="1282" y="3131"/>
+	<Point x="1285" y="3131"/>
+	<Point x="1285" y="3130"/>
+	<Point x="1287" y="3130"/>
+	<Point x="1287" y="3129"/>
+	<Point x="1289" y="3129"/>
+	<Point x="1289" y="3128"/>
+	<Point x="1291" y="3128"/>
+	<Point x="1291" y="3129"/>
+	<Point x="1292" y="3129"/>
+	<Point x="1292" y="3130"/>
+	<Point x="1293" y="3130"/>
+	<Point x="1293" y="3132"/>
+	<Point x="1294" y="3132"/>
+	<Point x="1294" y="3133"/>
+	<Point x="1295" y="3133"/>
+	<Point x="1295" y="3134"/>
+	<Point x="1296" y="3134"/>
+	<Point x="1296" y="3135"/>
+	<Point x="1300" y="3135"/>
+	<Point x="1300" y="3134"/>
+	<Point x="1303" y="3134"/>
+	<Point x="1303" y="3133"/>
+	<Point x="1306" y="3133"/>
+	<Point x="1306" y="3132"/>
+	<Point x="1309" y="3132"/>
+	<Point x="1309" y="3131"/>
+	<Point x="1312" y="3131"/>
+	<Point x="1312" y="3130"/>
+	<Point x="1315" y="3130"/>
+	<Point x="1315" y="3129"/>
+	<Point x="1317" y="3129"/>
+	<Point x="1317" y="3128"/>
+	<Point x="1360" y="3128"/>
+	<Point x="1360" y="3129"/>
+	<Point x="1405" y="3129"/>
+	<Point x="1405" y="3130"/>
+	<Point x="1449" y="3130"/>
+	<Point x="1449" y="3131"/>
+	<Point x="1450" y="3131"/>
+	<Point x="1450" y="3133"/>
+	<Point x="1451" y="3133"/>
+	<Point x="1451" y="3136"/>
+	<Point x="1452" y="3136"/>
+	<Point x="1452" y="3139"/>
+	<Point x="1453" y="3139"/>
+	<Point x="1453" y="3140"/>
+	<Point x="1475" y="3140"/>
+	<Point x="1475" y="3139"/>
+	<Point x="1476" y="3139"/>
+	<Point x="1476" y="3138"/>
+	<Point x="1477" y="3138"/>
+	<Point x="1477" y="3136"/>
+	<Point x="1478" y="3136"/>
+	<Point x="1478" y="3135"/>
+	<Point x="1479" y="3135"/>
+	<Point x="1479" y="3134"/>
+	<Point x="1669" y="3134"/>
+	<Point x="1669" y="3133"/>
+	<Point x="1847" y="3133"/>
+	<Point x="1847" y="3251"/>
+	<Point x="1620" y="3251"/>
+	<Point x="1620" y="3250"/>
+	<Point x="1371" y="3250"/>
+	<Point x="1371" y="3251"/>
+	<Point x="1362" y="3251"/>
+	<Point x="1362" y="3252"/>
+	<Point x="1353" y="3252"/>
+	<Point x="1353" y="3253"/>
+	<Point x="1345" y="3253"/>
+	<Point x="1345" y="3252"/>
+	<Point x="1344" y="3252"/>
+	<Point x="1344" y="3251"/>
+	<Point x="1342" y="3251"/>
+	<Point x="1342" y="3250"/>
+	<Point x="1341" y="3250"/>
+	<Point x="1341" y="3249"/>
+	<Point x="1339" y="3249"/>
+	<Point x="1339" y="3248"/>
+	<Point x="1338" y="3248"/>
+	<Point x="1338" y="3247"/>
+	<Point x="1336" y="3247"/>
+	<Point x="1336" y="3246"/>
+	<Point x="1335" y="3246"/>
+	<Point x="1335" y="3245"/>
+	<Point x="1333" y="3245"/>
+	<Point x="1333" y="3244"/>
+	<Point x="1265" y="3244"/>
+	<Point x="1265" y="3245"/>
+	<Point x="1264" y="3245"/>
+	<Point x="1264" y="3247"/>
+	<Point x="1263" y="3247"/>
+	<Point x="1263" y="3248"/>
+	<Point x="1253" y="3248"/>
+	<Point x="1253" y="3247"/>
+	<Point x="1252" y="3247"/>
+	<Point x="1252" y="3246"/>
+	<Point x="1251" y="3246"/>
+	<Point x="1251" y="3245"/>
+	<Point x="1247" y="3245"/>
+	<Point x="1247" y="3246"/>
+	<Point x="967" y="3246"/>
+	<Point x="967" y="3137"/>
+	<Point x="1047" y="3137"/>
+	<Point x="1047" y="3138"/>
+	<Point x="1057" y="3138"/>
+	<Point x="1057" y="3137"/>
+	<Point x="1065" y="3137"/>
+	<Point x="1065" y="3136"/>
+	<Point x="1073" y="3136"/>
+	<Point x="1073" y="3135"/>
+	<Point x="1081" y="3135"/>
+	<Point x="1081" y="3134"/>
+	<Point x="1089" y="3134"/>
+	<Point x="1089" y="3133"/>
+	<Point x="1097" y="3133"/>
+	<Point x="1097" y="3132"/>
+	<Point x="1105" y="3132"/>
+	<Point x="1105" y="3131"/>
+	<Point x="1113" y="3131"/>
+	<Point x="1113" y="3130"/>
+	<Point x="1121" y="3130"/>
+	<Point x="1121" y="3129"/>
+	<Point x="1128" y="3129"/>
+	<Point x="1128" y="3128"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Bij de plaatselijke commissie van geneeskundig
+toevoorzigt te Rotterdam zijn aangegeven op 20 Octo-
+ber: 4 cholera-lijders, 5 hersteld en 1 overleden.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r68" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1331" y="3246"/>
+	<Point x="1331" y="3247"/>
+	<Point x="1333" y="3247"/>
+	<Point x="1333" y="3248"/>
+	<Point x="1334" y="3248"/>
+	<Point x="1334" y="3249"/>
+	<Point x="1336" y="3249"/>
+	<Point x="1336" y="3250"/>
+	<Point x="1337" y="3250"/>
+	<Point x="1337" y="3251"/>
+	<Point x="1339" y="3251"/>
+	<Point x="1339" y="3252"/>
+	<Point x="1340" y="3252"/>
+	<Point x="1340" y="3253"/>
+	<Point x="1342" y="3253"/>
+	<Point x="1342" y="3254"/>
+	<Point x="1343" y="3254"/>
+	<Point x="1343" y="3255"/>
+	<Point x="1355" y="3255"/>
+	<Point x="1355" y="3254"/>
+	<Point x="1364" y="3254"/>
+	<Point x="1364" y="3253"/>
+	<Point x="1373" y="3253"/>
+	<Point x="1373" y="3252"/>
+	<Point x="1618" y="3252"/>
+	<Point x="1618" y="3253"/>
+	<Point x="1847" y="3253"/>
+	<Point x="1847" y="3406"/>
+	<Point x="1505" y="3406"/>
+	<Point x="1505" y="3407"/>
+	<Point x="1503" y="3407"/>
+	<Point x="1503" y="3408"/>
+	<Point x="1501" y="3408"/>
+	<Point x="1501" y="3409"/>
+	<Point x="1499" y="3409"/>
+	<Point x="1499" y="3410"/>
+	<Point x="1497" y="3410"/>
+	<Point x="1497" y="3411"/>
+	<Point x="1495" y="3411"/>
+	<Point x="1495" y="3412"/>
+	<Point x="1493" y="3412"/>
+	<Point x="1493" y="3413"/>
+	<Point x="1331" y="3413"/>
+	<Point x="1331" y="3414"/>
+	<Point x="1329" y="3414"/>
+	<Point x="1329" y="3415"/>
+	<Point x="1327" y="3415"/>
+	<Point x="1327" y="3416"/>
+	<Point x="1325" y="3416"/>
+	<Point x="1325" y="3417"/>
+	<Point x="1323" y="3417"/>
+	<Point x="1323" y="3418"/>
+	<Point x="1309" y="3418"/>
+	<Point x="1309" y="3417"/>
+	<Point x="1308" y="3417"/>
+	<Point x="1308" y="3416"/>
+	<Point x="1307" y="3416"/>
+	<Point x="1307" y="3415"/>
+	<Point x="1306" y="3415"/>
+	<Point x="1306" y="3414"/>
+	<Point x="1305" y="3414"/>
+	<Point x="1305" y="3413"/>
+	<Point x="1212" y="3413"/>
+	<Point x="1212" y="3415"/>
+	<Point x="1211" y="3415"/>
+	<Point x="1211" y="3418"/>
+	<Point x="1210" y="3418"/>
+	<Point x="1210" y="3419"/>
+	<Point x="1198" y="3419"/>
+	<Point x="1198" y="3412"/>
+	<Point x="1195" y="3412"/>
+	<Point x="1195" y="3413"/>
+	<Point x="1093" y="3413"/>
+	<Point x="1093" y="3414"/>
+	<Point x="1091" y="3414"/>
+	<Point x="1091" y="3415"/>
+	<Point x="1089" y="3415"/>
+	<Point x="1089" y="3416"/>
+	<Point x="1087" y="3416"/>
+	<Point x="1087" y="3417"/>
+	<Point x="1085" y="3417"/>
+	<Point x="1085" y="3418"/>
+	<Point x="1083" y="3418"/>
+	<Point x="1083" y="3419"/>
+	<Point x="1082" y="3419"/>
+	<Point x="1082" y="3418"/>
+	<Point x="1021" y="3418"/>
+	<Point x="1021" y="3417"/>
+	<Point x="967" y="3417"/>
+	<Point x="967" y="3248"/>
+	<Point x="1249" y="3248"/>
+	<Point x="1249" y="3247"/>
+	<Point x="1249" y="3248"/>
+	<Point x="1250" y="3248"/>
+	<Point x="1250" y="3249"/>
+	<Point x="1251" y="3249"/>
+	<Point x="1251" y="3250"/>
+	<Point x="1261" y="3250"/>
+	<Point x="1261" y="3251"/>
+	<Point x="1264" y="3251"/>
+	<Point x="1264" y="3250"/>
+	<Point x="1265" y="3250"/>
+	<Point x="1265" y="3249"/>
+	<Point x="1266" y="3249"/>
+	<Point x="1266" y="3247"/>
+	<Point x="1267" y="3247"/>
+	<Point x="1267" y="3246"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— De inwijding van den Aken-Maastrichtschen-
+Spoorweg heeft eergisteren, ondanks het min gunstige
+weder, met de bij het programma aangekondigde
+plegtigheden plaats gehad.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r74" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="1847" y="3408"/>
+	<Point x="1847" y="3570"/>
+	<Point x="1705" y="3570"/>
+	<Point x="1705" y="3571"/>
+	<Point x="1558" y="3571"/>
+	<Point x="1558" y="3572"/>
+	<Point x="1411" y="3572"/>
+	<Point x="1411" y="3573"/>
+	<Point x="1410" y="3573"/>
+	<Point x="1410" y="3575"/>
+	<Point x="1409" y="3575"/>
+	<Point x="1409" y="3576"/>
+	<Point x="1408" y="3576"/>
+	<Point x="1408" y="3577"/>
+	<Point x="1407" y="3577"/>
+	<Point x="1407" y="3578"/>
+	<Point x="1402" y="3578"/>
+	<Point x="1402" y="3579"/>
+	<Point x="1397" y="3579"/>
+	<Point x="1397" y="3580"/>
+	<Point x="1392" y="3580"/>
+	<Point x="1392" y="3581"/>
+	<Point x="1390" y="3581"/>
+	<Point x="1390" y="3573"/>
+	<Point x="1387" y="3573"/>
+	<Point x="1387" y="3574"/>
+	<Point x="1288" y="3574"/>
+	<Point x="1288" y="3575"/>
+	<Point x="1191" y="3575"/>
+	<Point x="1191" y="3574"/>
+	<Point x="1153" y="3574"/>
+	<Point x="1153" y="3573"/>
+	<Point x="1115" y="3573"/>
+	<Point x="1115" y="3572"/>
+	<Point x="1077" y="3572"/>
+	<Point x="1077" y="3571"/>
+	<Point x="1039" y="3571"/>
+	<Point x="1039" y="3570"/>
+	<Point x="1001" y="3570"/>
+	<Point x="1001" y="3569"/>
+	<Point x="967" y="3569"/>
+	<Point x="967" y="3419"/>
+	<Point x="1019" y="3419"/>
+	<Point x="1019" y="3420"/>
+	<Point x="1080" y="3420"/>
+	<Point x="1080" y="3421"/>
+	<Point x="1085" y="3421"/>
+	<Point x="1085" y="3420"/>
+	<Point x="1087" y="3420"/>
+	<Point x="1087" y="3419"/>
+	<Point x="1089" y="3419"/>
+	<Point x="1089" y="3418"/>
+	<Point x="1091" y="3418"/>
+	<Point x="1091" y="3417"/>
+	<Point x="1093" y="3417"/>
+	<Point x="1093" y="3416"/>
+	<Point x="1095" y="3416"/>
+	<Point x="1095" y="3415"/>
+	<Point x="1196" y="3415"/>
+	<Point x="1196" y="3418"/>
+	<Point x="1195" y="3418"/>
+	<Point x="1195" y="3421"/>
+	<Point x="1212" y="3421"/>
+	<Point x="1212" y="3420"/>
+	<Point x="1213" y="3420"/>
+	<Point x="1213" y="3417"/>
+	<Point x="1214" y="3417"/>
+	<Point x="1214" y="3415"/>
+	<Point x="1303" y="3415"/>
+	<Point x="1303" y="3416"/>
+	<Point x="1304" y="3416"/>
+	<Point x="1304" y="3417"/>
+	<Point x="1305" y="3417"/>
+	<Point x="1305" y="3418"/>
+	<Point x="1306" y="3418"/>
+	<Point x="1306" y="3419"/>
+	<Point x="1307" y="3419"/>
+	<Point x="1307" y="3420"/>
+	<Point x="1325" y="3420"/>
+	<Point x="1325" y="3419"/>
+	<Point x="1327" y="3419"/>
+	<Point x="1327" y="3418"/>
+	<Point x="1329" y="3418"/>
+	<Point x="1329" y="3417"/>
+	<Point x="1331" y="3417"/>
+	<Point x="1331" y="3416"/>
+	<Point x="1333" y="3416"/>
+	<Point x="1333" y="3415"/>
+	<Point x="1495" y="3415"/>
+	<Point x="1495" y="3414"/>
+	<Point x="1497" y="3414"/>
+	<Point x="1497" y="3413"/>
+	<Point x="1499" y="3413"/>
+	<Point x="1499" y="3412"/>
+	<Point x="1501" y="3412"/>
+	<Point x="1501" y="3411"/>
+	<Point x="1503" y="3411"/>
+	<Point x="1503" y="3410"/>
+	<Point x="1505" y="3410"/>
+	<Point x="1505" y="3409"/>
+	<Point x="1507" y="3409"/>
+	<Point x="1507" y="3408"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Op nieuw hebben eenige ingezetenen van Gro-
+ningen besloten, ten gevolge van de tegenwoordige
+tijdsomstandigheden, eene verhooging van werkloon
+aan hunne bedienden te geven.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r76" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="999" y="3571"/>
+	<Point x="999" y="3572"/>
+	<Point x="1037" y="3572"/>
+	<Point x="1037" y="3573"/>
+	<Point x="1075" y="3573"/>
+	<Point x="1075" y="3574"/>
+	<Point x="1113" y="3574"/>
+	<Point x="1113" y="3575"/>
+	<Point x="1151" y="3575"/>
+	<Point x="1151" y="3576"/>
+	<Point x="1189" y="3576"/>
+	<Point x="1189" y="3577"/>
+	<Point x="1290" y="3577"/>
+	<Point x="1290" y="3576"/>
+	<Point x="1388" y="3576"/>
+	<Point x="1388" y="3583"/>
+	<Point x="1394" y="3583"/>
+	<Point x="1394" y="3582"/>
+	<Point x="1399" y="3582"/>
+	<Point x="1399" y="3581"/>
+	<Point x="1404" y="3581"/>
+	<Point x="1404" y="3580"/>
+	<Point x="1409" y="3580"/>
+	<Point x="1409" y="3579"/>
+	<Point x="1410" y="3579"/>
+	<Point x="1410" y="3578"/>
+	<Point x="1411" y="3578"/>
+	<Point x="1411" y="3577"/>
+	<Point x="1412" y="3577"/>
+	<Point x="1412" y="3575"/>
+	<Point x="1413" y="3575"/>
+	<Point x="1413" y="3574"/>
+	<Point x="1560" y="3574"/>
+	<Point x="1560" y="3573"/>
+	<Point x="1707" y="3573"/>
+	<Point x="1707" y="3572"/>
+	<Point x="1847" y="3572"/>
+	<Point x="1847" y="4020"/>
+	<Point x="967" y="4020"/>
+	<Point x="967" y="3571"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Arnhem, 20 Oct. Heden is voor het Provin-
+ciaal Geregtshof in dit gewest behandeld de zaak
+tegen den Heer R. F. D., notaris. te N. beschuldigd
+van valschheid in een authentiek geschrift, door als
+openbaar ambtenaar, bij het opmaken eener acte
+tot zijnen post behoorende, het wezen van die acte
+bedriegelijk te hebben veranderd, door valsche feiten
+als waar of niet erkenden feiten als erkend te con-
+stateren. De beschuldigde, die zich op vrije voeten
+bevindt, is ten hove verschenen en heeft verklaard,
+de acten volgens de wet te hebben opgemaakt en</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r83" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="3434"/>
+	<Point x="2770" y="4009"/>
+	<Point x="1890" y="4009"/>
+	<Point x="1890" y="3445"/>
+	<Point x="1930" y="3445"/>
+	<Point x="1930" y="3446"/>
+	<Point x="1976" y="3446"/>
+	<Point x="1976" y="3447"/>
+	<Point x="2023" y="3447"/>
+	<Point x="2023" y="3448"/>
+	<Point x="2069" y="3448"/>
+	<Point x="2069" y="3449"/>
+	<Point x="2081" y="3449"/>
+	<Point x="2081" y="3448"/>
+	<Point x="2091" y="3448"/>
+	<Point x="2091" y="3447"/>
+	<Point x="2101" y="3447"/>
+	<Point x="2101" y="3446"/>
+	<Point x="2111" y="3446"/>
+	<Point x="2111" y="3445"/>
+	<Point x="2121" y="3445"/>
+	<Point x="2121" y="3444"/>
+	<Point x="2182" y="3444"/>
+	<Point x="2182" y="3443"/>
+	<Point x="2242" y="3443"/>
+	<Point x="2242" y="3442"/>
+	<Point x="2302" y="3442"/>
+	<Point x="2302" y="3441"/>
+	<Point x="2362" y="3441"/>
+	<Point x="2362" y="3440"/>
+	<Point x="2422" y="3440"/>
+	<Point x="2422" y="3439"/>
+	<Point x="2482" y="3439"/>
+	<Point x="2482" y="3438"/>
+	<Point x="2542" y="3438"/>
+	<Point x="2542" y="3437"/>
+	<Point x="2602" y="3437"/>
+	<Point x="2602" y="3436"/>
+	<Point x="2662" y="3436"/>
+	<Point x="2662" y="3435"/>
+	<Point x="2722" y="3435"/>
+	<Point x="2722" y="3434"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Vele voorafgaande studien worden daartoe vereischt.
+De wetten der volkswelvaart moeten vooral het be-
+stuur der finantien toelichten. Uitmergeling van een
+volk is alleen de vrucht van een kortzigtig despotisme.
+De voordeeligste uitkomsten verkrijgt men voor de
+finantien wanneer een volk bloeit. De geschiedenis
+heeft dit bewezen. Men denke aan Frankrijk op het
+laatst der vorige eeuw, toen een minister de opbrengst
+der kollekte voor de gasthuizen opving en den schouw-
+burg bestal om in den dringenden nood van een
+hof te voorzien, waar men tot spreuk voerde: „après
+nous le déluge”. Het gemis van een stelselmatig,
+kundig finantieel bestuur is voor een volk hoogst
+noodlottig. Het bestuur onzer geldmiddelen van 1814</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r87" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="3315"/>
+	<Point x="2770" y="3432"/>
+	<Point x="2720" y="3432"/>
+	<Point x="2720" y="3433"/>
+	<Point x="2660" y="3433"/>
+	<Point x="2660" y="3434"/>
+	<Point x="2600" y="3434"/>
+	<Point x="2600" y="3435"/>
+	<Point x="2540" y="3435"/>
+	<Point x="2540" y="3436"/>
+	<Point x="2480" y="3436"/>
+	<Point x="2480" y="3437"/>
+	<Point x="2420" y="3437"/>
+	<Point x="2420" y="3438"/>
+	<Point x="2360" y="3438"/>
+	<Point x="2360" y="3439"/>
+	<Point x="2300" y="3439"/>
+	<Point x="2300" y="3440"/>
+	<Point x="2240" y="3440"/>
+	<Point x="2240" y="3441"/>
+	<Point x="2180" y="3441"/>
+	<Point x="2180" y="3442"/>
+	<Point x="2119" y="3442"/>
+	<Point x="2119" y="3443"/>
+	<Point x="2109" y="3443"/>
+	<Point x="2109" y="3444"/>
+	<Point x="2099" y="3444"/>
+	<Point x="2099" y="3445"/>
+	<Point x="2089" y="3445"/>
+	<Point x="2089" y="3446"/>
+	<Point x="2079" y="3446"/>
+	<Point x="2079" y="3447"/>
+	<Point x="2071" y="3447"/>
+	<Point x="2071" y="3446"/>
+	<Point x="2025" y="3446"/>
+	<Point x="2025" y="3445"/>
+	<Point x="1978" y="3445"/>
+	<Point x="1978" y="3444"/>
+	<Point x="1932" y="3444"/>
+	<Point x="1932" y="3443"/>
+	<Point x="1890" y="3443"/>
+	<Point x="1890" y="3327"/>
+	<Point x="1985" y="3327"/>
+	<Point x="1985" y="3326"/>
+	<Point x="2084" y="3326"/>
+	<Point x="2084" y="3327"/>
+	<Point x="2085" y="3327"/>
+	<Point x="2085" y="3330"/>
+	<Point x="2086" y="3330"/>
+	<Point x="2086" y="3332"/>
+	<Point x="2087" y="3332"/>
+	<Point x="2087" y="3333"/>
+	<Point x="2092" y="3333"/>
+	<Point x="2092" y="3332"/>
+	<Point x="2096" y="3332"/>
+	<Point x="2096" y="3331"/>
+	<Point x="2099" y="3331"/>
+	<Point x="2099" y="3330"/>
+	<Point x="2103" y="3330"/>
+	<Point x="2103" y="3329"/>
+	<Point x="2106" y="3329"/>
+	<Point x="2106" y="3328"/>
+	<Point x="2107" y="3328"/>
+	<Point x="2107" y="3327"/>
+	<Point x="2108" y="3327"/>
+	<Point x="2108" y="3324"/>
+	<Point x="2395" y="3324"/>
+	<Point x="2395" y="3326"/>
+	<Point x="2396" y="3326"/>
+	<Point x="2396" y="3327"/>
+	<Point x="2397" y="3327"/>
+	<Point x="2397" y="3328"/>
+	<Point x="2415" y="3328"/>
+	<Point x="2415" y="3329"/>
+	<Point x="2418" y="3329"/>
+	<Point x="2418" y="3328"/>
+	<Point x="2419" y="3328"/>
+	<Point x="2419" y="3327"/>
+	<Point x="2420" y="3327"/>
+	<Point x="2420" y="3325"/>
+	<Point x="2421" y="3325"/>
+	<Point x="2421" y="3323"/>
+	<Point x="2422" y="3323"/>
+	<Point x="2422" y="3322"/>
+	<Point x="2459" y="3322"/>
+	<Point x="2459" y="3321"/>
+	<Point x="2496" y="3321"/>
+	<Point x="2496" y="3320"/>
+	<Point x="2533" y="3320"/>
+	<Point x="2533" y="3319"/>
+	<Point x="2569" y="3319"/>
+	<Point x="2569" y="3323"/>
+	<Point x="2590" y="3323"/>
+	<Point x="2590" y="3322"/>
+	<Point x="2591" y="3322"/>
+	<Point x="2591" y="3321"/>
+	<Point x="2592" y="3321"/>
+	<Point x="2592" y="3319"/>
+	<Point x="2593" y="3319"/>
+	<Point x="2593" y="3318"/>
+	<Point x="2641" y="3318"/>
+	<Point x="2641" y="3317"/>
+	<Point x="2689" y="3317"/>
+	<Point x="2689" y="3316"/>
+	<Point x="2738" y="3316"/>
+	<Point x="2738" y="3315"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>4°. Met bijzondere belangen mag zij zich niet in-
+laten, doch moet alleen in algemeene staatsbehoeften
+voorzien.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r94" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="3119"/>
+	<Point x="2770" y="3313"/>
+	<Point x="2736" y="3313"/>
+	<Point x="2736" y="3314"/>
+	<Point x="2687" y="3314"/>
+	<Point x="2687" y="3315"/>
+	<Point x="2639" y="3315"/>
+	<Point x="2639" y="3316"/>
+	<Point x="2591" y="3316"/>
+	<Point x="2591" y="3317"/>
+	<Point x="2590" y="3317"/>
+	<Point x="2590" y="3319"/>
+	<Point x="2589" y="3319"/>
+	<Point x="2589" y="3320"/>
+	<Point x="2588" y="3320"/>
+	<Point x="2588" y="3321"/>
+	<Point x="2571" y="3321"/>
+	<Point x="2571" y="3316"/>
+	<Point x="2568" y="3316"/>
+	<Point x="2568" y="3317"/>
+	<Point x="2531" y="3317"/>
+	<Point x="2531" y="3318"/>
+	<Point x="2494" y="3318"/>
+	<Point x="2494" y="3319"/>
+	<Point x="2457" y="3319"/>
+	<Point x="2457" y="3320"/>
+	<Point x="2420" y="3320"/>
+	<Point x="2420" y="3321"/>
+	<Point x="2419" y="3321"/>
+	<Point x="2419" y="3323"/>
+	<Point x="2418" y="3323"/>
+	<Point x="2418" y="3325"/>
+	<Point x="2417" y="3325"/>
+	<Point x="2417" y="3326"/>
+	<Point x="2399" y="3326"/>
+	<Point x="2399" y="3325"/>
+	<Point x="2398" y="3325"/>
+	<Point x="2398" y="3324"/>
+	<Point x="2397" y="3324"/>
+	<Point x="2397" y="3322"/>
+	<Point x="2396" y="3322"/>
+	<Point x="2396" y="3321"/>
+	<Point x="2393" y="3321"/>
+	<Point x="2393" y="3322"/>
+	<Point x="2106" y="3322"/>
+	<Point x="2106" y="3325"/>
+	<Point x="2105" y="3325"/>
+	<Point x="2105" y="3326"/>
+	<Point x="2104" y="3326"/>
+	<Point x="2104" y="3327"/>
+	<Point x="2101" y="3327"/>
+	<Point x="2101" y="3328"/>
+	<Point x="2097" y="3328"/>
+	<Point x="2097" y="3329"/>
+	<Point x="2094" y="3329"/>
+	<Point x="2094" y="3330"/>
+	<Point x="2090" y="3330"/>
+	<Point x="2090" y="3331"/>
+	<Point x="2089" y="3331"/>
+	<Point x="2089" y="3330"/>
+	<Point x="2088" y="3330"/>
+	<Point x="2088" y="3328"/>
+	<Point x="2087" y="3328"/>
+	<Point x="2087" y="3325"/>
+	<Point x="2086" y="3325"/>
+	<Point x="2086" y="3323"/>
+	<Point x="2083" y="3323"/>
+	<Point x="2083" y="3324"/>
+	<Point x="1983" y="3324"/>
+	<Point x="1983" y="3325"/>
+	<Point x="1890" y="3325"/>
+	<Point x="1890" y="3126"/>
+	<Point x="1939" y="3126"/>
+	<Point x="1939" y="3125"/>
+	<Point x="1991" y="3125"/>
+	<Point x="1991" y="3127"/>
+	<Point x="1992" y="3127"/>
+	<Point x="1992" y="3130"/>
+	<Point x="1993" y="3130"/>
+	<Point x="1993" y="3131"/>
+	<Point x="2010" y="3131"/>
+	<Point x="2010" y="3130"/>
+	<Point x="2012" y="3130"/>
+	<Point x="2012" y="3129"/>
+	<Point x="2013" y="3129"/>
+	<Point x="2013" y="3128"/>
+	<Point x="2015" y="3128"/>
+	<Point x="2015" y="3127"/>
+	<Point x="2016" y="3127"/>
+	<Point x="2016" y="3126"/>
+	<Point x="2018" y="3126"/>
+	<Point x="2018" y="3125"/>
+	<Point x="2019" y="3125"/>
+	<Point x="2019" y="3124"/>
+	<Point x="2101" y="3124"/>
+	<Point x="2101" y="3125"/>
+	<Point x="2102" y="3125"/>
+	<Point x="2102" y="3127"/>
+	<Point x="2103" y="3127"/>
+	<Point x="2103" y="3129"/>
+	<Point x="2104" y="3129"/>
+	<Point x="2104" y="3130"/>
+	<Point x="2122" y="3130"/>
+	<Point x="2122" y="3131"/>
+	<Point x="2126" y="3131"/>
+	<Point x="2126" y="3130"/>
+	<Point x="2127" y="3130"/>
+	<Point x="2127" y="3129"/>
+	<Point x="2129" y="3129"/>
+	<Point x="2129" y="3128"/>
+	<Point x="2130" y="3128"/>
+	<Point x="2130" y="3127"/>
+	<Point x="2132" y="3127"/>
+	<Point x="2132" y="3126"/>
+	<Point x="2133" y="3126"/>
+	<Point x="2133" y="3125"/>
+	<Point x="2207" y="3125"/>
+	<Point x="2207" y="3126"/>
+	<Point x="2282" y="3126"/>
+	<Point x="2282" y="3127"/>
+	<Point x="2357" y="3127"/>
+	<Point x="2357" y="3128"/>
+	<Point x="2402" y="3128"/>
+	<Point x="2402" y="3127"/>
+	<Point x="2444" y="3127"/>
+	<Point x="2444" y="3126"/>
+	<Point x="2487" y="3126"/>
+	<Point x="2487" y="3125"/>
+	<Point x="2529" y="3125"/>
+	<Point x="2529" y="3124"/>
+	<Point x="2571" y="3124"/>
+	<Point x="2571" y="3123"/>
+	<Point x="2614" y="3123"/>
+	<Point x="2614" y="3122"/>
+	<Point x="2656" y="3122"/>
+	<Point x="2656" y="3121"/>
+	<Point x="2699" y="3121"/>
+	<Point x="2699" y="3120"/>
+	<Point x="2741" y="3120"/>
+	<Point x="2741" y="3119"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>3°. De burger mag niet alleen tot zijn nut, maar ook
+tot genot of weelde verteren, mits hij zorge dat
+zijn vermogen onaangetast blijve; de regering mag
+geene weelde dulden. Zij mag alleen gelden uitge-
+ven tot hetgeen volstrekt nuttig en noodig is.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r99" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2355" y="2879"/>
+	<Point x="2355" y="2884"/>
+	<Point x="2356" y="2884"/>
+	<Point x="2356" y="2885"/>
+	<Point x="2364" y="2885"/>
+	<Point x="2364" y="2886"/>
+	<Point x="2373" y="2886"/>
+	<Point x="2373" y="2887"/>
+	<Point x="2377" y="2887"/>
+	<Point x="2377" y="2886"/>
+	<Point x="2378" y="2886"/>
+	<Point x="2378" y="2885"/>
+	<Point x="2379" y="2885"/>
+	<Point x="2379" y="2884"/>
+	<Point x="2380" y="2884"/>
+	<Point x="2380" y="2883"/>
+	<Point x="2381" y="2883"/>
+	<Point x="2381" y="2882"/>
+	<Point x="2519" y="2882"/>
+	<Point x="2519" y="2881"/>
+	<Point x="2656" y="2881"/>
+	<Point x="2656" y="2880"/>
+	<Point x="2770" y="2880"/>
+	<Point x="2770" y="3117"/>
+	<Point x="2739" y="3117"/>
+	<Point x="2739" y="3118"/>
+	<Point x="2697" y="3118"/>
+	<Point x="2697" y="3119"/>
+	<Point x="2654" y="3119"/>
+	<Point x="2654" y="3120"/>
+	<Point x="2612" y="3120"/>
+	<Point x="2612" y="3121"/>
+	<Point x="2569" y="3121"/>
+	<Point x="2569" y="3122"/>
+	<Point x="2527" y="3122"/>
+	<Point x="2527" y="3123"/>
+	<Point x="2485" y="3123"/>
+	<Point x="2485" y="3124"/>
+	<Point x="2442" y="3124"/>
+	<Point x="2442" y="3125"/>
+	<Point x="2400" y="3125"/>
+	<Point x="2400" y="3126"/>
+	<Point x="2359" y="3126"/>
+	<Point x="2359" y="3125"/>
+	<Point x="2284" y="3125"/>
+	<Point x="2284" y="3124"/>
+	<Point x="2209" y="3124"/>
+	<Point x="2209" y="3123"/>
+	<Point x="2131" y="3123"/>
+	<Point x="2131" y="3124"/>
+	<Point x="2130" y="3124"/>
+	<Point x="2130" y="3125"/>
+	<Point x="2128" y="3125"/>
+	<Point x="2128" y="3126"/>
+	<Point x="2127" y="3126"/>
+	<Point x="2127" y="3127"/>
+	<Point x="2125" y="3127"/>
+	<Point x="2125" y="3128"/>
+	<Point x="2124" y="3128"/>
+	<Point x="2124" y="3129"/>
+	<Point x="2124" y="3128"/>
+	<Point x="2106" y="3128"/>
+	<Point x="2106" y="3127"/>
+	<Point x="2105" y="3127"/>
+	<Point x="2105" y="3125"/>
+	<Point x="2104" y="3125"/>
+	<Point x="2104" y="3123"/>
+	<Point x="2103" y="3123"/>
+	<Point x="2103" y="3122"/>
+	<Point x="2017" y="3122"/>
+	<Point x="2017" y="3123"/>
+	<Point x="2016" y="3123"/>
+	<Point x="2016" y="3124"/>
+	<Point x="2014" y="3124"/>
+	<Point x="2014" y="3125"/>
+	<Point x="2013" y="3125"/>
+	<Point x="2013" y="3126"/>
+	<Point x="2011" y="3126"/>
+	<Point x="2011" y="3127"/>
+	<Point x="2010" y="3127"/>
+	<Point x="2010" y="3128"/>
+	<Point x="2008" y="3128"/>
+	<Point x="2008" y="3129"/>
+	<Point x="1995" y="3129"/>
+	<Point x="1995" y="3128"/>
+	<Point x="1994" y="3128"/>
+	<Point x="1994" y="3125"/>
+	<Point x="1993" y="3125"/>
+	<Point x="1993" y="3122"/>
+	<Point x="1991" y="3122"/>
+	<Point x="1991" y="3123"/>
+	<Point x="1937" y="3123"/>
+	<Point x="1937" y="3124"/>
+	<Point x="1890" y="3124"/>
+	<Point x="1890" y="2886"/>
+	<Point x="1967" y="2886"/>
+	<Point x="1967" y="2885"/>
+	<Point x="2047" y="2885"/>
+	<Point x="2047" y="2888"/>
+	<Point x="2048" y="2888"/>
+	<Point x="2048" y="2889"/>
+	<Point x="2052" y="2889"/>
+	<Point x="2052" y="2888"/>
+	<Point x="2054" y="2888"/>
+	<Point x="2054" y="2887"/>
+	<Point x="2056" y="2887"/>
+	<Point x="2056" y="2886"/>
+	<Point x="2058" y="2886"/>
+	<Point x="2058" y="2885"/>
+	<Point x="2059" y="2885"/>
+	<Point x="2059" y="2884"/>
+	<Point x="2060" y="2884"/>
+	<Point x="2060" y="2883"/>
+	<Point x="2061" y="2883"/>
+	<Point x="2061" y="2882"/>
+	<Point x="2135" y="2882"/>
+	<Point x="2135" y="2881"/>
+	<Point x="2209" y="2881"/>
+	<Point x="2209" y="2880"/>
+	<Point x="2283" y="2880"/>
+	<Point x="2283" y="2879"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>2°. Verteert een burger meer dan zijn inkomen,
+dan heeft hij geen uitvlugt, maar de regering kan dan
+de belasting verhoogen. Hier bestaat dus de grens
+niet, die er is voor de vertering van den burger.
+Voor haar is eerst de grens, wanneer zij het volks-
+vermogen begint aantetasten.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r102" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="2437"/>
+	<Point x="2770" y="2522"/>
+	<Point x="2562" y="2522"/>
+	<Point x="2562" y="2523"/>
+	<Point x="2561" y="2523"/>
+	<Point x="2561" y="2525"/>
+	<Point x="2560" y="2525"/>
+	<Point x="2560" y="2527"/>
+	<Point x="2547" y="2527"/>
+	<Point x="2547" y="2526"/>
+	<Point x="2546" y="2526"/>
+	<Point x="2546" y="2522"/>
+	<Point x="2519" y="2522"/>
+	<Point x="2519" y="2523"/>
+	<Point x="2518" y="2523"/>
+	<Point x="2518" y="2524"/>
+	<Point x="2517" y="2524"/>
+	<Point x="2517" y="2525"/>
+	<Point x="2516" y="2525"/>
+	<Point x="2516" y="2526"/>
+	<Point x="2515" y="2526"/>
+	<Point x="2515" y="2527"/>
+	<Point x="2498" y="2527"/>
+	<Point x="2498" y="2526"/>
+	<Point x="2497" y="2526"/>
+	<Point x="2497" y="2525"/>
+	<Point x="2496" y="2525"/>
+	<Point x="2496" y="2524"/>
+	<Point x="2495" y="2524"/>
+	<Point x="2495" y="2523"/>
+	<Point x="2494" y="2523"/>
+	<Point x="2494" y="2522"/>
+	<Point x="2403" y="2522"/>
+	<Point x="2403" y="2523"/>
+	<Point x="2402" y="2523"/>
+	<Point x="2402" y="2524"/>
+	<Point x="2401" y="2524"/>
+	<Point x="2401" y="2525"/>
+	<Point x="2400" y="2525"/>
+	<Point x="2400" y="2527"/>
+	<Point x="2399" y="2527"/>
+	<Point x="2399" y="2528"/>
+	<Point x="2398" y="2528"/>
+	<Point x="2398" y="2529"/>
+	<Point x="2381" y="2529"/>
+	<Point x="2381" y="2528"/>
+	<Point x="2380" y="2528"/>
+	<Point x="2380" y="2522"/>
+	<Point x="2377" y="2522"/>
+	<Point x="2377" y="2523"/>
+	<Point x="2171" y="2523"/>
+	<Point x="2171" y="2524"/>
+	<Point x="1964" y="2524"/>
+	<Point x="1964" y="2525"/>
+	<Point x="1962" y="2525"/>
+	<Point x="1962" y="2526"/>
+	<Point x="1960" y="2526"/>
+	<Point x="1960" y="2527"/>
+	<Point x="1958" y="2527"/>
+	<Point x="1958" y="2528"/>
+	<Point x="1958" y="2527"/>
+	<Point x="1957" y="2527"/>
+	<Point x="1957" y="2526"/>
+	<Point x="1955" y="2526"/>
+	<Point x="1955" y="2525"/>
+	<Point x="1954" y="2525"/>
+	<Point x="1954" y="2524"/>
+	<Point x="1952" y="2524"/>
+	<Point x="1952" y="2523"/>
+	<Point x="1948" y="2523"/>
+	<Point x="1948" y="2524"/>
+	<Point x="1890" y="2524"/>
+	<Point x="1890" y="2437"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Men kan echter die huishouding niet onvoorwaar-
+delijk met die van eenen burger vergelijken.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r104" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2492" y="2524"/>
+	<Point x="2492" y="2525"/>
+	<Point x="2493" y="2525"/>
+	<Point x="2493" y="2526"/>
+	<Point x="2494" y="2526"/>
+	<Point x="2494" y="2527"/>
+	<Point x="2495" y="2527"/>
+	<Point x="2495" y="2528"/>
+	<Point x="2496" y="2528"/>
+	<Point x="2496" y="2529"/>
+	<Point x="2513" y="2529"/>
+	<Point x="2513" y="2530"/>
+	<Point x="2516" y="2530"/>
+	<Point x="2516" y="2529"/>
+	<Point x="2517" y="2529"/>
+	<Point x="2517" y="2528"/>
+	<Point x="2518" y="2528"/>
+	<Point x="2518" y="2527"/>
+	<Point x="2519" y="2527"/>
+	<Point x="2519" y="2526"/>
+	<Point x="2520" y="2526"/>
+	<Point x="2520" y="2525"/>
+	<Point x="2521" y="2525"/>
+	<Point x="2521" y="2524"/>
+	<Point x="2544" y="2524"/>
+	<Point x="2544" y="2528"/>
+	<Point x="2545" y="2528"/>
+	<Point x="2545" y="2529"/>
+	<Point x="2558" y="2529"/>
+	<Point x="2558" y="2530"/>
+	<Point x="2561" y="2530"/>
+	<Point x="2561" y="2529"/>
+	<Point x="2562" y="2529"/>
+	<Point x="2562" y="2527"/>
+	<Point x="2563" y="2527"/>
+	<Point x="2563" y="2525"/>
+	<Point x="2564" y="2525"/>
+	<Point x="2564" y="2524"/>
+	<Point x="2770" y="2524"/>
+	<Point x="2770" y="2878"/>
+	<Point x="2654" y="2878"/>
+	<Point x="2654" y="2879"/>
+	<Point x="2517" y="2879"/>
+	<Point x="2517" y="2880"/>
+	<Point x="2379" y="2880"/>
+	<Point x="2379" y="2881"/>
+	<Point x="2378" y="2881"/>
+	<Point x="2378" y="2882"/>
+	<Point x="2377" y="2882"/>
+	<Point x="2377" y="2883"/>
+	<Point x="2376" y="2883"/>
+	<Point x="2376" y="2884"/>
+	<Point x="2375" y="2884"/>
+	<Point x="2375" y="2885"/>
+	<Point x="2375" y="2884"/>
+	<Point x="2366" y="2884"/>
+	<Point x="2366" y="2883"/>
+	<Point x="2358" y="2883"/>
+	<Point x="2358" y="2882"/>
+	<Point x="2357" y="2882"/>
+	<Point x="2357" y="2876"/>
+	<Point x="2354" y="2876"/>
+	<Point x="2354" y="2877"/>
+	<Point x="2281" y="2877"/>
+	<Point x="2281" y="2878"/>
+	<Point x="2207" y="2878"/>
+	<Point x="2207" y="2879"/>
+	<Point x="2133" y="2879"/>
+	<Point x="2133" y="2880"/>
+	<Point x="2059" y="2880"/>
+	<Point x="2059" y="2881"/>
+	<Point x="2058" y="2881"/>
+	<Point x="2058" y="2882"/>
+	<Point x="2057" y="2882"/>
+	<Point x="2057" y="2883"/>
+	<Point x="2056" y="2883"/>
+	<Point x="2056" y="2884"/>
+	<Point x="2054" y="2884"/>
+	<Point x="2054" y="2885"/>
+	<Point x="2052" y="2885"/>
+	<Point x="2052" y="2886"/>
+	<Point x="2050" y="2886"/>
+	<Point x="2050" y="2887"/>
+	<Point x="2050" y="2886"/>
+	<Point x="2049" y="2886"/>
+	<Point x="2049" y="2882"/>
+	<Point x="2046" y="2882"/>
+	<Point x="2046" y="2883"/>
+	<Point x="1965" y="2883"/>
+	<Point x="1965" y="2884"/>
+	<Point x="1890" y="2884"/>
+	<Point x="1890" y="2526"/>
+	<Point x="1950" y="2526"/>
+	<Point x="1950" y="2525"/>
+	<Point x="1950" y="2526"/>
+	<Point x="1952" y="2526"/>
+	<Point x="1952" y="2527"/>
+	<Point x="1953" y="2527"/>
+	<Point x="1953" y="2528"/>
+	<Point x="1955" y="2528"/>
+	<Point x="1955" y="2529"/>
+	<Point x="1956" y="2529"/>
+	<Point x="1956" y="2530"/>
+	<Point x="1960" y="2530"/>
+	<Point x="1960" y="2529"/>
+	<Point x="1962" y="2529"/>
+	<Point x="1962" y="2528"/>
+	<Point x="1964" y="2528"/>
+	<Point x="1964" y="2527"/>
+	<Point x="1966" y="2527"/>
+	<Point x="1966" y="2526"/>
+	<Point x="2173" y="2526"/>
+	<Point x="2173" y="2525"/>
+	<Point x="2378" y="2525"/>
+	<Point x="2378" y="2530"/>
+	<Point x="2379" y="2530"/>
+	<Point x="2379" y="2531"/>
+	<Point x="2396" y="2531"/>
+	<Point x="2396" y="2532"/>
+	<Point x="2399" y="2532"/>
+	<Point x="2399" y="2531"/>
+	<Point x="2400" y="2531"/>
+	<Point x="2400" y="2530"/>
+	<Point x="2401" y="2530"/>
+	<Point x="2401" y="2529"/>
+	<Point x="2402" y="2529"/>
+	<Point x="2402" y="2527"/>
+	<Point x="2403" y="2527"/>
+	<Point x="2403" y="2526"/>
+	<Point x="2404" y="2526"/>
+	<Point x="2404" y="2525"/>
+	<Point x="2405" y="2525"/>
+	<Point x="2405" y="2524"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>1°. Zij is veel omslagtiger. Een burger kent wei-
+nige onderwerpen van bestuur en heeft weini-
+ge bedienden; een bestuurder der finantiën moet
+eene menigte verschillende onderwerpen beoordee-
+len en heeft een groot aantal ambtenaren na te
+gaan. Hij kan dus slechts het geheel overzien en
+moet bijzonderheden aan onderhoorigen overlaten:
+Hij kan bevelen maar niet uitvoeren, inlichtingen
+inwinnen, maar zelf niet nagaan.</Unicode></TextEquiv></TextRegion>
+	<SeparatorRegion id="r106">
+	<Coords>
+	<Point x="2436" y="2364"/>
+	<Point x="2436" y="2365"/>
+	<Point x="2552" y="2365"/>
+	<Point x="2552" y="2364"/>
+	<Point x="2552" y="2365"/>
+	<Point x="2729" y="2365"/>
+	<Point x="2729" y="2366"/>
+	<Point x="2731" y="2366"/>
+	<Point x="2731" y="2368"/>
+	<Point x="2732" y="2368"/>
+	<Point x="2732" y="2369"/>
+	<Point x="2733" y="2369"/>
+	<Point x="2733" y="2371"/>
+	<Point x="2732" y="2371"/>
+	<Point x="2732" y="2372"/>
+	<Point x="2614" y="2372"/>
+	<Point x="2614" y="2371"/>
+	<Point x="2382" y="2371"/>
+	<Point x="2382" y="2372"/>
+	<Point x="2343" y="2372"/>
+	<Point x="2343" y="2371"/>
+	<Point x="2208" y="2371"/>
+	<Point x="2208" y="2372"/>
+	<Point x="2178" y="2372"/>
+	<Point x="2178" y="2371"/>
+	<Point x="2054" y="2371"/>
+	<Point x="2054" y="2372"/>
+	<Point x="2006" y="2372"/>
+	<Point x="2006" y="2373"/>
+	<Point x="1910" y="2373"/>
+	<Point x="1910" y="2374"/>
+	<Point x="1904" y="2374"/>
+	<Point x="1904" y="2368"/>
+	<Point x="1905" y="2368"/>
+	<Point x="1905" y="2367"/>
+	<Point x="1988" y="2367"/>
+	<Point x="1988" y="2366"/>
+	<Point x="2154" y="2366"/>
+	<Point x="2154" y="2365"/>
+	<Point x="2410" y="2365"/>
+	<Point x="2410" y="2364"/></Coords></SeparatorRegion>
+	<TextRegion id="r111" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="2264"/>
+	<Point x="2770" y="2347"/>
+	<Point x="1890" y="2347"/>
+	<Point x="1890" y="2269"/>
+	<Point x="2061" y="2269"/>
+	<Point x="2061" y="2268"/>
+	<Point x="2240" y="2268"/>
+	<Point x="2240" y="2267"/>
+	<Point x="2419" y="2267"/>
+	<Point x="2419" y="2269"/>
+	<Point x="2420" y="2269"/>
+	<Point x="2420" y="2271"/>
+	<Point x="2421" y="2271"/>
+	<Point x="2421" y="2272"/>
+	<Point x="2422" y="2272"/>
+	<Point x="2422" y="2273"/>
+	<Point x="2426" y="2273"/>
+	<Point x="2426" y="2272"/>
+	<Point x="2429" y="2272"/>
+	<Point x="2429" y="2271"/>
+	<Point x="2432" y="2271"/>
+	<Point x="2432" y="2270"/>
+	<Point x="2435" y="2270"/>
+	<Point x="2435" y="2269"/>
+	<Point x="2438" y="2269"/>
+	<Point x="2438" y="2268"/>
+	<Point x="2441" y="2268"/>
+	<Point x="2441" y="2267"/>
+	<Point x="2443" y="2267"/>
+	<Point x="2443" y="2266"/>
+	<Point x="2558" y="2266"/>
+	<Point x="2558" y="2265"/>
+	<Point x="2673" y="2265"/>
+	<Point x="2673" y="2264"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>T. a. pl. al. 6, r. 5, staat „ter eere zijde,” lees:
+ter eenre zijde.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r114" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="1980"/>
+	<Point x="2770" y="2105"/>
+	<Point x="2659" y="2105"/>
+	<Point x="2659" y="2106"/>
+	<Point x="2526" y="2106"/>
+	<Point x="2526" y="2107"/>
+	<Point x="2394" y="2107"/>
+	<Point x="2394" y="2108"/>
+	<Point x="2261" y="2108"/>
+	<Point x="2261" y="2109"/>
+	<Point x="2070" y="2109"/>
+	<Point x="2070" y="2110"/>
+	<Point x="1890" y="2110"/>
+	<Point x="1890" y="1980"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>In de Nederlander 1019, p. 2, k. 1, al. 2, r. 3
+staat „definitief; lees definities; de geheele alinea
+leze men nu aldus:</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r116" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2770" y="2107"/>
+	<Point x="2770" y="2262"/>
+	<Point x="2671" y="2262"/>
+	<Point x="2671" y="2263"/>
+	<Point x="2556" y="2263"/>
+	<Point x="2556" y="2264"/>
+	<Point x="2441" y="2264"/>
+	<Point x="2441" y="2265"/>
+	<Point x="2439" y="2265"/>
+	<Point x="2439" y="2266"/>
+	<Point x="2436" y="2266"/>
+	<Point x="2436" y="2267"/>
+	<Point x="2433" y="2267"/>
+	<Point x="2433" y="2268"/>
+	<Point x="2430" y="2268"/>
+	<Point x="2430" y="2269"/>
+	<Point x="2427" y="2269"/>
+	<Point x="2427" y="2270"/>
+	<Point x="2424" y="2270"/>
+	<Point x="2424" y="2271"/>
+	<Point x="2424" y="2270"/>
+	<Point x="2423" y="2270"/>
+	<Point x="2423" y="2269"/>
+	<Point x="2422" y="2269"/>
+	<Point x="2422" y="2267"/>
+	<Point x="2421" y="2267"/>
+	<Point x="2421" y="2265"/>
+	<Point x="2420" y="2265"/>
+	<Point x="2420" y="2264"/>
+	<Point x="2417" y="2264"/>
+	<Point x="2417" y="2265"/>
+	<Point x="2238" y="2265"/>
+	<Point x="2238" y="2266"/>
+	<Point x="2059" y="2266"/>
+	<Point x="2059" y="2267"/>
+	<Point x="1890" y="2267"/>
+	<Point x="1890" y="2112"/>
+	<Point x="2072" y="2112"/>
+	<Point x="2072" y="2111"/>
+	<Point x="2263" y="2111"/>
+	<Point x="2263" y="2110"/>
+	<Point x="2396" y="2110"/>
+	<Point x="2396" y="2109"/>
+	<Point x="2528" y="2109"/>
+	<Point x="2528" y="2108"/>
+	<Point x="2661" y="2108"/>
+	<Point x="2661" y="2107"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Ach dat de Heer Groen, bij zijne oppervlakkige
+beschouwingen van Omwenteling en Staatsregt, aan
+de grondigheid, die in deze definities doorstraalt,
+toch een beschamend voorbeeld genomen had!</Unicode></TextEquiv></TextRegion>
+	<SeparatorRegion id="r117">
+	<Coords>
+	<Point x="2290" y="1905"/>
+	<Point x="2290" y="1906"/>
+	<Point x="2334" y="1906"/>
+	<Point x="2334" y="1907"/>
+	<Point x="2430" y="1907"/>
+	<Point x="2430" y="1908"/>
+	<Point x="2596" y="1908"/>
+	<Point x="2596" y="1909"/>
+	<Point x="2697" y="1909"/>
+	<Point x="2697" y="1910"/>
+	<Point x="2730" y="1910"/>
+	<Point x="2730" y="1911"/>
+	<Point x="2731" y="1911"/>
+	<Point x="2731" y="1912"/>
+	<Point x="2732" y="1912"/>
+	<Point x="2732" y="1917"/>
+	<Point x="2731" y="1917"/>
+	<Point x="2731" y="1918"/>
+	<Point x="2729" y="1918"/>
+	<Point x="2729" y="1919"/>
+	<Point x="2726" y="1919"/>
+	<Point x="2726" y="1918"/>
+	<Point x="2712" y="1918"/>
+	<Point x="2712" y="1917"/>
+	<Point x="2650" y="1917"/>
+	<Point x="2650" y="1916"/>
+	<Point x="2550" y="1916"/>
+	<Point x="2550" y="1915"/>
+	<Point x="2449" y="1915"/>
+	<Point x="2449" y="1914"/>
+	<Point x="2420" y="1914"/>
+	<Point x="2420" y="1913"/>
+	<Point x="2311" y="1913"/>
+	<Point x="2311" y="1912"/>
+	<Point x="2027" y="1912"/>
+	<Point x="2027" y="1913"/>
+	<Point x="1965" y="1913"/>
+	<Point x="1965" y="1914"/>
+	<Point x="1903" y="1914"/>
+	<Point x="1903" y="1913"/>
+	<Point x="1902" y="1913"/>
+	<Point x="1902" y="1909"/>
+	<Point x="1903" y="1909"/>
+	<Point x="1903" y="1908"/>
+	<Point x="1916" y="1908"/>
+	<Point x="1916" y="1907"/>
+	<Point x="1976" y="1907"/>
+	<Point x="1976" y="1906"/>
+	<Point x="2089" y="1906"/>
+	<Point x="2089" y="1905"/></Coords></SeparatorRegion>
+	<TextRegion id="r121" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="1842"/>
+	<Point x="2764" y="1889"/>
+	<Point x="1892" y="1889"/>
+	<Point x="1892" y="1849"/>
+	<Point x="1960" y="1849"/>
+	<Point x="1960" y="1848"/>
+	<Point x="2007" y="1848"/>
+	<Point x="2007" y="1847"/>
+	<Point x="2137" y="1847"/>
+	<Point x="2137" y="1846"/>
+	<Point x="2266" y="1846"/>
+	<Point x="2266" y="1845"/>
+	<Point x="2396" y="1845"/>
+	<Point x="2396" y="1844"/>
+	<Point x="2525" y="1844"/>
+	<Point x="2525" y="1843"/>
+	<Point x="2655" y="1843"/>
+	<Point x="2655" y="1842"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Te 't Zandt is beroepen ds. A. Niejenhuis.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r125" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2024" y="1769"/>
+	<Point x="2024" y="1770"/>
+	<Point x="2025" y="1770"/>
+	<Point x="2025" y="1771"/>
+	<Point x="2026" y="1771"/>
+	<Point x="2026" y="1772"/>
+	<Point x="2027" y="1772"/>
+	<Point x="2027" y="1773"/>
+	<Point x="2028" y="1773"/>
+	<Point x="2028" y="1774"/>
+	<Point x="2029" y="1774"/>
+	<Point x="2029" y="1775"/>
+	<Point x="2030" y="1775"/>
+	<Point x="2030" y="1776"/>
+	<Point x="2037" y="1776"/>
+	<Point x="2037" y="1777"/>
+	<Point x="2044" y="1777"/>
+	<Point x="2044" y="1778"/>
+	<Point x="2047" y="1778"/>
+	<Point x="2047" y="1777"/>
+	<Point x="2048" y="1777"/>
+	<Point x="2048" y="1773"/>
+	<Point x="2049" y="1773"/>
+	<Point x="2049" y="1769"/>
+	<Point x="2128" y="1769"/>
+	<Point x="2128" y="1770"/>
+	<Point x="2129" y="1770"/>
+	<Point x="2129" y="1771"/>
+	<Point x="2131" y="1771"/>
+	<Point x="2131" y="1772"/>
+	<Point x="2132" y="1772"/>
+	<Point x="2132" y="1773"/>
+	<Point x="2133" y="1773"/>
+	<Point x="2133" y="1774"/>
+	<Point x="2135" y="1774"/>
+	<Point x="2135" y="1775"/>
+	<Point x="2136" y="1775"/>
+	<Point x="2136" y="1776"/>
+	<Point x="2137" y="1776"/>
+	<Point x="2137" y="1777"/>
+	<Point x="2154" y="1777"/>
+	<Point x="2154" y="1776"/>
+	<Point x="2155" y="1776"/>
+	<Point x="2155" y="1774"/>
+	<Point x="2156" y="1774"/>
+	<Point x="2156" y="1772"/>
+	<Point x="2157" y="1772"/>
+	<Point x="2157" y="1770"/>
+	<Point x="2158" y="1770"/>
+	<Point x="2158" y="1769"/>
+	<Point x="2206" y="1769"/>
+	<Point x="2206" y="1770"/>
+	<Point x="2208" y="1770"/>
+	<Point x="2208" y="1771"/>
+	<Point x="2209" y="1771"/>
+	<Point x="2209" y="1772"/>
+	<Point x="2211" y="1772"/>
+	<Point x="2211" y="1773"/>
+	<Point x="2212" y="1773"/>
+	<Point x="2212" y="1774"/>
+	<Point x="2214" y="1774"/>
+	<Point x="2214" y="1775"/>
+	<Point x="2215" y="1775"/>
+	<Point x="2215" y="1776"/>
+	<Point x="2219" y="1776"/>
+	<Point x="2219" y="1775"/>
+	<Point x="2220" y="1775"/>
+	<Point x="2220" y="1774"/>
+	<Point x="2221" y="1774"/>
+	<Point x="2221" y="1773"/>
+	<Point x="2223" y="1773"/>
+	<Point x="2223" y="1772"/>
+	<Point x="2224" y="1772"/>
+	<Point x="2224" y="1771"/>
+	<Point x="2225" y="1771"/>
+	<Point x="2225" y="1770"/>
+	<Point x="2764" y="1770"/>
+	<Point x="2764" y="1840"/>
+	<Point x="2653" y="1840"/>
+	<Point x="2653" y="1841"/>
+	<Point x="2523" y="1841"/>
+	<Point x="2523" y="1842"/>
+	<Point x="2394" y="1842"/>
+	<Point x="2394" y="1843"/>
+	<Point x="2264" y="1843"/>
+	<Point x="2264" y="1844"/>
+	<Point x="2135" y="1844"/>
+	<Point x="2135" y="1845"/>
+	<Point x="2005" y="1845"/>
+	<Point x="2005" y="1846"/>
+	<Point x="1958" y="1846"/>
+	<Point x="1958" y="1847"/>
+	<Point x="1892" y="1847"/>
+	<Point x="1892" y="1769"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Ds. van Goor, te Aduard, heeft voor de beroeping
+naar 't Zandt bedankt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r129" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2631" y="1692"/>
+	<Point x="2631" y="1693"/>
+	<Point x="2764" y="1693"/>
+	<Point x="2764" y="1768"/>
+	<Point x="2223" y="1768"/>
+	<Point x="2223" y="1769"/>
+	<Point x="2222" y="1769"/>
+	<Point x="2222" y="1770"/>
+	<Point x="2221" y="1770"/>
+	<Point x="2221" y="1771"/>
+	<Point x="2219" y="1771"/>
+	<Point x="2219" y="1772"/>
+	<Point x="2218" y="1772"/>
+	<Point x="2218" y="1773"/>
+	<Point x="2217" y="1773"/>
+	<Point x="2217" y="1774"/>
+	<Point x="2217" y="1773"/>
+	<Point x="2216" y="1773"/>
+	<Point x="2216" y="1772"/>
+	<Point x="2214" y="1772"/>
+	<Point x="2214" y="1771"/>
+	<Point x="2213" y="1771"/>
+	<Point x="2213" y="1770"/>
+	<Point x="2211" y="1770"/>
+	<Point x="2211" y="1769"/>
+	<Point x="2210" y="1769"/>
+	<Point x="2210" y="1768"/>
+	<Point x="2208" y="1768"/>
+	<Point x="2208" y="1767"/>
+	<Point x="2156" y="1767"/>
+	<Point x="2156" y="1768"/>
+	<Point x="2155" y="1768"/>
+	<Point x="2155" y="1770"/>
+	<Point x="2154" y="1770"/>
+	<Point x="2154" y="1772"/>
+	<Point x="2153" y="1772"/>
+	<Point x="2153" y="1774"/>
+	<Point x="2152" y="1774"/>
+	<Point x="2152" y="1775"/>
+	<Point x="2139" y="1775"/>
+	<Point x="2139" y="1774"/>
+	<Point x="2138" y="1774"/>
+	<Point x="2138" y="1773"/>
+	<Point x="2137" y="1773"/>
+	<Point x="2137" y="1772"/>
+	<Point x="2135" y="1772"/>
+	<Point x="2135" y="1771"/>
+	<Point x="2134" y="1771"/>
+	<Point x="2134" y="1770"/>
+	<Point x="2133" y="1770"/>
+	<Point x="2133" y="1769"/>
+	<Point x="2131" y="1769"/>
+	<Point x="2131" y="1768"/>
+	<Point x="2130" y="1768"/>
+	<Point x="2130" y="1767"/>
+	<Point x="2047" y="1767"/>
+	<Point x="2047" y="1771"/>
+	<Point x="2046" y="1771"/>
+	<Point x="2046" y="1775"/>
+	<Point x="2039" y="1775"/>
+	<Point x="2039" y="1774"/>
+	<Point x="2032" y="1774"/>
+	<Point x="2032" y="1773"/>
+	<Point x="2031" y="1773"/>
+	<Point x="2031" y="1772"/>
+	<Point x="2030" y="1772"/>
+	<Point x="2030" y="1771"/>
+	<Point x="2029" y="1771"/>
+	<Point x="2029" y="1770"/>
+	<Point x="2028" y="1770"/>
+	<Point x="2028" y="1769"/>
+	<Point x="2027" y="1769"/>
+	<Point x="2027" y="1768"/>
+	<Point x="2026" y="1768"/>
+	<Point x="2026" y="1767"/>
+	<Point x="1892" y="1767"/>
+	<Point x="1892" y="1695"/>
+	<Point x="2024" y="1695"/>
+	<Point x="2024" y="1696"/>
+	<Point x="2025" y="1696"/>
+	<Point x="2025" y="1697"/>
+	<Point x="2026" y="1697"/>
+	<Point x="2026" y="1698"/>
+	<Point x="2027" y="1698"/>
+	<Point x="2027" y="1699"/>
+	<Point x="2028" y="1699"/>
+	<Point x="2028" y="1700"/>
+	<Point x="2033" y="1700"/>
+	<Point x="2033" y="1699"/>
+	<Point x="2035" y="1699"/>
+	<Point x="2035" y="1698"/>
+	<Point x="2037" y="1698"/>
+	<Point x="2037" y="1697"/>
+	<Point x="2039" y="1697"/>
+	<Point x="2039" y="1696"/>
+	<Point x="2040" y="1696"/>
+	<Point x="2040" y="1695"/>
+	<Point x="2174" y="1695"/>
+	<Point x="2174" y="1694"/>
+	<Point x="2308" y="1694"/>
+	<Point x="2308" y="1693"/>
+	<Point x="2441" y="1693"/>
+	<Point x="2441" y="1694"/>
+	<Point x="2442" y="1694"/>
+	<Point x="2442" y="1695"/>
+	<Point x="2443" y="1695"/>
+	<Point x="2443" y="1696"/>
+	<Point x="2444" y="1696"/>
+	<Point x="2444" y="1697"/>
+	<Point x="2445" y="1697"/>
+	<Point x="2445" y="1698"/>
+	<Point x="2458" y="1698"/>
+	<Point x="2458" y="1697"/>
+	<Point x="2459" y="1697"/>
+	<Point x="2459" y="1696"/>
+	<Point x="2460" y="1696"/>
+	<Point x="2460" y="1694"/>
+	<Point x="2461" y="1694"/>
+	<Point x="2461" y="1693"/>
+	<Point x="2462" y="1693"/>
+	<Point x="2462" y="1692"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Ds. Alting, heeft voor de tweede beroeping naar
+Broek op Langendijk bedankt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r133" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2448" y="1613"/>
+	<Point x="2448" y="1614"/>
+	<Point x="2451" y="1614"/>
+	<Point x="2451" y="1615"/>
+	<Point x="2453" y="1615"/>
+	<Point x="2453" y="1616"/>
+	<Point x="2455" y="1616"/>
+	<Point x="2455" y="1617"/>
+	<Point x="2457" y="1617"/>
+	<Point x="2457" y="1618"/>
+	<Point x="2459" y="1618"/>
+	<Point x="2459" y="1619"/>
+	<Point x="2463" y="1619"/>
+	<Point x="2463" y="1618"/>
+	<Point x="2465" y="1618"/>
+	<Point x="2465" y="1617"/>
+	<Point x="2467" y="1617"/>
+	<Point x="2467" y="1616"/>
+	<Point x="2469" y="1616"/>
+	<Point x="2469" y="1615"/>
+	<Point x="2577" y="1615"/>
+	<Point x="2577" y="1614"/>
+	<Point x="2685" y="1614"/>
+	<Point x="2685" y="1613"/>
+	<Point x="2764" y="1613"/>
+	<Point x="2764" y="1691"/>
+	<Point x="2633" y="1691"/>
+	<Point x="2633" y="1690"/>
+	<Point x="2460" y="1690"/>
+	<Point x="2460" y="1691"/>
+	<Point x="2459" y="1691"/>
+	<Point x="2459" y="1692"/>
+	<Point x="2458" y="1692"/>
+	<Point x="2458" y="1694"/>
+	<Point x="2457" y="1694"/>
+	<Point x="2457" y="1695"/>
+	<Point x="2456" y="1695"/>
+	<Point x="2456" y="1696"/>
+	<Point x="2447" y="1696"/>
+	<Point x="2447" y="1695"/>
+	<Point x="2446" y="1695"/>
+	<Point x="2446" y="1694"/>
+	<Point x="2445" y="1694"/>
+	<Point x="2445" y="1693"/>
+	<Point x="2444" y="1693"/>
+	<Point x="2444" y="1692"/>
+	<Point x="2443" y="1692"/>
+	<Point x="2443" y="1691"/>
+	<Point x="2442" y="1691"/>
+	<Point x="2442" y="1690"/>
+	<Point x="2439" y="1690"/>
+	<Point x="2439" y="1691"/>
+	<Point x="2306" y="1691"/>
+	<Point x="2306" y="1692"/>
+	<Point x="2172" y="1692"/>
+	<Point x="2172" y="1693"/>
+	<Point x="2038" y="1693"/>
+	<Point x="2038" y="1694"/>
+	<Point x="2037" y="1694"/>
+	<Point x="2037" y="1695"/>
+	<Point x="2035" y="1695"/>
+	<Point x="2035" y="1696"/>
+	<Point x="2033" y="1696"/>
+	<Point x="2033" y="1697"/>
+	<Point x="2031" y="1697"/>
+	<Point x="2031" y="1698"/>
+	<Point x="2030" y="1698"/>
+	<Point x="2030" y="1697"/>
+	<Point x="2029" y="1697"/>
+	<Point x="2029" y="1696"/>
+	<Point x="2028" y="1696"/>
+	<Point x="2028" y="1695"/>
+	<Point x="2027" y="1695"/>
+	<Point x="2027" y="1694"/>
+	<Point x="2026" y="1694"/>
+	<Point x="2026" y="1693"/>
+	<Point x="2025" y="1693"/>
+	<Point x="2025" y="1692"/>
+	<Point x="2022" y="1692"/>
+	<Point x="2022" y="1693"/>
+	<Point x="1892" y="1693"/>
+	<Point x="1892" y="1616"/>
+	<Point x="2058" y="1616"/>
+	<Point x="2058" y="1617"/>
+	<Point x="2059" y="1617"/>
+	<Point x="2059" y="1618"/>
+	<Point x="2060" y="1618"/>
+	<Point x="2060" y="1620"/>
+	<Point x="2061" y="1620"/>
+	<Point x="2061" y="1621"/>
+	<Point x="2062" y="1621"/>
+	<Point x="2062" y="1622"/>
+	<Point x="2079" y="1622"/>
+	<Point x="2079" y="1623"/>
+	<Point x="2082" y="1623"/>
+	<Point x="2082" y="1622"/>
+	<Point x="2083" y="1622"/>
+	<Point x="2083" y="1621"/>
+	<Point x="2084" y="1621"/>
+	<Point x="2084" y="1620"/>
+	<Point x="2085" y="1620"/>
+	<Point x="2085" y="1619"/>
+	<Point x="2086" y="1619"/>
+	<Point x="2086" y="1618"/>
+	<Point x="2087" y="1618"/>
+	<Point x="2087" y="1617"/>
+	<Point x="2088" y="1617"/>
+	<Point x="2088" y="1616"/>
+	<Point x="2089" y="1616"/>
+	<Point x="2089" y="1615"/>
+	<Point x="2145" y="1615"/>
+	<Point x="2145" y="1618"/>
+	<Point x="2146" y="1618"/>
+	<Point x="2146" y="1619"/>
+	<Point x="2162" y="1619"/>
+	<Point x="2162" y="1618"/>
+	<Point x="2164" y="1618"/>
+	<Point x="2164" y="1617"/>
+	<Point x="2166" y="1617"/>
+	<Point x="2166" y="1616"/>
+	<Point x="2167" y="1616"/>
+	<Point x="2167" y="1615"/>
+	<Point x="2169" y="1615"/>
+	<Point x="2169" y="1614"/>
+	<Point x="2170" y="1614"/>
+	<Point x="2170" y="1613"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Bij de Chr. Afgesch. gemeente te Zaandam,
+is beroepen ds. W. van Leeuwen, te Putten.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r137" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="1452"/>
+	<Point x="2764" y="1611"/>
+	<Point x="2683" y="1611"/>
+	<Point x="2683" y="1612"/>
+	<Point x="2575" y="1612"/>
+	<Point x="2575" y="1613"/>
+	<Point x="2467" y="1613"/>
+	<Point x="2467" y="1614"/>
+	<Point x="2465" y="1614"/>
+	<Point x="2465" y="1615"/>
+	<Point x="2463" y="1615"/>
+	<Point x="2463" y="1616"/>
+	<Point x="2461" y="1616"/>
+	<Point x="2461" y="1617"/>
+	<Point x="2461" y="1616"/>
+	<Point x="2459" y="1616"/>
+	<Point x="2459" y="1615"/>
+	<Point x="2457" y="1615"/>
+	<Point x="2457" y="1614"/>
+	<Point x="2455" y="1614"/>
+	<Point x="2455" y="1613"/>
+	<Point x="2453" y="1613"/>
+	<Point x="2453" y="1612"/>
+	<Point x="2450" y="1612"/>
+	<Point x="2450" y="1611"/>
+	<Point x="2168" y="1611"/>
+	<Point x="2168" y="1612"/>
+	<Point x="2167" y="1612"/>
+	<Point x="2167" y="1613"/>
+	<Point x="2165" y="1613"/>
+	<Point x="2165" y="1614"/>
+	<Point x="2164" y="1614"/>
+	<Point x="2164" y="1615"/>
+	<Point x="2162" y="1615"/>
+	<Point x="2162" y="1616"/>
+	<Point x="2160" y="1616"/>
+	<Point x="2160" y="1617"/>
+	<Point x="2148" y="1617"/>
+	<Point x="2148" y="1616"/>
+	<Point x="2147" y="1616"/>
+	<Point x="2147" y="1612"/>
+	<Point x="2144" y="1612"/>
+	<Point x="2144" y="1613"/>
+	<Point x="2087" y="1613"/>
+	<Point x="2087" y="1614"/>
+	<Point x="2086" y="1614"/>
+	<Point x="2086" y="1615"/>
+	<Point x="2085" y="1615"/>
+	<Point x="2085" y="1616"/>
+	<Point x="2084" y="1616"/>
+	<Point x="2084" y="1617"/>
+	<Point x="2083" y="1617"/>
+	<Point x="2083" y="1618"/>
+	<Point x="2082" y="1618"/>
+	<Point x="2082" y="1619"/>
+	<Point x="2081" y="1619"/>
+	<Point x="2081" y="1620"/>
+	<Point x="2064" y="1620"/>
+	<Point x="2064" y="1619"/>
+	<Point x="2063" y="1619"/>
+	<Point x="2063" y="1618"/>
+	<Point x="2062" y="1618"/>
+	<Point x="2062" y="1616"/>
+	<Point x="2061" y="1616"/>
+	<Point x="2061" y="1615"/>
+	<Point x="2060" y="1615"/>
+	<Point x="2060" y="1614"/>
+	<Point x="1892" y="1614"/>
+	<Point x="1892" y="1453"/>
+	<Point x="2217" y="1453"/>
+	<Point x="2217" y="1452"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Den 2 dezer werd ds. Nonhebel, van Garderen,
+te Anjum bevestigd, door ds. Reddingius, pred. te
+Morrha, ca., met eene rede over Hand. VIII: 5, 6a;
+de bevestigde sprak naar aanleiding van Phil. IV: 13.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r141" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="1331"/>
+	<Point x="2764" y="1450"/>
+	<Point x="2215" y="1450"/>
+	<Point x="2215" y="1451"/>
+	<Point x="1892" y="1451"/>
+	<Point x="1892" y="1334"/>
+	<Point x="2039" y="1334"/>
+	<Point x="2039" y="1335"/>
+	<Point x="2040" y="1335"/>
+	<Point x="2040" y="1336"/>
+	<Point x="2041" y="1336"/>
+	<Point x="2041" y="1337"/>
+	<Point x="2042" y="1337"/>
+	<Point x="2042" y="1338"/>
+	<Point x="2043" y="1338"/>
+	<Point x="2043" y="1339"/>
+	<Point x="2055" y="1339"/>
+	<Point x="2055" y="1340"/>
+	<Point x="2058" y="1340"/>
+	<Point x="2058" y="1339"/>
+	<Point x="2059" y="1339"/>
+	<Point x="2059" y="1338"/>
+	<Point x="2060" y="1338"/>
+	<Point x="2060" y="1337"/>
+	<Point x="2061" y="1337"/>
+	<Point x="2061" y="1336"/>
+	<Point x="2062" y="1336"/>
+	<Point x="2062" y="1335"/>
+	<Point x="2063" y="1335"/>
+	<Point x="2063" y="1334"/>
+	<Point x="2064" y="1334"/>
+	<Point x="2064" y="1333"/>
+	<Point x="2304" y="1333"/>
+	<Point x="2304" y="1332"/>
+	<Point x="2543" y="1332"/>
+	<Point x="2543" y="1331"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>Te Veenendaal is beroepen ds. du Cloux, te Ol-
+debroek. — Te Oijen, de WEw. Heer Koch, kand.
+tot de H. Dienst.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r145" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2621" y="1248"/>
+	<Point x="2621" y="1249"/>
+	<Point x="2710" y="1249"/>
+	<Point x="2710" y="1250"/>
+	<Point x="2711" y="1250"/>
+	<Point x="2711" y="1251"/>
+	<Point x="2712" y="1251"/>
+	<Point x="2712" y="1253"/>
+	<Point x="2713" y="1253"/>
+	<Point x="2713" y="1255"/>
+	<Point x="2714" y="1255"/>
+	<Point x="2714" y="1257"/>
+	<Point x="2715" y="1257"/>
+	<Point x="2715" y="1258"/>
+	<Point x="2721" y="1258"/>
+	<Point x="2721" y="1257"/>
+	<Point x="2726" y="1257"/>
+	<Point x="2726" y="1256"/>
+	<Point x="2728" y="1256"/>
+	<Point x="2728" y="1255"/>
+	<Point x="2730" y="1255"/>
+	<Point x="2730" y="1254"/>
+	<Point x="2732" y="1254"/>
+	<Point x="2732" y="1253"/>
+	<Point x="2734" y="1253"/>
+	<Point x="2734" y="1252"/>
+	<Point x="2735" y="1252"/>
+	<Point x="2735" y="1251"/>
+	<Point x="2764" y="1251"/>
+	<Point x="2764" y="1329"/>
+	<Point x="2541" y="1329"/>
+	<Point x="2541" y="1330"/>
+	<Point x="2302" y="1330"/>
+	<Point x="2302" y="1331"/>
+	<Point x="2062" y="1331"/>
+	<Point x="2062" y="1332"/>
+	<Point x="2061" y="1332"/>
+	<Point x="2061" y="1333"/>
+	<Point x="2060" y="1333"/>
+	<Point x="2060" y="1334"/>
+	<Point x="2059" y="1334"/>
+	<Point x="2059" y="1335"/>
+	<Point x="2058" y="1335"/>
+	<Point x="2058" y="1336"/>
+	<Point x="2057" y="1336"/>
+	<Point x="2057" y="1337"/>
+	<Point x="2045" y="1337"/>
+	<Point x="2045" y="1336"/>
+	<Point x="2044" y="1336"/>
+	<Point x="2044" y="1335"/>
+	<Point x="2043" y="1335"/>
+	<Point x="2043" y="1334"/>
+	<Point x="2042" y="1334"/>
+	<Point x="2042" y="1333"/>
+	<Point x="2041" y="1333"/>
+	<Point x="2041" y="1332"/>
+	<Point x="1892" y="1332"/>
+	<Point x="1892" y="1252"/>
+	<Point x="2196" y="1252"/>
+	<Point x="2196" y="1253"/>
+	<Point x="2198" y="1253"/>
+	<Point x="2198" y="1254"/>
+	<Point x="2200" y="1254"/>
+	<Point x="2200" y="1255"/>
+	<Point x="2202" y="1255"/>
+	<Point x="2202" y="1256"/>
+	<Point x="2206" y="1256"/>
+	<Point x="2206" y="1255"/>
+	<Point x="2208" y="1255"/>
+	<Point x="2208" y="1254"/>
+	<Point x="2210" y="1254"/>
+	<Point x="2210" y="1253"/>
+	<Point x="2211" y="1253"/>
+	<Point x="2211" y="1252"/>
+	<Point x="2223" y="1252"/>
+	<Point x="2223" y="1251"/>
+	<Point x="2234" y="1251"/>
+	<Point x="2234" y="1250"/>
+	<Point x="2246" y="1250"/>
+	<Point x="2246" y="1249"/>
+	<Point x="2256" y="1249"/>
+	<Point x="2256" y="1253"/>
+	<Point x="2257" y="1253"/>
+	<Point x="2257" y="1254"/>
+	<Point x="2270" y="1254"/>
+	<Point x="2270" y="1255"/>
+	<Point x="2273" y="1255"/>
+	<Point x="2273" y="1254"/>
+	<Point x="2274" y="1254"/>
+	<Point x="2274" y="1252"/>
+	<Point x="2275" y="1252"/>
+	<Point x="2275" y="1250"/>
+	<Point x="2276" y="1250"/>
+	<Point x="2276" y="1249"/>
+	<Point x="2299" y="1249"/>
+	<Point x="2299" y="1250"/>
+	<Point x="2300" y="1250"/>
+	<Point x="2300" y="1251"/>
+	<Point x="2301" y="1251"/>
+	<Point x="2301" y="1252"/>
+	<Point x="2315" y="1252"/>
+	<Point x="2315" y="1253"/>
+	<Point x="2364" y="1253"/>
+	<Point x="2364" y="1252"/>
+	<Point x="2410" y="1252"/>
+	<Point x="2410" y="1251"/>
+	<Point x="2455" y="1251"/>
+	<Point x="2455" y="1253"/>
+	<Point x="2456" y="1253"/>
+	<Point x="2456" y="1254"/>
+	<Point x="2472" y="1254"/>
+	<Point x="2472" y="1253"/>
+	<Point x="2473" y="1253"/>
+	<Point x="2473" y="1252"/>
+	<Point x="2474" y="1252"/>
+	<Point x="2474" y="1251"/>
+	<Point x="2475" y="1251"/>
+	<Point x="2475" y="1250"/>
+	<Point x="2476" y="1250"/>
+	<Point x="2476" y="1249"/>
+	<Point x="2501" y="1249"/>
+	<Point x="2501" y="1251"/>
+	<Point x="2502" y="1251"/>
+	<Point x="2502" y="1253"/>
+	<Point x="2503" y="1253"/>
+	<Point x="2503" y="1255"/>
+	<Point x="2504" y="1255"/>
+	<Point x="2504" y="1256"/>
+	<Point x="2522" y="1256"/>
+	<Point x="2522" y="1255"/>
+	<Point x="2524" y="1255"/>
+	<Point x="2524" y="1254"/>
+	<Point x="2526" y="1254"/>
+	<Point x="2526" y="1253"/>
+	<Point x="2528" y="1253"/>
+	<Point x="2528" y="1252"/>
+	<Point x="2529" y="1252"/>
+	<Point x="2529" y="1251"/>
+	<Point x="2531" y="1251"/>
+	<Point x="2531" y="1250"/>
+	<Point x="2533" y="1250"/>
+	<Point x="2533" y="1249"/>
+	<Point x="2534" y="1249"/>
+	<Point x="2534" y="1248"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>De kand. J. B. Knotterus heeft voor het beroep
+naar de gemeente Meeuwen bedankt.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r149" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="1128"/>
+	<Point x="2764" y="1249"/>
+	<Point x="2733" y="1249"/>
+	<Point x="2733" y="1250"/>
+	<Point x="2732" y="1250"/>
+	<Point x="2732" y="1251"/>
+	<Point x="2730" y="1251"/>
+	<Point x="2730" y="1252"/>
+	<Point x="2728" y="1252"/>
+	<Point x="2728" y="1253"/>
+	<Point x="2726" y="1253"/>
+	<Point x="2726" y="1254"/>
+	<Point x="2724" y="1254"/>
+	<Point x="2724" y="1255"/>
+	<Point x="2719" y="1255"/>
+	<Point x="2719" y="1256"/>
+	<Point x="2717" y="1256"/>
+	<Point x="2717" y="1255"/>
+	<Point x="2716" y="1255"/>
+	<Point x="2716" y="1253"/>
+	<Point x="2715" y="1253"/>
+	<Point x="2715" y="1251"/>
+	<Point x="2714" y="1251"/>
+	<Point x="2714" y="1249"/>
+	<Point x="2713" y="1249"/>
+	<Point x="2713" y="1248"/>
+	<Point x="2712" y="1248"/>
+	<Point x="2712" y="1247"/>
+	<Point x="2623" y="1247"/>
+	<Point x="2623" y="1246"/>
+	<Point x="2532" y="1246"/>
+	<Point x="2532" y="1247"/>
+	<Point x="2531" y="1247"/>
+	<Point x="2531" y="1248"/>
+	<Point x="2529" y="1248"/>
+	<Point x="2529" y="1249"/>
+	<Point x="2527" y="1249"/>
+	<Point x="2527" y="1250"/>
+	<Point x="2526" y="1250"/>
+	<Point x="2526" y="1251"/>
+	<Point x="2524" y="1251"/>
+	<Point x="2524" y="1252"/>
+	<Point x="2522" y="1252"/>
+	<Point x="2522" y="1253"/>
+	<Point x="2520" y="1253"/>
+	<Point x="2520" y="1254"/>
+	<Point x="2506" y="1254"/>
+	<Point x="2506" y="1253"/>
+	<Point x="2505" y="1253"/>
+	<Point x="2505" y="1251"/>
+	<Point x="2504" y="1251"/>
+	<Point x="2504" y="1249"/>
+	<Point x="2503" y="1249"/>
+	<Point x="2503" y="1247"/>
+	<Point x="2474" y="1247"/>
+	<Point x="2474" y="1248"/>
+	<Point x="2473" y="1248"/>
+	<Point x="2473" y="1249"/>
+	<Point x="2472" y="1249"/>
+	<Point x="2472" y="1250"/>
+	<Point x="2471" y="1250"/>
+	<Point x="2471" y="1251"/>
+	<Point x="2470" y="1251"/>
+	<Point x="2470" y="1252"/>
+	<Point x="2458" y="1252"/>
+	<Point x="2458" y="1251"/>
+	<Point x="2457" y="1251"/>
+	<Point x="2457" y="1248"/>
+	<Point x="2454" y="1248"/>
+	<Point x="2454" y="1249"/>
+	<Point x="2408" y="1249"/>
+	<Point x="2408" y="1250"/>
+	<Point x="2362" y="1250"/>
+	<Point x="2362" y="1251"/>
+	<Point x="2317" y="1251"/>
+	<Point x="2317" y="1250"/>
+	<Point x="2303" y="1250"/>
+	<Point x="2303" y="1249"/>
+	<Point x="2302" y="1249"/>
+	<Point x="2302" y="1248"/>
+	<Point x="2301" y="1248"/>
+	<Point x="2301" y="1247"/>
+	<Point x="2300" y="1247"/>
+	<Point x="2300" y="1246"/>
+	<Point x="2297" y="1246"/>
+	<Point x="2297" y="1247"/>
+	<Point x="2274" y="1247"/>
+	<Point x="2274" y="1248"/>
+	<Point x="2273" y="1248"/>
+	<Point x="2273" y="1250"/>
+	<Point x="2272" y="1250"/>
+	<Point x="2272" y="1252"/>
+	<Point x="2259" y="1252"/>
+	<Point x="2259" y="1251"/>
+	<Point x="2258" y="1251"/>
+	<Point x="2258" y="1246"/>
+	<Point x="2255" y="1246"/>
+	<Point x="2255" y="1247"/>
+	<Point x="2244" y="1247"/>
+	<Point x="2244" y="1248"/>
+	<Point x="2232" y="1248"/>
+	<Point x="2232" y="1249"/>
+	<Point x="2221" y="1249"/>
+	<Point x="2221" y="1250"/>
+	<Point x="2209" y="1250"/>
+	<Point x="2209" y="1251"/>
+	<Point x="2208" y="1251"/>
+	<Point x="2208" y="1252"/>
+	<Point x="2206" y="1252"/>
+	<Point x="2206" y="1253"/>
+	<Point x="2204" y="1253"/>
+	<Point x="2204" y="1254"/>
+	<Point x="2204" y="1253"/>
+	<Point x="2202" y="1253"/>
+	<Point x="2202" y="1252"/>
+	<Point x="2200" y="1252"/>
+	<Point x="2200" y="1251"/>
+	<Point x="2198" y="1251"/>
+	<Point x="2198" y="1250"/>
+	<Point x="1892" y="1250"/>
+	<Point x="1892" y="1133"/>
+	<Point x="1992" y="1133"/>
+	<Point x="1992" y="1132"/>
+	<Point x="2100" y="1132"/>
+	<Point x="2100" y="1131"/>
+	<Point x="2208" y="1131"/>
+	<Point x="2208" y="1130"/>
+	<Point x="2316" y="1130"/>
+	<Point x="2316" y="1129"/>
+	<Point x="2424" y="1129"/>
+	<Point x="2424" y="1128"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>AANGENOMEN: Ds. J. P. Hattink, te Aalst, de
+beroeping naar Oude-Wetering c. a. — De kandi-
+daat K. F. Ternooy-Apèl, de beroeping naar Rockanje.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r153" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2141" y="1053"/>
+	<Point x="2141" y="1054"/>
+	<Point x="2764" y="1054"/>
+	<Point x="2764" y="1126"/>
+	<Point x="2422" y="1126"/>
+	<Point x="2422" y="1127"/>
+	<Point x="2314" y="1127"/>
+	<Point x="2314" y="1128"/>
+	<Point x="2206" y="1128"/>
+	<Point x="2206" y="1129"/>
+	<Point x="2098" y="1129"/>
+	<Point x="2098" y="1130"/>
+	<Point x="1990" y="1130"/>
+	<Point x="1990" y="1131"/>
+	<Point x="1892" y="1131"/>
+	<Point x="1892" y="1053"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Te Bussum is tot vast hulpprediker beroepen
+de Heer Buchlie Fest, kand. tot de H. Dienst.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r157" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="849"/>
+	<Point x="2764" y="1052"/>
+	<Point x="2143" y="1052"/>
+	<Point x="2143" y="1051"/>
+	<Point x="1892" y="1051"/>
+	<Point x="1892" y="859"/>
+	<Point x="1968" y="859"/>
+	<Point x="1968" y="858"/>
+	<Point x="2050" y="858"/>
+	<Point x="2050" y="857"/>
+	<Point x="2132" y="857"/>
+	<Point x="2132" y="856"/>
+	<Point x="2215" y="856"/>
+	<Point x="2215" y="855"/>
+	<Point x="2297" y="855"/>
+	<Point x="2297" y="854"/>
+	<Point x="2379" y="854"/>
+	<Point x="2379" y="853"/>
+	<Point x="2461" y="853"/>
+	<Point x="2461" y="852"/>
+	<Point x="2544" y="852"/>
+	<Point x="2544" y="851"/>
+	<Point x="2626" y="851"/>
+	<Point x="2626" y="850"/>
+	<Point x="2708" y="850"/>
+	<Point x="2708" y="849"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Te Zutphen is uit het vroeger gemaakte zestal
+het volgende drietal geformeerd: v. Baumhauer,
+v. Loon en Coolhaas v. d. Woude, en daaruit beroe-
+pen: Ds. T. K. M. v. Baumhauer, Th. en Litt. Dr.
+te Geervliet.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r159" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="87"/>
+	<Point x="2764" y="568"/>
+	<Point x="2688" y="568"/>
+	<Point x="2688" y="569"/>
+	<Point x="2598" y="569"/>
+	<Point x="2598" y="570"/>
+	<Point x="2508" y="570"/>
+	<Point x="2508" y="571"/>
+	<Point x="2418" y="571"/>
+	<Point x="2418" y="572"/>
+	<Point x="2328" y="572"/>
+	<Point x="2328" y="573"/>
+	<Point x="2238" y="573"/>
+	<Point x="2238" y="574"/>
+	<Point x="2148" y="574"/>
+	<Point x="2148" y="575"/>
+	<Point x="2058" y="575"/>
+	<Point x="2058" y="576"/>
+	<Point x="2053" y="576"/>
+	<Point x="2053" y="577"/>
+	<Point x="2047" y="577"/>
+	<Point x="2047" y="578"/>
+	<Point x="2041" y="578"/>
+	<Point x="2041" y="579"/>
+	<Point x="2036" y="579"/>
+	<Point x="2036" y="580"/>
+	<Point x="2030" y="580"/>
+	<Point x="2030" y="581"/>
+	<Point x="2024" y="581"/>
+	<Point x="2024" y="582"/>
+	<Point x="2019" y="582"/>
+	<Point x="2019" y="583"/>
+	<Point x="2013" y="583"/>
+	<Point x="2013" y="584"/>
+	<Point x="2007" y="584"/>
+	<Point x="2007" y="585"/>
+	<Point x="2002" y="585"/>
+	<Point x="2002" y="586"/>
+	<Point x="1996" y="586"/>
+	<Point x="1996" y="587"/>
+	<Point x="1990" y="587"/>
+	<Point x="1990" y="588"/>
+	<Point x="1963" y="588"/>
+	<Point x="1963" y="589"/>
+	<Point x="1936" y="589"/>
+	<Point x="1936" y="590"/>
+	<Point x="1909" y="590"/>
+	<Point x="1909" y="591"/>
+	<Point x="1892" y="591"/>
+	<Point x="1892" y="87"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>geene valschheid in den zin der wet te hebben gepleegd.
+Een getal van 14 getuigen is in deze zaak gehoord,
+zij gaven hoofdzakelijk voor, eigentlijk niet te heb-
+ben geweten, wat zij voor den Notaris verklaard
+hadden. Het openbaar ministerie heeft, bij monde
+van den advocaat-generaal, gerequireerd tot veroor-
+deeling van den beschuldigde overeenkomstig de op
+zijne misdaad toepasselijke wetsbepalingen, en tot
+geregtelijk ontslag uit deszelfs ambtbetrekking. Als
+verdediger is opgetreden de advocaat Mr. Triebels,
+uit Nijmegen. De uitspraak is bepaald op aanstaanden
+Dingsdag.</Unicode></TextEquiv></TextRegion>
+	<TextRegion id="r161" readingDirection="left-to-right" type="paragraph">
+	<Coords>
+	<Point x="2764" y="570"/>
+	<Point x="2764" y="847"/>
+	<Point x="2706" y="847"/>
+	<Point x="2706" y="848"/>
+	<Point x="2624" y="848"/>
+	<Point x="2624" y="849"/>
+	<Point x="2542" y="849"/>
+	<Point x="2542" y="850"/>
+	<Point x="2459" y="850"/>
+	<Point x="2459" y="851"/>
+	<Point x="2377" y="851"/>
+	<Point x="2377" y="852"/>
+	<Point x="2295" y="852"/>
+	<Point x="2295" y="853"/>
+	<Point x="2213" y="853"/>
+	<Point x="2213" y="854"/>
+	<Point x="2130" y="854"/>
+	<Point x="2130" y="855"/>
+	<Point x="2048" y="855"/>
+	<Point x="2048" y="856"/>
+	<Point x="1966" y="856"/>
+	<Point x="1966" y="857"/>
+	<Point x="1892" y="857"/>
+	<Point x="1892" y="593"/>
+	<Point x="1911" y="593"/>
+	<Point x="1911" y="592"/>
+	<Point x="1938" y="592"/>
+	<Point x="1938" y="591"/>
+	<Point x="1965" y="591"/>
+	<Point x="1965" y="590"/>
+	<Point x="1992" y="590"/>
+	<Point x="1992" y="589"/>
+	<Point x="1998" y="589"/>
+	<Point x="1998" y="588"/>
+	<Point x="2004" y="588"/>
+	<Point x="2004" y="587"/>
+	<Point x="2009" y="587"/>
+	<Point x="2009" y="586"/>
+	<Point x="2015" y="586"/>
+	<Point x="2015" y="585"/>
+	<Point x="2021" y="585"/>
+	<Point x="2021" y="584"/>
+	<Point x="2026" y="584"/>
+	<Point x="2026" y="583"/>
+	<Point x="2032" y="583"/>
+	<Point x="2032" y="582"/>
+	<Point x="2038" y="582"/>
+	<Point x="2038" y="581"/>
+	<Point x="2043" y="581"/>
+	<Point x="2043" y="580"/>
+	<Point x="2049" y="580"/>
+	<Point x="2049" y="579"/>
+	<Point x="2055" y="579"/>
+	<Point x="2055" y="578"/>
+	<Point x="2060" y="578"/>
+	<Point x="2060" y="577"/>
+	<Point x="2150" y="577"/>
+	<Point x="2150" y="576"/>
+	<Point x="2240" y="576"/>
+	<Point x="2240" y="575"/>
+	<Point x="2330" y="575"/>
+	<Point x="2330" y="574"/>
+	<Point x="2420" y="574"/>
+	<Point x="2420" y="573"/>
+	<Point x="2510" y="573"/>
+	<Point x="2510" y="572"/>
+	<Point x="2600" y="572"/>
+	<Point x="2600" y="571"/>
+	<Point x="2690" y="571"/>
+	<Point x="2690" y="570"/></Coords>
+	<TextEquiv>
+	<PlainText></PlainText>
+	<Unicode>— Alkmaar, 20 October. Heden nacht zijn drie
+gevangenen uit het huis van arrest alhier ontvlugt.
+Een hunner is zekere Jan Backer, de medepligtige
+aan den veelbesproken diefstal, gepleegd te Helder,
+in Januarij dezes jaars, bij den heer J. de Jongh.
+De justitie doet ijverige nasporingen om de ontsnap-
+ten weder meester te worden.</Unicode></TextEquiv></TextRegion></Page></PcGts>
