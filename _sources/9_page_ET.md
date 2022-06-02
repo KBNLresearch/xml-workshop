@@ -13,7 +13,7 @@ kernelspec:
   name: python3
 ---
 
-# 8. Practical lesson: Page and Elementree
+# 9. Practical lesson: Page and Elementree
 
 In this section we will use ElemenTree to extract data from a newspaper in the Page xml format.
 For this lesson, we assume that you have followed the practical lesson 4. When needed, refer back to previous lessons.

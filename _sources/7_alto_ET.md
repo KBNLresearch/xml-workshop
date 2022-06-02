@@ -536,7 +536,7 @@ Everything before ***urn*** will be removed from the identifier, as it has no di
 We can perform these alteration through string manipulations in Python. 
 ```
 
-```{code-cell}
+```
 ## import urllib, it is a standard library so does not need to be installed
 from urllib.request import urlopen
 
