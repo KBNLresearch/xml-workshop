@@ -334,7 +334,7 @@ Create the catalog for the following newspapers:
 ```XML
 <catalog>
 	<newspaper>
-		<title>Algemeen handelsblad<?/title>
+		<title>Algemeen handelsblad</title>
 		<publication_date>01-01-1870</publication_date>
 		<pages>4</pages>
 	</newspaper>
