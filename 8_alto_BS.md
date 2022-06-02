@@ -13,7 +13,7 @@ kernelspec:
   name: python3
 ---
 
-# 9. Practical lesson: Alto/Didle and Beautiful Soup
+# 8. Practical lesson: Alto/Didle and Beautiful Soup
 
 In this lesson we are going to work with the Alto and Didle format. As shown in lesson ***6***, the Alto and Didle are connected to each other. 
 The Alto stores the plain text and the Didl the metadata of the newspaper. For this lesson, we assume that you have followed the practical lesson 5. 
@@ -483,7 +483,7 @@ Everything before ***urn*** will be removed from the identifier, as it has no di
 We can perform these alteration through string manipulations in Python. 
 ```
 
-```{code-cell}
+```
 ## import urllib, it is a standard library so does not need to be installed
 from urllib.request import urlopen
 

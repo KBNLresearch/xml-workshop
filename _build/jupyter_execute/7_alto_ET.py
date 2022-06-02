@@ -533,29 +533,26 @@ for item in root_didl.findall('.//ns2:Resource', ns_didl):
 # Everything before ***urn*** will be removed from the identifier, as it has no distinguish features.
 # We can perform these alteration through string manipulations in Python. 
 # ```
-
-# In[9]:
-
-
-## import urllib, it is a standard library so does not need to be installed
-from urllib.request import urlopen
-
-filename = 'http://resolver.kb.nl/resolve?urn=ddd:010097934:mpeg21:a0001:ocr'
-## Remove the first part from the filename, so you keep only ddd:010097934:mpeg21:a0001:ocr'
-filename = filename.split('=')[1]
-## Replace the : with _
-filename = filename.replace(':', '_')
-
-url = 'http://resolver.kb.nl/resolve?urn=ddd:010097934:mpeg21:a0001:ocr'
-
-## write XML to file, downloading happens in this step too.
-with open(filename + ".xml", "w", encoding="utf-8") as f:
-    f.write(urlopen(url).read().decode('utf-8'))
-
-
+# 
+# ```
+# ## import urllib, it is a standard library so does not need to be installed
+# from urllib.request import urlopen
+# 
+# filename = 'http://resolver.kb.nl/resolve?urn=ddd:010097934:mpeg21:a0001:ocr'
+# ## Remove the first part from the filename, so you keep only ddd:010097934:mpeg21:a0001:ocr'
+# filename = filename.split('=')[1]
+# ## Replace the : with _
+# filename = filename.replace(':', '_')
+# 
+# url = 'http://resolver.kb.nl/resolve?urn=ddd:010097934:mpeg21:a0001:ocr'
+# 
+# ## write XML to file, downloading happens in this step too.
+# with open(filename + ".xml", "w", encoding="utf-8") as f:
+#     f.write(urlopen(url).read().decode('utf-8'))
+# ```
 # Now, we can open this xml file and look at the structure.
 
-# In[ ]:
+# In[9]:
 
 
 tree = ET.parse('ddd_010097934_mpeg21_a0001_ocr.xml')
