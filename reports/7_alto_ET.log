@@ -22,22 +22,31 @@ root_article = tree.getroot()
 print(ET.tostring(root_article, encoding='utf8').decode('utf8'))
 ------------------
 
-Traceback [1;36m(most recent call last)[0m:
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mFileNotFoundError[0m                         Traceback (most recent call last)
+Input [1;32mIn [9][0m, in [0;36m<cell line: 1>[1;34m()[0m
+[1;32m----> 1[0m tree [38;5;241m=[39m [43mET[49m[38;5;241;43m.[39;49m[43mparse[49m[43m([49m[38;5;124;43m'[39;49m[38;5;124;43mddd_010097934_mpeg21_a0001_ocr.xml[39;49m[38;5;124;43m'[39;49m[43m)[49m
+[0;32m      2[0m root_article [38;5;241m=[39m tree[38;5;241m.[39mgetroot()
+[0;32m      3[0m [38;5;28mprint[39m(ET[38;5;241m.[39mtostring(root_article, encoding[38;5;241m=[39m[38;5;124m'[39m[38;5;124mutf8[39m[38;5;124m'[39m)[38;5;241m.[39mdecode([38;5;124m'[39m[38;5;124mutf8[39m[38;5;124m'[39m))
 
-  File [0;32m~\anaconda3\lib\site-packages\IPython\core\interactiveshell.py:3369[0m in [0;35mrun_code[0m
-    exec(code_obj, self.user_global_ns, self.user_ns)
+File [1;32m~\anaconda3\lib\xml\etree\ElementTree.py:1229[0m, in [0;36mparse[1;34m(source, parser)[0m
+[0;32m   1220[0m [38;5;124;03m"""Parse XML document into element tree.[39;00m
+[0;32m   1221[0m 
+[0;32m   1222[0m [38;5;124;03m*source* is a filename or file object containing XML data,[39;00m
+[1;32m   (...)[0m
+[0;32m   1226[0m 
+[0;32m   1227[0m [38;5;124;03m"""[39;00m
+[0;32m   1228[0m tree [38;5;241m=[39m ElementTree()
+[1;32m-> 1229[0m [43mtree[49m[38;5;241;43m.[39;49m[43mparse[49m[43m([49m[43msource[49m[43m,[49m[43m [49m[43mparser[49m[43m)[49m
+[0;32m   1230[0m [38;5;28;01mreturn[39;00m tree
 
-  Input [0;32mIn [9][0m in [0;35m<cell line: 1>[0m
-    tree = ET.parse('ddd_010097934_mpeg21_a0001_ocr.xml')
+File [1;32m~\anaconda3\lib\xml\etree\ElementTree.py:569[0m, in [0;36mElementTree.parse[1;34m(self, source, parser)[0m
+[0;32m    567[0m close_source [38;5;241m=[39m [38;5;28;01mFalse[39;00m
+[0;32m    568[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28mhasattr[39m(source, [38;5;124m"[39m[38;5;124mread[39m[38;5;124m"[39m):
+[1;32m--> 569[0m     source [38;5;241m=[39m [38;5;28;43mopen[39;49m[43m([49m[43msource[49m[43m,[49m[43m [49m[38;5;124;43m"[39;49m[38;5;124;43mrb[39;49m[38;5;124;43m"[39;49m[43m)[49m
+[0;32m    570[0m     close_source [38;5;241m=[39m [38;5;28;01mTrue[39;00m
+[0;32m    571[0m [38;5;28;01mtry[39;00m:
 
-  File [0;32m~\anaconda3\lib\xml\etree\ElementTree.py:1229[0m in [0;35mparse[0m
-    tree.parse(source, parser)
-
-[1;36m  File [1;32m~\anaconda3\lib\xml\etree\ElementTree.py:580[1;36m in [1;35mparse[1;36m[0m
-[1;33m    self._root = parser._parse_whole(source)[0m
-
-[1;36m  File [1;32m<string>[1;36m[0m
-[1;31mParseError[0m[1;31m:[0m no element found: line 1, column 0
-
-ParseError: no element found: line 1, column 0 (<string>)
+[1;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'ddd_010097934_mpeg21_a0001_ocr.xml'
+FileNotFoundError: [Errno 2] No such file or directory: 'ddd_010097934_mpeg21_a0001_ocr.xml'
 

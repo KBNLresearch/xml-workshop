@@ -13,9 +13,9 @@ kernelspec:
   name: python3
 ---
 
-# 8. Practical lesson: Alto/Didle and Beautiful Soup
+# 8. Practical lesson: Alto/Didl and Beautiful Soup
 
-In this lesson we are going to work with the Alto and Didle format. As shown in lesson ***6***, the Alto and Didle are connected to each other. 
+In this lesson we are going to work with the Alto and Didl format. As shown in lesson ***6***, the Alto and Didl are connected to each other. 
 The Alto stores the plain text and the Didl the metadata of the newspaper. For this lesson, we assume that you have followed the practical lesson 5. 
 
 This lesson contains the following content:
@@ -36,7 +36,7 @@ We first need to prepare the Notebook by importing the package we need and loadi
 :class: attention
 Import the ElemenTree package and load the XML file into your Notebook.
 You can look back to lesson 4 if you need a reminder on how to do this. 
-The XML file is named ‘alto.xml’ and can be [downloaded here](https://github.com/MirjamC/xml-workshop/tree/master/data).
+The XML file is named ‘alto.xml’ and can be [downloaded here](https://github.com/KBNLresearch/xml-workshop/tree/main/data).
 ```
 
 ````{admonition} Solution
@@ -271,8 +271,8 @@ for book in root_alto.find_all('Page'):
 ## Load the Didl file and examine the structure 
 
 We now have a more readable page with the corresponding page number. However, if we store this as is, we will have no idea from which newspaper this page was extracted. This makes it of limited reuseability. 
-In lesson 6 we described that we can find metadata corresponding to an Alto file in a Didle file. 
-The alto and didle file have the same identifier, so you can match them.
+In lesson 6 we described that we can find metadata corresponding to an Alto file in a Didl file. 
+The alto and Didl file have the same identifier, so you can match them.
 
 In our case, they both have the identifier 1. 
 
@@ -300,7 +300,7 @@ print(root_didl)
 
 ```{admonition} Exercise
 :class: attention
-Look at the Didle file and see if you can find in which element the title of the newspaper is scored. Hint: the title is 'Algemeen Handelsblad'. 
+Look at the Didl file and see if you can find in which element the title of the newspaper is scored. Hint: the title is 'Algemeen Handelsblad'. 
 What parent of this element contains all information we need to extract the title and the publication date?
 ```
 
@@ -317,7 +317,7 @@ Are there any namespaces in the file that we have to take into account?
 
 ```{admonition} Solution
 :class: tip, dropdown
-Yes, there are multiple namespaces in the Didle file, both with in element tags and in element attributes.
+Yes, there are multiple namespaces in the Didl file, both with in element tags and in element attributes.
 However, since we work with Beautiful Soup, we don't have to bother about them. 
 ```
 
@@ -389,7 +389,7 @@ As you saw in the above sections, the Alto format has no clear separation betwee
 
 However, there are a lot of cases in which you would be interested in the separate articles en metadata about these articles (for example, the type of article).
 
-The collection of the KB makes use of Didl XML files to store additional information. You can use the Didle XML to extract this information and to gather the articles. 
+The collection of the KB makes use of Didl XML files to store additional information. You can use the Didl XML to extract this information and to gather the articles. 
 
 ```{admonition} Exercise
 :class: attention

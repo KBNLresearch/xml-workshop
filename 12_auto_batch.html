@@ -126,17 +126,17 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="6_xmlformats_intro.html">
-   6. Introduction to the Alto/Didle, TEI and Page format
+   6. Introduction to the Alto/Didl, TEI and Page format
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="7_alto_ET.html">
-   7. Practical lesson: Alto/Didle and ElementTree
+   7. Practical lesson: Alto/Didl and ElementTree
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="8_alto_BS.html">
-   8. Practical lesson: Alto/Didle and Beautiful Soup
+   8. Practical lesson: Alto/Didl and Beautiful Soup
   </a>
  </li>
  <li class="toctree-l1">
@@ -272,8 +272,8 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didle-files">
-   Extract complete page content with newspaper metadata from various Alto and corresponding Didle files.
+  <a class="reference internal nav-link" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didl-files">
+   Extract complete page content with newspaper metadata from various Alto and corresponding Didl files.
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -307,8 +307,8 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didle-files">
-   Extract complete page content with newspaper metadata from various Alto and corresponding Didle files.
+  <a class="reference internal nav-link" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didl-files">
+   Extract complete page content with newspaper metadata from various Alto and corresponding Didl files.
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -336,13 +336,13 @@ const thebe_selector_output = ".output, .cell_output"
 In this lesson, we will show you how you can use the codes from the previous lessons and, with a little bit of alteration, use them to automatically extract content from batches of XML files and save them as either textfiles or csv files.</p>
 <p>We will provide the following examples:</p>
 <ul class="simple">
-<li><p>Extract complete page content with newspaper metadata from various Alto and corresponding Didle files <span style="color:#ef6079">(<em>basic</em>)</span>.</p></li>
+<li><p>Extract complete page content with newspaper metadata from various Alto and corresponding Didl files <span style="color:#ef6079">(<em>basic</em>)</span>.</p></li>
 <li><p>Extract the poems from various Tei files and store them in seperate csv files per book <span style="color:#ef6079">(<em>moderate</em>)</span>.</p></li>
 <li><p>Extract the content, including reading order, from various Page files and store the content in csv files <span style="color:#ef6079">(<em>advanced</em>)</span>.</p></li>
 </ul>
-<div class="section" id="extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didle-files">
-<h2>Extract complete page content with newspaper metadata from various Alto and corresponding Didle files.<a class="headerlink" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didle-files" title="Permalink to this headline">¶</a></h2>
-<p>In lesson 7, we used the following code to extract the content and page number from a newspaper Alto XML and the title and publication year from the corresponding Didle file.</p>
+<div class="section" id="extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didl-files">
+<h2>Extract complete page content with newspaper metadata from various Alto and corresponding Didl files.<a class="headerlink" href="#extract-complete-page-content-with-newspaper-metadata-from-various-alto-and-corresponding-didl-files" title="Permalink to this headline">¶</a></h2>
+<p>In lesson 7, we used the following code to extract the content and page number from a newspaper Alto XML and the title and publication year from the corresponding Didl file.</p>
 <div class="cell tag_hide-output docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">xml.etree.ElementTree</span> <span class="k">as</span> <span class="nn">ET</span>
@@ -389,10 +389,10 @@ In this lesson, we will show you how you can use the codes from the previous les
 <p>With few little alterations, we can use this code to automatically work with a batch of files.</p>
 <ul class="simple">
 <li><p>We need a code that automatically search through folder in your computer;</p></li>
-<li><p>We need to add a piece of code that finds the corresponding Didle file for every alto file.</p></li>
+<li><p>We need to add a piece of code that finds the corresponding Didl file for every alto file.</p></li>
 </ul>
 <p>For the following code, we assume you have a folder called ‘alto’, which contains the Alto XML files, and a folder
-‘didl’ that contains the Didl files (<a class="reference external" href="https://github.com/MirjamC/xml-workshop/tree/master/data">downloaded here</a>). Both alto and didle have a filename that starts with an identifier, followed by
+‘didl’ that contains the Didl files (<a class="reference external" href="https://github.com/KBNLresearch/xml-workshop/tree/main/data">downloaded here</a>). Both alto and Didl have a filename that starts with an identifier, followed by
 either _alto or _didl. Make sure that there are no other files in the folder.</p>
 <p>We start with a little loop that runs through your alto folder an returns all the file names</p>
 <div class="cell docutils container">
@@ -516,7 +516,7 @@ This can be done with string alterations in Python, as we also did in lesson 7 a
 </div>
 </div>
 <p>Just as we did with the alto files in the previous section, we can do the same for the TEI files.</p>
-<p>For the following exercises, we assume you have a folder on your computer with the name ‘tei’, in which you stored the various tei files (<a class="reference external" href="https://github.com/MirjamC/xml-workshop/tree/master/data">downloaded here</a>).</p>
+<p>For the following exercises, we assume you have a folder on your computer with the name ‘tei’, in which you stored the various tei files (<a class="reference external" href="https://github.com/KBNLresearch/xml-workshop/tree/main/data">downloaded here</a>).</p>
 <div class="attention admonition">
 <p class="admonition-title">Exercise</p>
 <p>what steps do we need to take to be able to create a batch output?</p>
@@ -640,7 +640,7 @@ with their identifier as name.</p>
 </div>
 </div>
 </div>
-<p>For the following exercises, we assume you have a folder on your computer with the name ‘page’, in which you stored the various page files (<a class="reference external" href="https://github.com/MirjamC/xml-workshop/tree/master/data">downloaded here</a>).</p>
+<p>For the following exercises, we assume you have a folder on your computer with the name ‘page’, in which you stored the various page files (<a class="reference external" href="https://github.com/KBNLresearch/xml-workshop/tree/main/data">downloaded here</a>).</p>
 <div class="attention admonition">
 <p class="admonition-title">Exercise</p>
 <p>Write a code that loops through the page files in your ‘page’ folder, extracts the content with region information, and

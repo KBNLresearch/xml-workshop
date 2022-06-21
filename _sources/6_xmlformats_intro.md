@@ -1,4 +1,4 @@
-# 6. Introduction to the Alto/Didle, TEI and Page format
+# 6. Introduction to the Alto/Didl, TEI and Page format
 
 Although XML is a structured way to store data, the structuring itself is left to the user. This means that there is not one style or format of XML. This has led to a high variety of different formats and styles of storing data and information with XML. 
 To battle this, multiple standards have been developed. These standards offer a guideline or framework for developers to store data. 
@@ -14,7 +14,8 @@ The ALTO standard is hosted by the Library of Congress (USA) and maintained by t
 Within the KB, Alto is the format that is used for most of the digital heritage content. All content of books, periodicals and newspapers on Delpher.nl (the websites that stores the largest part of the digital hertige collection of the KB) is
 digitized in the Alto format, with a corresponding Didl xml file that containts the metadata.  Within the MPEG-21 framework, a Digital Item is defined as a structured digital object with a standard representation, identification, and description. 
 
-An illustration of a newspaper page and (snippits of) its corresponding Alto and Didle file. 
+An illustration of a newspaper page and (snippits of) its corresponding Alto and Didl file. 
+An illustration of a newspaper page and (snippits of) its corresponding Alto and Didl file. 
 
 ![alto newspaper](images/alto_fig.png)
 
