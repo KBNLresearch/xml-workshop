@@ -5,7 +5,7 @@
 # 
 # 
 # In this lesson, we are going to explore how we can use the package Beautiful Soup to extract content from XML files. 
-# We use the same example file that was used in lesson **2** ([download here](https://github.com/MirjamC/xml-workshop/tree/master/data).
+# We use the same example file that was used in lesson **2** ([download here](https://github.com/KBNLresearch/xml-workshop/tree/main/data)).
 # 
 # This lesson is divided into the following steps:
 # - Load the XML file;

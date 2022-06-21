@@ -32,7 +32,7 @@
 # :class: attention
 # Import the Beautiful Soup package and load the XML file into your Notebook.
 # You can look back to lesson 5 if you need a reminder on how to do this. 
-# The XML file is named ‘TEI.xml’ and can be [downloaded here](https://github.com/MirjamC/xml-workshop/tree/master/data).
+# The XML file is named ‘TEI.xml’ and can be [downloaded here](https://github.com/KBNLresearch/xml-workshop/tree/main/data).
 # ```
 # 
 # ````{admonition} Solution

@@ -20,13 +20,13 @@ In this lesson, we will show you how you can use the codes from the previous les
 
 We will provide the following examples:
 
-- Extract complete page content with newspaper metadata from various Alto and corresponding Didle files <span style="color:#ef6079">(*basic*)</span>.
+- Extract complete page content with newspaper metadata from various Alto and corresponding Didl files <span style="color:#ef6079">(*basic*)</span>.
 - Extract the poems from various Tei files and store them in seperate csv files per book <span style="color:#ef6079">(*moderate*)</span>.
 - Extract the content, including reading order, from various Page files and store the content in csv files <span style="color:#ef6079">(*advanced*)</span>.
 
-##  Extract complete page content with newspaper metadata from various Alto and corresponding Didle files.
+##  Extract complete page content with newspaper metadata from various Alto and corresponding Didl files.
 
-In lesson 7, we used the following code to extract the content and page number from a newspaper Alto XML and the title and publication year from the corresponding Didle file. 
+In lesson 7, we used the following code to extract the content and page number from a newspaper Alto XML and the title and publication year from the corresponding Didl file. 
 
 ```{code-cell} Python
 :tags: [hide-output]
@@ -72,10 +72,10 @@ with open(filename, "w", encoding="utf-8") as f:
 With few little alterations, we can use this code to automatically work with a batch of files. 
 
 - We need a code that automatically search through folder in your computer;
-- We need to add a piece of code that finds the corresponding Didle file for every alto file. 
+- We need to add a piece of code that finds the corresponding Didl file for every alto file. 
 
 For the following code, we assume you have a folder called 'alto', which contains the Alto XML files, and a folder
-'didl' that contains the Didl files ([downloaded here](https://github.com/MirjamC/xml-workshop/tree/master/data)). Both alto and didle have a filename that starts with an identifier, followed by 
+'didl' that contains the Didl files ([downloaded here](https://github.com/KBNLresearch/xml-workshop/tree/main/data)). Both alto and Didl have a filename that starts with an identifier, followed by 
 either _alto or _didl. Make sure that there are no other files in the folder.
 
 We start with a little loop that runs through your alto folder an returns all the file names
@@ -178,7 +178,7 @@ poems.to_csv('poems.csv')
 
 Just as we did with the alto files in the previous section, we can do the same for the TEI files. 
 
-For the following exercises, we assume you have a folder on your computer with the name 'tei', in which you stored the various tei files ([downloaded here](https://github.com/MirjamC/xml-workshop/tree/master/data)). 
+For the following exercises, we assume you have a folder on your computer with the name 'tei', in which you stored the various tei files ([downloaded here](https://github.com/KBNLresearch/xml-workshop/tree/main/data)). 
 
 ```{admonition} Exercise
 :class: attention
@@ -307,7 +307,7 @@ newspaper_with_order = newspaper_with_order.sort_values(['Group', 'Index'], asce
 newspaper_with_order.to_csv('newspaper_with_order.csv')
 ```
 
-For the following exercises, we assume you have a folder on your computer with the name 'page', in which you stored the various page files ([downloaded here](https://github.com/MirjamC/xml-workshop/tree/master/data)).
+For the following exercises, we assume you have a folder on your computer with the name 'page', in which you stored the various page files ([downloaded here](https://github.com/KBNLresearch/xml-workshop/tree/main/data)).
 
 ```{admonition} Exercise
 :class: attention
