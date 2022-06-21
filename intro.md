@@ -9,7 +9,7 @@ The remaining lessons are practial examples and exercises to get familiar with e
 We use both packages and real-life XML examples to show the differences, and to provide working code blocks to base future work on.
 We will end with instructions on how to perform such extractions automatically on batches of files. 
 
-As you proceed through the lessons, you will notice that there is a lot of repetition. This is done on purpose. First, to really learn a new skill, repeatition is necessary.
+As you proceed through the lessons, you will notice that there is a lot of repetition. This is done on purpose. First, to really learn a new skill, repetition is necessary.
 Secondly, this gives you the opportunity to skip lessons that are not relevant for you without missing important information and guidelines. 
 
 Therefore, it is possible to follow only the ElementTree or the Beautiful Soup lessons as the structure of both tracks is the same. 
